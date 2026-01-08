@@ -1,62 +1,60 @@
 # BLEnD CultureRAG Notebook Guide
 
-This document explains how the notebook works, what each cell block does, and how to run it end-to-end for the full 148-question dataset.
+This guide breaks down the structure of the **BLEnD_CultureRAG.ipynb** notebook, which has been optimized for professional production workflows.
 
-## What the pipeline does
-- Builds a culture-focused knowledge base (KB) from Wikipedia using spaCy-derived entities plus country seed pages.
-- Indexes the KB with FAISS (dense) and BM25 (sparse), then fuses them via Reciprocal Rank Fusion (RRF).
-- Runs option-aware retrieval and a constrained 1-token decoder so the model outputs exactly A/B/C/D.
-- Adds crash-proof inference with checkpoints and safety interlocks (row-count, duplicate IDs, locale coverage).
+## 📓 Notebook Structure
 
-## Run order (clean session)
-1) **Install + imports**: installs core deps, loads libraries.
-2) **Entity extraction (spaCy)**: extracts entities per question; tags country codes.
-3) **Cache + KB build**: loads/saves disk cache; scrapes Wikipedia country/entity pages; builds `kb_chunks`.
-4) **Index build**: encodes KB with `all-MiniLM-L6-v2`; builds FAISS and BM25 indices.
-5) **Retriever**: RRF fusion with a `.search(...)` wrapper returning `page_content`.
-6) **Predictor**: `predict_row` forces 1-token (A/B/C/D) decoding using option-aware query + retrieved context.
-7) **Inference loop**: `run_experiment_safe` with checkpoints, resume, and safety interlocks before final save.
-8) **Optional analysis**: latency benchmarks and baseline-vs-RAG diffs.
+The notebook is organized into **12 functional stages** (totaling 25 cells with documentation). 
 
-## Key data objects
-- `df`: full input dataframe (148 rows, all languages; no filtering).
-- `entity_data`: per-question entities + country code.
-- `kb_chunks`: list of KB paragraphs with metadata (`text`, `country`, `source`, `type`).
-- `faiss_index`, `bm25`: dense/sparse indices over `kb_chunks`.
-- `retriever`: wrapper exposing `.search(query, country_filter, k)` returning docs with `page_content`.
+### Stage 1: Environment Setup
+- **Cells 1-2**: Installs core dependencies (`unsloth`, `transformers`, `spacy`, `faiss`) and library imports.
+- **Purpose**: Establishes the computational environment and GPU hooks.
 
-## Core functions
-- `extract_entities_spacy(row, nlp)`: spaCy NER + acronym fallback; emits country/entities.
-- `EntityWikipediaScraper.build_kb(entity_data)`: scrapes base pages by country and entity pages (rate-limited, cached).
-- `hybrid_retrieve_rrf(question, country_filter, top_k, candidate_k, k_rrf)`: RRF fusion over BM25 + FAISS.
-- `predict_row(row, hybrid_retriever, model, tokenizer)`: option-aware query; retrieves; prompts; forces 1-token A/B/C/D with greedy decode; safe fallback to C.
-- `run_experiment_safe(df, method_name, use_rag, checkpoint_every)`: checkpointed inference, resume, safety checks (row count 148, duplicate IDs, locale coverage) before final save.
+### Stage 2: Knowledge Foundation
+- **Cells 3-4**: spaCy-powered Named Entity Recognition (NER) and Wikipedia cache setup.
+- **Algorithm**: Extracts GPE, LOC, and ORG entities + acronym fallback (e.g., "HDB").
 
-## Outputs
-- Checkpoints: `/kaggle/working/predictions_<method>_checkpoint.tsv`
-- Finals: `/kaggle/working/predictions_<method>.tsv`
-- Methods: `baseline`, `rag_rrf_k3`, `rag_rrf_k5`
+### Stage 3: KB Construction
+- **Cells 5-6**: Wikipedia scraping and KB chunking.
+- **Strategy**: Two-tier scraping (Country Base Pages + Entity Specific Pages).
+- **Output**: `kb_chunks.pkl` (cached locally).
 
-## Safety rails
-- No language filter; asserts 148 rows produced.
-- Duplicate-ID check and locale coverage check before final write.
-- Constrained decoding avoids brittle regex parsing.
-- Disk-backed cache prevents re-scraping on reruns.
+### Stage 4: Hybrid Indexing
+- **Cells 7-8**: Dual indexing (FAISS Dense + BM25 Sparse).
+- **Fusion**: Reciprocal Rank Fusion (RRF) algorithm with country-code pre-filtering.
 
-## Tips & gotchas
-- Ensure internet on first run to populate the Wikipedia cache; subsequent runs reuse `wiki_cache.pkl`.
-- Run cells in order; avoid legacy/deprecated cells if present.
-- If a run crashes, rerun from the inference cell: it will resume from the checkpoint.
-- GPU memory: model runs with greedy 1-token decode; keep batch size at 1.
+### Stage 5: Inference Architecture
+- **Cells 9-10**: Constrained 1-token decoding function and inference orchestration.
+- **Feature**: Crash-proof checkpoints (saves every 10 rows).
 
-## Minimal run sequence
-1) Install/Imports.
-2) Entity extraction.
-3) KB build + cache save.
-4) Index build (FAISS/BM25).
-5) Retriever cell.
-6) Predictor cell.
-7) Inference cell (produces TSVs).
+### Stage 6: Model Loading & Analysis
+- **Cells 11-12**: 4-bit Quantized Llama-3.1-8B loading and result analysis.
+- **Quantization**: NF4 (NormalFloat4) saves ~60% VRAM.
 
-## Submission reminder
-Use the full-dataset outputs from the inference cell (e.g., `predictions_rag_rrf_k3.tsv`). Do **not** use any English-only or deprecated cells.
+---
+
+## 🏃 Execution Workflow
+
+1.  **Stage 1-5 (Initialization)**: Connect to internet, install deps, and build your knowledge base.
+2.  **Stage 6 (Model)**: Requires GPU with 8GB+ VRAM (T4).
+3.  **Inference (Cell 10)**: Takes ~15-20 minutes for 148 questions.
+    - If the kernel crashes, simply rerun this cell; it will resume from the latest checkpoint stored in `output/`.
+
+---
+
+## 📂 Generated Artifacts
+
+| File | Type | Description |
+|------|------|-------------|
+| `wiki_cache.pkl` | Data | Persistent cache of Wikipedia pages |
+| `kb_chunks.pkl` | Data | Vectorized knowledge base |
+| `predictions_*.tsv` | Output | Final TSV results (A/B/C/D) |
+
+---
+
+## 🛡️ Safety Railings
+
+- **Row Count Assertion**: Guarantees exactly 148 rows are produced.
+- **Duplicate Detection**: Prevents model from generating redundant IDs.
+- **Fallback Logic**: Defaults to 'C' on model timeout/exception.
+- **Greedy Decoding**: ensures 100% deterministic results.

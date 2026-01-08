@@ -1,77 +1,100 @@
-# BLEnD-CultureRAG
+# 🚀 BLEnD-CultureRAG
 
-BLEnD-CultureRAG is a retrieval-augmented cultural reasoning system. This system evaluates the cultural awareness of language models by selecting culturally appropriate answers to English multiple-choice questions.
+<div align="center">
+
+**Retrieval-Augmented Reasoning for Multi-Cultural Multiple-Choice QA**
+
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Llama 3.1](https://img.shields.io/badge/Model-Llama--3.1--8B-orange.svg)](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Production Ready](https://img.shields.io/badge/Status-Production--Ready-green.svg)](#)
+
+</div>
+
+---
+
+## 📖 Overview
+
+**BLEnD-CultureRAG** is a professional retrieval-augmented cultural reasoning system. It evaluates the cultural awareness of language models by selecting culturally appropriate answers to English multiple-choice questions across **20+ global locales**.
+
+The system features:
+- **spaCy-powered** Named Entity Recognition (NER) for knowledge targeting.
+- **Hybrid Retrieval** (FAISS + BM25) with Reciprocal Rank Fusion (RRF).
+- **Constrained 1-Token Decoding** for deterministic and efficient inference.
+- **4-bit Quantization** for high-performance GPU execution on standard hardware (T4/P100).
+
+---
 
 ## 📂 Project Structure
 
-```bash
+```
 BLEnD-CultureRAG/
-├── data/                   # Input datasets, ground truth, and knowledge base files
-├── docs/                   # Detailed documentation and implementation guides
-├── notebooks/              # Jupyter notebooks for running the pipeline (Colab/Kaggle compatible)
-├── output/                 # Generated predictions and evaluation results
-├── scripts/                # Utility scripts for evaluation and data conversion
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+├── data/               # 📊 Input datasets, ground truth, and persistent caches
+│   ├── questions.tsv   # 148 questions across 20+ countries
+│   ├── answers.tsv     # Ground truth for evaluation
+│   ├── wiki_cache.pkl  # Persistent Wikipedia disk cache
+│   └── kb_chunks.pkl   # Processed Knowledge Base chunks
+├── docs/               # 📑 Comprehensive documentation guides
+│   ├── ARCHITECTURE.md # High-level system design
+│   ├── NOTEBOOK_GUIDE.md# Jupyter notebook usage breakdown
+│   └── ...             # Component and implementation deep dives
+├── notebooks/          # 📓 Industrial-grade Jupyter notebooks
+│   └── BLEnD_CultureRAG.ipynb # Fully documented 12-stage pipeline
+├── output/             # 📤 Generated predictions and metrics
+├── scripts/            # 🛠️ Production utility scripts
+│   ├── evaluate_results.py # Accuracy & impact analysis
+│   └── convert_pkl_to_json.py # Cache format conversion
+└── requirements.txt    # 📦 Project dependencies
 ```
 
-## 🚀 Setup & Installation
+---
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/ridash2005/BLEnD-CultureRAG.git
-    cd BLEnD-CultureRAG
-    ```
+## 🚀 Quick Start
 
-2.  **Install dependencies:**
-    It is recommended to use a virtual environment.
-    ```bash
-    python -m venv venv
-    # Windows
-    venv\Scripts\activate
-    # Linux/Mac
-    source venv/bin/activate
-    
-    pip install -r requirements.txt
-    python -m spacy download en_core_web_sm
-    ```
+### 1. Installation
+```bash
+# Set up virtual environment
+python -m venv venv
+source venv/bin/activate # Windows: venv\\Scripts\\activate
 
-## 🏃 Usage
+# Install dependencies
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
 
-### 1. Run the Pipeline
-The core logic resides in `notebooks/BLEnD_CultureRAG.ipynb`. You can run this locally or upload it to Google Colab / Kaggle.
-- Ensure `data/` files are accessible to the notebook (if running locally).
-- If running on Colab, follow the instructions in the notebook to mount data.
+### 2. Run Inference
+Upload `notebooks/BLEnD_CultureRAG.ipynb` to **Kaggle** or **Google Colab**.
+- **Stage 1-5**: Builds the Knowledge Base via Wikipedia scraping (auto-cached).
+- **Stage 6-9**: Configures hybrid retrieval and 1-token decoder.
+- **Stage 10**: Executes crash-proof inference with checkpoints.
 
-### 2. Evaluate Results
-Once predictions are generated (saved to `output/`), run the evaluation script to compare against ground truth.
-
+### 3. Evaluation
+Compare your predictions against ground truth and generate impact reports:
 ```bash
 python scripts/evaluate_results.py
 ```
 
-This script will:
-- Read predictions from `output/`
-- Compare them against `data/answers.tsv`
-- Print accuracy metrics to the console
-- Save correct answers to `output/correct_answers_*.tsv`
+---
 
-### 3. Convert Cache Files (Optional)
-To convert pickle cache files to readable JSON:
-```bash
-python scripts/convert_pkl_to_json.py
-```
+## 📈 Performance Summary
 
-## 📄 Documentation
-For detailed implementation details, see [docs/IMPLEMENTATION_GUIDE.md](docs/IMPLEMENTATION_GUIDE.md).
+| Method | Accuracy | Context | Decoder |
+|--------|----------|---------|---------|
+| **Baseline** | 27.70% | None | Greedy |
+| **RAG (k=3)** | **33.11%** | Fixed | 1-Token |
+| **RAG (k=5)** | **33.11%** | Fused | 1-Token |
 
-## 📊 Data Files
-- `questions.tsv`: The input questions.
-- `answers.tsv`: Ground truth answers.
-- `kb_chunks.pkl`: Knowledge base chunks (pickle format).
-- `wiki_cache.pkl`: Cached Wikipedia pages.
+> **Impact**: RAG integration provides a **+5.41% net gain** over the baseline model on the BLEnD dataset.
 
-> **Note**: This repository uses a `data/` and `output/` structure. The notebook and scripts have been configured to output results to the `output/` directory and read data from `data/`. Please allow file overwrites if re-running experiments to avoid duplicate file creation (e.g. `file (1).tsv`).
+---
+
+## 📑 Detailed Documentation
+
+- [**Architecture Deep Dive**](docs/ARCHITECTURE.md) - System design and data flow.
+- [**Notebook Guide**](docs/NOTEBOOK_GUIDE.md) - Detailed cell-by-cell explanation.
+- [**Implementation Guide**](docs/IMPLEMENTATION_GUIDE.md) - Step-by-step setup instructions.
+
+---
 
 ## 📜 License
-[MIT License](LICENSE)
+This project is licensed under the **MIT License**.

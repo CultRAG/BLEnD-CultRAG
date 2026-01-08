@@ -425,7 +425,7 @@ if country_filter:
 **Model:** `meta-llama/Llama-3.1-8B-Instruct`
 - **Parameters:** 8 billion
 - **Context:** 8192 tokens
-- **Quantization:** FP16 (bfloat16 unsupported on T4)
+- **Quantization:** **4-bit NF4** (via `bitsandbytes`)
 - **Device:** Single GPU (device_map="auto")
 
 ### Prompt Template
