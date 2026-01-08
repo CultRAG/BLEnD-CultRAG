@@ -1,0 +1,50 @@
+id	question	option_A	option_B	option_C	option_D	prediction	truth
+ms-SG_001	What is the common acronym for public housing flats where the majority of Singaporeans live?	DBS	HPB	HDB	SAF	C	C
+ms-SG_007	What is Singapore's official currency?	Ringgit	Baht	Dollar	Rupiah	C	C
+ta-SG_008	What is the common abbreviation for public housing where most Singaporeans live?	DBS	HPB	HDB	SAF	C	C
+ta-SG_014	What is Singapore's official currency?	Ringgit (Ringgit)	Baht (Baht)	Dollar (Dollar)	Rupiah (Rupiah)	C	C
+zh-SG_015	What is the common abbreviation for public housing where most Singapore residents live?	DBS	HPB	HDB	SAF	C	C
+zh-SG_021	What is Singapore's official currency?	Ringgit (Ringgit)	Baht (Baht)	Dollar (Dollar)	Rupiah (Rupiah)	C	C
+es-EC_022	Which is the most populated city in Ecuador?	Quito	Cuenca	Guayaquil	Ambato	C	C
+es-EC_023	How many provinces does Ecuador have?	20	22	24	26	C	C
+es-EC_024	What is the highest point in Ecuador and the closest to outer space?	Cotopaxi	Cayambe	Chimborazo	Antisana	C	C
+es-EC_026	What is Ecuador's official currency since the year 2000?	Sucre	Ecuadorian Peso	United States Dollar	New Sol	C	C
+es-EC_028	Which Ecuadorian city was declared a Cultural Heritage of Humanity by UNESCO in 1978?	Guayaquil	Cuenca	Quito	Loja	C	C
+en-GB_031	What is the name of Prince Harry's wife?	Charlotte	Madeline	Meghan	Chloe	C	C
+zh-CN_038	"What ancient writer does China's ""Dragon Boat Festival"" usually commemorate?"	Du Mu	Su Shi	Qu Yuan	Bai Juyi	C	C
+es-ES_040	Who is the president of Spain?	José Luis Rodríguez Zapatero	Mariano Rajoy	Pedro Sánchez	Alberto Núñez Feijó	C	C
+es-ES_044	Where were the 1992 Olympic Games held in Spain?	Madrid	Seville	Barcelona	Cádiz	C	C
+es-MX_046	Who was the author of the national anthem?	Francisco I. Madero	Miguel Hidalgo	Jaime Nunó	Benito Juárez	C	C
+es-MX_049	What is the most typical street food in the country?	Tuna	Hot Dogs	Tacos	Paella	C	C
+id-ID_051	On what date did Indonesia proclaim its independence?	August 15, 1948	August 17, 1929	August 17, 1945	September 17, 1950	C	C
+ko-KR_059	What area of Korea do people studying for the civil service exam mainly live?	Hongdae	Myeongdong	Noryangjin	Hyehwa	C	C
+fa-IR_065	What is the official religion of Iran?	Christianity	Judaism	Islam	Zoroastrianism	C	C
+ar-EG_071	Who is the most famous Egyptian professional in the English Premier League?	Ahmed El-Mohammadi	Mohamed Shawki	Mohamed Salah	Ahmed Fathy	C	C
+ar-EG_074	On what day of October did Egypt enter the most famous war in its modern history?	Third	Fourth	Fifth	Sixth	C	C
+ar-MA_077	What is the capital of Morocco?	Casablanca	Marrakesh	Rabat	Fez	C	C
+ar-MA_080	What is Morocco's most popular national drink, served as a symbol of hospitality?	Coffee	Orange Juice	Mint Tea	Almond Milk	C	C
+ar-MA_081	What is the name of the main mountain range that extends across Morocco?	Alps	Pyrenees	Atlas Mountains	Caucasus	C	C
+ar-MA_083	What is the term for the traditional market in Morocco?	Kasbah	Riad	Souk	City	C	C
+en-AU_092	What footy team would Bob barrack for if his grandfather lived in Fitzroy?	Brisbane Lions	Essendon	Carlton	Bombers	C	C
+en-AU_094	What is a common four-word Australian phrase?	Don't worry about tomorrow!	Handle your losses well	She'll be right, mate	Patty on the barbie	C	C
+en-AU_097	What do Australians need to do to prevent fires in summer?	Water their gardens	Install fire management systems around their properties	Controlled burning/hazard reduction burning	Plant more trees in their yards	C	C
+eu-ES_098	What is the most typical traditional fast food in the Basque Country?	Cicchetti	Sandwich	Pintxo	Kebab	C	C
+eu-ES_101	What is the most famous traditional dance of the Basque Country?	Flamenco	Sardana	Aurresku	Jota	C	C
+eu-ES_103	What is the name of the improvised poetry of the Basque Country?	Txapela	Theater	Bertsolaritza	Maskarada	C	C
+fr-FR_108	What do ducks do first when coming out of the water?	They lay an egg	They quack	They shake their lower back	They peck at each other	C	C
+fr-FR_110	That year, I sang...	For and just for you	For the beautiful Mathilda	For the first time	To forget the cold	C	C
+fr-FR_111	What cheese is most often eaten hot with a salad?	Camembert	Reblochon	Chèvre	Roquefort	C	C
+fr-FR_112	What fruit changes its name when dried?	Apricot	Plum	Grape	Tomato	C	C
+ga-IE_119	Where are the final matches of Ireland typically held for hurling and Gaelic football?	Aviva Stadium	Páirc Uí Chaoimh	Croke Park	The RDS	C	C
+tl-PH_127	What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?	Baro't Saya	Kimona	Barong Tagalog	Salakot	C	C
+tl-PH_132	Which month is the Language Month usually held in the Philippines?	June	August	September	October	C	C
+bg-BG_135	What is the capital of Bulgaria?	Plovdiv	Varna	Sofia	Ruse	C	C
+bg-BG_140	"Who is the author of the novel ""Under the Yoke""?"	Aleko Konstantinov	Pencho Slaveikov	Ivan Vazov	Pejo Yavorov	C	C
+bg-BG_141	Which is a traditional Bulgarian dish?	Pizza	Shopska salad	Sushi	Burger	B	B
+ja-JP_142	What is Japan's era name as of 2025?	Showa	Reiwa	Heisei	Meiji	B	B
+ja-JP_143	What is a typical Japanese breakfast?	Pizza	Miso soup	Baguette	Ice cream	B	B
+ja-JP_144	What is the symbol of Tokyo?	Tower of the Sun	Radio Tower	Nagoya Dome	Tokyo Tower	D	D
+ja-JP_145	What is the most prestigious private university in Tokyo?	Keio	Komaba	Aogaku	Chuo	A	A
+ja-JP_146	What sports drink is familiar to Japanese people?	Pocari	Doctor Pepper	Gatorade	Lemonade	A	A
+ja-JP_147	What is Japanese tea?	Green tea	Earl Grey	Chamomile	Jasmine tea	A	A
+ja-JP_148	What is NOT sold at convenience stores?	Onigiri	Tobacco	Alcohol	Train tickets	D	D
