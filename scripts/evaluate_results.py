@@ -3,18 +3,19 @@ import pandas as pd
 import os
 
 # --- CONFIGURATION ---
-TRUTH_FILE = "answers.tsv"  # Ensure this is uploaded to your environment
-QUESTIONS_FILE = "questions.tsv"  # Add questions file
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TRUTH_FILE = os.path.join(BASE_DIR, "data", "answers.tsv")
+QUESTIONS_FILE = os.path.join(BASE_DIR, "data", "questions.tsv")
 PRED_FILES = {
-    "Baseline (No RAG)": "predictions_baseline (3).tsv",
-    "RAG (k=3)": "predictions_rag_rrf_k3 (2).tsv",
-    "RAG (k=5)": "predictions_rag_rrf_k5 (2).tsv"
+    "Baseline (No RAG)": os.path.join(BASE_DIR, "output", "predictions_baseline.tsv"),
+    "RAG (k=3)": os.path.join(BASE_DIR, "output", "predictions_rag_rrf_k3.tsv"),
+    "RAG (k=5)": os.path.join(BASE_DIR, "output", "predictions_rag_rrf_k5.tsv")
 }
 
 def load_truth(filepath):
     """Robustly load truth file (handles headers or no headers)"""
     if not os.path.exists(filepath):
-        print(f"❌ MISSING: {filepath} (Please upload it!)")
+        print(f"MISSING: {filepath} (Please upload it!)")
         return {}
     
     # Try reading with header inference
@@ -32,14 +33,14 @@ def load_truth(filepath):
 
 def evaluate_predictions(name, pred_path, truth_dict):
     if not os.path.exists(pred_path):
-        print(f"⚠️  Skipping {name}: File not found ({pred_path})")
+        print(f"Skipping {name}: File not found ({pred_path})")
         return None
-
+    
     # Load predictions (assuming no header based on your checkpoints)
     try:
         df = pd.read_csv(pred_path, sep='\t', header=None, names=['id', 'prediction'])
     except:
-        print(f"⚠️  Error reading {pred_path}")
+        print(f"Error reading {pred_path}")
         return None
 
     correct = 0
@@ -71,7 +72,7 @@ def evaluate_predictions(name, pred_path, truth_dict):
     }
 
 # --- EXECUTION ---
-print("📊 FINAL EVALUATION REPORT")
+print("FINAL EVALUATION REPORT")
 print("="*60)
 
 truth_data = load_truth(TRUTH_FILE)
@@ -83,11 +84,11 @@ for name, path in PRED_FILES.items():
     res = evaluate_predictions(name, path, truth_data)
     if res:
         results.append(res)
-        print(f"🔹 {name:20s} | Accuracy: {res['accuracy']:.2%} ({res['correct']}/{res['total']})")
+        print(f"{name:20s} | Accuracy: {res['accuracy']:.2%} ({res['correct']}/{res['total']})")
 
 # --- COMPARATIVE ANALYSIS (Where did RAG help?) ---
 if len(results) >= 2:
-    print("\n🔍 IMPACT ANALYSIS (Baseline vs Best RAG)")
+    print("\nIMPACT ANALYSIS (Baseline vs Best RAG)")
     print("="*60)
     
     baseline = results[0] # Assuming first is baseline
@@ -108,12 +109,12 @@ if len(results) >= 2:
             elif base_correct and not rag_correct:
                 broken_count += 1
                 
-    print(f"✅ RAG Fixed: {fixed_count} questions (Baseline Wrong -> RAG Right)")
-    print(f"❌ RAG Broke: {broken_count} questions (Baseline Right -> RAG Wrong)")
-    print(f"📈 Net Gain:  {fixed_count - broken_count} questions")
+    print(f"RAG Fixed: {fixed_count} questions (Baseline Wrong -> RAG Right)")
+    print(f"RAG Broke: {broken_count} questions (Baseline Right -> RAG Wrong)")
+    print(f"Net Gain:  {fixed_count - broken_count} questions")
 
 # --- EXPORT CORRECTLY ANSWERED QUESTIONS ---
-print("\n💾 EXPORTING CORRECT ANSWERS TO FILES")
+print("\nEXPORTING CORRECT ANSWERS TO FILES")
 print("="*60)
 
 # Load questions file if available
@@ -121,17 +122,18 @@ questions_df = None
 if os.path.exists(QUESTIONS_FILE):
     try:
         questions_df = pd.read_csv(QUESTIONS_FILE, sep='\t')
-        print(f"✅ Loaded questions from {QUESTIONS_FILE}")
+        print(f"Loaded questions from {QUESTIONS_FILE}")
     except Exception as e:
-        print(f"⚠️ Could not load questions file: {e}")
+        print(f"Could not load questions file: {e}")
 else:
-    print(f"⚠️ Questions file not found: {QUESTIONS_FILE}")
+    print(f"Questions file not found: {QUESTIONS_FILE}")
 
 # Export correct answers for each method
 for result in results:
     name = result['name']
     safe_name = name.replace(" ", "_").replace("(", "").replace(")", "").lower()
-    output_file = f"correct_answers_{safe_name}.tsv"
+    output_filename = f"correct_answers_{safe_name}.tsv"
+    output_file = os.path.join(BASE_DIR, "output", output_filename)
     
     # Get correct predictions
     correct_ids = [d['id'] for d in result['details'] if d['correct']]
@@ -150,7 +152,7 @@ for result in results:
         
         # Save to file
         correct_questions.to_csv(output_file, sep='\t', index=False)
-        print(f"✅ {name:20s} | {len(correct_ids):3d} correct → {output_file}")
+        print(f"{name:20s} | {len(correct_ids):3d} correct -> {output_file}")
     else:
         # If no questions file, just save IDs
         correct_df = pd.DataFrame({
@@ -159,7 +161,7 @@ for result in results:
             'truth': [d['truth'] for d in result['details'] if d['correct']]
         })
         correct_df.to_csv(output_file, sep='\t', index=False)
-        print(f"✅ {name:20s} | {len(correct_ids):3d} correct → {output_file} (IDs only)")
+        print(f"{name:20s} | {len(correct_ids):3d} correct -> {output_file} (IDs only)")
 
-print("\n🎉 EVALUATION COMPLETE!")
-print(f"📁 Files created: correct_answers_*.tsv")
+print("\nEVALUATION COMPLETE!")
+print(f"Files created: correct_answers_*.tsv")

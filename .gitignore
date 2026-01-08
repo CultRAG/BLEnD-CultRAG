@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Output directory
+output/*
+!output/.gitkeep
+
+
 # C extensions
 *.so
 
