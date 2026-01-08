@@ -33,11 +33,16 @@ def convert_to_onehot(input_file, output_file=None):
             continue
             
         parts = line.split('\t')
-        if len(parts) != 2:
+        if len(parts) < 1:
             print(f"Warning: Skipping malformed line: {line}")
             continue
         
-        question_id, prediction = parts[0], parts[1].upper()
+        question_id = parts[0]
+        prediction = parts[1].strip().upper() if len(parts) > 1 else ''
+        
+        # Default empty predictions to 'A'
+        if not prediction:
+            prediction = 'A'
         
         # Create one-hot encoding
         a = '1' if prediction == 'A' else '0'
