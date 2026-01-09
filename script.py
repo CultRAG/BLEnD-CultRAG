@@ -3,12 +3,12 @@ import pandas as pd
 import os
 
 # --- CONFIGURATION ---
-TRUTH_FILE = "answers.tsv"  # Ensure this is uploaded to your environment
+TRUTH_FILE = "docs/answers.tsv"  # Ensure this is uploaded to your environment
 QUESTIONS_FILE = "questions.tsv"  # Add questions file
 PRED_FILES = {
     "Baseline (No RAG)": "predictions_baseline (2).tsv",
-    "RAG (k=3)": "predictions_rag_rrf_k3 (1).tsv",
-    "RAG (k=5)": "predictions_rag_rrf_k5 (1).tsv"
+    "RAG (k=3)": "predictions_rag_rrf_k3.tsv",
+    "RAG (k=5)": "predictions_rag_rrf_k5.tsv"
 }
 
 def load_truth(filepath):

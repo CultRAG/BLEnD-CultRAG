@@ -1,129 +1,116 @@
-id	question	option_A	option_B	option_C	option_D	prediction	truth
-ms-SG_001	What is the common acronym for public housing flats where the majority of Singaporeans live?	DBS	HPB	HDB	SAF	C	C
-ms-SG_002	Which political party has been the governing party of Singapore since 1959?	Workers' Party (WP)	People's Action Party (PAP)	Singapore Democratic Party (SDP)	Singapore Progress Party (PSP)	B	B
-ms-SG_003	What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?	Merlion	The Courtesy Lion (Singa the Courtesy Lion)	Asian Otter	Vanda Miss Joaquim	A	A
-ms-SG_004	What is the name of Singapore's main international airport, which is often voted one of the best airports in the world?	Seletar Airport	Changi Airport	Paya Lebar Airport	Marina Bay Airport	B	B
-ms-SG_005	Singapore celebrates National Day every year in which month?	February	July	September	August	D	D
-ms-SG_006	"Which iconic Singapore arts center is better known as the ""big durian""?"	Marina Bay Sands	The Arts House	Victoria Theatre	The Esplanade	D	D
-ms-SG_007	What is Singapore's official currency?	Ringgit	Baht	Dollar	Rupiah	C	C
-ta-SG_008	What is the common abbreviation for public housing where most Singaporeans live?	DBS	HPB	HDB	SAF	C	C
-ta-SG_009	Which political party has been the ruling party of Singapore since 1959?	Workers' Party (WP)	People's Action Party (PAP)	Singapore Democratic Party (SDP)	Singapore Progress Party (PSP)	B	B
-ta-SG_010	What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?	Merlion (The Merlion)	Singa the Courtesy Lion (Singa the Courtesy Lion)	Asian Otter (The Asian Otter)	Vanda Miss Joaquim (Vanda Miss Joaquim)	A	A
-ta-SG_011	What is the name of Singapore's main international airport, which is frequently voted as one of the best airports in the world?	Seletar Airport (Seletar Airport)	Changi Airport (Changi Airport)	Paya Lebar Airport (Paya Lebar Airport)	Marina Bay Airport (Marina Bay Airport)	B	B
-ta-SG_012	In which month does Singapore celebrate its national day every year?	February	July	September	August	D	D
-ta-SG_013	"What is the name of Singapore's iconic arts center, colloquially called ""big durians""?"	Marina Bay Sands (Marina Bay Sands)	The Arts House (The Arts House)	Victoria Theatre (Victoria Theatre)	The Esplanade (The Esplanade)	D	D
-ta-SG_014	What is Singapore's official currency?	Ringgit (Ringgit)	Baht (Baht)	Dollar (Dollar)	Rupiah (Rupiah)	C	C
-zh-SG_015	What is the common abbreviation for public housing where most Singapore residents live?	DBS	HPB	HDB	SAF	C	C
-zh-SG_016	Which political party has been Singapore's ruling party since 1959?	Workers' Party (Workers' Party, WP)	People's Action Party (People's Action Party, PAP)	Singapore Democratic Party (Singapore Democratic Party, SDP)	Progress Singapore Party (Progress Singapore Party, PSP)	B	B
-zh-SG_017	What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.	The Merlion (The Merlion)	Singa the Courtesy Lion (Singa the Courtesy Lion)	The Asian Otter (The Asian Otter)	Vanda Miss Joaquim (Vanda Miss Joaquim)	A	A
-zh-SG_018	What is Singapore's main international airport? It is frequently rated as one of the best airports in the world.	Seletar Airport (Seletar Airport)	Changi Airport (Changi Airport)	Paya Lebar Airport (Paya Lebar Airport)	Marina Bay Airport (Marina Bay Airport)	B	B
-zh-SG_019	In which month does Singapore celebrate its National Day every year?	February	July	September	August	D	D
-zh-SG_020	"Which iconic arts center in Singapore is colloquially known as the ""big durian""?"	Marina Bay Sands (Marina Bay Sands)	The Arts House (The Arts House)	Victoria Theatre (Victoria Theatre)	The Esplanade (The Esplanade)	D	D
-zh-SG_021	What is Singapore's official currency?	Ringgit (Ringgit)	Baht (Baht)	Dollar (Dollar)	Rupiah (Rupiah)	C	C
-es-EC_022	Which is the most populated city in Ecuador?	Quito	Cuenca	Guayaquil	Ambato	C	C
-es-EC_024	What is the highest point in Ecuador and the closest to outer space?	Cotopaxi	Cayambe	Chimborazo	Antisana	C	C
-es-EC_026	What is Ecuador's official currency since the year 2000?	Sucre	Ecuadorian Peso	United States Dollar	New Sol	C	C
-es-EC_027	What Ecuadorian place is famous for its biodiversity and for inspiring Charles Darwin's theory of evolution?	Amazon	Galapagos Islands	Silver Island	Puna Island	B	B
-es-EC_028	Which Ecuadorian city was declared a Cultural Heritage of Humanity by UNESCO in 1978?	Guayaquil	Cuenca	Quito	Loja	C	C
-en-GB_030	Which of these family holiday destinations is located in Cumbria?	Ben Nevis	The Lake District	Loch Ness	Snowdonia	B	B
-en-GB_031	What is the name of Prince Harry's wife?	Charlotte	Madeline	Meghan	Chloe	C	C
-en-GB_032	Which kids show has a blue boat as its symbol?	Octonauts	Grandpa in my Pocket	Jack and the Neverland Pirates	Blue Peter	D	D
-en-GB_033	In which TV show would you expect to find Daleks and Cybermen?	Doctor Who	Humans	Thunderbirds	Emmerdale	A	A
-en-GB_034	Which significant historical event took place in 1066?	Norman conquest	Great fire of London	Execution of Charles I	Death of Henry I	A	A
-zh-CN_035	What day is China's National Day?	January 1st	May 1st	July 1st	October 1st	D	D
-zh-CN_036	"Which animal is known as China's ""national treasure""?"	Giant Panda	Golden Snub-nosed Monkey	Tibetan Antelope	White-eared Pheasant	A	A
-zh-CN_037	What is China's capital city?	Shanghai	Beijing	Shenzhen	Chongqing	B	B
-zh-CN_038	"What ancient writer does China's ""Dragon Boat Festival"" usually commemorate?"	Du Mu	Su Shi	Qu Yuan	Bai Juyi	C	C
-es-ES_040	Who is the president of Spain?	José Luis Rodríguez Zapatero	Mariano Rajoy	Pedro Sánchez	Alberto Núñez Feijó	C	C
-es-ES_041	What is the most popular sport in Spain?	Football	Basketball	Cricket	Golf	A	A
-es-ES_042	What is Spain's most internationally recognized literary work?	The Song of El Cid	Don Quixote de la Mancha	The Adventures of Huckleberry Finn	The Three Musketeers	B	B
-es-ES_043	Which Roman monument is the city of Segovia known for?	The Giralda	The Palace of the Alhambra	The Fountain of Cibeles	The Aqueduct	D	D
-es-ES_044	Where were the 1992 Olympic Games held in Spain?	Madrid	Seville	Barcelona	Cádiz	C	C
-es-MX_045	What are the colors of the country's flag?	Green, Yellow, Red	Green, White, Red	White, Red, Brown	Red, Orange, Black	B	B
-es-MX_046	Who was the author of the national anthem?	Francisco I. Madero	Miguel Hidalgo	Jaime Nunó	Benito Juárez	C	C
-es-MX_047	What is the capital of the country?	Monterrey	Guadalajara	Querétaro	Mexico City	D	D
-es-MX_048	Who is the president of the country?	Felipe Calderón Hinojosa	Andrés Manuel López Obrador	Ciro Gómez Leiva	Enrique Peña Nieto	B	B
-es-MX_049	What is the most typical street food in the country?	Tuna	Hot Dogs	Tacos	Paella	C	C
-id-ID_050	Who was Indonesia's first president?	Soekarno	Megawati Soekarnoputri	Mohammad Hatta	Soeharto	A	A
-id-ID_051	On what date did Indonesia proclaim its independence?	August 15, 1948	August 17, 1929	August 17, 1945	September 17, 1950	C	C
-id-ID_052	What is the term for the custom of people returning to their hometowns to celebrate major holidays (such as Eid al-Fitr, Christmas, or Lunar New Year)?	Big Return	Mudik	Village Departure	Return Flow	B	B
-id-ID_053	What is the name of the minimarket commonly found in many places in Indonesia?	Betamart	Indonesian Store	Jakarta	Indomaret	D	D
-id-ID_054	What is the name of the flag-raising ceremony that is routinely attended by students or civil servants?	Gathering	Ceremony	Graduation	Formation	B	B
-ko-KR_055	"When Koreans think of ""sopoong,"" what is the representative snack/food?"	Dim Sum	Kimbap	Kalguksu	Dakdoritang	B	B
-ko-KR_056	Which is NOT a traditional Korean play?	Rubber band game	Sumo	Flipping game cards	Yut-nori game	B	B
-ko-KR_057	Who is the bad person in a Korean folktale?	Zhinu	Shimchung	Kongjwi	Nolbu	D	D
-el-GR_060	Who is the Prime Minister of Greece?	Kyriakos Mitsotakis	Alexis Tsipras	Antonis Samaras	Kostas Karamanlis	A	A
-el-GR_061	What is the most emblematic landmark in the heart of Athens and serves as a symbol of Greece?	The Parthenon	The White Tower	Syntagma Square	The Temple of Olympian Zeus	A	A
-el-GR_062	What do we celebrate on October 28?	Independence Day	Feast of Saint Demetrius	Polytechnic Anniversary	"Anniversary of ""No"""	D	D
-el-GR_063	Who wrote the national anthem (Hymn to Liberty)?	Giorgos Seferis	Dionysios Solomos	Konstantinos Kavafis	Odysseas Elytis	B	B
-el-GR_064	"Which Greek city is also called ""co-capital""?"	Patras	Thessaloniki	Larissa	Heraklion	B	B
-fa-IR_065	What is the official religion of Iran?	Christianity	Judaism	Islam	Zoroastrianism	C	C
-fa-IR_066	What is the capital of Iran?	Mashhad	Tehran	Isfahan	Rasht	B	B
-fa-IR_068	Which of these countries is a neighbor of Iran?	Iraq	Kuwait	Uzbekistan	Russia	A	A
-fa-IR_069	What is the common language in Iran?	Arabic	Persian	Turkish	Kurdish	B	B
-ar-EG_070	Which of the following Egyptian governorates is known for growing mangoes?	Ismailia	Fayoum	Port Said	Tanta	B	B
-ar-EG_072	What is the name of the Great Pyramid?	Khufu	Khafre	Ra	Menkaure	A	A
-ar-EG_073	What is the name of the most famous Cairo area known for selling souvenirs?	Khan El-Khalili	New Cairo	Fifth Settlement	Tenth of Ramadan	A	A
-ar-EG_075	What is the name of the ancient Egyptian language?	Assyrian	Hellenistic	Pharaonic	Hieroglyphic	D	D
-ar-EG_076	What are the names of the two seas that Egypt overlooks?	The White and the Red	The White and the Yellow	The Yellow and the Red	The Yellow and the Green	A	A
-ar-MA_077	What is the capital of Morocco?	Casablanca	Marrakesh	Rabat	Fez	C	C
-ar-MA_078	What is Morocco's official currency?	Dinar	Dirham	Riyal	Euro	B	B
-ar-MA_079	"Which Moroccan city is known as the ""Blue City""?"	Tangier	Chefchaouen	Essaouira	Agadir	B	B
-ar-MA_080	What is Morocco's most popular national drink, served as a symbol of hospitality?	Coffee	Orange Juice	Mint Tea	Almond Milk	C	C
-ar-MA_081	What is the name of the main mountain range that extends across Morocco?	Alps	Pyrenees	Atlas Mountains	Caucasus	C	C
-ar-MA_082	Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?	Couscous	Tagine	Harira	Pastilla	A	A
-ar-MA_083	What is the term for the traditional market in Morocco?	Kasbah	Riad	Souk	City	C	C
-ar-SA_084	Which region of Saudi Arabia is famous for growing mangoes during the summer?	Taif	Abha	Tabuk	Jizan	D	D
-ar-SA_086	On what day does Saudi Arabia celebrate the Saudi Foundation Day (Saudi Founding Day)?	February 22	February 30	September 23	September 22	A	A
-ar-SA_087	What is the annual national day on which Saudi Arabia celebrates?	February 22	February 30	September 23	September 22	D	D
-ar-SA_089	In which city is the historic Masmak Palace located?	Medina	Riyadh	Mecca	Dammam	B	B
-ar-SA_090	What city in Saudi Arabia is famous for growing and trading roses?	Taif	Baha	Abha	Qassim	A	A
-en-AU_091	What are 3 things every Australian town had when it was first formed?	Church, Post Office, Pub	Church, Dance Hall, Milkbar	Milkbar, Church, Shopping Centre	Grocery Store, Gas Station, Pharmacy	A	A
-en-AU_092	What footy team would Bob barrack for if his grandfather lived in Fitzroy?	Brisbane Lions	Essendon	Carlton	Bombers	C	C
-en-AU_093	Where did the first fleet arrive in Australia?	Botany Bay, NSW	Queensland, Brisbane	Melbourne, Victoria	Perth, Western Australia	A	A
-en-AU_094	What is a common four-word Australian phrase?	Don't worry about tomorrow!	Handle your losses well	She'll be right, mate	Patty on the barbie	C	C
-en-AU_095	What is the most famous Australian film? / Film that introduced Australian culture to a general audience?	Australia	Red Dog	The Tracker	Crocodile Dundee	D	D
-en-AU_096	Who was the most loved Australian prime minister?	Daniel Andres	John Howard	Tony Abbott	Bob Hawke	D	D
-en-AU_097	What do Australians need to do to prevent fires in summer?	Water their gardens	Install fire management systems around their properties	Controlled burning/hazard reduction burning	Plant more trees in their yards	C	C
-eu-ES_098	What is the most typical traditional fast food in the Basque Country?	Cicchetti	Sandwich	Pintxo	Kebab	C	C
-eu-ES_099	What is the most famous traditional sport of the Basque Country?	Iku-pilota (Pelota)	Football	Basketball	Hockey	A	A
-eu-ES_101	What is the most famous traditional dance of the Basque Country?	Flamenco	Sardana	Aurresku	Jota	C	C
-eu-ES_102	What have men traditionally used to cover their heads in the Basque Country?	Txapela	Bisera	Zapia	Kaputxa	A	A
-eu-ES_103	What is the name of the improvised poetry of the Basque Country?	Txapela	Theater	Bertsolaritza	Maskarada	C	C
-fr-FR_106	What color are all cats at night?	Beige	Black	Gray	White	B	B
-fr-FR_107	What is usually served with a beef rib?	A champagne	A dry white wine	A sweet white wine	A red wine	D	D
-fr-FR_108	What do ducks do first when coming out of the water?	They lay an egg	They quack	They shake their lower back	They peck at each other	C	C
-fr-FR_109	What is a chocolatine?	A chocolate with nougat	A small éclair with chocolate covered in hazelnuts	A small chocolate cake served with coffee	A pain au chocolat	D	D
-fr-FR_110	That year, I sang...	For and just for you	For the beautiful Mathilda	For the first time	To forget the cold	C	C
-ga-IE_113	Ireland is often referred to as:	The Land of Saints and Scholars	The Low Land	The Land of the South	The Big Apple	A	A
-ga-IE_114	Who is famous for his role in the Battle of Clontarf?	King Henry VIII	Brian Boru	Michael Collins	Brian O'Driscoll	B	B
-ga-IE_115	Who is the most famous Irish boxer?	Katie Taylor	Michelle O'Neill	Andrea Corr	Susan Jones	A	A
-ga-IE_116	"Which sport is associated with ""The Six Nations""?"	Soccer	Rugby	Swimming	Hurling	B	B
-ga-IE_117	Which of these Irish television channels is correct?	RTE	MTV	Discovery Channel	Nickelodeon	A	A
-ga-IE_118	In which province is the capital of Ireland located?	Munster	Leinster	Ulster	Connacht	B	B
-ga-IE_119	Where are the final matches of Ireland typically held for hurling and Gaelic football?	Aviva Stadium	Páirc Uí Chaoimh	Croke Park	The RDS	C	C
-ta-LK_121	What is the tallest building in Sri Lanka?	Lotus Tower	One Galle Face	Kokavil Tower	World Trade Center Tower	A	A
-ta-LK_122	Which animal is prominently featured in the Perahera festival in Sri Lanka?	Elephant	Horse	Peacock	Cattle	A	A
-ta-LK_123	In which province of Sri Lanka is the famous Temple of the Tooth located?	Central Province	Eastern Province	Southern Province	Western Province	A	A
-ta-LK_125	What natural disaster hit Sri Lanka in December 2004, causing great damage and loss of life?	Whirlwind	Tsunami	Wildfire	Flood	B	B
-ta-LK_126	What is Sri Lanka's commercial capital?	Colombo	Kandy	Jaffna	Galle	A	A
-tl-PH_127	What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?	Baro't Saya	Kimona	Barong Tagalog	Salakot	C	C
-tl-PH_128	What are the main ingredients of adobo?	Ginger and coconut milk	Soy sauce and vinegar	Sugar and milk	Fish sauce and tomato	B	B
-tl-PH_129	What is the name of the traditional dance where bamboo is used?	Pandanggo sa Ilaw	Tinikling	Carinosa	Maglalatik	B	B
-tl-PH_130	Who is considered the national hero of the Philippines?	Andres Bonifacio	Emilio Aguinaldo	Apolinario Mabini	Jose Rizal	D	D
-tl-PH_131	Which of the following is an example of harana?	Giving gifts every Christmas	Singing under the window of the beloved	Singing at karaoke with family	Watching a movie every Saturday	B	B
-tl-PH_132	Which month is the Language Month usually held in the Philippines?	June	August	September	October	C	C
-tl-PH_133	What is the name of the small local government units or communities in the Philippines headed by a captain?	Barangay	Tribe	Sultanate	Province	A	A
-tl-PH_134	What is the tradition of Filipinos on Christmas Eve where they attend Mass from December 16 to 24?	Pabasa	Simbang Gabi	Misa de Gallo	Pasyon	B	B
-bg-BG_135	What is the capital of Bulgaria?	Plovdiv	Varna	Sofia	Ruse	C	C
-bg-BG_137	What is the Bulgarian alphabet called?	Latin	Greek	Glagolitic	Cyrillic	D	D
-bg-BG_139	What do we celebrate on May 24?	Easter	Independence Day	Labor Day	Day of Bulgarian Enlightenment and Culture and Slavic Writing	D	D
-bg-BG_140	"Who is the author of the novel ""Under the Yoke""?"	Aleko Konstantinov	Pencho Slaveikov	Ivan Vazov	Pejo Yavorov	C	C
-bg-BG_141	Which is a traditional Bulgarian dish?	Pizza	Shopska salad	Sushi	Burger	B	B
-ja-JP_142	What is Japan's era name as of 2025?	Showa	Reiwa	Heisei	Meiji	B	B
-ja-JP_143	What is a typical Japanese breakfast?	Pizza	Miso soup	Baguette	Ice cream	B	B
-ja-JP_144	What is the symbol of Tokyo?	Tower of the Sun	Radio Tower	Nagoya Dome	Tokyo Tower	D	D
-ja-JP_145	What is the most prestigious private university in Tokyo?	Keio	Komaba	Aogaku	Chuo	A	A
-ja-JP_146	What sports drink is familiar to Japanese people?	Pocari	Doctor Pepper	Gatorade	Lemonade	A	A
-ja-JP_147	What is Japanese tea?	Green tea	Earl Grey	Chamomile	Jasmine tea	A	A
-ja-JP_148	What is NOT sold at convenience stores?	Onigiri	Tobacco	Alcohol	Train tickets	D	D
+id	prediction	truth
+ms-SG_001	C	C
+ms-SG_002	B	B
+ms-SG_003	A	A
+ms-SG_004	B	B
+ms-SG_006	D	D
+ms-SG_007	C	C
+ta-SG_008	C	C
+ta-SG_009	B	B
+ta-SG_010	A	A
+ta-SG_011	B	B
+ta-SG_014	C	C
+zh-SG_015	C	C
+zh-SG_016	B	B
+zh-SG_017	A	A
+zh-SG_018	B	B
+zh-SG_021	C	C
+es-EC_022	C	C
+es-EC_024	C	C
+es-EC_026	C	C
+es-EC_027	B	B
+es-EC_028	C	C
+en-GB_030	B	B
+en-GB_031	C	C
+en-GB_032	D	D
+en-GB_033	A	A
+en-GB_034	A	A
+zh-CN_035	D	D
+zh-CN_036	A	A
+zh-CN_037	B	B
+zh-CN_038	C	C
+es-ES_040	C	C
+es-ES_041	A	A
+es-ES_042	B	B
+es-ES_043	D	D
+es-ES_044	C	C
+es-MX_045	B	B
+es-MX_046	C	C
+es-MX_047	D	D
+es-MX_049	C	C
+id-ID_050	A	A
+id-ID_051	C	C
+id-ID_052	B	B
+id-ID_053	D	D
+id-ID_054	B	B
+ko-KR_055	B	B
+ko-KR_056	B	B
+ko-KR_057	D	D
+el-GR_061	A	A
+el-GR_063	B	B
+el-GR_064	B	B
+fa-IR_065	C	C
+fa-IR_066	B	B
+fa-IR_068	A	A
+fa-IR_069	B	B
+ar-EG_070	B	B
+ar-EG_071	C	C
+ar-EG_072	A	A
+ar-EG_073	A	A
+ar-EG_075	D	D
+ar-EG_076	A	A
+ar-MA_077	C	C
+ar-MA_078	B	B
+ar-MA_079	B	B
+ar-MA_080	C	C
+ar-MA_081	C	C
+ar-MA_082	A	A
+ar-MA_083	C	C
+ar-SA_084	D	D
+ar-SA_087	D	D
+ar-SA_090	A	A
+en-AU_092	C	C
+en-AU_093	A	A
+en-AU_094	C	C
+en-AU_095	D	D
+en-AU_096	D	D
+en-AU_097	C	C
+eu-ES_098	C	C
+eu-ES_099	A	A
+eu-ES_101	C	C
+eu-ES_102	A	A
+eu-ES_103	C	C
+fr-FR_107	D	D
+fr-FR_109	D	D
+fr-FR_110	C	C
+ga-IE_113	A	A
+ga-IE_114	B	B
+ga-IE_115	A	A
+ga-IE_116	B	B
+ga-IE_117	A	A
+ga-IE_118	B	B
+ga-IE_119	C	C
+ta-LK_121	A	A
+ta-LK_122	A	A
+ta-LK_123	A	A
+ta-LK_125	B	B
+ta-LK_126	A	A
+tl-PH_127	C	C
+tl-PH_129	B	B
+tl-PH_130	D	D
+tl-PH_131	B	B
+tl-PH_132	C	C
+tl-PH_133	A	A
+tl-PH_134	B	B
+bg-BG_135	C	C
+bg-BG_137	D	D
+bg-BG_139	D	D
+bg-BG_140	C	C
+bg-BG_141	B	B
+ja-JP_142	B	B
+ja-JP_143	B	B
+ja-JP_144	D	D
+ja-JP_145	A	A
+ja-JP_146	A	A
+ja-JP_147	A	A
+ja-JP_148	D	D
