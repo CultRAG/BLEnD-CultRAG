@@ -17,8 +17,7 @@ def convert_to_onehot(input_file, output_file=None):
     
     # Determine output filename
     if output_file is None:
-        base, ext = os.path.splitext(input_file)
-        output_file = f"{base}_onehot{ext}"
+        output_file = "track_2_mcq_prediction.tsv"
     
     # Read input file
     with open(input_file, 'r', encoding='utf-8') as f:
