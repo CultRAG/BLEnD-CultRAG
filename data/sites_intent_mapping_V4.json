@@ -96,14 +96,6 @@
           "note": "official_department"
         }
       ],
-      "fallback": [
-        {
-          "url": "commisceo-global.com",
-          "type": "etiquette_guide",
-          "trust": "mid",
-          "note": "Communication style, business protocol, naming conventions (verify elsewhere)"
-        }
-      ],
       "note": "Route to official portals first if country is in country_specific_sources"
     },
     "holidays_festivals": {
@@ -127,12 +119,6 @@
           "type": "travel_guide",
           "trust": "mid",
           "note": "What happens during holidays, local customs (tourism angle)"
-        },
-        {
-          "url": "commisceo-global.com",
-          "type": "etiquette_guide",
-          "trust": "mid",
-          "note": "Holiday etiquette and social norms"
         }
       ],
       "note": "Prefer UNESCO ICH for official cultural designations"
@@ -156,12 +142,6 @@
           "type": "almanac",
           "trust": "high",
           "note": "Geography sections (terrain, borders, highest point, area)"
-        },
-        {
-          "url": "whc.unesco.org",
-          "type": "heritage_db",
-          "trust": "high",
-          "note": "World Heritage Sites (official designation with map/location)"
         }
       ],
       "fallback": [
@@ -176,12 +156,6 @@
     },
     "culture_landmarks": {
       "primary": [
-        {
-          "url": "whc.unesco.org",
-          "type": "heritage_db",
-          "trust": "high",
-          "note": "Authoritative World Heritage Site descriptions and cultural significance"
-        },
         {
           "url": "ich.unesco.org",
           "type": "heritage_db",
@@ -201,12 +175,6 @@
           "type": "travel_guide",
           "trust": "mid",
           "note": "Landmarks, cultural sightseeing, local context (but may be marketing-heavy)"
-        },
-        {
-          "url": "atlasobscura.com",
-          "type": "cultural_guide",
-          "trust": "mid",
-          "note": "Obscure landmarks, hidden gems, unusual sites (verify independently)"
         },
         {
           "url": "artsandculture.google.com",
@@ -238,18 +206,6 @@
           "type": "travel_guide",
           "trust": "mid",
           "note": "Eat sections; local cuisine and etiquette (but tourism-oriented)"
-        },
-        {
-          "url": "atlasobscura.com",
-          "type": "cultural_guide",
-          "trust": "mid",
-          "note": "Food & drink cultural stories and places"
-        },
-        {
-          "url": "everyculture.com",
-          "type": "culture_encyclopedia",
-          "trust": "mid",
-          "note": "Food in daily life, eating customs (anthropological essays)"
         }
       ],
       "note": "Wikipedia for dish facts; Wikivoyage for local customs only if Wikipedia is weak"
@@ -275,12 +231,6 @@
           "note": "Olympic medals, athletes, events (authoritative)"
         },
         {
-          "url": "uefa.com",
-          "type": "official_sports",
-          "trust": "high",
-          "note": "European football/soccer competitions and clubs"
-        },
-        {
           "url": "fifa.com",
           "type": "official_sports",
           "trust": "high",
@@ -299,7 +249,6 @@
           "note": "Sports federation / major media; sports/major_media"
         }
       ],
-      "fallback": [],
       "note": "Primary sources are all high-trust; use official federation sites for sport-specific facts"
     },
     "history_identity": {
@@ -311,12 +260,6 @@
           "note": "Wars, independence, major historical events, dates"
         },
         {
-          "url": "whc.unesco.org",
-          "type": "heritage_db",
-          "trust": "high",
-          "note": "Heritage framing of identity and cultural significance"
-        },
-        {
           "url": "ich.unesco.org",
           "type": "heritage_db",
           "trust": "high",
@@ -324,12 +267,6 @@
         }
       ],
       "fallback": [
-        {
-          "url": "everyculture.com",
-          "type": "culture_encyclopedia",
-          "trust": "mid",
-          "note": "Historical narratives and cultural identity essays (anthropological)"
-        },
         {
           "url": "artsandculture.google.com",
           "type": "archive_portal",
@@ -364,15 +301,8 @@
           "type": "structured_kb",
           "trust": "high",
           "note": "Official language property, language codes (ISO 639)"
-        },
-        {
-          "url": "ethnologue.com",
-          "type": "Language Authority",
-          "trust": "high",
-          "note": "Language authority; language_authority"
         }
       ],
-      "fallback": [],
       "note": "Use Wiktionary for slang/colloquial terms; Wikipedia for script/alphabet facts"
     },
     "economy_currency_symbols": {
@@ -402,7 +332,6 @@
           "note": "Central bank/monetary authority sites for currency codes (e.g., MAS for SGD)"
         }
       ],
-      "fallback": [],
       "note": "Prefer central bank websites for currency; Wikidata for quick lookup"
     },
     "media_popculture": {
@@ -449,20 +378,6 @@
           "type": "culture_guide",
           "trust": "high",
           "note": "Detailed cross-cultural etiquette and social norms"
-        },
-        {
-          "url": "commisceo-global.com",
-          "type": "etiquette_guide",
-          "trust": "high",
-          "note": "Business and social protocol"
-        }
-      ],
-      "fallback": [
-        {
-          "url": "everyculture.com",
-          "type": "culture_encyclopedia",
-          "trust": "mid",
-          "note": "Anthropological context for social behavior"
         }
       ]
     },
@@ -541,12 +456,6 @@
     "family_kinship_gender": {
       "primary": [
         {
-          "url": "everyculture.com",
-          "type": "culture_encyclopedia",
-          "trust": "high",
-          "note": "Marriage, kinship, and gender role descriptions"
-        },
-        {
           "url": "en.wikipedia.org",
           "type": "general_encyclopedia",
           "trust": "high",
@@ -582,8 +491,7 @@
           "trust": "high",
           "note": "Official national symbols and flags"
         }
-      ],
-      "fallback": []
+      ]
     },
     "education_knowledge_systems": {
       "primary": [
@@ -610,20 +518,6 @@
       ]
     },
     "natural_heritage_environment": {
-      "primary": [
-        {
-          "url": "whc.unesco.org",
-          "type": "heritage_db",
-          "trust": "high",
-          "note": "Natural World Heritage sites"
-        },
-        {
-          "url": "www.worldwildlife.org",
-          "type": "ngo",
-          "trust": "high",
-          "note": "Biodiversity and regional ecosystems"
-        }
-      ],
       "fallback": [
         {
           "url": "en.wikipedia.org",
@@ -636,42 +530,14 @@
     "values_philosophy_worldview": {
       "primary": [
         {
-          "url": "www.worldvaluessurvey.org",
-          "type": "research_center",
-          "trust": "high",
-          "note": "Global cultural values data"
-        },
-        {
           "url": "en.wikipedia.org",
           "type": "general_encyclopedia",
           "trust": "high",
           "note": "Regional philosophical traditions"
         }
-      ],
-      "fallback": [
-        {
-          "url": "everyculture.com",
-          "type": "culture_encyclopedia",
-          "trust": "mid",
-          "note": "General worldviews and belief systems"
-        }
       ]
     },
     "law_justice_humanrights": {
-      "primary": [
-        {
-          "url": "www.amnesty.org",
-          "type": "ngo",
-          "trust": "high",
-          "note": "Human rights reports by country"
-        },
-        {
-          "url": "www.hrw.org",
-          "type": "ngo",
-          "trust": "high",
-          "note": "Global justice monitoring"
-        }
-      ],
       "fallback": [
         {
           "url": "en.wikipedia.org",
@@ -742,14 +608,6 @@
           "type": "architecture_portal",
           "trust": "mid",
           "note": "Modern urban projects and designs"
-        }
-      ],
-      "fallback": [
-        {
-          "url": "whc.unesco.org",
-          "type": "heritage_db",
-          "trust": "high",
-          "note": "Architectural heritage highlights"
         }
       ]
     },
@@ -839,8 +697,7 @@
           "trust": "high",
           "note": "Structured knowledge lookup"
         }
-      ],
-      "fallback": []
+      ]
     }
   },
   "country_specific_sources": {
@@ -905,11 +762,6 @@
               "trust": "high"
             },
             {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -955,11 +807,6 @@
               "url": "roots.gov.sg",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "nlb.gov.sg",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -968,11 +815,6 @@
           "sources": [
             {
               "url": "roots.gov.sg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "nlb.gov.sg",
               "type": "local_authority",
               "trust": "high"
             }
@@ -1053,11 +895,6 @@
               "url": "roots.gov.sg",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "nlb.gov.sg",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -1115,11 +952,6 @@
               "url": "gov.sg",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "nlb.gov.sg",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -1129,11 +961,6 @@
             {
               "url": "gov.sg",
               "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
               "trust": "high"
             },
             {
@@ -1181,11 +1008,6 @@
           "sources": [
             {
               "url": "gov.sg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "nlb.gov.sg",
               "type": "local_authority",
               "trust": "high"
             }
@@ -1274,11 +1096,6 @@
           "intent": "others",
           "sources": [
             {
-              "url": "nlb.gov.sg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "gov.sg",
               "type": "local_authority",
               "trust": "high"
@@ -1316,22 +1133,12 @@
               "url": "bunka.nii.ac.jp",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "jnto.go.jp",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "geography_places",
           "sources": [
-            {
-              "url": "jnto.go.jp",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "japan.go.jp",
               "type": "local_authority",
@@ -1348,11 +1155,6 @@
               "trust": "high"
             },
             {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -1365,11 +1167,6 @@
           "sources": [
             {
               "url": "bunka.nii.ac.jp",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "jnto.go.jp",
               "type": "local_authority",
               "trust": "high"
             }
@@ -1576,11 +1373,6 @@
             {
               "url": "japan.go.jp",
               "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
               "trust": "high"
             },
             {
@@ -1790,11 +1582,6 @@
             {
               "url": "india.gov.in",
               "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
               "trust": "high"
             },
             {
@@ -2215,11 +2002,6 @@
           "intent": "holidays_festivals",
           "sources": [
             {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "ich.unesco.org",
               "type": "heritage_db",
               "trust": "high"
@@ -2241,11 +2023,6 @@
               "trust": "high"
             },
             {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -2254,28 +2031,11 @@
           ]
         },
         {
-          "intent": "culture_landmarks",
-          "sources": [
-            {
-              "url": "english-heritage.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "culture_landmarks"
         },
         {
           "intent": "food_drink",
           "sources": [
-            {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "ich.unesco.org",
               "type": "heritage_db",
@@ -2309,11 +2069,6 @@
           "intent": "history_identity",
           "sources": [
             {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "bl.uk",
               "type": "local_authority",
               "trust": "high"
@@ -2323,11 +2078,6 @@
         {
           "intent": "language_writing",
           "sources": [
-            {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "bl.uk",
               "type": "local_authority",
@@ -2355,11 +2105,6 @@
           "intent": "media_popculture",
           "sources": [
             {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "gov.uk",
               "type": "local_authority",
               "trust": "high"
@@ -2369,11 +2114,6 @@
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -2391,11 +2131,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -2407,11 +2142,6 @@
           "intent": "arts_literature_music",
           "sources": [
             {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "bl.uk",
               "type": "local_authority",
               "trust": "high"
@@ -2419,28 +2149,11 @@
           ]
         },
         {
-          "intent": "clothing_fashion_jewelry",
-          "sources": [
-            {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "english-heritage.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "clothing_fashion_jewelry"
         },
         {
           "intent": "family_kinship_gender",
           "sources": [
-            {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "gov.uk",
               "type": "local_authority",
@@ -2483,11 +2196,6 @@
           "intent": "natural_heritage_environment",
           "sources": [
             {
-              "url": "english-heritage.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "gov.uk",
               "type": "local_authority",
               "trust": "high"
@@ -2497,11 +2205,6 @@
         {
           "intent": "values_philosophy_worldview",
           "sources": [
-            {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -2548,22 +2251,12 @@
               "url": "gov.uk",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "historicengland.org.uk",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "architecture_urban_planning",
           "sources": [
-            {
-              "url": "english-heritage.org.uk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "gov.uk",
               "type": "local_authority",
@@ -2646,11 +2339,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -2680,11 +2368,6 @@
               "url": "france.fr",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -2694,11 +2377,6 @@
             {
               "url": "pop.culture.gouv.fr",
               "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
               "trust": "high"
             },
             {
@@ -2727,11 +2405,6 @@
         {
           "intent": "sports",
           "sources": [
-            {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -2774,11 +2447,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -2791,11 +2459,6 @@
           "sources": [
             {
               "url": "pop.culture.gouv.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gouvernement.fr",
               "type": "local_authority",
               "trust": "high"
             }
@@ -2876,22 +2539,12 @@
               "url": "pop.culture.gouv.fr",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "national_symbols_emblems",
           "sources": [
-            {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -2904,11 +2557,6 @@
           "intent": "education_knowledge_systems",
           "sources": [
             {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "bnf.fr",
               "type": "local_authority",
               "trust": "high"
@@ -2918,16 +2566,6 @@
         {
           "intent": "natural_heritage_environment",
           "sources": [
-            {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -2956,11 +2594,6 @@
           "intent": "law_justice_humanrights",
           "sources": [
             {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -2972,11 +2605,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "bnf.fr",
               "type": "local_authority",
               "trust": "high"
@@ -2987,11 +2615,6 @@
           "intent": "health_traditional_medicine",
           "sources": [
             {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "pop.culture.gouv.fr",
               "type": "local_authority",
               "trust": "high"
@@ -3001,11 +2624,6 @@
         {
           "intent": "architecture_urban_planning",
           "sources": [
-            {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -3018,11 +2636,6 @@
           "intent": "military_defense_security",
           "sources": [
             {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -3034,11 +2647,6 @@
           "intent": "infrastructure_transportation",
           "sources": [
             {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -3049,11 +2657,6 @@
         {
           "intent": "demographics_social_classes",
           "sources": [
-            {
-              "url": "gouvernement.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -3067,11 +2670,6 @@
           "sources": [
             {
               "url": "bnf.fr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gouvernement.fr",
               "type": "local_authority",
               "trust": "high"
             }
@@ -3109,11 +2707,6 @@
           "intent": "holidays_festivals",
           "sources": [
             {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "spain.info",
               "type": "local_authority",
               "trust": "high"
@@ -3142,22 +2735,12 @@
               "url": "patrimonionacional.es",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "food_drink",
           "sources": [
-            {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "spain.info",
               "type": "local_authority",
@@ -3185,11 +2768,6 @@
           "intent": "history_identity",
           "sources": [
             {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -3200,11 +2778,6 @@
         {
           "intent": "language_writing",
           "sources": [
-            {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -3233,11 +2806,6 @@
           "intent": "media_popculture",
           "sources": [
             {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "lamoncloa.gob.es",
               "type": "local_authority",
               "trust": "high"
@@ -3247,11 +2815,6 @@
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -3269,11 +2832,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -3284,11 +2842,6 @@
         {
           "intent": "arts_literature_music",
           "sources": [
-            {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -3301,11 +2854,6 @@
           "intent": "clothing_fashion_jewelry",
           "sources": [
             {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "patrimonionacional.es",
               "type": "local_authority",
               "trust": "high"
@@ -3315,11 +2863,6 @@
         {
           "intent": "family_kinship_gender",
           "sources": [
-            {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "lamoncloa.gob.es",
               "type": "local_authority",
@@ -3378,11 +2921,6 @@
           "intent": "values_philosophy_worldview",
           "sources": [
             {
-              "url": "cultura.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -3427,11 +2965,6 @@
           "sources": [
             {
               "url": "lamoncloa.gob.es",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "cultura.gob.es",
               "type": "local_authority",
               "trust": "high"
             }
@@ -3574,11 +3107,6 @@
           "intent": "culture_landmarks",
           "sources": [
             {
-              "url": "environment.gov.au",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "nma.gov.au",
               "type": "local_authority",
               "trust": "high"
@@ -3736,11 +3264,6 @@
               "url": "nma.gov.au",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "environment.gov.au",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -3793,11 +3316,6 @@
         {
           "intent": "natural_heritage_environment",
           "sources": [
-            {
-              "url": "environment.gov.au",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "australia.gov.au",
               "type": "local_authority",
@@ -3870,11 +3388,6 @@
         {
           "intent": "architecture_urban_planning",
           "sources": [
-            {
-              "url": "environment.gov.au",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "australia.gov.au",
               "type": "local_authority",
@@ -4008,11 +3521,6 @@
           "intent": "culture_landmarks",
           "sources": [
             {
-              "url": "warisanbudaya.kemdikbud.go.id",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "budaya-indonesia.org",
               "type": "local_authority",
               "trust": "high"
@@ -4173,11 +3681,6 @@
               "url": "budaya-indonesia.org",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "warisanbudaya.kemdikbud.go.id",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -4231,11 +3734,6 @@
         {
           "intent": "natural_heritage_environment",
           "sources": [
-            {
-              "url": "warisanbudaya.kemdikbud.go.id",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "indonesia.go.id",
               "type": "local_authority",
@@ -4309,11 +3807,6 @@
         {
           "intent": "architecture_urban_planning",
           "sources": [
-            {
-              "url": "warisanbudaya.kemdikbud.go.id",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "indonesia.go.id",
               "type": "local_authority",
@@ -4397,11 +3890,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -4412,11 +3900,6 @@
         {
           "intent": "holidays_festivals",
           "sources": [
-            {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "philippines.travel",
               "type": "local_authority",
@@ -4431,11 +3914,6 @@
               "url": "philippines.travel",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -4448,8 +3926,8 @@
               "trust": "high"
             },
             {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
               "trust": "high"
             }
           ]
@@ -4457,11 +3935,6 @@
         {
           "intent": "food_drink",
           "sources": [
-            {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "philippines.travel",
               "type": "local_authority",
@@ -4472,11 +3945,6 @@
         {
           "intent": "sports",
           "sources": [
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -4489,11 +3957,6 @@
           "intent": "history_identity",
           "sources": [
             {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -4504,11 +3967,6 @@
         {
           "intent": "language_writing",
           "sources": [
-            {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -4521,11 +3979,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -4534,28 +3987,11 @@
           ]
         },
         {
-          "intent": "media_popculture",
-          "sources": [
-            {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "media_popculture"
         },
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -4573,11 +4009,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -4588,11 +4019,6 @@
         {
           "intent": "arts_literature_music",
           "sources": [
-            {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -4605,11 +4031,6 @@
           "intent": "clothing_fashion_jewelry",
           "sources": [
             {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "nationalmuseum.gov.ph",
               "type": "local_authority",
               "trust": "high"
@@ -4617,28 +4038,11 @@
           ]
         },
         {
-          "intent": "family_kinship_gender",
-          "sources": [
-            {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "family_kinship_gender"
         },
         {
           "intent": "national_symbols_emblems",
           "sources": [
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -4650,11 +4054,6 @@
         {
           "intent": "education_knowledge_systems",
           "sources": [
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -4670,22 +4069,12 @@
               "url": "nationalmuseum.gov.ph",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "values_philosophy_worldview",
           "sources": [
-            {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -4698,11 +4087,6 @@
           "intent": "law_justice_humanrights",
           "sources": [
             {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -4714,11 +4098,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -4727,19 +4106,7 @@
           ]
         },
         {
-          "intent": "health_traditional_medicine",
-          "sources": [
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "ncca.gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "health_traditional_medicine"
         },
         {
           "intent": "architecture_urban_planning",
@@ -4748,22 +4115,12 @@
               "url": "nationalmuseum.gov.ph",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "military_defense_security",
           "sources": [
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -4776,11 +4133,6 @@
           "intent": "infrastructure_transportation",
           "sources": [
             {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -4792,11 +4144,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -4807,11 +4154,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "gov.ph",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -4848,11 +4190,6 @@
           "intent": "holidays_festivals",
           "sources": [
             {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "bulgariatravel.org",
               "type": "local_authority",
               "trust": "high"
@@ -4878,16 +4215,6 @@
           "intent": "culture_landmarks",
           "sources": [
             {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -4898,11 +4225,6 @@
         {
           "intent": "food_drink",
           "sources": [
-            {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "bulgariatravel.org",
               "type": "local_authority",
@@ -4930,11 +4252,6 @@
           "intent": "history_identity",
           "sources": [
             {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -4947,11 +4264,6 @@
           "sources": [
             {
               "url": "bas.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "mc.government.bg",
               "type": "local_authority",
               "trust": "high"
             }
@@ -4977,11 +4289,6 @@
           "intent": "media_popculture",
           "sources": [
             {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "government.bg",
               "type": "local_authority",
               "trust": "high"
@@ -4991,11 +4298,6 @@
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -5013,11 +4315,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5028,11 +4325,6 @@
         {
           "intent": "arts_literature_music",
           "sources": [
-            {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -5045,11 +4337,6 @@
           "intent": "clothing_fashion_jewelry",
           "sources": [
             {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5060,11 +4347,6 @@
         {
           "intent": "family_kinship_gender",
           "sources": [
-            {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "government.bg",
               "type": "local_authority",
@@ -5113,11 +4395,6 @@
               "trust": "high"
             },
             {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5128,11 +4405,6 @@
         {
           "intent": "values_philosophy_worldview",
           "sources": [
-            {
-              "url": "mc.government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -5178,11 +4450,6 @@
           "sources": [
             {
               "url": "government.bg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "mc.government.bg",
               "type": "local_authority",
               "trust": "high"
             }
@@ -5296,11 +4563,6 @@
           "intent": "holidays_festivals",
           "sources": [
             {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "srilanka.travel",
               "type": "local_authority",
               "trust": "high"
@@ -5326,16 +4588,6 @@
           "intent": "culture_landmarks",
           "sources": [
             {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5346,11 +4598,6 @@
         {
           "intent": "food_drink",
           "sources": [
-            {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "srilanka.travel",
               "type": "local_authority",
@@ -5375,34 +4622,10 @@
           ]
         },
         {
-          "intent": "history_identity",
-          "sources": [
-            {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "museum.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "history_identity"
         },
         {
-          "intent": "language_writing",
-          "sources": [
-            {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "museum.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "language_writing"
         },
         {
           "intent": "economy_currency_symbols",
@@ -5424,11 +4647,6 @@
           "intent": "media_popculture",
           "sources": [
             {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "gov.lk",
               "type": "local_authority",
               "trust": "high"
@@ -5438,11 +4656,6 @@
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -5460,11 +4673,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5473,28 +4681,11 @@
           ]
         },
         {
-          "intent": "arts_literature_music",
-          "sources": [
-            {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "museum.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "arts_literature_music"
         },
         {
           "intent": "clothing_fashion_jewelry",
           "sources": [
-            {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -5506,11 +4697,6 @@
         {
           "intent": "family_kinship_gender",
           "sources": [
-            {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "gov.lk",
               "type": "local_authority",
@@ -5541,11 +4727,6 @@
               "url": "gov.lk",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "museum.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -5555,11 +4736,6 @@
             {
               "url": "gov.lk",
               "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
               "trust": "high"
             },
             {
@@ -5573,11 +4749,6 @@
         {
           "intent": "values_philosophy_worldview",
           "sources": [
-            {
-              "url": "ccf.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -5609,11 +4780,6 @@
               "url": "gov.lk",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "museum.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -5622,11 +4788,6 @@
           "sources": [
             {
               "url": "gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "ccf.gov.lk",
               "type": "local_authority",
               "trust": "high"
             }
@@ -5699,11 +4860,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "museum.gov.lk",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "gov.lk",
               "type": "local_authority",
@@ -5721,11 +4877,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5734,49 +4885,15 @@
           ]
         },
         {
-          "intent": "holidays_festivals",
-          "sources": [
-            {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "visitgreece.gr",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "holidays_festivals"
         },
         {
-          "intent": "geography_places",
-          "sources": [
-            {
-              "url": "visitgreece.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "geography_places"
         },
         {
           "intent": "culture_landmarks",
           "sources": [
             {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5785,28 +4902,11 @@
           ]
         },
         {
-          "intent": "food_drink",
-          "sources": [
-            {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "visitgreece.gr",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "food_drink"
         },
         {
           "intent": "sports",
           "sources": [
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -5819,11 +4919,6 @@
           "intent": "history_identity",
           "sources": [
             {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5834,11 +4929,6 @@
         {
           "intent": "language_writing",
           "sources": [
-            {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -5851,11 +4941,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5864,28 +4949,11 @@
           ]
         },
         {
-          "intent": "media_popculture",
-          "sources": [
-            {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "media_popculture"
         },
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -5903,11 +4971,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5918,11 +4981,6 @@
         {
           "intent": "arts_literature_music",
           "sources": [
-            {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -5935,11 +4993,6 @@
           "intent": "clothing_fashion_jewelry",
           "sources": [
             {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5948,28 +5001,11 @@
           ]
         },
         {
-          "intent": "family_kinship_gender",
-          "sources": [
-            {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "family_kinship_gender"
         },
         {
           "intent": "national_symbols_emblems",
           "sources": [
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -5982,11 +5018,6 @@
           "intent": "education_knowledge_systems",
           "sources": [
             {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -5997,16 +5028,6 @@
         {
           "intent": "natural_heritage_environment",
           "sources": [
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6019,11 +5040,6 @@
           "intent": "values_philosophy_worldview",
           "sources": [
             {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6034,11 +5050,6 @@
         {
           "intent": "law_justice_humanrights",
           "sources": [
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6051,11 +5062,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6064,28 +5070,11 @@
           ]
         },
         {
-          "intent": "health_traditional_medicine",
-          "sources": [
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "culture.gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "health_traditional_medicine"
         },
         {
           "intent": "architecture_urban_planning",
           "sources": [
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6098,11 +5087,6 @@
           "intent": "military_defense_security",
           "sources": [
             {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6113,11 +5097,6 @@
         {
           "intent": "infrastructure_transportation",
           "sources": [
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6130,11 +5109,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6145,11 +5119,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "gov.gr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6220,11 +5189,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6235,11 +5199,6 @@
         {
           "intent": "holidays_festivals",
           "sources": [
-            {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "visitsaudi.com",
               "type": "local_authority",
@@ -6254,37 +5213,15 @@
               "url": "visitsaudi.com",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
-          "intent": "culture_landmarks",
-          "sources": [
-            {
-              "url": "nationalmuseum.org.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "culture_landmarks"
         },
         {
           "intent": "food_drink",
           "sources": [
-            {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "visitsaudi.com",
               "type": "local_authority",
@@ -6295,11 +5232,6 @@
         {
           "intent": "sports",
           "sources": [
-            {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6312,11 +5244,6 @@
           "intent": "history_identity",
           "sources": [
             {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6327,11 +5254,6 @@
         {
           "intent": "language_writing",
           "sources": [
-            {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6344,11 +5266,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6357,28 +5274,11 @@
           ]
         },
         {
-          "intent": "media_popculture",
-          "sources": [
-            {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "media_popculture"
         },
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -6396,11 +5296,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6412,11 +5307,6 @@
           "intent": "arts_literature_music",
           "sources": [
             {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6425,43 +5315,14 @@
           ]
         },
         {
-          "intent": "clothing_fashion_jewelry",
-          "sources": [
-            {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "nationalmuseum.org.sa",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "clothing_fashion_jewelry"
         },
         {
-          "intent": "family_kinship_gender",
-          "sources": [
-            {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "family_kinship_gender"
         },
         {
           "intent": "national_symbols_emblems",
           "sources": [
-            {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6474,11 +5335,6 @@
           "intent": "education_knowledge_systems",
           "sources": [
             {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6487,28 +5343,11 @@
           ]
         },
         {
-          "intent": "natural_heritage_environment",
-          "sources": [
-            {
-              "url": "nationalmuseum.org.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "natural_heritage_environment"
         },
         {
           "intent": "values_philosophy_worldview",
           "sources": [
-            {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6521,11 +5360,6 @@
           "intent": "law_justice_humanrights",
           "sources": [
             {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6537,11 +5371,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6550,43 +5379,14 @@
           ]
         },
         {
-          "intent": "health_traditional_medicine",
-          "sources": [
-            {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "moc.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "health_traditional_medicine"
         },
         {
-          "intent": "architecture_urban_planning",
-          "sources": [
-            {
-              "url": "nationalmuseum.org.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "architecture_urban_planning"
         },
         {
           "intent": "military_defense_security",
           "sources": [
-            {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6599,11 +5399,6 @@
           "intent": "infrastructure_transportation",
           "sources": [
             {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6615,11 +5410,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6630,11 +5420,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "my.gov.sa",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -6672,22 +5457,12 @@
               "url": "mota.gov.eg",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "experienceegypt.eg",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "geography_places",
           "sources": [
-            {
-              "url": "experienceegypt.eg",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "egymonuments.gov.eg",
               "type": "local_authority",
@@ -6704,11 +5479,6 @@
               "trust": "high"
             },
             {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -6721,11 +5491,6 @@
           "sources": [
             {
               "url": "mota.gov.eg",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "experienceegypt.eg",
               "type": "local_authority",
               "trust": "high"
             }
@@ -6932,11 +5697,6 @@
             {
               "url": "egymonuments.gov.eg",
               "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
               "trust": "high"
             },
             {
@@ -7100,11 +5860,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7113,73 +5868,20 @@
           ]
         },
         {
-          "intent": "holidays_festivals",
-          "sources": [
-            {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "travelchina.gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "holidays_festivals"
         },
         {
-          "intent": "geography_places",
-          "sources": [
-            {
-              "url": "travelchina.gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "geography_places"
         },
         {
-          "intent": "culture_landmarks",
-          "sources": [
-            {
-              "url": "museum.gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "culture_landmarks"
         },
         {
-          "intent": "food_drink",
-          "sources": [
-            {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "travelchina.gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "food_drink"
         },
         {
           "intent": "sports",
           "sources": [
-            {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7192,11 +5894,6 @@
           "intent": "history_identity",
           "sources": [
             {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7207,11 +5904,6 @@
         {
           "intent": "language_writing",
           "sources": [
-            {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7224,11 +5916,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7237,28 +5924,11 @@
           ]
         },
         {
-          "intent": "media_popculture",
-          "sources": [
-            {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "media_popculture"
         },
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -7276,11 +5946,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7292,11 +5957,6 @@
           "intent": "arts_literature_music",
           "sources": [
             {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7305,43 +5965,14 @@
           ]
         },
         {
-          "intent": "clothing_fashion_jewelry",
-          "sources": [
-            {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "museum.gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "clothing_fashion_jewelry"
         },
         {
-          "intent": "family_kinship_gender",
-          "sources": [
-            {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "family_kinship_gender"
         },
         {
           "intent": "national_symbols_emblems",
           "sources": [
-            {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7354,11 +5985,6 @@
           "intent": "education_knowledge_systems",
           "sources": [
             {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7367,28 +5993,11 @@
           ]
         },
         {
-          "intent": "natural_heritage_environment",
-          "sources": [
-            {
-              "url": "museum.gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "natural_heritage_environment"
         },
         {
           "intent": "values_philosophy_worldview",
           "sources": [
-            {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7401,11 +6010,6 @@
           "intent": "law_justice_humanrights",
           "sources": [
             {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7417,11 +6021,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7430,43 +6029,14 @@
           ]
         },
         {
-          "intent": "health_traditional_medicine",
-          "sources": [
-            {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "chinaculture.org",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "health_traditional_medicine"
         },
         {
-          "intent": "architecture_urban_planning",
-          "sources": [
-            {
-              "url": "museum.gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "architecture_urban_planning"
         },
         {
           "intent": "military_defense_security",
           "sources": [
-            {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7479,11 +6049,6 @@
           "intent": "infrastructure_transportation",
           "sources": [
             {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7495,11 +6060,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7510,11 +6070,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "gov.cn",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7533,12 +6088,6 @@
           "intent": "culture_landmarks",
           "sources": [
             {
-              "url": "taiwangods.com",
-              "type": "Academic/Cultural Research",
-              "trust": "high",
-              "note": "Folk religion and temple culture"
-            },
-            {
               "url": "taiwan.gov.tw",
               "type": "Official Government Portal",
               "trust": "high",
@@ -7547,15 +6096,7 @@
           ]
         },
         {
-          "intent": "food_drink",
-          "sources": [
-            {
-              "url": "travel.taipei",
-              "type": "Official Tourism",
-              "trust": "high",
-              "note": "Night market culture and local cuisine"
-            }
-          ]
+          "intent": "food_drink"
         },
         {
           "intent": "others",
@@ -7574,15 +6115,7 @@
       "country_code": "NG",
       "priority_sources": [
         {
-          "intent": "culture_landmarks",
-          "sources": [
-            {
-              "url": "artsandculture.google.com/project/nigeria",
-              "type": "Digital Archive",
-              "trust": "high",
-              "note": "Cultural heritage and artifacts archive"
-            }
-          ]
+          "intent": "culture_landmarks"
         },
         {
           "intent": "media_popculture",
@@ -7612,26 +6145,10 @@
       "country_code": "ET",
       "priority_sources": [
         {
-          "intent": "culture_landmarks",
-          "sources": [
-            {
-              "url": "ethiopia.travel",
-              "type": "Official Tourism",
-              "trust": "high",
-              "note": "Coffee ceremony and cultural traditions"
-            }
-          ]
+          "intent": "culture_landmarks"
         },
         {
-          "intent": "food_drink",
-          "sources": [
-            {
-              "url": "absoluteethiopia.com",
-              "type": "Tourism/Cultural Guide",
-              "trust": "mid",
-              "note": "Injera etiquette and traditional cuisine"
-            }
-          ]
+          "intent": "food_drink"
         },
         {
           "intent": "others",
@@ -7650,15 +6167,7 @@
       "country_code": "KP",
       "priority_sources": [
         {
-          "intent": "government_politics",
-          "sources": [
-            {
-              "url": "38north.org",
-              "type": "Academic/Research",
-              "trust": "high",
-              "note": "Analysis and research on North Korea"
-            }
-          ]
+          "intent": "government_politics"
         },
         {
           "intent": "food_drink",
@@ -7691,11 +6200,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7704,34 +6208,10 @@
           ]
         },
         {
-          "intent": "holidays_festivals",
-          "sources": [
-            {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "visitmexico.com",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "holidays_festivals"
         },
         {
-          "intent": "geography_places",
-          "sources": [
-            {
-              "url": "visitmexico.com",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "geography_places"
         },
         {
           "intent": "culture_landmarks",
@@ -7740,37 +6220,15 @@
               "url": "inah.gob.mx",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
-          "intent": "food_drink",
-          "sources": [
-            {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "visitmexico.com",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "food_drink"
         },
         {
           "intent": "sports",
           "sources": [
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7783,11 +6241,6 @@
           "intent": "history_identity",
           "sources": [
             {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7798,11 +6251,6 @@
         {
           "intent": "language_writing",
           "sources": [
-            {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7815,11 +6263,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7828,28 +6271,11 @@
           ]
         },
         {
-          "intent": "media_popculture",
-          "sources": [
-            {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "media_popculture"
         },
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -7867,11 +6293,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -7882,11 +6303,6 @@
         {
           "intent": "arts_literature_music",
           "sources": [
-            {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7899,11 +6315,6 @@
           "intent": "clothing_fashion_jewelry",
           "sources": [
             {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "inah.gob.mx",
               "type": "local_authority",
               "trust": "high"
@@ -7911,28 +6322,11 @@
           ]
         },
         {
-          "intent": "family_kinship_gender",
-          "sources": [
-            {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "family_kinship_gender"
         },
         {
           "intent": "national_symbols_emblems",
           "sources": [
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7944,11 +6338,6 @@
         {
           "intent": "education_knowledge_systems",
           "sources": [
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7964,22 +6353,12 @@
               "url": "inah.gob.mx",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "values_philosophy_worldview",
           "sources": [
-            {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -7992,11 +6371,6 @@
           "intent": "law_justice_humanrights",
           "sources": [
             {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8008,11 +6382,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8021,19 +6390,7 @@
           ]
         },
         {
-          "intent": "health_traditional_medicine",
-          "sources": [
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "cultura.gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "health_traditional_medicine"
         },
         {
           "intent": "architecture_urban_planning",
@@ -8042,22 +6399,12 @@
               "url": "inah.gob.mx",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "military_defense_security",
           "sources": [
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -8070,11 +6417,6 @@
           "intent": "infrastructure_transportation",
           "sources": [
             {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8086,11 +6428,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8101,11 +6438,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "gob.mx",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -8125,11 +6457,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8144,28 +6471,11 @@
               "url": "m-culture.gov.dz",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "algeria.travel",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
-          "intent": "geography_places",
-          "sources": [
-            {
-              "url": "algeria.travel",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "geography_places"
         },
         {
           "intent": "culture_landmarks",
@@ -8173,11 +6483,6 @@
             {
               "url": "m-culture.gov.dz",
               "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
               "trust": "high"
             },
             {
@@ -8195,22 +6500,12 @@
               "url": "m-culture.gov.dz",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "algeria.travel",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "sports",
           "sources": [
-            {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -8255,11 +6550,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8272,11 +6562,6 @@
           "sources": [
             {
               "url": "m-culture.gov.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "el-mouradia.dz",
               "type": "local_authority",
               "trust": "high"
             }
@@ -8358,22 +6643,12 @@
               "url": "m-culture.gov.dz",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "national_symbols_emblems",
           "sources": [
-            {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -8386,11 +6661,6 @@
           "intent": "education_knowledge_systems",
           "sources": [
             {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8401,16 +6671,6 @@
         {
           "intent": "natural_heritage_environment",
           "sources": [
-            {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -8439,11 +6699,6 @@
           "intent": "law_justice_humanrights",
           "sources": [
             {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8454,11 +6709,6 @@
         {
           "intent": "science_tech_innovation",
           "sources": [
-            {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -8471,11 +6721,6 @@
           "intent": "health_traditional_medicine",
           "sources": [
             {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "m-culture.gov.dz",
               "type": "local_authority",
               "trust": "high"
@@ -8485,11 +6730,6 @@
         {
           "intent": "architecture_urban_planning",
           "sources": [
-            {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -8502,11 +6742,6 @@
           "intent": "military_defense_security",
           "sources": [
             {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8517,11 +6752,6 @@
         {
           "intent": "infrastructure_transportation",
           "sources": [
-            {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -8534,11 +6764,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8549,11 +6774,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "el-mouradia.dz",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -8624,11 +6844,6 @@
               "trust": "high"
             },
             {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -8852,11 +7067,6 @@
             {
               "url": "maroc.ma",
               "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
               "trust": "high"
             },
             {
@@ -9067,11 +7277,6 @@
           "intent": "culture_landmarks",
           "sources": [
             {
-              "url": "dac.gov.za",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "sahistory.org.za",
               "type": "local_authority",
               "trust": "high"
@@ -9232,11 +7437,6 @@
               "url": "sahistory.org.za",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "dac.gov.za",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -9290,11 +7490,6 @@
         {
           "intent": "natural_heritage_environment",
           "sources": [
-            {
-              "url": "dac.gov.za",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "gov.za",
               "type": "local_authority",
@@ -9368,11 +7563,6 @@
         {
           "intent": "architecture_urban_planning",
           "sources": [
-            {
-              "url": "dac.gov.za",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "gov.za",
               "type": "local_authority",
@@ -9884,11 +8074,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -9918,11 +8103,6 @@
               "url": "visitkorea.or.kr",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -9932,11 +8112,6 @@
             {
               "url": "khs.go.kr",
               "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
               "trust": "high"
             },
             {
@@ -9966,11 +8141,6 @@
           "intent": "sports",
           "sources": [
             {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -9981,11 +8151,6 @@
         {
           "intent": "history_identity",
           "sources": [
-            {
-              "url": "history.go.kr",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "khs.go.kr",
               "type": "local_authority",
@@ -10013,11 +8178,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10030,11 +8190,6 @@
           "sources": [
             {
               "url": "khs.go.kr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "korea.net",
               "type": "local_authority",
               "trust": "high"
             }
@@ -10066,11 +8221,6 @@
           "sources": [
             {
               "url": "khs.go.kr",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "history.go.kr",
               "type": "local_authority",
               "trust": "high"
             }
@@ -10115,37 +8265,15 @@
               "url": "khs.go.kr",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
-          "intent": "national_symbols_emblems",
-          "sources": [
-            {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "history.go.kr",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "national_symbols_emblems"
         },
         {
           "intent": "education_knowledge_systems",
           "sources": [
-            {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10157,16 +8285,6 @@
         {
           "intent": "natural_heritage_environment",
           "sources": [
-            {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10182,22 +8300,12 @@
               "url": "khs.go.kr",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "history.go.kr",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "law_justice_humanrights",
           "sources": [
-            {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10210,11 +8318,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10226,11 +8329,6 @@
           "intent": "health_traditional_medicine",
           "sources": [
             {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "khs.go.kr",
               "type": "local_authority",
               "trust": "high"
@@ -10240,11 +8338,6 @@
         {
           "intent": "architecture_urban_planning",
           "sources": [
-            {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10257,11 +8350,6 @@
           "intent": "military_defense_security",
           "sources": [
             {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10272,11 +8360,6 @@
         {
           "intent": "infrastructure_transportation",
           "sources": [
-            {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10289,11 +8372,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10304,11 +8382,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "korea.net",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10328,11 +8401,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10360,11 +8428,6 @@
           "sources": [
             {
               "url": "tourismthailand.org",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "thaigov.go.th",
               "type": "local_authority",
               "trust": "high"
             }
@@ -10403,11 +8466,6 @@
         {
           "intent": "sports",
           "sources": [
-            {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10452,11 +8510,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10469,11 +8522,6 @@
           "sources": [
             {
               "url": "culture.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "thaigov.go.th",
               "type": "local_authority",
               "trust": "high"
             }
@@ -10554,22 +8602,12 @@
               "url": "culture.go.th",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "national_symbols_emblems",
           "sources": [
-            {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10581,11 +8619,6 @@
         {
           "intent": "education_knowledge_systems",
           "sources": [
-            {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10599,11 +8632,6 @@
           "sources": [
             {
               "url": "finearts.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "thaigov.go.th",
               "type": "local_authority",
               "trust": "high"
             }
@@ -10629,11 +8657,6 @@
           "intent": "law_justice_humanrights",
           "sources": [
             {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10645,11 +8668,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10660,11 +8678,6 @@
         {
           "intent": "health_traditional_medicine",
           "sources": [
-            {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culture.go.th",
               "type": "local_authority",
@@ -10679,22 +8692,12 @@
               "url": "finearts.go.th",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "military_defense_security",
           "sources": [
-            {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10707,11 +8710,6 @@
           "intent": "infrastructure_transportation",
           "sources": [
             {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10723,11 +8721,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10738,11 +8731,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "thaigov.go.th",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10762,11 +8750,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10775,73 +8758,20 @@
           ]
         },
         {
-          "intent": "holidays_festivals",
-          "sources": [
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "visitbangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "holidays_festivals"
         },
         {
-          "intent": "geography_places",
-          "sources": [
-            {
-              "url": "visitbangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "geography_places"
         },
         {
-          "intent": "culture_landmarks",
-          "sources": [
-            {
-              "url": "arch.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "culture_landmarks"
         },
         {
-          "intent": "food_drink",
-          "sources": [
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "visitbangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "food_drink"
         },
         {
           "intent": "sports",
           "sources": [
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10853,11 +8783,6 @@
         {
           "intent": "history_identity",
           "sources": [
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10873,22 +8798,12 @@
               "url": "banglaacademy.org.bd",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "economy_currency_symbols",
           "sources": [
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -10898,28 +8813,11 @@
           ]
         },
         {
-          "intent": "media_popculture",
-          "sources": [
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "media_popculture"
         },
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -10937,11 +8835,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10953,11 +8846,6 @@
           "intent": "arts_literature_music",
           "sources": [
             {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -10966,43 +8854,14 @@
           ]
         },
         {
-          "intent": "clothing_fashion_jewelry",
-          "sources": [
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "arch.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "clothing_fashion_jewelry"
         },
         {
-          "intent": "family_kinship_gender",
-          "sources": [
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "family_kinship_gender"
         },
         {
           "intent": "national_symbols_emblems",
           "sources": [
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11015,11 +8874,6 @@
           "intent": "education_knowledge_systems",
           "sources": [
             {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11028,28 +8882,11 @@
           ]
         },
         {
-          "intent": "natural_heritage_environment",
-          "sources": [
-            {
-              "url": "arch.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "natural_heritage_environment"
         },
         {
           "intent": "values_philosophy_worldview",
           "sources": [
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11062,11 +8899,6 @@
           "intent": "law_justice_humanrights",
           "sources": [
             {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11078,11 +8910,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11091,43 +8918,14 @@
           ]
         },
         {
-          "intent": "health_traditional_medicine",
-          "sources": [
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "moca.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "health_traditional_medicine"
         },
         {
-          "intent": "architecture_urban_planning",
-          "sources": [
-            {
-              "url": "arch.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "architecture_urban_planning"
         },
         {
           "intent": "military_defense_security",
           "sources": [
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11140,11 +8938,6 @@
           "intent": "infrastructure_transportation",
           "sources": [
             {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11156,11 +8949,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11171,11 +8959,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "bangladesh.gov.bd",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11195,11 +8978,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11210,11 +8988,6 @@
         {
           "intent": "holidays_festivals",
           "sources": [
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "ich.unesco.org",
               "type": "heritage_db",
@@ -11232,16 +9005,6 @@
           "intent": "geography_places",
           "sources": [
             {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11253,16 +9016,6 @@
           "intent": "culture_landmarks",
           "sources": [
             {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11273,11 +9026,6 @@
         {
           "intent": "food_drink",
           "sources": [
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "ich.unesco.org",
               "type": "heritage_db",
@@ -11295,11 +9043,6 @@
           "intent": "sports",
           "sources": [
             {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11308,28 +9051,11 @@
           ]
         },
         {
-          "intent": "history_identity",
-          "sources": [
-            {
-              "url": "cgie.org.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "history_identity"
         },
         {
           "intent": "language_writing",
           "sources": [
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11342,11 +9068,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11355,28 +9076,11 @@
           ]
         },
         {
-          "intent": "media_popculture",
-          "sources": [
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "media_popculture"
         },
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -11391,28 +9095,11 @@
           ]
         },
         {
-          "intent": "religion_spirituality",
-          "sources": [
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "cgie.org.ir",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "religion_spirituality"
         },
         {
           "intent": "arts_literature_music",
           "sources": [
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11425,11 +9112,6 @@
           "intent": "clothing_fashion_jewelry",
           "sources": [
             {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11438,43 +9120,14 @@
           ]
         },
         {
-          "intent": "family_kinship_gender",
-          "sources": [
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "family_kinship_gender"
         },
         {
-          "intent": "national_symbols_emblems",
-          "sources": [
-            {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "cgie.org.ir",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "national_symbols_emblems"
         },
         {
           "intent": "education_knowledge_systems",
           "sources": [
-            {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11487,16 +9140,6 @@
           "intent": "natural_heritage_environment",
           "sources": [
             {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11505,28 +9148,11 @@
           ]
         },
         {
-          "intent": "values_philosophy_worldview",
-          "sources": [
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "cgie.org.ir",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "values_philosophy_worldview"
         },
         {
           "intent": "law_justice_humanrights",
           "sources": [
-            {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11539,11 +9165,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11552,28 +9173,11 @@
           ]
         },
         {
-          "intent": "health_traditional_medicine",
-          "sources": [
-            {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "mcth.ir",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "health_traditional_medicine"
         },
         {
           "intent": "architecture_urban_planning",
           "sources": [
-            {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11586,11 +9190,6 @@
           "intent": "military_defense_security",
           "sources": [
             {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11601,11 +9200,6 @@
         {
           "intent": "infrastructure_transportation",
           "sources": [
-            {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11618,11 +9212,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11633,11 +9222,6 @@
         {
           "intent": "others",
           "sources": [
-            {
-              "url": "irangov.ir",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -11676,22 +9260,12 @@
               "url": "heritage.gov.my",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "malaysia.travel",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "geography_places",
           "sources": [
-            {
-              "url": "malaysia.travel",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "malaysia.gov.my",
               "type": "local_authority",
@@ -11708,11 +9282,6 @@
               "trust": "high"
             },
             {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -11725,11 +9294,6 @@
           "sources": [
             {
               "url": "heritage.gov.my",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "malaysia.travel",
               "type": "local_authority",
               "trust": "high"
             }
@@ -11758,11 +9322,6 @@
               "url": "heritage.gov.my",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "pnm.gov.my",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -11771,11 +9330,6 @@
           "sources": [
             {
               "url": "heritage.gov.my",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "pnm.gov.my",
               "type": "local_authority",
               "trust": "high"
             }
@@ -11856,11 +9410,6 @@
               "url": "heritage.gov.my",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "pnm.gov.my",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -11918,11 +9467,6 @@
               "url": "malaysia.gov.my",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "pnm.gov.my",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
@@ -11932,11 +9476,6 @@
             {
               "url": "malaysia.gov.my",
               "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
               "trust": "high"
             },
             {
@@ -11984,11 +9523,6 @@
           "sources": [
             {
               "url": "malaysia.gov.my",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "pnm.gov.my",
               "type": "local_authority",
               "trust": "high"
             }
@@ -12077,11 +9611,6 @@
           "intent": "others",
           "sources": [
             {
-              "url": "pnm.gov.my",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "malaysia.gov.my",
               "type": "local_authority",
               "trust": "high"
@@ -12118,22 +9647,12 @@
               "url": "nationalmuseum.se",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "visitsweden.com",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "geography_places",
           "sources": [
-            {
-              "url": "visitsweden.com",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "regeringen.se",
               "type": "local_authority",
@@ -12161,11 +9680,6 @@
           "sources": [
             {
               "url": "nationalmuseum.se",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "visitsweden.com",
               "type": "local_authority",
               "trust": "high"
             }
@@ -12534,11 +10048,6 @@
           "intent": "government_politics",
           "sources": [
             {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12549,11 +10058,6 @@
         {
           "intent": "holidays_festivals",
           "sources": [
-            {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "ecuador.travel",
               "type": "local_authority",
@@ -12568,27 +10072,12 @@
               "url": "ecuador.travel",
               "type": "local_authority",
               "trust": "high"
-            },
-            {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
             }
           ]
         },
         {
           "intent": "culture_landmarks",
           "sources": [
-            {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -12601,11 +10090,6 @@
           "intent": "food_drink",
           "sources": [
             {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "ecuador.travel",
               "type": "local_authority",
               "trust": "high"
@@ -12615,11 +10099,6 @@
         {
           "intent": "sports",
           "sources": [
-            {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -12632,11 +10111,6 @@
           "intent": "history_identity",
           "sources": [
             {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12647,11 +10121,6 @@
         {
           "intent": "language_writing",
           "sources": [
-            {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -12664,11 +10133,6 @@
           "intent": "economy_currency_symbols",
           "sources": [
             {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12677,28 +10141,11 @@
           ]
         },
         {
-          "intent": "media_popculture",
-          "sources": [
-            {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "media_popculture"
         },
         {
           "intent": "social_norms_etiquette",
           "sources": [
-            {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "culturalatlas.sbs.com.au",
               "type": "culture_guide",
@@ -12716,11 +10163,6 @@
           "intent": "religion_spirituality",
           "sources": [
             {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12731,11 +10173,6 @@
         {
           "intent": "arts_literature_music",
           "sources": [
-            {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -12748,11 +10185,6 @@
           "intent": "clothing_fashion_jewelry",
           "sources": [
             {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12761,28 +10193,11 @@
           ]
         },
         {
-          "intent": "family_kinship_gender",
-          "sources": [
-            {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "family_kinship_gender"
         },
         {
           "intent": "national_symbols_emblems",
           "sources": [
-            {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -12795,11 +10210,6 @@
           "intent": "education_knowledge_systems",
           "sources": [
             {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12810,16 +10220,6 @@
         {
           "intent": "natural_heritage_environment",
           "sources": [
-            {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "whc.unesco.org",
-              "type": "heritage_db",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -12832,11 +10232,6 @@
           "intent": "values_philosophy_worldview",
           "sources": [
             {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12847,11 +10242,6 @@
         {
           "intent": "law_justice_humanrights",
           "sources": [
-            {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -12864,11 +10254,6 @@
           "intent": "science_tech_innovation",
           "sources": [
             {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12877,28 +10262,11 @@
           ]
         },
         {
-          "intent": "health_traditional_medicine",
-          "sources": [
-            {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
-              "url": "culturaypatrimonio.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            }
-          ]
+          "intent": "health_traditional_medicine"
         },
         {
           "intent": "architecture_urban_planning",
           "sources": [
-            {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -12911,11 +10279,6 @@
           "intent": "military_defense_security",
           "sources": [
             {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12926,11 +10289,6 @@
         {
           "intent": "infrastructure_transportation",
           "sources": [
-            {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
             {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
@@ -12943,11 +10301,6 @@
           "intent": "demographics_social_classes",
           "sources": [
             {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12959,11 +10312,6 @@
           "intent": "others",
           "sources": [
             {
-              "url": "presidencia.gob.ec",
-              "type": "local_authority",
-              "trust": "high"
-            },
-            {
               "url": "en.wikipedia.org",
               "type": "general_encyclopedia",
               "trust": "high",
@@ -12973,53 +10321,5 @@
         }
       ]
     }
-  },
-  "global_fallback_sources": {
-    "description": "Use these when country-specific and intent-specific sources are exhausted",
-    "sources": [
-      {
-        "url": "everyculture.com",
-        "type": "culture_encyclopedia",
-        "trust": "mid",
-        "note": "Anthropology-focused essays; weddings, gender roles, food, myths, daily life (verify in high-trust sources)"
-      },
-      {
-        "url": "culturalatlas.sbs.com.au",
-        "type": "culture_guide",
-        "trust": "mid",
-        "note": "Cross-cultural comparison framework; etiquette, do's and don'ts, business protocol"
-      },
-      {
-        "url": "commisceo-global.com",
-        "type": "etiquette_guide",
-        "trust": "mid",
-        "note": "Business/formal context; naming conventions, gift giving, communication styles"
-      },
-      {
-        "url": "en.wikipedia.org",
-        "type": "general_encyclopedia",
-        "trust": "high",
-        "note": "Ultimate fallback; widest coverage for any country/topic"
-      },
-      {
-        "url": "www.wikidata.org",
-        "type": "structured_kb",
-        "trust": "high",
-        "note": "Machine-readable structured facts for any entity"
-      }
-    ]
-  },
-  "retrieval_strategy": {
-    "step_1_country_intent": "Extract country code and detected intent from question",
-    "step_2_country_priority": "Look up country-specific sources in country_specific_sources[country_code][intent]",
-    "step_3_global_priority": "If country not found, use global_intent_sources[intent][primary]",
-    "step_4_fallback": "If primary sources return <2 chunks, try global_intent_sources[intent][fallback]",
-    "step_5_global_fallback": "If all above exhausted, use global_fallback_sources in order of trust level",
-    "weighting": {
-      "trust_high": 1.0,
-      "trust_mid": 0.6,
-      "trust_low": 0.3
-    },
-    "filtering": "Remove answer-key lines from text before indexing; discard any chunk containing exact MCQ option text (A/B/C/D)"
   }
 }
