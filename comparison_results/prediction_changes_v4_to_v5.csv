@@ -1,0 +1,9 @@
+id,question,v4_pred,v5_pred,correct,v4_correct,v5_correct
+ar-SA_086,On what day does Saudi Arabia celebrate the Saudi Foundation,D,A,A,False,True
+ar-SA_084,Which region of Saudi Arabia is famous for growing mangoes d,A,B,D,False,False
+ar-SA_089,In which city is the historic Masmak Palace located?,A,B,B,False,True
+ar-SA_088,Who is the best Saudi player currently at Al-Hilal Saudi Clu,D,A,B,False,False
+ko-KR_056,Which is NOT a traditional Korean play?,B,C,B,True,False
+tl-PH_132,Which month is the Language Month usually held in the Philip,B,C,C,False,True
+ko-KR_058,What food is famous as something eaten on moving day in Kore,A,D,B,False,False
+es-MX_049,What is the most typical street food in the country?,D,B,C,False,False

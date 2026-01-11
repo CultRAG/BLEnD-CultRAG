@@ -16,11 +16,11 @@ from datetime import datetime
 BASE_DIR = Path(r"C:\Users\LawLight\OneDrive\Desktop\semevals")
 OUTPUT_DIR = BASE_DIR / 'comparison_results'
 
-VERSIONS = ['v2', 'v3', 'v4']
+VERSIONS = ['v3', 'v4', 'v5']
 OUTPUT_DIRS = {
-    'v2': BASE_DIR / 'output-with-v2' / 'kaggle' / 'working',
     'v3': BASE_DIR / 'output-with-v3' / 'kaggle' / 'working',
-    'v4': BASE_DIR / 'output-with-v4' / 'kaggle' / 'working'
+    'v4': BASE_DIR / 'output-with-v4' / 'kaggle' / 'working',
+    'v5': BASE_DIR / 'output-with-v5' / 'kaggle' / 'working'
 }
 
 FILES_TO_COMPARE = [
@@ -117,15 +117,19 @@ def compare_by_country():
             mean_acc = merged[acc_col].mean()
             print(f"   {version.upper()} - Mean Accuracy: {mean_acc:.2f}%")
     
-    if 'improvement_v2_to_v4' in merged.columns:
-        avg_improvement = merged['improvement_v2_to_v4'].mean()
-        print(f"\n   📊 Average Improvement (v2→v4): {avg_improvement:.2f}%")
+    if 'improvement_v3_to_v5' in merged.columns:
+        avg_improvement = merged['improvement_v3_to_v5'].mean()
+        print(f"\n   📊 Average Improvement (v3→v5): {avg_improvement:.2f}%")
         
         # Best improvements
         print(f"\n   🏆 Top 5 Improved Countries:")
-        top_improved = merged.nlargest(5, 'improvement_v2_to_v4')[['country', 'improvement_v2_to_v4', 'accuracy_v2', 'accuracy_v4']]
+        top_improved = merged.nlargest(5, 'improvement_v3_to_v5')[['country', 'improvement_v3_to_v5', 'accuracy_v3', 'accuracy_v5']]
         for _, row in top_improved.iterrows():
-            print(f"      {row['country']}: {row['accuracy_v2']:.1f}% → {row['accuracy_v4']:.1f}% (+{row['improvement_v2_to_v4']:.1f}%)")
+            print(f"      {row['country']}: {row['accuracy_v3']:.1f}% → {row['accuracy_v5']:.1f}% (+{row['improvement_v3_to_v5']:.1f}%)")
+    
+    if 'improvement_v4_to_v5' in merged.columns:
+        avg_improvement_v4_v5 = merged['improvement_v4_to_v5'].mean()
+        print(f"\n   📊 Average Improvement (v4→v5): {avg_improvement_v4_v5:.2f}%")
 
 def compare_by_intent():
     """Compare error analysis by intent across versions"""
@@ -167,8 +171,10 @@ def compare_by_intent():
     merged = merged.sort_values('intent')
     
     # Calculate improvements
-    if 'v2' in dataframes and 'v4' in dataframes:
-        merged['improvement_v2_to_v4'] = merged['accuracy_v4'] - merged['accuracy_v2']
+    if 'v3' in dataframes and 'v5' in dataframes:
+        merged['improvement_v3_to_v5'] = merged['accuracy_v5'] - merged['accuracy_v3']
+    if 'v4' in dataframes and 'v5' in dataframes:
+        merged['improvement_v4_to_v5'] = merged['accuracy_v5'] - merged['accuracy_v4']
     
     print("\n📊 Intent-wise Comparison:\n")
     print(merged.to_string(index=False))
@@ -186,15 +192,19 @@ def compare_by_intent():
             mean_acc = merged[acc_col].mean()
             print(f"   {version.upper()} - Mean Accuracy: {mean_acc:.2f}%")
     
-    if 'improvement_v2_to_v4' in merged.columns:
-        avg_improvement = merged['improvement_v2_to_v4'].mean()
-        print(f"\n   📊 Average Improvement (v2→v4): {avg_improvement:.2f}%")
+    if 'improvement_v3_to_v5' in merged.columns:
+        avg_improvement = merged['improvement_v3_to_v5'].mean()
+        print(f"\n   📊 Average Improvement (v3→v5): {avg_improvement:.2f}%")
         
         # Best improvements
         print(f"\n   🏆 Top 5 Improved Intents:")
-        top_improved = merged.nlargest(5, 'improvement_v2_to_v4')[['intent', 'improvement_v2_to_v4', 'accuracy_v2', 'accuracy_v4']]
+        top_improved = merged.nlargest(5, 'improvement_v3_to_v5')[['intent', 'improvement_v3_to_v5', 'accuracy_v3', 'accuracy_v5']]
         for _, row in top_improved.iterrows():
-            print(f"      {row['intent']}: {row['accuracy_v2']:.1f}% → {row['accuracy_v4']:.1f}% (+{row['improvement_v2_to_v4']:.1f}%)")
+            print(f"      {row['intent']}: {row['accuracy_v3']:.1f}% → {row['accuracy_v5']:.1f}% (+{row['improvement_v3_to_v5']:.1f}%)")
+    
+    if 'improvement_v4_to_v5' in merged.columns:
+        avg_improvement_v4_v5 = merged['improvement_v4_to_v5'].mean()
+        print(f"\n   📊 Average Improvement (v4→v5): {avg_improvement_v4_v5:.2f}%")
 
 def compare_error_cases():
     """Compare detailed error cases across versions"""
@@ -230,19 +240,34 @@ def compare_error_cases():
         print(f"\n🔴 Common Errors (all versions): {len(common_errors)}")
         
         # Find errors fixed in later versions
-        if 'v2' in dataframes and 'v4' in dataframes:
-            v2_errors = set(dataframes['v2']['id'])
-            v4_errors = set(dataframes['v4']['id'])
-            fixed_errors = v2_errors - v4_errors
-            new_errors = v4_errors - v2_errors
+        if 'v3' in dataframes and 'v5' in dataframes:
+            v3_errors = set(dataframes['v3']['id'])
+            v5_errors = set(dataframes['v5']['id'])
+            fixed_errors = v3_errors - v5_errors
+            new_errors = v5_errors - v3_errors
             
-            print(f"\n✅ Errors Fixed (v2→v4): {len(fixed_errors)}")
+            print(f"\n✅ Errors Fixed (v3→v5): {len(fixed_errors)}")
             if len(fixed_errors) > 0:
                 print(f"   Sample fixed IDs: {list(fixed_errors)[:10]}")
             
-            print(f"\n❌ New Errors (v2→v4): {len(new_errors)}")
+            print(f"\n❌ New Errors (v3→v5): {len(new_errors)}")
             if len(new_errors) > 0:
                 print(f"   Sample new error IDs: {list(new_errors)[:10]}")
+        
+        # Also compare v4 to v5
+        if 'v4' in dataframes and 'v5' in dataframes:
+            v4_errors = set(dataframes['v4']['id'])
+            v5_errors = set(dataframes['v5']['id'])
+            fixed_errors_v4_v5 = v4_errors - v5_errors
+            new_errors_v4_v5 = v5_errors - v4_errors
+            
+            print(f"\n✅ Errors Fixed (v4→v5): {len(fixed_errors_v4_v5)}")
+            if len(fixed_errors_v4_v5) > 0:
+                print(f"   Sample fixed IDs: {list(fixed_errors_v4_v5)[:10]}")
+            
+            print(f"\n❌ New Errors (v4→v5): {len(new_errors_v4_v5)}")
+            if len(new_errors_v4_v5) > 0:
+                print(f"   Sample new error IDs: {list(new_errors_v4_v5)[:10]}")
         
         # Save common errors
         if common_errors:
@@ -272,8 +297,8 @@ def compare_json_reports():
     
     # Compare overall metrics
     print("\n📊 Overall Performance Metrics:\n")
-    print(f"{'Metric':<40} {'v2':>10} {'v3':>10} {'v4':>10} {'Δ(v2→v4)':>12}")
-    print("-" * 85)
+    print(f"{'Metric':<40} {'v3':>10} {'v4':>10} {'v5':>10} {'Δ(v3→v5)':>12} {'Δ(v4→v5)':>12}")
+    print("-" * 100)
     
     metrics_to_compare = [
         ('total_questions', 'Total Questions'),
@@ -289,24 +314,30 @@ def compare_json_reports():
                 if key in reports[version]:
                     values[version] = reports[version][key]
         
-        if 'v2' in values and 'v4' in values:
-            delta = values['v4'] - values['v2']
-            delta_str = f"+{delta:.2f}" if delta >= 0 else f"{delta:.2f}"
+        if 'v3' in values and 'v5' in values:
+            delta_v3_v5 = values['v5'] - values['v3']
+            delta_v3_v5_str = f"+{delta_v3_v5:.2f}" if delta_v3_v5 >= 0 else f"{delta_v3_v5:.2f}"
         else:
-            delta_str = "N/A"
+            delta_v3_v5_str = "N/A"
         
-        v2_str = f"{values.get('v2', 'N/A')}" if isinstance(values.get('v2'), (int, float)) else 'N/A'
+        if 'v4' in values and 'v5' in values:
+            delta_v4_v5 = values['v5'] - values['v4']
+            delta_v4_v5_str = f"+{delta_v4_v5:.2f}" if delta_v4_v5 >= 0 else f"{delta_v4_v5:.2f}"
+        else:
+            delta_v4_v5_str = "N/A"
+        
         v3_str = f"{values.get('v3', 'N/A')}" if isinstance(values.get('v3'), (int, float)) else 'N/A'
         v4_str = f"{values.get('v4', 'N/A')}" if isinstance(values.get('v4'), (int, float)) else 'N/A'
+        v5_str = f"{values.get('v5', 'N/A')}" if isinstance(values.get('v5'), (int, float)) else 'N/A'
         
-        print(f"{label:<40} {v2_str:>10} {v3_str:>10} {v4_str:>10} {delta_str:>12}")
+        print(f"{label:<40} {v3_str:>10} {v4_str:>10} {v5_str:>10} {delta_v3_v5_str:>12} {delta_v4_v5_str:>12}")
     
     # Compare by country breakdown if available
     if all('by_country' in reports[v] for v in reports):
         print("\n📍 By Country Performance:")
-        print(f"   v2: {len(reports['v2']['by_country'])} countries")
         print(f"   v3: {len(reports['v3']['by_country'])} countries")
         print(f"   v4: {len(reports['v4']['by_country'])} countries")
+        print(f"   v5: {len(reports['v5']['by_country'])} countries")
     
     # Save combined report
     combined_report = {
@@ -433,6 +464,78 @@ def compare_predictions():
                 output_file = OUTPUT_DIR / 'predictions_degraded_v3_to_v4.csv'
                 degraded_df.to_csv(output_file, index=False)
                 print(f"   💾 Degradations saved to: {output_file}")
+        
+        # Also compare v4 vs v5
+        if 'v4' in dataframes and 'v5' in dataframes:
+            print(f"\n   Analyzing changes between v4 and v5...")
+            
+            # Get common question IDs
+            v4_ids = set(dataframes['v4']['id'])
+            v5_ids = set(dataframes['v5']['id'])
+            common_ids = v4_ids & v5_ids
+            
+            print(f"   Common questions between v4 and v5: {len(common_ids)}")
+            
+            changes = []
+            improved = []
+            degraded = []
+            
+            for qid in common_ids:
+                v4_row = dataframes['v4'][dataframes['v4']['id'] == qid].iloc[0]
+                v5_row = dataframes['v5'][dataframes['v5']['id'] == qid].iloc[0]
+                
+                # Find prediction columns
+                pred_cols = [c for c in v4_row.index if 'phase6_full_system' in c.lower() or c == 'phase6_full_system']
+                if not pred_cols:
+                    pred_cols = [c for c in v4_row.index if 'full_system' in c.lower()]
+                
+                if pred_cols:
+                    pred_col = pred_cols[0]
+                    correct_ans = v4_row['correct_answer']
+                    v4_pred = v4_row[pred_col]
+                    v5_pred = v5_row[pred_col]
+                    
+                    v4_correct = (v4_pred == correct_ans)
+                    v5_correct = (v5_pred == correct_ans)
+                    
+                    if v4_pred != v5_pred:
+                        change_info = {
+                            'id': qid,
+                            'question': v4_row.get('question', '')[:60],
+                            'v4_pred': v4_pred,
+                            'v5_pred': v5_pred,
+                            'correct': correct_ans,
+                            'v4_correct': v4_correct,
+                            'v5_correct': v5_correct
+                        }
+                        changes.append(change_info)
+                        
+                        if not v4_correct and v5_correct:
+                            improved.append(change_info)
+                        elif v4_correct and not v5_correct:
+                            degraded.append(change_info)
+            
+            print(f"\n   Predictions Changed (v4→v5): {len(changes)}")
+            print(f"   ✅ Improved (v4 wrong → v5 correct): {len(improved)}")
+            print(f"   ❌ Degraded (v4 correct → v5 wrong): {len(degraded)}")
+            
+            if changes:
+                changes_df = pd.DataFrame(changes)
+                output_file = OUTPUT_DIR / 'prediction_changes_v4_to_v5.csv'
+                changes_df.to_csv(output_file, index=False)
+                print(f"   💾 All changes saved to: {output_file}")
+                
+            if improved:
+                improved_df = pd.DataFrame(improved)
+                output_file = OUTPUT_DIR / 'predictions_improved_v4_to_v5.csv'
+                improved_df.to_csv(output_file, index=False)
+                print(f"   💾 Improvements saved to: {output_file}")
+                
+            if degraded:
+                degraded_df = pd.DataFrame(degraded)
+                output_file = OUTPUT_DIR / 'predictions_degraded_v4_to_v5.csv'
+                degraded_df.to_csv(output_file, index=False)
+                print(f"   💾 Degradations saved to: {output_file}")
 
 # ============================================================================
 # Main Execution
@@ -470,8 +573,11 @@ def main():
     print("   - common_errors_all_versions.csv")
     print("   - combined_error_analysis_report.json")
     print("   - prediction_changes_v3_to_v4.csv (if applicable)")
+    print("   - prediction_changes_v4_to_v5.csv (if applicable)")
     print("   - predictions_improved_v3_to_v4.csv (if applicable)")
+    print("   - predictions_improved_v4_to_v5.csv (if applicable)")
     print("   - predictions_degraded_v3_to_v4.csv (if applicable)")
+    print("   - predictions_degraded_v4_to_v5.csv (if applicable)")
     print("\n")
 
 if __name__ == "__main__":

@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "total_questions": 148,
+    "correct": 122,
+    "errors": 26,
+    "accuracy": 82.43243243243244
+  },
+  "category_breakdown": {
+    "retrieval_failure": {
+      "name": "Retrieval Failure",
+      "count": 1,
+      "percentage": 3.8461538461538463,
+      "description": "Relevant context not retrieved"
+    },
+    "reasoning_failure": {
+      "name": "Reasoning Failure",
+      "count": 1,
+      "percentage": 3.8461538461538463,
+      "description": "Context contains answer, LLM misinterprets"
+    },
+    "knowledge_gap": {
+      "name": "Knowledge Gap",
+      "count": 19,
+      "percentage": 73.07692307692307,
+      "description": "Information missing from KB"
+    },
+    "data_quality": {
+      "name": "Data Quality",
+      "count": 5,
+      "percentage": 19.230769230769234,
+      "description": "Ground truth or source issues"
+    },
+    "ambiguous": {
+      "name": "Ambiguous Question",
+      "count": 0,
+      "percentage": 0.0,
+      "description": "Multiple valid interpretations"
+    }
+  },
+  "sample_cases": {
+    "retrieval_failure": [
+      {
+        "id": "eu-ES_100",
+        "question": "What is the most followed sport in the Basque Country?",
+        "predicted": "A",
+        "correct": "B",
+        "country": "ES",
+        "evidence": [
+          "No substantial context retrieved"
+        ],
+        "suggestions": [
+          "Check if entity pages exist in KB",
+          "Consider expanding scraper coverage"
+        ],
+        "retrieved_sources": []
+      }
+    ],
+    "reasoning_failure": [
+      {
+        "id": "ar-SA_084",
+        "question": "Which region of Saudi Arabia is famous for growing mangoes during the summer?",
+        "predicted": "B",
+        "correct": "D",
+        "country": "SA",
+        "evidence": [
+          "Correct answer 'Jizan...' found in retrieved context"
+        ],
+        "suggestions": [
+          "Consider: Better prompting, few-shot examples, or CoT reasoning"
+        ],
+        "retrieved_sources": [
+          "bbc.co.uk",
+          "bbc.co.uk",
+          "bbc.co.uk"
+        ]
+      }
+    ],
+    "knowledge_gap": [
+      {
+        "id": "zh-CN_039",
+        "question": "Which river is China's \"Mother River\"?",
+        "predicted": "A",
+        "correct": "B",
+        "country": "CN",
+        "evidence": [
+          "Sparse coverage: Only 0 chunks for CN"
+        ],
+        "suggestions": [
+          "Add more entity pages for CN"
+        ],
+        "retrieved_sources": [
+          "philippines.travel",
+          "philippines.travel",
+          "philippines.travel"
+        ]
+      },
+      {
+        "id": "es-MX_049",
+        "question": "What is the most typical street food in the country?",
+        "predicted": "B",
+        "correct": "C",
+        "country": "MX",
+        "evidence": [
+          "Sparse coverage: Only 6 chunks for MX"
+        ],
+        "suggestions": [
+          "Add more entity pages for MX"
+        ],
+        "retrieved_sources": [
+          "bbc.co.uk",
+          "bbc.co.uk",
+          "bbc.co.uk"
+        ]
+      },
+      {
+        "id": "ko-KR_056",
+        "question": "Which is NOT a traditional Korean play?",
+        "predicted": "C",
+        "correct": "B",
+        "country": "KR",
+        "evidence": [
+          "Sparse coverage: Only 0 chunks for KR"
+        ],
+        "suggestions": [
+          "Add more entity pages for KR"
+        ],
+        "retrieved_sources": [
+          "crokepark.ie",
+          "crokepark.ie",
+          "crokepark.ie"
+        ]
+      }
+    ],
+    "data_quality": [
+      {
+        "id": "es-EC_023",
+        "question": "How many provinces does Ecuador have?",
+        "predicted": "B",
+        "correct": "C",
+        "country": "EC",
+        "evidence": [
+          "Context retrieved but answer unclear"
+        ],
+        "suggestions": [
+          "Manual review needed: possible ground truth error or conflicting sources"
+        ],
+        "retrieved_sources": [
+          "ecuador.travel",
+          "ecuador.travel",
+          "ecuador.travel"
+        ]
+      },
+      {
+        "id": "es-EC_025",
+        "question": "What name does Ecuador receive for its geographic and cultural diversity?",
+        "predicted": "C",
+        "correct": "B",
+        "country": "EC",
+        "evidence": [
+          "Context retrieved but answer unclear"
+        ],
+        "suggestions": [
+          "Manual review needed: possible ground truth error or conflicting sources"
+        ],
+        "retrieved_sources": [
+          "bbc.co.uk",
+          "bbc.co.uk",
+          "bbc.co.uk"
+        ]
+      },
+      {
+        "id": "es-EC_026",
+        "question": "What is Ecuador's official currency since the year 2000?",
+        "predicted": "B",
+        "correct": "C",
+        "country": "EC",
+        "evidence": [
+          "Context retrieved but answer unclear"
+        ],
+        "suggestions": [
+          "Manual review needed: possible ground truth error or conflicting sources"
+        ],
+        "retrieved_sources": [
+          "bbc.co.uk",
+          "bbc.co.uk",
+          "bbc.co.uk"
+        ]
+      }
+    ],
+    "ambiguous": []
+  }
+}
