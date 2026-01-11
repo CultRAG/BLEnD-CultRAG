@@ -1,0 +1,29 @@
+id,question,predicted,correct,country,category,evidence,suggestions
+es-EC_022,Which is the most populated city in Ecuador?,A,C,EC,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+es-EC_023,How many provinces does Ecuador have?,B,C,EC,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+es-EC_025,What name does Ecuador receive for its geographic and cultural diversity?,C,B,EC,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+es-EC_026,What is Ecuador's official currency since the year 2000?,B,C,EC,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+es-EC_029,Which Ecuadorian athlete won the first gold medal for the country at the Olympics?,B,A,EC,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+zh-CN_039,"Which river is China's ""Mother River""?",A,B,CN,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+es-MX_049,What is the most typical street food in the country?,B,C,MX,knowledge_gap,Sparse coverage: Only 6 chunks for MX,Add more entity pages for MX
+ko-KR_058,What food is famous as something eaten on moving day in Korea?,A,B,KR,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+ko-KR_059,What area of Korea do people studying for the civil service exam mainly live?,D,C,KR,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+el-GR_063,Who wrote the national anthem (Hymn to Liberty)?,C,B,GR,knowledge_gap,Sparse coverage: Only 0 chunks for GR,Add more entity pages for GR
+fa-IR_067,What colors are in the Iranian flag?,A,D,IR,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+ar-EG_074,On what day of October did Egypt enter the most famous war in its modern history?,D,C,EG,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+ar-SA_084,Which region of Saudi Arabia is famous for growing mangoes during the summer?,B,D,SA,reasoning_failure,Correct answer 'Jizan...' found in retrieved context,"Consider: Better prompting, few-shot examples, or CoT reasoning"
+ar-SA_085,"Who is the artist known as the ""Artist of the Arabs"" in Saudi Arabia?",C,B,SA,knowledge_gap,Question asks about recent/current information,Wikipedia may be outdated for current events
+ar-SA_086,On what day does Saudi Arabia celebrate the Saudi Foundation Day (Saudi Founding Day)?,D,A,SA,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+ar-SA_088,Who is the best Saudi player currently at Al-Hilal Saudi Club?,A,B,SA,knowledge_gap,Question asks about recent/current information,Wikipedia may be outdated for current events
+eu-ES_100,What is the most followed sport in the Basque Country?,A,B,ES,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+eu-ES_104,What is the most well-known newspaper written in the local language in the Basque Country?,A,B,ES,knowledge_gap,Question asks about recent/current information,Wikipedia may be outdated for current events
+fr-FR_105,What will I do with this lark?,D,A,FR,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+fr-FR_108,What do ducks do first when coming out of the water?,B,C,FR,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+fr-FR_110,"That year, I sang...",A,C,FR,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+fr-FR_111,What cheese is most often eaten hot with a salad?,A,C,FR,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+fr-FR_112,What fruit changes its name when dried?,D,C,FR,data_quality,Context retrieved but answer unclear,Manual review needed: possible ground truth error or conflicting sources
+ta-LK_121,What is the tallest building in Sri Lanka?,B,A,LK,knowledge_gap,Sparse coverage: Only 0 chunks for LK,Add more entity pages for LK
+ta-LK_124,Which animal appears on Sri Lanka's national flag?,D,A,LK,knowledge_gap,Sparse coverage: Only 0 chunks for LK,Add more entity pages for LK
+bg-BG_136,What is Bulgaria's national holiday?,C,A,BG,knowledge_gap,Sparse coverage: Only 6 chunks for BG,Add more entity pages for BG
+bg-BG_138,"Which Bulgarian revolutionary is known as the ""Apostle of Freedom""?",D,A,BG,knowledge_gap,Sparse coverage: Only 6 chunks for BG,Add more entity pages for BG
+bg-BG_140,"Who is the author of the novel ""Under the Yoke""?",A,C,BG,knowledge_gap,Sparse coverage: Only 6 chunks for BG,Add more entity pages for BG

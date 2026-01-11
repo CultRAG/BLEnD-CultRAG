@@ -1,0 +1,4 @@
+id,question,correct,baseline,rag_basic,full_system,option_A,option_B,option_C,option_D,baseline_correct,rag_correct,full_correct
+el-GR_062,What do we celebrate on October 28?,D,B,D,D,Independence Day,Feast of Saint Demetrius,Polytechnic Anniversary,"Anniversary of ""No""",False,True,True
+ar-EG_076,What are the names of the two seas that Egypt overlooks?,A,C,A,A,The White and the Red,The White and the Yellow,The Yellow and the Red,The Yellow and the Green,False,True,True
+fr-FR_111,What cheese is most often eaten hot with a salad?,C,D,C,A,Camembert,Reblochon,Chèvre,Roquefort,False,True,False

@@ -23,12 +23,16 @@ def convert_to_onehot(input_file, output_file=None):
     with open(input_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
     
-    # Process and convert
+    # Start with header row
     output_lines = ["id\tA\tB\tC\tD\n"]
     
     for line in lines:
         line = line.strip()
         if not line:
+            continue
+        
+        # Skip header row if present
+        if line.startswith('id') or line.startswith('ID'):
             continue
             
         parts = line.split('\t')
@@ -36,8 +40,17 @@ def convert_to_onehot(input_file, output_file=None):
             print(f"Warning: Skipping malformed line: {line}")
             continue
         
-        question_id = parts[0]
-        prediction = parts[1].strip().upper() if len(parts) > 1 else ''
+        # Extract ONLY id (first column, before any comma)
+        question_id = parts[0].split(',')[0] if ',' in parts[0] else parts[0]
+        
+        # Extract prediction (second column, or first char after comma in first column)
+        if len(parts) > 1:
+            prediction = parts[1].strip().upper()
+        elif ',' in parts[0]:
+            # If commas in first column like "ms-SG_001,C,C,True"
+            prediction = parts[0].split(',')[1].strip().upper()
+        else:
+            prediction = ''
         
         # Default empty predictions to 'A'
         if not prediction:
@@ -49,6 +62,7 @@ def convert_to_onehot(input_file, output_file=None):
         c = '1' if prediction == 'C' else '0'
         d = '1' if prediction == 'D' else '0'
         
+        # Output ONLY: id, A, B, C, D (no other columns from input)
         output_lines.append(f"{question_id}\t{a}\t{b}\t{c}\t{d}\n")
     
     # Write output file
@@ -62,18 +76,16 @@ def convert_to_onehot(input_file, output_file=None):
     return output_file
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python convert_to_onehot.py <input_file> [output_file]")
-        print("\nExample:")
-        print("  python convert_to_onehot.py predictions_rag_rrf_k3.tsv")
-        print("  python convert_to_onehot.py predictions_rag_rrf_k3.tsv output.tsv")
-        sys.exit(1)
-    
-    input_file = sys.argv[1]
-    output_file = sys.argv[2] if len(sys.argv) > 2 else None
+    # ═══════════════════════════════════════════════════════════════
+    # CONFIGURE INPUT FILE HERE
+    # ═══════════════════════════════════════════════════════════════
+    input_file = "predictions_phase6_full_system.csv"  # Change this to your input file
+    output_file = "track_2_mcq_prediction.tsv"  # Output filename
+    # ═══════════════════════════════════════════════════════════════
     
     if not os.path.exists(input_file):
         print(f"❌ Error: File not found: {input_file}")
+        print(f"   Please update the input_file path in the script")
         sys.exit(1)
     
     convert_to_onehot(input_file, output_file)

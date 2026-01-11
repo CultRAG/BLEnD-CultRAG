@@ -1,0 +1,2702 @@
+[
+  {
+    "text": "Cairo Conspiracy. Watch NowCairo ConspiracyA fisherman's son becomes a pawn in the conflict between religious and political elites.SiteiPlayerSectionBBC FourWatch Now",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Cairo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "A fisherman's son becomes a pawn in the conflict between religious and political elites.",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Cairo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Blue plaque in Blackpool honours legendary clown Charlie CairoliHis adopted hometown of Blackpool honours the late entertainer, who moved to the resort from Italy.Published3 November 2025SiteNews",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Cairo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "NFL: Seattle Seahawks beat San Francisco 49ers to claim top spot in NFCThe Seattle Seahawks beat the San Francisco 49ers 13-3 to secure the NFC West title and top spot in the NFC.Published6 days agoSiteSport",
+    "country": "MX",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Francisco I. Madero",
+    "type": "intent_aware"
+  },
+  {
+    "text": "NFL: Seattle Seahawks beat San Francisco 49ers to claim top spot in NFC",
+    "country": "MX",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Francisco I. Madero",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Seattle Seahawks beat the San Francisco 49ers 13-3 to secure the NFC West title and top spot in the NFC.",
+    "country": "MX",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Francisco I. Madero",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Israelis mark 7 October anniversary as talks on Gaza peace plan continue\"The horror of that dark day will be forever seared in the memories of us all,\" UN Secretary General António Guterres says.Published7 October 2025SiteNews",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Khan El-Khalili New Cairo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Israelis mark 7 October anniversary as talks on Gaza peace plan continue",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Khan El-Khalili New Cairo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "\"The horror of that dark day will be forever seared in the memories of us all,\" UN Secretary General António Guterres says.",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Khan El-Khalili New Cairo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Nuno Espirito Santo press conference: West Ham vs QPRPublished1 day agoSiteSport",
+    "country": "MX",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Nunó Benito",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Nuno Espirito Santo press conference: West Ham vs QPR",
+    "country": "MX",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Nunó Benito",
+    "type": "intent_aware"
+  },
+  {
+    "text": "West Ham news: Fan views on Nuno Espirito Santo futurePublished3 days agoSiteSport",
+    "country": "MX",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Nunó Benito",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Egyptian Journeys with Dan Cruickshank. Watch NowEgyptian Journeys with Dan CruickshankDan Cruickshank explores some of the most intriguing stories from Ancient EgyptSiteiPlayerSectionBBC TwoWatch Now",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Egypt",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Egyptian Journeys with Dan Cruickshank. Watch NowEgyptian Journeys with Dan Cruickshank",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Egypt",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Dan Cruickshank explores some of the most intriguing stories from Ancient Egypt",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Egypt",
+    "type": "intent_aware"
+  },
+  {
+    "text": "FA Cup: Why is there no VAR in the third and fourth rounds?Our Ask Me Anything team explain why VAR is not in use in the third and fourth rounds of the FA Cup.Published1 day agoSiteSport",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Third Fourth Fifth",
+    "type": "intent_aware"
+  },
+  {
+    "text": "FA Cup: Why is there no VAR in the third and fourth rounds?",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Third Fourth Fifth",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our Ask Me Anything team explain why VAR is not in use in the third and fourth rounds of the FA Cup.",
+    "country": "EG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Third Fourth Fifth",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Beti a'i Phobol. Anna Aleko Skalistira Bakratseva. Listen NowBeti a'i PhobolAnna Aleko Skalistira BakratsevaBeti George yn sgwrsio gydag Anna Aleko Skalistira Bakratseva.Published25 April 2021SiteSoundsSectionBBC Radio CymruListen Now",
+    "country": "BG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Aleko Konstantinov",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Beti a'i Phobol. Anna Aleko Skalistira Bakratseva. Listen NowBeti a'i Phobol",
+    "country": "BG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Aleko Konstantinov",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Beti George yn sgwrsio gydag Anna Aleko Skalistira Bakratseva.",
+    "country": "BG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Aleko Konstantinov",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Three Ivans, Two Aunts and an Overcoat by Nikolai Gogol. Listen NowThree Ivans, Two Aunts and an Overcoat by Nikolai GogolComedy set in a sleepy Russian town, starring Griff Rhys JonesSiteSoundsSectionBBC Radio 4 ExtraListen Now",
+    "country": "BG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Ivan Vazov",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Three Ivans, Two Aunts and an Overcoat by Nikolai Gogol. Listen NowThree Ivans, Two Aunts and an Overcoat by Nikolai Gogol",
+    "country": "BG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Ivan Vazov",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Comedy set in a sleepy Russian town, starring Griff Rhys Jones",
+    "country": "BG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Ivan Vazov",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "SG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "HDB",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Fire in nursing home kills 16 in IndonesiaThe incident took place at night, when many elderly residents were likely resting in their rooms.Published29 December 2025SiteNews",
+    "country": "ID",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Indonesia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The incident took place at night, when many elderly residents were likely resting in their rooms.",
+    "country": "ID",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Indonesia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Sumatra floods: Indonesians raise white flags as anger grows over slow flood aidWeeks after floods ravaged the island of Sumatra, many still do not have access to clean water and food.Published25 December 2025SiteNews",
+    "country": "ID",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Indonesia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "JapanAll the latest content about Japan from the BBC.SiteNewsSectionTopic",
+    "country": "JP",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Japan",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Japan’s Master of Restoration. Watch NowJapan’s Master of RestorationDocumentary series following Koji Mayuyama, an antiques restorer known as the God Hand.SiteiPlayerSectionBBC FourWatch Now",
+    "country": "JP",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Japan",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Japan’s Master of Restoration. Watch NowJapan’s Master of Restoration",
+    "country": "JP",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Japan",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Radio 4 Appeal. The PSP Association. Listen NowRadio 4 AppealThe PSP AssociationTrustee Jon Garrard makes the Radio 4 Appeal on behalf of The PSP AssociationPublished19 October 2025SiteSoundsSectionBBC Radio 4Listen Now",
+    "country": "SG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "PSP",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Radio 4 Appeal. The PSP Association. Listen NowRadio 4 Appeal",
+    "country": "SG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "PSP",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Trustee Jon Garrard makes the Radio 4 Appeal on behalf of The PSP Association",
+    "country": "SG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "PSP",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Sorry, there are no results for Megawati Soekarnoputri Mohammad Hatta.",
+    "country": "ID",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Megawati Soekarnoputri Mohammad Hatta",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Japan reveals name of new imperial era will be 'Reiwa'Once Emperor Akihito makes way for his son later this month, Japan will enter the new 'Reiwa' era.Published1 April 2019SiteNewsSectionAsia",
+    "country": "JP",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Showa Reiwa Heisei Meiji",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Japan reveals name of new imperial era will be 'Reiwa'",
+    "country": "JP",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Showa Reiwa Heisei Meiji",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Once Emperor Akihito makes way for his son later this month, Japan will enter the new 'Reiwa' era.",
+    "country": "JP",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Showa Reiwa Heisei Meiji",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Radio 1’s At Home with Vick, Katie and Jamie Podcast. Ibiza, Paps and Mills. Listen NowRadio 1’s At Home with Vick, Katie and Jamie PodcastIbiza, Paps and MillsScott Mills reveals a nasty text in Access All Apps.Published26 August 2022SiteSoundsSectionBBC Radio 1Listen Now",
+    "country": "SG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "PAP",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Radio 1’s At Home with Vick, Katie and Jamie Podcast. Ibiza, Paps and Mills. Listen NowRadio 1’s At Home with Vick, Katie and Jamie Podcast",
+    "country": "SG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "PAP",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Scott Mills reveals a nasty text in Access All Apps.",
+    "country": "SG",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "PAP",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Jakarta office fire kills at least 22, police confirmThe blaze in the Indonesian capital breaks out as office workers take their lunch break.Published9 December 2025SiteNews",
+    "country": "ID",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Jakarta",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Jakarta office fire kills at least 22, police confirm",
+    "country": "ID",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Jakarta",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The blaze in the Indonesian capital breaks out as office workers take their lunch break.",
+    "country": "ID",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Jakarta",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Tokyo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "SG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "DBS",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Zhinu Shimchung",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "NOT",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Onigiri Tobacco Alcohol Train",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Hongdae Myeongdong",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Australia with Simon Reeve. Watch NowAustralia with Simon ReeveSimon Reeve sets off on an extraordinary adventure across AustraliaSiteiPlayerSectionBBC TwoWatch Now",
+    "country": "AU",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Australia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Australia with Simon Reeve. Watch NowAustralia with Simon Reeve",
+    "country": "AU",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Australia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Simon Reeve sets off on an extraordinary adventure across Australia",
+    "country": "AU",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Australia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Korea",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Dementia Jersey Ecuador volcano trek raises £25,000Islanders took on the Avenue of Volcanoes challenge in Ecuador and raised £25k for Dementia Jersey.Published29 December 2025SiteNews",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Ecuador",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Dementia Jersey Ecuador volcano trek raises £25,000",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Ecuador",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Islanders took on the Avenue of Volcanoes challenge in Ecuador and raised £25k for Dementia Jersey.",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Ecuador",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Saudi Arabia executes five Yemenis in JizanSaudi Arabia executes five Yemenis convicted of murder and robbery, leaving their bodies hanging in public, in the town of Jizan.Published21 May 2013SiteNewsSectionMiddle East",
+    "country": "SA",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Jizan",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Saudi Arabia executes five Yemenis convicted of murder and robbery, leaving their bodies hanging in public, in the town of Jizan.",
+    "country": "SA",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Jizan",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Saudi royal visit to fever zoneCrown Prince Abdullah of Saudi Arabia has visited the Jizan region, which has been affected by the recent outbreak of Rift Valley fever.Published2 October 2000SiteNewsSectionMiddle East",
+    "country": "SA",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Jizan",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Simon Reeve's South America. Watch NowSimon Reeve's South AmericaSimon Reeve embarks on a journey to discover the amazing landscapes of South America.SiteiPlayerSectionBBC TwoWatch Now",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "South America",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Simon Reeve's South America. Watch NowSimon Reeve's South America",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "South America",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Simon Reeve embarks on a journey to discover the amazing landscapes of South America.",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "South America",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Saudi Arabia: Sands of Time. Listen NowSaudi Arabia: Sands of TimeEgyptian writer Tarek Osman examines the history of this desert kingdom.SiteSoundsSectionBBC Radio 4Listen Now",
+    "country": "SA",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Saudi Arabia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Saudi Arabia: Sands of Time. Listen NowSaudi Arabia: Sands of Time",
+    "country": "SA",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Saudi Arabia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Egyptian writer Tarek Osman examines the history of this desert kingdom.",
+    "country": "SA",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Saudi Arabia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "CN",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "China",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "AU",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Controlled",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Trump era heralds warming of US-Egypt tiesWith the advent of President Trump, US-Egypt relations are set to grow warmer, says Orla Guerin.Published7 February 2017SiteNewsSectionMiddle East",
+    "country": "SA",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Rashed Al-Majid Mohammed Abdo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "With the advent of President Trump, US-Egypt relations are set to grow warmer, says Orla Guerin.",
+    "country": "SA",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Rashed Al-Majid Mohammed Abdo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Saddam aides go on trial in IraqThe trial of 15 aides of former Iraqi leader Saddam Hussein for allegedly suppressing a 1991 Shia uprising opens.Published21 August 2007SiteNewsSectionMiddle East",
+    "country": "SA",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Rashed Al-Majid Mohammed Abdo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "CN",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Golden Snub",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "SA",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Saudi Arabia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Surrey: Postcard hand delivered from the Galapagos Islands for fundraiserJonny Beardmore decided to hand deliver 50 postcards posted in the Galapagos Islands for charity.Published6 August 2024SiteNews",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Amazon Galapagos Islands",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Surrey: Postcard hand delivered from the Galapagos Islands for fundraiser",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Amazon Galapagos Islands",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Jonny Beardmore decided to hand deliver 50 postcards posted in the Galapagos Islands for charity.",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Amazon Galapagos Islands",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Charles Darwin's Westminster Abbey grave: Pair deny damaging stoneAlyson Lee and Di Bligh are alleged to have covered Charles Darwin's grave with orange paint.Published12 February 2025SiteNews",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Charles Darwin's",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Charles Darwin's Westminster Abbey grave: Pair deny damaging stone",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Charles Darwin's",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Alyson Lee and Di Bligh are alleged to have covered Charles Darwin's grave with orange paint.",
+    "country": "EC",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Charles Darwin's",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "PH",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Andres Bonifacio Emilio Aguinaldo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "IR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Iran",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Compruebe que la dirección URL esté bien escrita, o vaya a la página principal del sitio",
+    "country": "ES",
+    "intent": "government_politics",
+    "trust_level": "high",
+    "source": "lamoncloa.gob.es",
+    "entity": "José Luis Rodríguez Zapatero Mariano",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "PH",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Mabini Jose Rizal",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Compruebe que la dirección URL esté bien escrita, o vaya a la página principal del sitio",
+    "country": "ES",
+    "intent": "government_politics",
+    "trust_level": "high",
+    "source": "lamoncloa.gob.es",
+    "entity": "Núñez Feijó",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Sorry, there are no results for Taif Baha Abha Qassim.",
+    "country": "SA",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Taif Baha Abha Qassim",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Beige Black Gray White",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "GB",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Charlotte Madeline",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The National Museum of Australia acknowledges First Australians and recognises their continuous connection to Country, community and culture.",
+    "country": "AU",
+    "intent": "culture_landmarks",
+    "trust_level": "high",
+    "source": "nma.gov.au",
+    "entity": "Church, Post Office",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Mathilda",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "GB",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Harry",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Learning English Stories. Classic Stories: The Adventures of Huckleberry Finn. Listen NowLearning English StoriesClassic Stories: The Adventures of Huckleberry FinnEnjoy a classic story in English and learn 9 uses of ‘come’ - in 5 minutes.Published28 November 2025SiteSoundsSectionBBC RadioListen Now",
+    "country": "ES",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Huckleberry Finn",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Learning English Stories. Classic Stories: The Adventures of Huckleberry Finn. Listen NowLearning English Stories",
+    "country": "ES",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Huckleberry Finn",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Classic Stories: The Adventures of Huckleberry Finn",
+    "country": "ES",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Huckleberry Finn",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The National Museum of Australia acknowledges First Australians and recognises their continuous connection to Country, community and culture.",
+    "country": "AU",
+    "intent": "culture_landmarks",
+    "trust_level": "high",
+    "source": "nma.gov.au",
+    "entity": "Dance Hall",
+    "type": "intent_aware"
+  },
+  {
+    "text": "SpainAll the latest content about Spain from the BBC.SiteNewsSectionTopic",
+    "country": "ES",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Spain",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Eva Longoria: Searching for Spain. Watch NowEva Longoria: Searching for SpainJourney with Eva Longoria across Spain as she explores its culture and cuisine.SiteiPlayerSectionBBC TwoWatch Now",
+    "country": "ES",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Spain",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Eva Longoria: Searching for Spain. Watch NowEva Longoria: Searching for Spain",
+    "country": "ES",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Spain",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "IR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Iraq",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Apricot Plum Grape",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "IE",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Mental health fundraisers build their own DalekA couple use their love of Doctor Who to raise money for mental health services.Published9 December 2025SiteNews",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Daleks",
+    "type": "intent_aware"
+  },
+  {
+    "text": "A couple use their love of Doctor Who to raise money for mental health services.",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Daleks",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Dusty the Dalek isn't exterminating, but fundraising!Dusty travels all over the UK to raise money for mental health servicesPublished11 December 2025SiteCBBC Newsround",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "Daleks",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "EG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Tanta",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "IE",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "The Land of Saints",
+    "type": "intent_aware"
+  },
+  {
+    "text": "TV ListingsWatch live BBC TV channels, enjoy TV programmes you missed and view exclusive content on BBC iPlayer.SiteiPlayerSectionSchedules",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "TV",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Watch live BBC TV channels, enjoy TV programmes you missed and view exclusive content on BBC iPlayer.",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "TV",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The A to Z of TV Gardening. Watch NowThe A to Z of TV GardeningCarol Kirkwood takes an alphabetical journey through the world of television gardening.SiteiPlayerSectionBBC TwoWatch Now",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.co.uk",
+    "entity": "TV",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "EC",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Cotopaxi Cayambe Chimborazo Antisana",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Powered by JRank Site Search and an Ask AI Search Engine",
+    "country": "EC",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "everyculture.com",
+    "entity": "Ecuador",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Anti-government chants filled the streets of Iran's capital tonight, as protesters pressed the biggest movement against the Islamic republic in more than three years despite a deadly crackdown under cover of an internet blackout.",
+    "country": "IE",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "rte.ie",
+    "entity": "Katie Taylor Michelle O'Neill Andrea Corr",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Anti-government chants filled the streets of Iran's capital tonight, as protesters pressed the biggest movement against the Islamic republic in more than three years despite a deadly crackdown under cover of an internet blackout.",
+    "country": "IE",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "rte.ie",
+    "entity": "Susan Jones",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Hear about famous Dublin literary sites on our new 'Writers from the Rooftop' tour.",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "crokepark.ie",
+    "entity": "The Six Nations",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Hybrid turf from our dedicated farm is now available to purchase.",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "crokepark.ie",
+    "entity": "The Six Nations",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Here you will find everything you need to know about the next upcoming game in Croke Park and future fixtures – how to get here, where to go when you arrive and the facilities on-hand to make your day out as safe and as enjoyable as possible!",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "crokepark.ie",
+    "entity": "The Six Nations",
+    "type": "intent_aware"
+  },
+  {
+    "text": "By John Harrington Upperchurch-Drombane in the Slieve Felim hills of Tipperary is a small place but it has a big heart. It’s a tight-knit community with a fierce pride of parish that is flaming all the brighter now as the club prepares for Saturday’s AIB All-Ireland Club Intermediate Hurling final",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "gaa.ie",
+    "entity": "The Six Nations",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Anti-government chants filled the streets of Iran's capital tonight, as protesters pressed the biggest movement against the Islamic republic in more than three years despite a deadly crackdown under cover of an internet blackout.",
+    "country": "IE",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "rte.ie",
+    "entity": "MTV",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Anti-government chants filled the streets of Iran's capital tonight, as protesters pressed the biggest movement against the Islamic republic in more than three years despite a deadly crackdown under cover of an internet blackout.",
+    "country": "IE",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "rte.ie",
+    "entity": "RTE",
+    "type": "intent_aware"
+  },
+  {
+    "text": "LatestUnsung heroes of the 2025 ChampionshipThe tries and the glorious attacking rugby rightfully took centre stage last year, but who were the men who made it all happen?",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "sixnationsrugby.com",
+    "entity": "The Six Nations",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The tries and the glorious attacking rugby rightfully took centre stage last year, but who were the men who made it all happen?",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "sixnationsrugby.com",
+    "entity": "The Six Nations",
+    "type": "intent_aware"
+  },
+  {
+    "text": "LatestDai and Shirley: A love story forged in rugby",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "sixnationsrugby.com",
+    "entity": "The Six Nations",
+    "type": "intent_aware"
+  },
+  {
+    "text": "By John Harrington Upperchurch-Drombane in the Slieve Felim hills of Tipperary is a small place but it has a big heart. It’s a tight-knit community with a fierce pride of parish that is flaming all the brighter now as the club prepares for Saturday’s AIB All-Ireland Club Intermediate Hurling final",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "gaa.ie",
+    "entity": "Gaelic",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Hear about famous Dublin literary sites on our new 'Writers from the Rooftop' tour.",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "crokepark.ie",
+    "entity": "Gaelic",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Hybrid turf from our dedicated farm is now available to purchase.",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "crokepark.ie",
+    "entity": "Gaelic",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Here you will find everything you need to know about the next upcoming game in Croke Park and future fixtures – how to get here, where to go when you arrive and the facilities on-hand to make your day out as safe and as enjoyable as possible!",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "crokepark.ie",
+    "entity": "Gaelic",
+    "type": "intent_aware"
+  },
+  {
+    "text": "By John Harrington Upperchurch-Drombane in the Slieve Felim hills of Tipperary is a small place but it has a big heart. It’s a tight-knit community with a fierce pride of parish that is flaming all the brighter now as the club prepares for Saturday’s AIB All-Ireland Club Intermediate Hurling final",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "gaa.ie",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "SG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "HDB",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "SG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "HDB",
+    "type": "intent_aware"
+  },
+  {
+    "text": "LatestUnsung heroes of the 2025 ChampionshipThe tries and the glorious attacking rugby rightfully took centre stage last year, but who were the men who made it all happen?",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "sixnationsrugby.com",
+    "entity": "Gaelic",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The tries and the glorious attacking rugby rightfully took centre stage last year, but who were the men who made it all happen?",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "sixnationsrugby.com",
+    "entity": "Gaelic",
+    "type": "intent_aware"
+  },
+  {
+    "text": "LatestDai and Shirley: A love story forged in rugby",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "sixnationsrugby.com",
+    "entity": "Gaelic",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Hear about famous Dublin literary sites on our new 'Writers from the Rooftop' tour.",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "crokepark.ie",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Hybrid turf from our dedicated farm is now available to purchase.",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "crokepark.ie",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Here you will find everything you need to know about the next upcoming game in Croke Park and future fixtures – how to get here, where to go when you arrive and the facilities on-hand to make your day out as safe and as enjoyable as possible!",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "crokepark.ie",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "LatestUnsung heroes of the 2025 ChampionshipThe tries and the glorious attacking rugby rightfully took centre stage last year, but who were the men who made it all happen?",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "sixnationsrugby.com",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The tries and the glorious attacking rugby rightfully took centre stage last year, but who were the men who made it all happen?",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "sixnationsrugby.com",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "LatestDai and Shirley: A love story forged in rugby",
+    "country": "IE",
+    "intent": "sports",
+    "trust_level": "high",
+    "source": "sixnationsrugby.com",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Tokyo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Tokyo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "SG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "DBS",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "SG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "DBS",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "SG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "HDB",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "SG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "HDB",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Tokyo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Tokyo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Zhinu Shimchung",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Zhinu Shimchung",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "NOT",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "NOT",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Zhinu Shimchung",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Zhinu Shimchung",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "NOT",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "NOT",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Hongdae Myeongdong",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Hongdae Myeongdong",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Onigiri Tobacco Alcohol Train",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Onigiri Tobacco Alcohol Train",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "SG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "DBS",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "SG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "DBS",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Onigiri Tobacco Alcohol Train",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "JP",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Onigiri Tobacco Alcohol Train",
+    "type": "intent_aware"
+  },
+  {
+    "text": "New exhibit on Mayan civilization opens in Hebei Museum",
+    "country": "CN",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "en.chinaculture.org",
+    "entity": "China",
+    "type": "intent_aware"
+  },
+  {
+    "text": "New exhibit on Mayan civilization opens in Hebei Museum",
+    "country": "CN",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "en.chinaculture.org",
+    "entity": "China",
+    "type": "intent_aware"
+  },
+  {
+    "text": "From high-end banquets to service-driven urban hubs, teahouses are emerging as cultural spaces and engines for consumer growth, Yang Feiyue reports.",
+    "country": "CN",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "en.chinaculture.org",
+    "entity": "China",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Korea",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Korea",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "EC",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Ecuador",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "EC",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Ecuador",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Hongdae Myeongdong",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Hongdae Myeongdong",
+    "type": "intent_aware"
+  },
+  {
+    "text": "New exhibit on Mayan civilization opens in Hebei Museum",
+    "country": "CN",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "en.chinaculture.org",
+    "entity": "National Day",
+    "type": "intent_aware"
+  },
+  {
+    "text": "New exhibit on Mayan civilization opens in Hebei Museum",
+    "country": "CN",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "en.chinaculture.org",
+    "entity": "National Day",
+    "type": "intent_aware"
+  },
+  {
+    "text": "From high-end banquets to service-driven urban hubs, teahouses are emerging as cultural spaces and engines for consumer growth, Yang Feiyue reports.",
+    "country": "CN",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "en.chinaculture.org",
+    "entity": "National Day",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Korea",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "KR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Korea",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Your one-stop destination to discover Singapore’s diverse culture and history through our collections of objects, images, stories and more, brought to you by the National Heritage Board.",
+    "country": "SG",
+    "intent": "government_politics",
+    "trust_level": "high",
+    "source": "roots.gov.sg",
+    "entity": "Singapore",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "CN",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "China",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "CN",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "China",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "AU",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Controlled",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "AU",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Controlled",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "CN",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Golden Snub",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "CN",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Golden Snub",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "AU",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Controlled",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "AU",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Controlled",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "CN",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "China",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "CN",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "China",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "SA",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Saudi Arabia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "SA",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Saudi Arabia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "CN",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Golden Snub",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "CN",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Golden Snub",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "SA",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Saudi Arabia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "SA",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Saudi Arabia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "New exhibit on Mayan civilization opens in Hebei Museum",
+    "country": "CN",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "en.chinaculture.org",
+    "entity": "Dragon Boat Festival",
+    "type": "intent_aware"
+  },
+  {
+    "text": "New exhibit on Mayan civilization opens in Hebei Museum",
+    "country": "CN",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "en.chinaculture.org",
+    "entity": "Dragon Boat Festival",
+    "type": "intent_aware"
+  },
+  {
+    "text": "From high-end banquets to service-driven urban hubs, teahouses are emerging as cultural spaces and engines for consumer growth, Yang Feiyue reports.",
+    "country": "CN",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "en.chinaculture.org",
+    "entity": "Dragon Boat Festival",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The name Euskal Herria is how the natives of the Basque Country refer to their land. It simply means, “land of the Basque speakers.” And Basque has been spoken by the feisty inhabitants well before the Romans ever arrived. Their full history as well as the origins of their language have long been shrouded in mystery.",
+    "country": "ES",
+    "intent": "food_drink",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "Txapela Theater Bertsolaritza Maskarada",
+    "type": "intent_aware"
+  },
+  {
+    "text": "However, their identity is very evident. This can be seen in the plethora of Basque music, dance, sports, festivals and food – all of which are celebrated with great fervor by the Basques.",
+    "country": "ES",
+    "intent": "food_drink",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "Txapela Theater Bertsolaritza Maskarada",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Even with this strong identity, a new image of the Basque Country is emerging. Bilbao, which is now a mecca for design and architecture was, until some decades ago, a city full of decaying industrial complexes.",
+    "country": "ES",
+    "intent": "food_drink",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "Txapela Theater Bertsolaritza Maskarada",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Your one-stop destination to discover Singapore’s diverse culture and history through our collections of objects, images, stories and more, brought to you by the National Heritage Board.",
+    "country": "SG",
+    "intent": "government_politics",
+    "trust_level": "high",
+    "source": "roots.gov.sg",
+    "entity": "Changi Airport",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "PH",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Andres Bonifacio Emilio Aguinaldo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "PH",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Andres Bonifacio Emilio Aguinaldo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "IR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Iran",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "IR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Iran",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The name Euskal Herria is how the natives of the Basque Country refer to their land. It simply means, “land of the Basque speakers.” And Basque has been spoken by the feisty inhabitants well before the Romans ever arrived. Their full history as well as the origins of their language have long been shrouded in mystery.",
+    "country": "ES",
+    "intent": "food_drink",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "the Basque Country",
+    "type": "intent_aware"
+  },
+  {
+    "text": "However, their identity is very evident. This can be seen in the plethora of Basque music, dance, sports, festivals and food – all of which are celebrated with great fervor by the Basques.",
+    "country": "ES",
+    "intent": "food_drink",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "the Basque Country",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Even with this strong identity, a new image of the Basque Country is emerging. Bilbao, which is now a mecca for design and architecture was, until some decades ago, a city full of decaying industrial complexes.",
+    "country": "ES",
+    "intent": "food_drink",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "the Basque Country",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "PH",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Andres Bonifacio Emilio Aguinaldo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "PH",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Andres Bonifacio Emilio Aguinaldo",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Angara: Reporma sa classroom observation, isinasagawa na Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Kimona Barong",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Future-Ready EducAItion: PBBM, Angara naglunsad ng AI Program para suportahan ang mga guro at mag-aaral Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Kimona Barong",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Sa 2026 record budget, DepEd, pinalawak pa ang School-Based Feeding Program para maabot ang mas maraming mag-aaral Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Kimona Barong",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "PH",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Mabini Jose Rizal",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "PH",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Mabini Jose Rizal",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Angara: Reporma sa classroom observation, isinasagawa na Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Philippines",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Future-Ready EducAItion: PBBM, Angara naglunsad ng AI Program para suportahan ang mga guro at mag-aaral Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Philippines",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Sa 2026 record budget, DepEd, pinalawak pa ang School-Based Feeding Program para maabot ang mas maraming mag-aaral Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Philippines",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "IR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Iran",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "IR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Iran",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The name Euskal Herria is how the natives of the Basque Country refer to their land. It simply means, “land of the Basque speakers.” And Basque has been spoken by the feisty inhabitants well before the Romans ever arrived. Their full history as well as the origins of their language have long been shrouded in mystery.",
+    "country": "ES",
+    "intent": "language_writing",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "Deia Berria Marca Diario Vasco",
+    "type": "intent_aware"
+  },
+  {
+    "text": "However, their identity is very evident. This can be seen in the plethora of Basque music, dance, sports, festivals and food – all of which are celebrated with great fervor by the Basques.",
+    "country": "ES",
+    "intent": "language_writing",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "Deia Berria Marca Diario Vasco",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Even with this strong identity, a new image of the Basque Country is emerging. Bilbao, which is now a mecca for design and architecture was, until some decades ago, a city full of decaying industrial complexes.",
+    "country": "ES",
+    "intent": "language_writing",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "Deia Berria Marca Diario Vasco",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "PH",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Mabini Jose Rizal",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "PH",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Mabini Jose Rizal",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Beige Black Gray White",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Beige Black Gray White",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Angara: Reporma sa classroom observation, isinasagawa na Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Pandanggo sa Ilaw Tinikling Carinosa Maglalatik",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Future-Ready EducAItion: PBBM, Angara naglunsad ng AI Program para suportahan ang mga guro at mag-aaral Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Pandanggo sa Ilaw Tinikling Carinosa Maglalatik",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Sa 2026 record budget, DepEd, pinalawak pa ang School-Based Feeding Program para maabot ang mas maraming mag-aaral Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Pandanggo sa Ilaw Tinikling Carinosa Maglalatik",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "GB",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Charlotte Madeline",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "GB",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Charlotte Madeline",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Beige Black Gray White",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Beige Black Gray White",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "GB",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Charlotte Madeline",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "GB",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Charlotte Madeline",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Mathilda",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Mathilda",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Angara: Reporma sa classroom observation, isinasagawa na Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Singing",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Future-Ready EducAItion: PBBM, Angara naglunsad ng AI Program para suportahan ang mga guro at mag-aaral Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Singing",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Sa 2026 record budget, DepEd, pinalawak pa ang School-Based Feeding Program para maabot ang mas maraming mag-aaral Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Singing",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "GB",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Harry",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "GB",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Harry",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "GB",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Harry",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "GB",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Harry",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Mathilda",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Mathilda",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The name Euskal Herria is how the natives of the Basque Country refer to their land. It simply means, “land of the Basque speakers.” And Basque has been spoken by the feisty inhabitants well before the Romans ever arrived. Their full history as well as the origins of their language have long been shrouded in mystery.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "Segovia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "However, their identity is very evident. This can be seen in the plethora of Basque music, dance, sports, festivals and food – all of which are celebrated with great fervor by the Basques.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "Segovia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Even with this strong identity, a new image of the Basque Country is emerging. Bilbao, which is now a mecca for design and architecture was, until some decades ago, a city full of decaying industrial complexes.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "Segovia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Les galettes des rois qui régalent les yeux et les papilles",
+    "country": "FR",
+    "intent": "food_drink",
+    "trust_level": "high",
+    "source": "france.fr",
+    "entity": "Camembert Reblochon Chèvre Roquefort",
+    "type": "intent_aware"
+  },
+  {
+    "text": "5 minutes pour tout savoir sur la clémentine de CorseCorsica",
+    "country": "FR",
+    "intent": "food_drink",
+    "trust_level": "high",
+    "source": "france.fr",
+    "entity": "Camembert Reblochon Chèvre Roquefort",
+    "type": "intent_aware"
+  },
+  {
+    "text": "12 tables gourmandes pour explorer les délices des montagnes françaises",
+    "country": "FR",
+    "intent": "food_drink",
+    "trust_level": "high",
+    "source": "france.fr",
+    "entity": "Camembert Reblochon Chèvre Roquefort",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "IR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Iraq",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "IR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Iraq",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Apricot Plum Grape",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Apricot Plum Grape",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Angara: Reporma sa classroom observation, isinasagawa na Read more",
+    "country": "PH",
+    "intent": "language_writing",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Philippines",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Future-Ready EducAItion: PBBM, Angara naglunsad ng AI Program para suportahan ang mga guro at mag-aaral Read more",
+    "country": "PH",
+    "intent": "language_writing",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Philippines",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Sa 2026 record budget, DepEd, pinalawak pa ang School-Based Feeding Program para maabot ang mas maraming mag-aaral Read more",
+    "country": "PH",
+    "intent": "language_writing",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Philippines",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Zubi Eseki izenez ere ezaguna den Bizkaiko Zubia harribitxi arkitektonikoa da, Euskadiren industria eta itsas izaera ispilatzen dituena.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "high",
+    "source": "turismoa.euskadi.eus",
+    "entity": "Segovia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Portugalete eta Getxo batzen ditu zubiak, eta ondorioz, aukera paregabea da bi herri zoragarri horiek bisitatzeko. Atsegin handiz aterako dizkiozu argazkiak.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "high",
+    "source": "turismoa.euskadi.eus",
+    "entity": "Segovia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Arakatu, dastatu eta gozatu. Aurkitu ezazu Euskadi zeure kasa bizitzeko plan perfektua.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "high",
+    "source": "turismoa.euskadi.eus",
+    "entity": "Segovia",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "IR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Iraq",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "IR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Iraq",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The name Euskal Herria is how the natives of the Basque Country refer to their land. It simply means, “land of the Basque speakers.” And Basque has been spoken by the feisty inhabitants well before the Romans ever arrived. Their full history as well as the origins of their language have long been shrouded in mystery.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "The Giralda The Palace of the Alhambra The Fountain of Cibeles The Aqueduct",
+    "type": "intent_aware"
+  },
+  {
+    "text": "However, their identity is very evident. This can be seen in the plethora of Basque music, dance, sports, festivals and food – all of which are celebrated with great fervor by the Basques.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "The Giralda The Palace of the Alhambra The Fountain of Cibeles The Aqueduct",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Even with this strong identity, a new image of the Basque Country is emerging. Bilbao, which is now a mecca for design and architecture was, until some decades ago, a city full of decaying industrial complexes.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "mid",
+    "source": "euskoguide.com",
+    "entity": "The Giralda The Palace of the Alhambra The Fountain of Cibeles The Aqueduct",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Apricot Plum Grape",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "FR",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Apricot Plum Grape",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Zubi Eseki izenez ere ezaguna den Bizkaiko Zubia harribitxi arkitektonikoa da, Euskadiren industria eta itsas izaera ispilatzen dituena.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "high",
+    "source": "turismoa.euskadi.eus",
+    "entity": "The Giralda The Palace of the Alhambra The Fountain of Cibeles The Aqueduct",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Portugalete eta Getxo batzen ditu zubiak, eta ondorioz, aukera paregabea da bi herri zoragarri horiek bisitatzeko. Atsegin handiz aterako dizkiozu argazkiak.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "high",
+    "source": "turismoa.euskadi.eus",
+    "entity": "The Giralda The Palace of the Alhambra The Fountain of Cibeles The Aqueduct",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Arakatu, dastatu eta gozatu. Aurkitu ezazu Euskadi zeure kasa bizitzeko plan perfektua.",
+    "country": "ES",
+    "intent": "culture_landmarks",
+    "trust_level": "high",
+    "source": "turismoa.euskadi.eus",
+    "entity": "The Giralda The Palace of the Alhambra The Fountain of Cibeles The Aqueduct",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "IE",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "IE",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "EG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Tanta",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "EG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Tanta",
+    "type": "intent_aware"
+  },
+  {
+    "text": "US President Donald Trump ordered the \"large-scale strikes\" on Saturday, US Central Command announced.",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.com",
+    "entity": "Daleks",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Days after the death of Renee Good, protests continue in Minneapolis and cities across the US.",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.com",
+    "entity": "Daleks",
+    "type": "intent_aware"
+  },
+  {
+    "text": "US President Donald Trump ordered the \"large-scale strikes\" on Saturday, US Central Command announced.",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.com",
+    "entity": "Daleks",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "IE",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "IE",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Ireland",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "EG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Tanta",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "EG",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Tanta",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "IE",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "The Land of Saints",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "IE",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "The Land of Saints",
+    "type": "intent_aware"
+  },
+  {
+    "text": "US President Donald Trump ordered the \"large-scale strikes\" on Saturday, US Central Command announced.",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.com",
+    "entity": "TV",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Days after the death of Renee Good, protests continue in Minneapolis and cities across the US.",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.com",
+    "entity": "TV",
+    "type": "intent_aware"
+  },
+  {
+    "text": "US President Donald Trump ordered the \"large-scale strikes\" on Saturday, US Central Command announced.",
+    "country": "GB",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "bbc.com",
+    "entity": "TV",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "EC",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Cotopaxi Cayambe Chimborazo Antisana",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "EC",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Cotopaxi Cayambe Chimborazo Antisana",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "IE",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "The Land of Saints",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "IE",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "The Land of Saints",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Anti-government chants filled the streets of Iran's capital tonight, as protesters pressed the biggest movement against the Islamic republic in more than three years despite a deadly crackdown under cover of an internet blackout.",
+    "country": "IE",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "rte.ie",
+    "entity": "Brian O'Driscoll",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Angara: Reporma sa classroom observation, isinasagawa na Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Simbang Gabi Misa de Gallo Pasyon",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Future-Ready EducAItion: PBBM, Angara naglunsad ng AI Program para suportahan ang mga guro at mag-aaral Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Simbang Gabi Misa de Gallo Pasyon",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Sa 2026 record budget, DepEd, pinalawak pa ang School-Based Feeding Program para maabot ang mas maraming mag-aaral Read more",
+    "country": "PH",
+    "intent": "holidays_festivals",
+    "trust_level": "high",
+    "source": "deped.gov.ph",
+    "entity": "Simbang Gabi Misa de Gallo Pasyon",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Our cross cultural training empowers your team to excel in cross-cultural collaboration, fostering effective communication and trust across diverse global teams. By mastering cultural nuances, employees build stronger relationships, reduce misunderstandings, and drive productivity in international settings.",
+    "country": "EC",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Cotopaxi Cayambe Chimborazo Antisana",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Through expert-led courses, your workforce gains practical skills to navigate cultural differences, ensuring seamless global teamwork. This cultural competency enhances project outcomes, strengthens partnerships, and positions your organization for success in today’s interconnected world.",
+    "country": "EC",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "commisceo-global.com",
+    "entity": "Cotopaxi Cayambe Chimborazo Antisana",
+    "type": "intent_aware"
+  },
+  {
+    "text": "The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of Australia’s migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.",
+    "country": "EC",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Ecuador",
+    "type": "intent_aware"
+  },
+  {
+    "text": "There is no such thing as a ‘superior’ or ‘inferior’ culture, there are only various cultural patterns which make up a beautiful, multicoloured mosaic.",
+    "country": "EC",
+    "intent": "other",
+    "trust_level": "mid",
+    "source": "culturalatlas.sbs.com.au",
+    "entity": "Ecuador",
+    "type": "intent_aware"
+  },
+  {
+    "text": "Anti-government chants filled the streets of Iran's capital tonight, as protesters pressed the biggest movement against the Islamic republic in more than three years despite a deadly crackdown under cover of an internet blackout.",
+    "country": "IE",
+    "intent": "media_popculture",
+    "trust_level": "high",
+    "source": "rte.ie",
+    "entity": "Henry VIII Brian Boru",
+    "type": "intent_aware"
+  }
+]

@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
 Convert Pickle Files to JSON
-Converts wiki_cache.pkl and kb_chunks.pkl to human-readable JSON format
+Converts all .pkl files from pkl-files folder to JSON format in json-files folder
 """
 
 import pickle
 import json
 import os
 from pathlib import Path
+import shutil
 
 
 def convert_pkl_to_json(pkl_file, json_file):
@@ -65,44 +66,60 @@ def convert_pkl_to_json(pkl_file, json_file):
 
 def main():
     print("="*60)
-    print("PKL → JSON Converter")
+    print("PKL → JSON Batch Converter")
     print("="*60)
     print()
     
-    # Define files to convert
-    files_to_convert = [
-        ('wiki_cache.pkl', 'wiki_cache.json'),
-        ('kb_chunks.pkl', 'kb_chunks.json'),
-        # Add Kaggle paths too
-        ('/kaggle/working/wiki_cache.pkl', '/kaggle/working/wiki_cache.json'),
-        ('/kaggle/working/kb_chunks.pkl', '/kaggle/working/kb_chunks.json'),
-    ]
+    # ═══════════════════════════════════════════════════════════════
+    # CONFIGURE FOLDERS HERE
+    # ═══════════════════════════════════════════════════════════════
+    input_folder = "pkl-files"      # Folder containing .pkl files
+    output_folder = "json-files"    # Folder for output .json files
+    # ═══════════════════════════════════════════════════════════════
+    
+    # Check if input folder exists
+    if not os.path.exists(input_folder):
+        print(f"❌ Input folder not found: {input_folder}")
+        print(f"   Please create the folder and add .pkl files")
+        return
+    
+    # Create output folder if it doesn't exist
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+        print(f"✅ Created output folder: {output_folder}")
+    
+    # Find all .pkl files in input folder
+    pkl_files = list(Path(input_folder).glob('*.pkl'))
+    
+    if not pkl_files:
+        print(f"⚠️  No .pkl files found in {input_folder}/")
+        return
+    
+    print(f"\n📁 Found {len(pkl_files)} .pkl file(s) in {input_folder}/")
+    print()
     
     converted_count = 0
+    failed_count = 0
     
-    for pkl_file, json_file in files_to_convert:
-        if os.path.exists(pkl_file):
-            if convert_pkl_to_json(pkl_file, json_file):
-                converted_count += 1
-            print()
-    
-    if converted_count == 0:
-        print("⚠️  No pickle files found in current directory or /kaggle/working/")
-        print("\nSearching for pickle files...")
+    for pkl_path in pkl_files:
+        pkl_file = str(pkl_path)
+        filename = pkl_path.name
+        json_filename = filename.replace('.pkl', '.json')
+        json_file = os.path.join(output_folder, json_filename)
         
-        # Search in current directory
-        pkl_files = list(Path('.').glob('*.pkl'))
-        if pkl_files:
-            print(f"\n📁 Found {len(pkl_files)} .pkl file(s):")
-            for pkl_path in pkl_files:
-                pkl_file = str(pkl_path)
-                json_file = pkl_file.replace('.pkl', '.json')
-                print(f"\n   {pkl_file}")
-                if convert_pkl_to_json(pkl_file, json_file):
-                    converted_count += 1
+        print(f"📦 {filename} → {json_filename}")
+        if convert_pkl_to_json(pkl_file, json_file):
+            converted_count += 1
+        else:
+            failed_count += 1
+        print()
     
     print("="*60)
-    print(f"🎉 Conversion complete! {converted_count} file(s) converted to JSON")
+    print(f"🎉 Conversion complete!")
+    print(f"   ✅ Converted: {converted_count} file(s)")
+    if failed_count > 0:
+        print(f"   ❌ Failed: {failed_count} file(s)")
+    print(f"   📂 Output folder: {output_folder}/")
     print("="*60)
 
 
