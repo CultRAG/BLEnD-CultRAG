@@ -3,28 +3,35 @@
     "version": "1.0",
     "date": "2026-01-08",
     "description": "Intent-based source routing for cultural MCQ retrieval with trust levels and fallback hierarchy",
-    "author": "Aditya Singh (IIT KGP, SemEval-2026 Task 7 Track 2)",
+    "author": "Aditya Singh and Rickarya Das (IIT KGP, SemEval-2026 Task 7 Track 2)",
     "countries_covered": [
-      "SG",
-      "JP",
-      "GB",
-      "FR",
-      "ES",
-      "IN",
       "AU",
-      "ID",
-      "PH",
+      "AZ",
+      "BD",
       "BG",
       "CN",
-      "KR",
-      "MX",
+      "DZ",
       "EC",
-      "IR",
       "EG",
-      "MA",
-      "SA",
+      "ES",
+      "FR",
+      "GB",
       "GR",
-      "LK"
+      "ID",
+      "IN",
+      "IR",
+      "JP",
+      "KR",
+      "LK",
+      "MA",
+      "MX",
+      "MY",
+      "PH",
+      "SA",
+      "SE",
+      "SG",
+      "TH",
+      "ZA"
     ],
     "intents": [
       "government_politics",
@@ -37,7 +44,23 @@
       "language_writing",
       "economy_currency_symbols",
       "media_popculture",
-      "other"
+      "social_norms_etiquette",
+      "religion_spirituality",
+      "arts_literature_music",
+      "clothing_fashion_jewelry",
+      "family_kinship_gender",
+      "national_symbols_emblems",
+      "education_knowledge_systems",
+      "natural_heritage_environment",
+      "values_philosophy_worldview",
+      "law_justice_humanrights",
+      "science_tech_innovation",
+      "health_traditional_medicine",
+      "architecture_urban_planning",
+      "military_defense_security",
+      "infrastructure_transportation",
+      "demographics_social_classes",
+      "others"
     ]
   },
   "trust_levels": {
@@ -419,19 +442,19 @@
       ],
       "note": "Use Wikipedia + IMDb for factual film/show metadata; Wikiquote only for exact quote queries"
     },
-    "other": {
+    "social_norms_etiquette": {
       "primary": [
         {
-          "url": "en.wikipedia.org",
-          "type": "general_encyclopedia",
+          "url": "culturalatlas.sbs.com.au",
+          "type": "culture_guide",
           "trust": "high",
-          "note": "Default catch-all (widest coverage for miscellaneous facts)"
+          "note": "Detailed cross-cultural etiquette and social norms"
         },
         {
-          "url": "www.wikidata.org",
-          "type": "structured_kb",
+          "url": "commisceo-global.com",
+          "type": "etiquette_guide",
           "trust": "high",
-          "note": "Structured facts for any entity"
+          "note": "Business and social protocol"
         }
       ],
       "fallback": [
@@ -439,22 +462,385 @@
           "url": "everyculture.com",
           "type": "culture_encyclopedia",
           "trust": "mid",
-          "note": "Anthropological deep-dives (weddings, gender roles, food, myths)"
+          "note": "Anthropological context for social behavior"
+        }
+      ]
+    },
+    "religion_spirituality": {
+      "primary": [
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "Comprehensive coverage of denominations and history"
         },
         {
-          "url": "culturalatlas.sbs.com.au",
-          "type": "culture_guide",
-          "trust": "mid",
-          "note": "Etiquette, do's and don'ts, business protocol (cross-cultural perspective)"
-        },
-        {
-          "url": "commisceo-global.com",
-          "type": "etiquette_guide",
-          "trust": "mid",
-          "note": "Business/formal naming, gift giving, communication (verify elsewhere)"
+          "url": "www.pewresearch.org/religion",
+          "type": "research_center",
+          "trust": "high",
+          "note": "Statistical data on religious demographics"
         }
       ],
-      "note": "Use global fallback when country-specific sources are exhausted"
+      "fallback": [
+        {
+          "url": "www.britannica.com",
+          "type": "encyclopedia",
+          "trust": "high",
+          "note": "Academic religious history"
+        }
+      ]
+    },
+    "arts_literature_music": {
+      "primary": [
+        {
+          "url": "artsandculture.google.com",
+          "type": "digital_archive",
+          "trust": "high",
+          "note": "Global museum collections and artistic history"
+        },
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "Regional art movements and literary canons"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "www.gutenberg.org",
+          "type": "digital_library",
+          "trust": "mid",
+          "note": "Public domain literary works"
+        }
+      ]
+    },
+    "clothing_fashion_jewelry": {
+      "primary": [
+        {
+          "url": "artsandculture.google.com",
+          "type": "digital_archive",
+          "trust": "high",
+          "note": "History of fashion and traditional dress"
+        },
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "Traditional and modern clothing styles"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "fashion-history.lovetoknow.com",
+          "type": "fashion_resource",
+          "trust": "mid",
+          "note": "Detailed fashion history articles"
+        }
+      ]
+    },
+    "family_kinship_gender": {
+      "primary": [
+        {
+          "url": "everyculture.com",
+          "type": "culture_encyclopedia",
+          "trust": "high",
+          "note": "Marriage, kinship, and gender role descriptions"
+        },
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "Sociological overview of family structures"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "genderdata.worldbank.org",
+          "type": "data_portal",
+          "trust": "high",
+          "note": "Global gender statistics"
+        }
+      ]
+    },
+    "national_symbols_emblems": {
+      "primary": [
+        {
+          "url": "www.wikidata.org",
+          "type": "structured_kb",
+          "trust": "high",
+          "note": "Structured data on flags, emblems, and anthems"
+        },
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "Symbolism and history of national icons"
+        },
+        {
+          "url": "www.cia.gov/the-world-factbook",
+          "type": "almanac",
+          "trust": "high",
+          "note": "Official national symbols and flags"
+        }
+      ],
+      "fallback": []
+    },
+    "education_knowledge_systems": {
+      "primary": [
+        {
+          "url": "en.unesco.org",
+          "type": "international_org",
+          "trust": "high",
+          "note": "Global education systems and standards"
+        },
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "History and structure of national education"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "data.worldbank.org",
+          "type": "data_portal",
+          "trust": "high",
+          "note": "Literacy and schooling metrics"
+        }
+      ]
+    },
+    "natural_heritage_environment": {
+      "primary": [
+        {
+          "url": "whc.unesco.org",
+          "type": "heritage_db",
+          "trust": "high",
+          "note": "Natural World Heritage sites"
+        },
+        {
+          "url": "www.worldwildlife.org",
+          "type": "ngo",
+          "trust": "high",
+          "note": "Biodiversity and regional ecosystems"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "National parks and local fauna/flora"
+        }
+      ]
+    },
+    "values_philosophy_worldview": {
+      "primary": [
+        {
+          "url": "www.worldvaluessurvey.org",
+          "type": "research_center",
+          "trust": "high",
+          "note": "Global cultural values data"
+        },
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "Regional philosophical traditions"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "everyculture.com",
+          "type": "culture_encyclopedia",
+          "trust": "mid",
+          "note": "General worldviews and belief systems"
+        }
+      ]
+    },
+    "law_justice_humanrights": {
+      "primary": [
+        {
+          "url": "www.amnesty.org",
+          "type": "ngo",
+          "trust": "high",
+          "note": "Human rights reports by country"
+        },
+        {
+          "url": "www.hrw.org",
+          "type": "ngo",
+          "trust": "high",
+          "note": "Global justice monitoring"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "Legal systems and national constitutions"
+        }
+      ]
+    },
+    "science_tech_innovation": {
+      "primary": [
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "National scientific history and tech milestones"
+        },
+        {
+          "url": "www.nature.com",
+          "type": "scientific_journal",
+          "trust": "high",
+          "note": "Current scientific research and innovation"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "data.worldbank.org",
+          "type": "data_portal",
+          "trust": "high",
+          "note": "R&D investment and tech demographics"
+        }
+      ]
+    },
+    "health_traditional_medicine": {
+      "primary": [
+        {
+          "url": "www.who.int",
+          "type": "international_org",
+          "trust": "high",
+          "note": "Global health standards and country profiles"
+        },
+        {
+          "url": "ich.unesco.org",
+          "type": "heritage_db",
+          "trust": "high",
+          "note": "Traditional medicine listed as intangible heritage"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "History of traditional medical practices (e.g., TCM, Ayurveda)"
+        }
+      ]
+    },
+    "architecture_urban_planning": {
+      "primary": [
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "Historical and modern architectural styles"
+        },
+        {
+          "url": "www.archdaily.com",
+          "type": "architecture_portal",
+          "trust": "mid",
+          "note": "Modern urban projects and designs"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "whc.unesco.org",
+          "type": "heritage_db",
+          "trust": "high",
+          "note": "Architectural heritage highlights"
+        }
+      ]
+    },
+    "military_defense_security": {
+      "primary": [
+        {
+          "url": "www.globalfirepower.com",
+          "type": "defense_stats",
+          "trust": "mid",
+          "note": "Military strength rankings"
+        },
+        {
+          "url": "www.sipri.org",
+          "type": "research_center",
+          "trust": "high",
+          "note": "Global security and arms data"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "National military history"
+        }
+      ]
+    },
+    "infrastructure_transportation": {
+      "primary": [
+        {
+          "url": "data.worldbank.org",
+          "type": "data_portal",
+          "trust": "high",
+          "note": "Transportation and infrastructure metrics"
+        },
+        {
+          "url": "www.cia.gov/the-world-factbook",
+          "type": "almanac",
+          "trust": "high",
+          "note": "Road, rail, and air infrastructure stats"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "National infrastructure projects"
+        }
+      ]
+    },
+    "demographics_social_classes": {
+      "primary": [
+        {
+          "url": "data.worldbank.org",
+          "type": "data_portal",
+          "trust": "high",
+          "note": "Population and class distribution metrics"
+        },
+        {
+          "url": "www.cia.gov/the-world-factbook",
+          "type": "almanac",
+          "trust": "high",
+          "note": "Demographic profiles and social stats"
+        }
+      ],
+      "fallback": [
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "Social stratification and population history"
+        }
+      ]
+    },
+    "others": {
+      "primary": [
+        {
+          "url": "en.wikipedia.org",
+          "type": "general_encyclopedia",
+          "trust": "high",
+          "note": "Generic fallback for unclassified topics"
+        },
+        {
+          "url": "www.wikidata.org",
+          "type": "structured_kb",
+          "trust": "high",
+          "note": "Structured knowledge lookup"
+        }
+      ],
+      "fallback": []
     }
   },
   "country_specific_sources": {
@@ -586,6 +972,16 @@
               "note": "Official government portal; official_government_portal"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -675,6 +1071,16 @@
               "type": "Official Government Portal",
               "trust": "high",
               "note": "Official government portal; official_government_portal"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
             }
           ]
         }
@@ -792,6 +1198,16 @@
               "note": "Dish pages (Khichdi, Dosa, Biryani, etc.)"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -874,6 +1290,16 @@
               "note": "Sports federation / major media; sports/major_media"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -925,6 +1351,16 @@
               "type": "travel_guide",
               "trust": "mid",
               "note": "Eat sections for dining etiquette"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
             }
           ]
         }
@@ -1023,6 +1459,16 @@
               "note": "Official government portal; official_government_portal"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1097,6 +1543,16 @@
               "note": "Official government portal; official_government_portal"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1163,6 +1619,16 @@
               "type": "official_tourism",
               "trust": "mid",
               "note": "Foods to try, local cuisine (tourism angle)"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
             }
           ]
         }
@@ -1251,6 +1717,16 @@
               "note": "Official government portal; official_government_portal"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1302,6 +1778,16 @@
               "trust": "mid"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1319,6 +1805,16 @@
               "note": "Official government portal; official_government_portal"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1334,6 +1830,16 @@
               "type": "Official Government Portal",
               "trust": "high",
               "note": "Official government portal; official_government_portal"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
             }
           ]
         }
@@ -1376,6 +1882,16 @@
               "note": "Sports federation / major media; sports/major_media"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1415,6 +1931,16 @@
               "note": "Sports federation / major media; sports/major_media"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1441,6 +1967,16 @@
               "type": "Official Government Portal",
               "trust": "high",
               "note": "Official government portal; official_government_portal"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
             }
           ]
         }
@@ -1477,6 +2013,16 @@
               "note": "Traditional festivals and celebrations"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1511,6 +2057,16 @@
               "note": "Night market culture and local cuisine"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1537,6 +2093,16 @@
               "type": "Media/Entertainment",
               "trust": "mid",
               "note": "Kannywood (Hausa cinema)"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
             }
           ]
         }
@@ -1567,6 +2133,16 @@
               "note": "Injera etiquette and traditional cuisine"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1595,6 +2171,16 @@
               "note": "Daily life and cultural insights"
             }
           ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
         }
       ]
     },
@@ -1616,6 +2202,406 @@
               "type": "Official Government Portal",
               "trust": "high",
               "note": "National Institute of Anthropology and History"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "DZ": {
+      "country_name": "Algeria",
+      "country_code": "DZ",
+      "language": "Arabic",
+      "priority_sources": [
+        {
+          "intent": "government_politics",
+          "sources": [
+            {
+              "url": "www.el-mouradia.dz",
+              "type": "Official Government Portal",
+              "trust": "high"
+            },
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "culture_landmarks",
+          "sources": [
+            {
+              "url": "whc.unesco.org",
+              "type": "heritage_db",
+              "trust": "high"
+            },
+            {
+              "url": "artsandculture.google.com/project/algeria",
+              "type": "digital_archive",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "MA": {
+      "country_name": "Morocco",
+      "country_code": "MA",
+      "language": "Arabic",
+      "priority_sources": [
+        {
+          "intent": "culture_landmarks",
+          "sources": [
+            {
+              "url": "mta.gov.ma",
+              "type": "Official Tourism",
+              "trust": "high"
+            },
+            {
+              "url": "whc.unesco.org",
+              "type": "heritage_db",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "food_drink",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "ZA": {
+      "country_name": "South Africa",
+      "country_code": "ZA",
+      "language": "Afrikaans",
+      "priority_sources": [
+        {
+          "intent": "language_writing",
+          "sources": [
+            {
+              "url": "af.wikipedia.org",
+              "type": "language_encyclopedia",
+              "trust": "high"
+            },
+            {
+              "url": "en.wiktionary.org",
+              "type": "dictionary",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "history_identity",
+          "sources": [
+            {
+              "url": "sahistory.org.za",
+              "type": "national_history",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "AZ": {
+      "country_name": "Azerbaijan",
+      "country_code": "AZ",
+      "language": "Azerbaijani",
+      "priority_sources": [
+        {
+          "intent": "government_politics",
+          "sources": [
+            {
+              "url": "president.az",
+              "type": "Official Government Portal",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "culture_landmarks",
+          "sources": [
+            {
+              "url": "whc.unesco.org",
+              "type": "heritage_db",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "KR": {
+      "country_name": "South Korea",
+      "country_code": "KR",
+      "language": "Korean",
+      "priority_sources": [
+        {
+          "intent": "language_writing",
+          "sources": [
+            {
+              "url": "korean.go.kr",
+              "type": "Language Authority",
+              "trust": "high"
+            },
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "culture_landmarks",
+          "sources": [
+            {
+              "url": "cha.go.kr",
+              "type": "Official Cultural Heritage",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "TH": {
+      "country_name": "Thailand",
+      "country_code": "TH",
+      "language": "Thai",
+      "priority_sources": [
+        {
+          "intent": "holidays_festivals",
+          "sources": [
+            {
+              "url": "tatnews.org",
+              "type": "Official Tourism",
+              "trust": "high"
+            },
+            {
+              "url": "ich.unesco.org",
+              "type": "heritage_db",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "BD": {
+      "country_name": "Bangladesh",
+      "country_code": "BD",
+      "language": "Bengali",
+      "priority_sources": [
+        {
+          "intent": "language_writing",
+          "sources": [
+            {
+              "url": "banglaacademy.gov.bd",
+              "type": "Language Authority",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "history_identity",
+          "sources": [
+            {
+              "url": "liberationwar.org",
+              "type": "national_history",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "IR": {
+      "country_name": "Iran",
+      "country_code": "IR",
+      "language": "Persian (Farsi)",
+      "priority_sources": [
+        {
+          "intent": "language_writing",
+          "sources": [
+            {
+              "url": "persianacademy.ir",
+              "type": "Language Authority",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "culture_landmarks",
+          "sources": [
+            {
+              "url": "whc.unesco.org",
+              "type": "heritage_db",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "MY": {
+      "country_name": "Malaysia",
+      "country_code": "MY",
+      "language": "Malay",
+      "priority_sources": [
+        {
+          "intent": "language_writing",
+          "sources": [
+            {
+              "url": "dbp.gov.my",
+              "type": "Language Authority",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "food_drink",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "SE": {
+      "country_name": "Sweden",
+      "country_code": "SE",
+      "language": "Swedish",
+      "priority_sources": [
+        {
+          "intent": "language_writing",
+          "sources": [
+            {
+              "url": "sprakinstitutet.se",
+              "type": "Language Authority",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "government_politics",
+          "sources": [
+            {
+              "url": "government.se",
+              "type": "Official Government Portal",
+              "trust": "high"
+            }
+          ]
+        },
+        {
+          "intent": "others",
+          "sources": [
+            {
+              "url": "en.wikipedia.org",
+              "type": "general_encyclopedia",
+              "trust": "high"
             }
           ]
         }
