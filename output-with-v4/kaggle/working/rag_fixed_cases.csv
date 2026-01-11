@@ -1,0 +1,6 @@
+id,question,correct,baseline,rag_basic,full_system,option_A,option_B,option_C,option_D,baseline_correct,rag_correct,full_correct
+ko-KR_058,What food is famous as something eaten on moving day in Korea?,B,A,B,A,Jjajangmyeon,Samgyetang,Sundubu jjigae,Pasta,False,True,False
+ko-KR_059,What area of Korea do people studying for the civil service exam mainly live?,C,A,C,D,Hongdae,Myeongdong,Noryangjin,Hyehwa,False,True,False
+ar-EG_076,What are the names of the two seas that Egypt overlooks?,A,C,A,A,The White and the Red,The White and the Yellow,The Yellow and the Red,The Yellow and the Green,False,True,True
+fr-FR_111,What cheese is most often eaten hot with a salad?,C,D,C,A,Camembert,Reblochon,Chèvre,Roquefort,False,True,False
+bg-BG_140,"Who is the author of the novel ""Under the Yoke""?",C,A,C,A,Aleko Konstantinov,Pencho Slaveikov,Ivan Vazov,Pejo Yavorov,False,True,False

@@ -79,7 +79,7 @@ if __name__ == "__main__":
     # ═══════════════════════════════════════════════════════════════
     # CONFIGURE INPUT FILE HERE
     # ═══════════════════════════════════════════════════════════════
-    input_file = "predictions_phase6_full_system.csv"  # Change this to your input file
+    input_file = "submission_phase6_full_system.tsv"  # Change this to your input file
     output_file = "track_2_mcq_prediction.tsv"  # Output filename
     # ═══════════════════════════════════════════════════════════════
     
