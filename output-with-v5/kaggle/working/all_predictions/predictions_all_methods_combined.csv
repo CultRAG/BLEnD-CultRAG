@@ -1,0 +1,149 @@
+id,question,correct_answer,baseline_no_rag,baseline_no_rag_correct,rag_basic,rag_basic_correct,phase1_country_filter,phase1_country_filter_correct,phase2_intent,phase2_intent_correct,phase3_tiered,phase3_tiered_correct,phase4_quality,phase4_quality_correct,phase5_trust_weight,phase5_trust_weight_correct,phase6_full_system,phase6_full_system_correct
+ms-SG_001,What is the common acronym for public housing flats where the majority of Singaporeans live?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+ms-SG_002,Which political party has been the governing party of Singapore since 1959?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ms-SG_003,"What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?",A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ms-SG_004,"What is the name of Singapore's main international airport, which is often voted one of the best airports in the world?",B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ms-SG_005,Singapore celebrates National Day every year in which month?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+ms-SG_006,"Which iconic Singapore arts center is better known as the ""big durian""?",D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+ms-SG_007,What is Singapore's official currency?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+ta-SG_008,What is the common abbreviation for public housing where most Singaporeans live?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+ta-SG_009,Which political party has been the ruling party of Singapore since 1959?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ta-SG_010,"What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?",A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ta-SG_011,"What is the name of Singapore's main international airport, which is frequently voted as one of the best airports in the world?",B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ta-SG_012,In which month does Singapore celebrate its national day every year?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+ta-SG_013,"What is the name of Singapore's iconic arts center, colloquially called ""big durians""?",D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+ta-SG_014,What is Singapore's official currency?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+zh-SG_015,What is the common abbreviation for public housing where most Singapore residents live?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+zh-SG_016,Which political party has been Singapore's ruling party since 1959?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+zh-SG_017,What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+zh-SG_018,What is Singapore's main international airport? It is frequently rated as one of the best airports in the world.,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+zh-SG_019,In which month does Singapore celebrate its National Day every year?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+zh-SG_020,"Which iconic arts center in Singapore is colloquially known as the ""big durian""?",D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+zh-SG_021,What is Singapore's official currency?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+es-EC_022,Which is the most populated city in Ecuador?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+es-EC_023,How many provinces does Ecuador have?,C,B,False,B,False,B,False,B,False,B,False,B,False,B,False,B,False
+es-EC_024,What is the highest point in Ecuador and the closest to outer space?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+es-EC_025,What name does Ecuador receive for its geographic and cultural diversity?,B,C,False,C,False,C,False,C,False,C,False,C,False,C,False,C,False
+es-EC_026,What is Ecuador's official currency since the year 2000?,C,C,True,D,False,B,False,B,False,B,False,B,False,B,False,B,False
+es-EC_027,What Ecuadorian place is famous for its biodiversity and for inspiring Charles Darwin's theory of evolution?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+es-EC_028,Which Ecuadorian city was declared a Cultural Heritage of Humanity by UNESCO in 1978?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+es-EC_029,Which Ecuadorian athlete won the first gold medal for the country at the Olympics?,A,B,False,B,False,A,True,A,True,A,True,B,False,B,False,B,False
+en-GB_030,Which of these family holiday destinations is located in Cumbria?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+en-GB_031,What is the name of Prince Harry's wife?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+en-GB_032,Which kids show has a blue boat as its symbol?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+en-GB_033,In which TV show would you expect to find Daleks and Cybermen?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+en-GB_034,Which significant historical event took place in 1066?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+zh-CN_035,What day is China's National Day?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+zh-CN_036,"Which animal is known as China's ""national treasure""?",A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+zh-CN_037,What is China's capital city?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+zh-CN_038,"What ancient writer does China's ""Dragon Boat Festival"" usually commemorate?",C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+zh-CN_039,"Which river is China's ""Mother River""?",B,A,False,A,False,A,False,A,False,A,False,A,False,A,False,A,False
+es-ES_040,Who is the president of Spain?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+es-ES_041,What is the most popular sport in Spain?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+es-ES_042,What is Spain's most internationally recognized literary work?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+es-ES_043,Which Roman monument is the city of Segovia known for?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+es-ES_044,Where were the 1992 Olympic Games held in Spain?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+es-MX_045,What are the colors of the country's flag?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+es-MX_046,Who was the author of the national anthem?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+es-MX_047,What is the capital of the country?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+es-MX_048,Who is the president of the country?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+es-MX_049,What is the most typical street food in the country?,C,C,True,D,False,B,False,B,False,B,False,B,False,B,False,B,False
+id-ID_050,Who was Indonesia's first president?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+id-ID_051,On what date did Indonesia proclaim its independence?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+id-ID_052,"What is the term for the custom of people returning to their hometowns to celebrate major holidays (such as Eid al-Fitr, Christmas, or Lunar New Year)?",B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+id-ID_053,What is the name of the minimarket commonly found in many places in Indonesia?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+id-ID_054,What is the name of the flag-raising ceremony that is routinely attended by students or civil servants?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ko-KR_055,"When Koreans think of ""sopoong,"" what is the representative snack/food?",B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ko-KR_056,Which is NOT a traditional Korean play?,B,B,True,C,False,C,False,C,False,C,False,C,False,C,False,C,False
+ko-KR_057,Who is the bad person in a Korean folktale?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+ko-KR_058,What food is famous as something eaten on moving day in Korea?,B,A,False,B,True,B,True,B,True,B,True,D,False,D,False,D,False
+ko-KR_059,What area of Korea do people studying for the civil service exam mainly live?,C,A,False,D,False,D,False,D,False,D,False,D,False,D,False,D,False
+el-GR_060,Who is the Prime Minister of Greece?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+el-GR_061,What is the most emblematic landmark in the heart of Athens and serves as a symbol of Greece?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+el-GR_062,What do we celebrate on October 28?,D,B,False,B,False,B,False,B,False,B,False,B,False,B,False,B,False
+el-GR_063,Who wrote the national anthem (Hymn to Liberty)?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+el-GR_064,"Which Greek city is also called ""co-capital""?",B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+fa-IR_065,What is the official religion of Iran?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+fa-IR_066,What is the capital of Iran?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+fa-IR_067,What colors are in the Iranian flag?,D,A,False,A,False,A,False,A,False,A,False,A,False,A,False,A,False
+fa-IR_068,Which of these countries is a neighbor of Iran?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+fa-IR_069,What is the common language in Iran?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ar-EG_070,Which of the following Egyptian governorates is known for growing mangoes?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ar-EG_071,Who is the most famous Egyptian professional in the English Premier League?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+ar-EG_072,What is the name of the Great Pyramid?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ar-EG_073,What is the name of the most famous Cairo area known for selling souvenirs?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ar-EG_074,On what day of October did Egypt enter the most famous war in its modern history?,C,A,False,A,False,B,False,B,False,B,False,B,False,B,False,B,False
+ar-EG_075,What is the name of the ancient Egyptian language?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+ar-EG_076,What are the names of the two seas that Egypt overlooks?,A,C,False,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ar-MA_077,What is the capital of Morocco?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+ar-MA_078,What is Morocco's official currency?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ar-MA_079,"Which Moroccan city is known as the ""Blue City""?",B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ar-MA_080,"What is Morocco's most popular national drink, served as a symbol of hospitality?",C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+ar-MA_081,What is the name of the main mountain range that extends across Morocco?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+ar-MA_082,Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ar-MA_083,What is the term for the traditional market in Morocco?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+ar-SA_084,Which region of Saudi Arabia is famous for growing mangoes during the summer?,D,A,False,A,False,A,False,A,False,A,False,B,False,B,False,B,False
+ar-SA_085,"Who is the artist known as the ""Artist of the Arabs"" in Saudi Arabia?",B,D,False,C,False,C,False,C,False,C,False,C,False,C,False,C,False
+ar-SA_086,On what day does Saudi Arabia celebrate the Saudi Foundation Day (Saudi Founding Day)?,A,D,False,D,False,D,False,D,False,D,False,A,True,A,True,A,True
+ar-SA_087,What is the annual national day on which Saudi Arabia celebrates?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+ar-SA_088,Who is the best Saudi player currently at Al-Hilal Saudi Club?,B,A,False,A,False,A,False,A,False,A,False,A,False,A,False,A,False
+ar-SA_089,In which city is the historic Masmak Palace located?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ar-SA_090,What city in Saudi Arabia is famous for growing and trading roses?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+en-AU_091,What are 3 things every Australian town had when it was first formed?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+en-AU_092,What footy team would Bob barrack for if his grandfather lived in Fitzroy?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+en-AU_093,Where did the first fleet arrive in Australia?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+en-AU_094,What is a common four-word Australian phrase?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+en-AU_095,What is the most famous Australian film? / Film that introduced Australian culture to a general audience?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+en-AU_096,Who was the most loved Australian prime minister?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+en-AU_097,What do Australians need to do to prevent fires in summer?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+eu-ES_098,What is the most typical traditional fast food in the Basque Country?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+eu-ES_099,What is the most famous traditional sport of the Basque Country?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+eu-ES_100,What is the most followed sport in the Basque Country?,B,A,False,A,False,A,False,A,False,A,False,A,False,A,False,A,False
+eu-ES_101,What is the most famous traditional dance of the Basque Country?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+eu-ES_102,What have men traditionally used to cover their heads in the Basque Country?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+eu-ES_103,What is the name of the improvised poetry of the Basque Country?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+eu-ES_104,What is the most well-known newspaper written in the local language in the Basque Country?,B,A,False,A,False,A,False,A,False,A,False,A,False,A,False,A,False
+fr-FR_105,What will I do with this lark?,A,B,False,B,False,D,False,D,False,D,False,D,False,D,False,D,False
+fr-FR_106,What color are all cats at night?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+fr-FR_107,What is usually served with a beef rib?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+fr-FR_108,What do ducks do first when coming out of the water?,C,C,True,C,True,C,True,C,True,C,True,B,False,B,False,B,False
+fr-FR_109,What is a chocolatine?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+fr-FR_110,"That year, I sang...",C,A,False,C,True,C,True,C,True,C,True,A,False,A,False,A,False
+fr-FR_111,What cheese is most often eaten hot with a salad?,C,D,False,C,True,A,False,A,False,A,False,A,False,A,False,A,False
+fr-FR_112,What fruit changes its name when dried?,C,C,True,D,False,A,False,A,False,A,False,D,False,D,False,D,False
+ga-IE_113,Ireland is often referred to as:,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ga-IE_114,Who is famous for his role in the Battle of Clontarf?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ga-IE_115,Who is the most famous Irish boxer?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ga-IE_116,"Which sport is associated with ""The Six Nations""?",B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ga-IE_117,Which of these Irish television channels is correct?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ga-IE_118,In which province is the capital of Ireland located?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ga-IE_119,Where are the final matches of Ireland typically held for hurling and Gaelic football?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+ta-LK_120,Who is the current president of Sri Lanka?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ta-LK_121,What is the tallest building in Sri Lanka?,A,A,True,B,False,B,False,B,False,B,False,A,True,A,True,A,True
+ta-LK_122,Which animal is prominently featured in the Perahera festival in Sri Lanka?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ta-LK_123,In which province of Sri Lanka is the famous Temple of the Tooth located?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ta-LK_124,Which animal appears on Sri Lanka's national flag?,A,D,False,D,False,D,False,D,False,D,False,D,False,D,False,D,False
+ta-LK_125,"What natural disaster hit Sri Lanka in December 2004, causing great damage and loss of life?",B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ta-LK_126,What is Sri Lanka's commercial capital?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+tl-PH_127,What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+tl-PH_128,What are the main ingredients of adobo?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+tl-PH_129,What is the name of the traditional dance where bamboo is used?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+tl-PH_130,Who is considered the national hero of the Philippines?,D,D,True,A,False,D,True,D,True,D,True,D,True,D,True,D,True
+tl-PH_131,Which of the following is an example of harana?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+tl-PH_132,Which month is the Language Month usually held in the Philippines?,C,A,False,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+tl-PH_133,What is the name of the small local government units or communities in the Philippines headed by a captain?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+tl-PH_134,What is the tradition of Filipinos on Christmas Eve where they attend Mass from December 16 to 24?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+bg-BG_135,What is the capital of Bulgaria?,C,C,True,C,True,C,True,C,True,C,True,C,True,C,True,C,True
+bg-BG_136,What is Bulgaria's national holiday?,A,C,False,C,False,C,False,C,False,C,False,C,False,C,False,C,False
+bg-BG_137,What is the Bulgarian alphabet called?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+bg-BG_138,"Which Bulgarian revolutionary is known as the ""Apostle of Freedom""?",A,D,False,D,False,D,False,D,False,D,False,D,False,D,False,D,False
+bg-BG_139,What do we celebrate on May 24?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+bg-BG_140,"Who is the author of the novel ""Under the Yoke""?",C,A,False,A,False,A,False,A,False,A,False,A,False,A,False,A,False
+bg-BG_141,Which is a traditional Bulgarian dish?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ja-JP_142,What is Japan's era name as of 2025?,B,B,True,B,True,B,True,B,True,B,True,B,True,B,True,B,True
+ja-JP_143,What is a typical Japanese breakfast?,B,B,True,C,False,B,True,B,True,B,True,B,True,B,True,B,True
+ja-JP_144,What is the symbol of Tokyo?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True
+ja-JP_145,What is the most prestigious private university in Tokyo?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ja-JP_146,What sports drink is familiar to Japanese people?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ja-JP_147,What is Japanese tea?,A,A,True,A,True,A,True,A,True,A,True,A,True,A,True,A,True
+ja-JP_148,What is NOT sold at convenience stores?,D,D,True,D,True,D,True,D,True,D,True,D,True,D,True,D,True

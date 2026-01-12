@@ -3,12 +3,17 @@ import pandas as pd
 import os
 
 # --- CONFIGURATION ---
-TRUTH_FILE = "docs/answers.tsv"  # Ensure this is uploaded to your environment
+TRUTH_FILE = "docs/answers.tsv"  # Ground truth file
 QUESTIONS_FILE = "questions.tsv"  # Add questions file
 PRED_FILES = {
-    "Baseline (No RAG)": "predictions_baseline.tsv",
-    "RAG (k=3)": "predictions_rag_rrf_k3.tsv",
-    "RAG (k=5)": "predictions_rag_rrf_k5.tsv"
+    "Baseline (No RAG)": "output-with-v5/kaggle/working/all_predictions/submission_baseline_no_rag.tsv",
+    "Phase 1: Country Filter": "output-with-v5/kaggle/working/all_predictions/submission_phase1_country_filter.tsv",
+    "Phase 2: Intent": "output-with-v5/kaggle/working/all_predictions/submission_phase2_intent.tsv",
+    "Phase 3: Tiered": "output-with-v5/kaggle/working/all_predictions/submission_phase3_tiered.tsv",
+    "Phase 4: Quality": "output-with-v5/kaggle/working/all_predictions/submission_phase4_quality.tsv",
+    "Phase 5: Trust Weight": "output-with-v5/kaggle/working/all_predictions/submission_phase5_trust_weight.tsv",
+    "Phase 6: Full System": "output-with-v5/kaggle/working/all_predictions/submission_phase6_full_system.tsv",
+    "RAG Basic": "output-with-v5/kaggle/working/all_predictions/submission_rag_basic.tsv"
 }
 
 def load_truth(filepath):
