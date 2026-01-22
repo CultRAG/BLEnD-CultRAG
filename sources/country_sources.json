@@ -1,15 +1,138 @@
 {
+  "AU": [
+    "Culture_of_Australia",
+    "Australian_cuisine",
+    "Public_holidays_in_Australia",
+    "Sport_in_Australia"
+  ],
+  "AZ": [
+    "Culture_of_Azerbaijan",
+    "Azerbaijani_cuisine",
+    "Public_holidays_in_Azerbaijan",
+    "Sport_in_Azerbaijan"
+  ],
+  "BD": [
+    "Culture_of_Bangladesh",
+    "Bangladeshi_cuisine",
+    "Public_holidays_in_Bangladesh",
+    "Sport_in_Bangladesh"
+  ],
+  "BG": [
+    "Culture_of_Bulgaria",
+    "Bulgarian_cuisine"
+  ],
+  "CN": [
+    "Culture_of_China",
+    "Chinese_cuisine",
+    "Public_holidays_in_China"
+  ],
+  "DZ": [
+    "Culture_of_Algeria",
+    "Algerian_cuisine",
+    "Public_holidays_in_Algeria",
+    "Sport_in_Algeria"
+  ],
+  "EC": [
+    "Culture_of_Ecuador",
+    "Ecuadorian_cuisine"
+  ],
+  "EG": [
+    "Culture_of_Egypt",
+    "Egyptian_cuisine"
+  ],
+  "ES": [
+    "Culture_of_Spain",
+    "Spanish_cuisine",
+    "Public_holidays_in_Spain"
+  ],
+  "ET": [
+    "Culture_of_Ethiopia",
+    "Ethiopian_cuisine",
+    "Public_holidays_in_Ethiopia",
+    "Sport_in_Ethiopia"
+  ],
+  "FR": [
+    "Culture_of_France",
+    "French_cuisine"
+  ],
   "GB": [
     "Culture_of_the_United_Kingdom",
     "British_cuisine",
     "Public_holidays_in_the_United_Kingdom",
     "Sport_in_the_United_Kingdom"
   ],
-  "AU": [
-    "Culture_of_Australia",
-    "Australian_cuisine",
-    "Public_holidays_in_Australia",
-    "Sport_in_Australia"
+  "GR": [
+    "Culture_of_Greece",
+    "Greek_cuisine"
+  ],
+  "ID": [
+    "Culture_of_Indonesia",
+    "Indonesian_cuisine"
+  ],
+  "IN": [
+    "Culture_of_India",
+    "Indian_cuisine",
+    "Public_holidays_in_India",
+    "Sport_in_India"
+  ],
+  "IR": [
+    "Culture_of_Iran",
+    "Iranian_cuisine"
+  ],
+  "JP": [
+    "Culture_of_Japan",
+    "Japanese_cuisine",
+    "Public_holidays_in_Japan"
+  ],
+  "KP": [
+    "Culture_of_North_Korea",
+    "North_Korean_cuisine",
+    "Public_holidays_in_North_Korea",
+    "Sport_in_North_Korea"
+  ],
+  "KR": [
+    "Culture_of_South_Korea",
+    "Korean_cuisine",
+    "Public_holidays_in_South_Korea"
+  ],
+  "LK": [
+    "Culture_of_Sri_Lanka",
+    "Sri_Lankan_cuisine"
+  ],
+  "MA": [
+    "Culture_of_Morocco",
+    "Moroccan_cuisine"
+  ],
+  "MX": [
+    "Culture_of_Mexico",
+    "Mexican_cuisine",
+    "Public_holidays_in_Mexico"
+  ],
+  "MY": [
+    "Culture_of_Malaysia",
+    "Malaysian_cuisine",
+    "Public_holidays_in_Malaysia",
+    "Sport_in_Malaysia"
+  ],
+  "NG": [
+    "Culture_of_Nigeria",
+    "Nigerian_cuisine",
+    "Public_holidays_in_Nigeria",
+    "Sport_in_Nigeria"
+  ],
+  "PH": [
+    "Culture_of_the_Philippines",
+    "Filipino_cuisine"
+  ],
+  "SA": [
+    "Culture_of_Saudi_Arabia",
+    "Saudi_Arabian_cuisine"
+  ],
+  "SE": [
+    "Culture_of_Sweden",
+    "Swedish_cuisine",
+    "Public_holidays_in_Sweden",
+    "Sport_in_Sweden"
   ],
   "SG": [
     "Culture_of_Singapore",
@@ -17,77 +140,22 @@
     "Public_holidays_in_Singapore",
     "Housing_and_Development_Board"
   ],
-  "CN": [
-    "Culture_of_China",
-    "Chinese_cuisine",
-    "Public_holidays_in_China"
+  "TH": [
+    "Culture_of_Thailand",
+    "Thai_cuisine",
+    "Public_holidays_in_Thailand",
+    "Sport_in_Thailand"
   ],
-  "JP": [
-    "Culture_of_Japan",
-    "Japanese_cuisine",
-    "Public_holidays_in_Japan"
+  "US": [
+    "Culture_of_the_United_States",
+    "American_cuisine",
+    "Public_holidays_in_the_United_States",
+    "Sport_in_the_United_States"
   ],
-  "KR": [
-    "Culture_of_South_Korea",
-    "Korean_cuisine",
-    "Public_holidays_in_South_Korea"
-  ],
-  "ES": [
-    "Culture_of_Spain",
-    "Spanish_cuisine",
-    "Public_holidays_in_Spain"
-  ],
-  "MX": [
-    "Culture_of_Mexico",
-    "Mexican_cuisine",
-    "Public_holidays_in_Mexico"
-  ],
-  "EC": [
-    "Culture_of_Ecuador",
-    "Ecuadorian_cuisine"
-  ],
-  "ID": [
-    "Culture_of_Indonesia",
-    "Indonesian_cuisine"
-  ],
-  "IR": [
-    "Culture_of_Iran",
-    "Iranian_cuisine"
-  ],
-  "EG": [
-    "Culture_of_Egypt",
-    "Egyptian_cuisine"
-  ],
-  "MA": [
-    "Culture_of_Morocco",
-    "Moroccan_cuisine"
-  ],
-  "SA": [
-    "Culture_of_Saudi_Arabia",
-    "Saudi_Arabian_cuisine"
-  ],
-  "GR": [
-    "Culture_of_Greece",
-    "Greek_cuisine"
-  ],
-  "BG": [
-    "Culture_of_Bulgaria",
-    "Bulgarian_cuisine"
-  ],
-  "FR": [
-    "Culture_of_France",
-    "French_cuisine"
-  ],
-  "IE": [
-    "Culture_of_Ireland",
-    "Irish_cuisine"
-  ],
-  "LK": [
-    "Culture_of_Sri_Lanka",
-    "Sri_Lankan_cuisine"
-  ],
-  "PH": [
-    "Culture_of_the_Philippines",
-    "Filipino_cuisine"
+  "ZA": [
+    "Culture_of_South_Africa",
+    "South_African_cuisine",
+    "Public_holidays_in_South_Africa",
+    "Sport_in_South_Africa"
   ]
 }

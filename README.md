@@ -15,7 +15,7 @@
 
 ## 📖 Overview
 
-**BLEnD-CultureRAG** is a professional retrieval-augmented cultural reasoning system. It evaluates the cultural awareness of language models by selecting culturally appropriate answers to English multiple-choice questions across **20+ global locales**.
+**BLEnD-CultureRAG** is a professional retrieval-augmented cultural reasoning system. It evaluates the cultural awareness of language models by selecting culturally appropriate answers to English multiple-choice questions across **30+ global locales**.
 
 The system features:
 - **spaCy-powered** Named Entity Recognition (NER) for knowledge targeting.
@@ -29,11 +29,10 @@ The system features:
 
 ```
 BLEnD-CultureRAG/
-├── data/               # 📊 Input datasets, ground truth, and persistent caches
-│   ├── questions.tsv   # 148 questions across 20+ countries
+├── data/               # 📊 Main datasets and Ground Truth
+│   ├── questions.tsv   # 148 questions across 30+ countries
 │   ├── answers.tsv     # Ground truth for evaluation
-│   ├── wiki_cache.pkl  # Persistent Wikipedia disk cache
-│   └── kb_chunks.pkl   # Processed Knowledge Base chunks
+│   └── sample/         # 🧪 Development/Testing subsets
 ├── docs/               # 📑 Comprehensive documentation guides
 │   ├── ARCHITECTURE.md # High-level system design
 │   ├── NOTEBOOK_GUIDE.md# Jupyter notebook usage breakdown
@@ -43,7 +42,11 @@ BLEnD-CultureRAG/
 ├── output/             # 📤 Generated predictions and metrics
 ├── scripts/            # 🛠️ Production utility scripts
 │   ├── evaluate_results.py # Accuracy & impact analysis
-│   └── convert_pkl_to_json.py # Cache format conversion
+│   ├── verify_coverage.py # Check country/intent source coverage
+│   └── ...             # Site checks and format converters
+├── sources/            # 🧭 Intent mapping and locale configurations
+│   ├── sites_intent_mapping_V7.json # Main RAG routing logic
+│   └── country_sources.json # Locale-specific Wikipedia mappings
 └── requirements.txt    # 📦 Project dependencies
 ```
 
