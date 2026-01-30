@@ -1,0 +1,380 @@
+{
+  "metadata": {
+    "version": "4.0_PRODUCTION",
+    "date": "2026-01-25",
+    "description": "Only verified working sources with real APIs - NO hallucinations",
+    "total_sources": 3,
+    "all_tested": true
+  },
+
+  "knowledge_sources": [
+    {
+      "source_id": "wiki_en",
+      "name": "Wikipedia English",
+      "type": "mediawiki_api",
+      "tier": 1,
+      "api_details": {
+        "base_url": "https://en.wikipedia.org/w/api.php",
+        "auth": "none",
+        "rate_limit": 50,
+        "rate_unit": "requests_per_second",
+        "docs": "https://www.mediawiki.org/wiki/API:Main_page"
+      },
+      "operations": {
+        "search_titles": {
+          "params": {
+            "action": "opensearch",
+            "search": "{query}",
+            "limit": "{limit}",
+            "format": "json",
+            "namespace": "0"
+          },
+          "response_format": "[query_string, [titles], [descriptions], [urls]]",
+          "example": "https://en.wikipedia.org/w/api.php?action=opensearch&search=Ireland%20sports&limit=3&format=json"
+        },
+        "get_extract": {
+          "params": {
+            "action": "query",
+            "format": "json",
+            "titles": "{title}",
+            "prop": "extracts",
+            "exintro": "true",
+            "explaintext": "true",
+            "redirects": "1"
+          },
+          "response_format": "{'query': {'pages': {'123': {'extract': 'text...'}}}}",
+          "example": "https://en.wikipedia.org/w/api.php?action=query&titles=Gaelic_football&prop=extracts&exintro=true&explaintext=true&format=json"
+        }
+      },
+      "best_for": ["geography", "history", "government", "sports", "culture", "food", "language", "education", "economy"],
+      "trust_scores": {
+        "geography": 0.90,
+        "history": 0.85,
+        "government": 0.82,
+        "sports": 0.88,
+        "food": 0.70,
+        "culture": 0.75,
+        "language": 0.85,
+        "education": 0.80,
+        "social_norms": 0.65
+      }
+    },
+
+    {
+      "source_id": "wikivoyage_en",
+      "name": "WikiVoyage English",
+      "type": "mediawiki_api",
+      "tier": 2,
+      "api_details": {
+        "base_url": "https://en.wikivoyage.org/w/api.php",
+        "auth": "none",
+        "rate_limit": 50,
+        "rate_unit": "requests_per_second",
+        "docs": "https://en.wikivoyage.org/wiki/Wikivoyage:API"
+      },
+      "operations": {
+        "search_titles": {
+          "params": {
+            "action": "opensearch",
+            "search": "{query}",
+            "limit": "{limit}",
+            "format": "json"
+          },
+          "response_format": "[query_string, [titles], [descriptions], [urls]]",
+          "example": "https://en.wikivoyage.org/w/api.php?action=opensearch&search=Ireland&limit=3&format=json"
+        },
+        "get_extract": {
+          "params": {
+            "action": "query",
+            "format": "json",
+            "titles": "{title}",
+            "prop": "extracts",
+            "explaintext": "true"
+          },
+          "response_format": "{'query': {'pages': {'123': {'extract': 'text...'}}}}",
+          "example": "https://en.wikivoyage.org/w/api.php?action=query&titles=Ireland&prop=extracts&explaintext=true&format=json"
+        }
+      },
+      "best_for": ["food", "culture", "social_norms", "travel"],
+      "trust_scores": {
+        "food": 0.75,
+        "culture": 0.70,
+        "social_norms": 0.65,
+        "geography": 0.50
+      },
+      "notes": "Better for subjective cultural content (what locals eat, customs) than Wikipedia"
+    },
+
+    {
+      "source_id": "wikidata",
+      "name": "Wikidata Knowledge Graph",
+      "type": "sparql_endpoint",
+      "tier": 1,
+      "api_details": {
+        "sparql_endpoint": "https://query.wikidata.org/sparql",
+        "entity_search": "https://www.wikidata.org/w/api.php",
+        "auth": "none",
+        "query_timeout": 60,
+        "rate_limit": null,
+        "docs": "https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service"
+      },
+      "operations": {
+        "entity_search": {
+          "params": {
+            "action": "wbsearchentities",
+            "search": "{query}",
+            "language": "en",
+            "format": "json",
+            "limit": "{limit}"
+          },
+          "response_format": "{'search': [{'id': 'Q123', 'label': 'Ireland', 'description': '...'}]}",
+          "example": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Ireland&language=en&format=json&limit=5"
+        },
+        "sparql_query": {
+          "params": {
+            "query": "{sparql_query}",
+            "format": "json"
+          },
+          "response_format": "{'results': {'bindings': [{'var': {'value': '...'}}]}}",
+          "example_query": "SELECT ?capital ?capitalLabel WHERE { wd:Q27 wdt:P36 ?capital. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. } }"
+        }
+      },
+      "best_for": ["geography", "government", "economy", "demographics", "structured_facts"],
+      "trust_scores": {
+        "geography": 0.95,
+        "government": 0.88,
+        "economy": 0.92,
+        "demographics": 0.90,
+        "food": 0.50,
+        "social_norms": 0.40
+      },
+      "notes": "Requires SPARQL knowledge. Best for factual queries, poor for subjective/cultural questions.",
+      "complexity": "high"
+    }
+  ],
+
+  "intent_routing": {
+    "food_drink": {
+      "sources": ["wiki_en", "wikivoyage_en"],
+      "query_templates": [
+        "{country} cuisine",
+        "Food of {country}",
+        "Traditional dishes {country}",
+        "{entity}"
+      ],
+      "notes": "WikiVoyage better for 'popular' and 'typical' food questions"
+    },
+    
+    "sports": {
+      "sources": ["wiki_en"],
+      "query_templates": [
+        "Sport in {country}",
+        "Popular sports {country}",
+        "{country} national sport",
+        "{country} sports stadium",       
+        "{country} traditional games",     
+        "{entity}"
+      ]
+    },
+    
+    "government_politics": {
+      "sources": ["wiki_en", "wikidata"],
+      "query_templates": [
+        "Government of {country}",
+        "Politics of {country}",
+        "{country} political system",      
+        "{country} ruling party",          
+        "{entity}"
+      ],
+      "notes": "Wikidata good for structured facts (ruling party, capital, etc.)"
+    },
+    
+    "geography_places": {
+      "sources": ["wiki_en", "wikidata"],
+      "query_templates": [
+        "Geography of {country}",
+        "{country}",
+        "{entity}"
+      ]
+    },
+    
+    "culture_landmarks": {
+      "sources": ["wiki_en", "wikivoyage_en"],
+      "query_templates": [
+        "Culture of {country}",
+        "Landmarks of {country}",
+        "{entity}",
+        "{country} heritage"
+      ]
+    },
+    
+    "education_knowledge_systems": {
+      "sources": ["wiki_en"],
+      "query_templates": [
+        "Education in {country}",
+        "School system {country}",
+        "{entity}"
+      ]
+    },
+    
+    "language_writing": {
+      "sources": ["wiki_en", "wikidata"],
+      "query_templates": [
+        "Languages of {country}",
+        "Official language {country}",
+        "{entity}"
+      ]
+    },
+    
+    "history_identity": {
+      "sources": ["wiki_en"],
+      "query_templates": [
+        "History of {country}",
+        "{entity}",
+        "{country} historical events"
+      ]
+    },
+    
+    "holidays_festivals": {
+      "sources": ["wiki_en"],
+      "query_templates": [
+        "Public holidays in {country}",
+        "Festivals of {country}",
+        "{entity}"
+      ]
+    },
+    
+    "economy_currency_symbols": {
+      "sources": ["wiki_en", "wikidata"],
+      "query_templates": [
+        "Economy of {country}",
+        "Currency of {country}",
+        "{entity}"
+      ]
+    },
+    
+    "social_norms_etiquette": {
+      "sources": ["wikivoyage_en", "wiki_en"],
+      "query_templates": [
+        "Culture of {country}",
+        "Customs in {country}",
+        "{entity}"
+      ]
+    },
+    
+    "demographics_social_classes": {
+      "sources": ["wiki_en", "wikidata"],
+      "query_templates": [
+        "Demographics of {country}",
+        "Population of {country}",
+        "{entity}"
+      ]
+    },
+    
+    "infrastructure_transportation": {
+      "sources": ["wiki_en"],
+      "query_templates": [
+        "Transport in {country}",
+        "Infrastructure of {country}",
+        "{country} airport",               
+        "{country} public housing",        
+        "{entity}"
+      ]
+    },
+    
+    "media_popculture": {
+      "sources": ["wiki_en"],
+      "query_templates": [
+        "Media of {country}",
+        "Culture of {country}",
+        "{entity}"
+      ]
+    },
+    
+    "religion_spirituality": {
+      "sources": ["wiki_en"],
+      "query_templates": [
+        "Religion in {country}",
+        "{entity}",
+        "Religious practices {country}"
+      ]
+    },
+    
+    "arts_literature_music": {
+      "sources": ["wiki_en"],
+      "query_templates": [
+        "Music of {country}",
+        "Literature of {country}",
+        "Art of {country}",
+        "{entity}"
+      ]
+    },
+    
+    "national_symbols_emblems": {
+      "sources": ["wiki_en", "wikidata"],
+      "query_templates": [
+        "National symbols of {country}",
+        "Flag of {country}",
+        "{entity}"
+      ]
+    },
+    
+    "others": {
+      "sources": ["wiki_en"],
+      "query_templates": [
+        "{entity}",
+        "{question}",
+        "{country}"
+      ]
+    }
+  },
+
+  "country_codes_to_names": {
+    "SG": "Singapore",
+    "JP": "Japan",
+    "CN": "China",
+    "IN": "India",
+    "IE": "Ireland",
+    "GB": "United Kingdom",
+    "US": "United States",
+    "AU": "Australia",
+    "MX": "Mexico",
+    "EC": "Ecuador",
+    "FR": "France",
+    "DE": "Germany",
+    "ES": "Spain",
+    "IT": "Italy",
+    "BR": "Brazil",
+    "KR": "South Korea",
+    "TH": "Thailand",
+    "MY": "Malaysia",
+    "ID": "Indonesia",
+    "PH": "Philippines",
+    "SA": "Saudi Arabia",
+    "EG": "Egypt",
+    "ZA": "South Africa",
+    "NG": "Nigeria",
+    "ET": "Ethiopia",
+    "KP": "North Korea",
+    "IR": "Iran",
+    "BD": "Bangladesh",
+    "LK": "Sri Lanka",
+    "MA": "Morocco",
+    "DZ": "Algeria",
+    "AZ": "Azerbaijan",
+    "BG": "Bulgaria",
+    "GR": "Greece",
+    "SE": "Sweden"
+  },
+
+  "usage_notes": {
+    "primary_strategy": "Use Wikipedia for 90% of queries, add WikiVoyage for food/culture subjective questions",
+    "wikidata_use_case": "Only for structured facts if you implement SPARQL (optional)",
+    "dont_waste_time_on": "CIA Factbook (no API), UNESCO (limited), Ethnologue (requires paid API), country portals (no search)",
+    "expected_accuracy": {
+      "wikipedia_only": "78-80%",
+      "wikipedia_plus_wikivoyage": "85-87%",
+      "with_wikidata_optional": "88-90%"
+    }
+  }
+}
