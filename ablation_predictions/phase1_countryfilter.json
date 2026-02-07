@@ -1,0 +1,895 @@
+{
+  "config_name": "phase1_countryfilter",
+  "timestamp": 1769895677.519049,
+  "sample_size": 148,
+  "predictions": [
+    {
+      "id": "el-GR_062",
+      "prediction": "B",
+      "countrycode": "GR",
+      "intent": null
+    },
+    {
+      "id": "tl-PH_132",
+      "prediction": "A",
+      "countrycode": "PH",
+      "intent": null
+    },
+    {
+      "id": "id-ID_053",
+      "prediction": "D",
+      "countrycode": "ID",
+      "intent": null
+    },
+    {
+      "id": "zh-SG_020",
+      "prediction": "D",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "ga-IE_119",
+      "prediction": "C",
+      "countrycode": "IE",
+      "intent": null
+    },
+    {
+      "id": "ta-SG_010",
+      "prediction": "A",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "ar-MA_077",
+      "prediction": "C",
+      "countrycode": "MA",
+      "intent": null
+    },
+    {
+      "id": "es-ES_044",
+      "prediction": "C",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "ar-SA_087",
+      "prediction": "A",
+      "countrycode": "SA",
+      "intent": null
+    },
+    {
+      "id": "zh-SG_017",
+      "prediction": "A",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "eu-ES_102",
+      "prediction": "A",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "ar-EG_076",
+      "prediction": "A",
+      "countrycode": "EG",
+      "intent": null
+    },
+    {
+      "id": "ko-KR_059",
+      "prediction": "A",
+      "countrycode": "KR",
+      "intent": null
+    },
+    {
+      "id": "bg-BG_135",
+      "prediction": "C",
+      "countrycode": "BG",
+      "intent": null
+    },
+    {
+      "id": "fa-IR_069",
+      "prediction": "B",
+      "countrycode": "IR",
+      "intent": null
+    },
+    {
+      "id": "bg-BG_137",
+      "prediction": "D",
+      "countrycode": "BG",
+      "intent": null
+    },
+    {
+      "id": "zh-SG_015",
+      "prediction": "C",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "bg-BG_141",
+      "prediction": "B",
+      "countrycode": "BG",
+      "intent": null
+    },
+    {
+      "id": "el-GR_064",
+      "prediction": "B",
+      "countrycode": "GR",
+      "intent": null
+    },
+    {
+      "id": "es-ES_040",
+      "prediction": "C",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "eu-ES_098",
+      "prediction": "C",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "ga-IE_117",
+      "prediction": "A",
+      "countrycode": "IE",
+      "intent": null
+    },
+    {
+      "id": "fr-FR_110",
+      "prediction": "C",
+      "countrycode": "FR",
+      "intent": null
+    },
+    {
+      "id": "zh-CN_038",
+      "prediction": "C",
+      "countrycode": "CN",
+      "intent": null
+    },
+    {
+      "id": "tl-PH_133",
+      "prediction": "A",
+      "countrycode": "PH",
+      "intent": null
+    },
+    {
+      "id": "eu-ES_100",
+      "prediction": "A",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "bg-BG_136",
+      "prediction": "A",
+      "countrycode": "BG",
+      "intent": null
+    },
+    {
+      "id": "es-MX_045",
+      "prediction": "B",
+      "countrycode": "MX",
+      "intent": null
+    },
+    {
+      "id": "ar-SA_085",
+      "prediction": "A",
+      "countrycode": "SA",
+      "intent": null
+    },
+    {
+      "id": "ms-SG_003",
+      "prediction": "A",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "fa-IR_067",
+      "prediction": "A",
+      "countrycode": "IR",
+      "intent": null
+    },
+    {
+      "id": "es-EC_026",
+      "prediction": "B",
+      "countrycode": "EC",
+      "intent": null
+    },
+    {
+      "id": "zh-CN_036",
+      "prediction": "A",
+      "countrycode": "CN",
+      "intent": null
+    },
+    {
+      "id": "es-ES_043",
+      "prediction": "D",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "ta-SG_009",
+      "prediction": "B",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "el-GR_060",
+      "prediction": "A",
+      "countrycode": "GR",
+      "intent": null
+    },
+    {
+      "id": "fa-IR_066",
+      "prediction": "B",
+      "countrycode": "IR",
+      "intent": null
+    },
+    {
+      "id": "ko-KR_056",
+      "prediction": "A",
+      "countrycode": "KR",
+      "intent": null
+    },
+    {
+      "id": "es-EC_028",
+      "prediction": "C",
+      "countrycode": "EC",
+      "intent": null
+    },
+    {
+      "id": "ta-SG_008",
+      "prediction": "C",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "ta-SG_014",
+      "prediction": "C",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "en-GB_030",
+      "prediction": "B",
+      "countrycode": "GB",
+      "intent": null
+    },
+    {
+      "id": "en-AU_091",
+      "prediction": "A",
+      "countrycode": "AU",
+      "intent": null
+    },
+    {
+      "id": "id-ID_052",
+      "prediction": "B",
+      "countrycode": "ID",
+      "intent": null
+    },
+    {
+      "id": "tl-PH_127",
+      "prediction": "C",
+      "countrycode": "PH",
+      "intent": null
+    },
+    {
+      "id": "ar-EG_072",
+      "prediction": "A",
+      "countrycode": "EG",
+      "intent": null
+    },
+    {
+      "id": "id-ID_050",
+      "prediction": "A",
+      "countrycode": "ID",
+      "intent": null
+    },
+    {
+      "id": "ja-JP_147",
+      "prediction": "A",
+      "countrycode": "JP",
+      "intent": null
+    },
+    {
+      "id": "ms-SG_001",
+      "prediction": "C",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "ar-MA_081",
+      "prediction": "C",
+      "countrycode": "MA",
+      "intent": null
+    },
+    {
+      "id": "bg-BG_139",
+      "prediction": "D",
+      "countrycode": "BG",
+      "intent": null
+    },
+    {
+      "id": "eu-ES_103",
+      "prediction": "C",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "fr-FR_106",
+      "prediction": "A",
+      "countrycode": "FR",
+      "intent": null
+    },
+    {
+      "id": "ta-LK_125",
+      "prediction": "B",
+      "countrycode": "LK",
+      "intent": null
+    },
+    {
+      "id": "es-ES_042",
+      "prediction": "B",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "eu-ES_101",
+      "prediction": "D",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "eu-ES_099",
+      "prediction": "A",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "en-GB_034",
+      "prediction": "A",
+      "countrycode": "GB",
+      "intent": null
+    },
+    {
+      "id": "ar-SA_089",
+      "prediction": "B",
+      "countrycode": "SA",
+      "intent": null
+    },
+    {
+      "id": "ko-KR_057",
+      "prediction": "D",
+      "countrycode": "KR",
+      "intent": null
+    },
+    {
+      "id": "es-EC_027",
+      "prediction": "B",
+      "countrycode": "EC",
+      "intent": null
+    },
+    {
+      "id": "ta-SG_013",
+      "prediction": "D",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "ga-IE_113",
+      "prediction": "A",
+      "countrycode": "IE",
+      "intent": null
+    },
+    {
+      "id": "fr-FR_108",
+      "prediction": "C",
+      "countrycode": "FR",
+      "intent": null
+    },
+    {
+      "id": "bg-BG_140",
+      "prediction": "C",
+      "countrycode": "BG",
+      "intent": null
+    },
+    {
+      "id": "en-GB_033",
+      "prediction": "A",
+      "countrycode": "GB",
+      "intent": null
+    },
+    {
+      "id": "es-EC_022",
+      "prediction": "C",
+      "countrycode": "EC",
+      "intent": null
+    },
+    {
+      "id": "ar-EG_071",
+      "prediction": "C",
+      "countrycode": "EG",
+      "intent": null
+    },
+    {
+      "id": "ja-JP_145",
+      "prediction": "A",
+      "countrycode": "JP",
+      "intent": null
+    },
+    {
+      "id": "fr-FR_105",
+      "prediction": "A",
+      "countrycode": "FR",
+      "intent": null
+    },
+    {
+      "id": "en-AU_093",
+      "prediction": "A",
+      "countrycode": "AU",
+      "intent": null
+    },
+    {
+      "id": "ar-EG_075",
+      "prediction": "D",
+      "countrycode": "EG",
+      "intent": null
+    },
+    {
+      "id": "ta-LK_120",
+      "prediction": "A",
+      "countrycode": "LK",
+      "intent": null
+    },
+    {
+      "id": "el-GR_063",
+      "prediction": "B",
+      "countrycode": "GR",
+      "intent": null
+    },
+    {
+      "id": "ar-SA_086",
+      "prediction": "A",
+      "countrycode": "SA",
+      "intent": null
+    },
+    {
+      "id": "tl-PH_130",
+      "prediction": "D",
+      "countrycode": "PH",
+      "intent": null
+    },
+    {
+      "id": "ms-SG_006",
+      "prediction": "D",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "zh-CN_039",
+      "prediction": "B",
+      "countrycode": "CN",
+      "intent": null
+    },
+    {
+      "id": "ar-EG_073",
+      "prediction": "A",
+      "countrycode": "EG",
+      "intent": null
+    },
+    {
+      "id": "tl-PH_131",
+      "prediction": "B",
+      "countrycode": "PH",
+      "intent": null
+    },
+    {
+      "id": "fr-FR_109",
+      "prediction": "D",
+      "countrycode": "FR",
+      "intent": null
+    },
+    {
+      "id": "ar-SA_088",
+      "prediction": "A",
+      "countrycode": "SA",
+      "intent": null
+    },
+    {
+      "id": "ar-MA_082",
+      "prediction": "A",
+      "countrycode": "MA",
+      "intent": null
+    },
+    {
+      "id": "fr-FR_112",
+      "prediction": "B",
+      "countrycode": "FR",
+      "intent": null
+    },
+    {
+      "id": "ja-JP_142",
+      "prediction": "B",
+      "countrycode": "JP",
+      "intent": null
+    },
+    {
+      "id": "ms-SG_004",
+      "prediction": "B",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "es-EC_025",
+      "prediction": "C",
+      "countrycode": "EC",
+      "intent": null
+    },
+    {
+      "id": "bg-BG_138",
+      "prediction": "D",
+      "countrycode": "BG",
+      "intent": null
+    },
+    {
+      "id": "ar-EG_070",
+      "prediction": "B",
+      "countrycode": "EG",
+      "intent": null
+    },
+    {
+      "id": "ar-SA_090",
+      "prediction": "A",
+      "countrycode": "SA",
+      "intent": null
+    },
+    {
+      "id": "es-MX_047",
+      "prediction": "D",
+      "countrycode": "MX",
+      "intent": null
+    },
+    {
+      "id": "fa-IR_068",
+      "prediction": "A",
+      "countrycode": "IR",
+      "intent": null
+    },
+    {
+      "id": "en-AU_096",
+      "prediction": "D",
+      "countrycode": "AU",
+      "intent": null
+    },
+    {
+      "id": "zh-SG_019",
+      "prediction": "D",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "zh-SG_021",
+      "prediction": "C",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "fa-IR_065",
+      "prediction": "C",
+      "countrycode": "IR",
+      "intent": null
+    },
+    {
+      "id": "zh-CN_035",
+      "prediction": "D",
+      "countrycode": "CN",
+      "intent": null
+    },
+    {
+      "id": "ms-SG_002",
+      "prediction": "B",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "ta-SG_011",
+      "prediction": "B",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "fr-FR_111",
+      "prediction": "C",
+      "countrycode": "FR",
+      "intent": null
+    },
+    {
+      "id": "ar-MA_079",
+      "prediction": "B",
+      "countrycode": "MA",
+      "intent": null
+    },
+    {
+      "id": "es-MX_046",
+      "prediction": "C",
+      "countrycode": "MX",
+      "intent": null
+    },
+    {
+      "id": "ta-SG_012",
+      "prediction": "D",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "ja-JP_146",
+      "prediction": "A",
+      "countrycode": "JP",
+      "intent": null
+    },
+    {
+      "id": "ga-IE_118",
+      "prediction": "B",
+      "countrycode": "IE",
+      "intent": null
+    },
+    {
+      "id": "zh-SG_016",
+      "prediction": "B",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "ta-LK_121",
+      "prediction": "A",
+      "countrycode": "LK",
+      "intent": null
+    },
+    {
+      "id": "tl-PH_128",
+      "prediction": "B",
+      "countrycode": "PH",
+      "intent": null
+    },
+    {
+      "id": "el-GR_061",
+      "prediction": "A",
+      "countrycode": "GR",
+      "intent": null
+    },
+    {
+      "id": "tl-PH_129",
+      "prediction": "B",
+      "countrycode": "PH",
+      "intent": null
+    },
+    {
+      "id": "ja-JP_143",
+      "prediction": "B",
+      "countrycode": "JP",
+      "intent": null
+    },
+    {
+      "id": "es-EC_024",
+      "prediction": "C",
+      "countrycode": "EC",
+      "intent": null
+    },
+    {
+      "id": "en-GB_031",
+      "prediction": "C",
+      "countrycode": "GB",
+      "intent": null
+    },
+    {
+      "id": "ta-LK_126",
+      "prediction": "A",
+      "countrycode": "LK",
+      "intent": null
+    },
+    {
+      "id": "ko-KR_055",
+      "prediction": "B",
+      "countrycode": "KR",
+      "intent": null
+    },
+    {
+      "id": "ar-SA_084",
+      "prediction": "A",
+      "countrycode": "SA",
+      "intent": null
+    },
+    {
+      "id": "ta-LK_124",
+      "prediction": "A",
+      "countrycode": "LK",
+      "intent": null
+    },
+    {
+      "id": "en-AU_097",
+      "prediction": "C",
+      "countrycode": "AU",
+      "intent": null
+    },
+    {
+      "id": "es-EC_023",
+      "prediction": "B",
+      "countrycode": "EC",
+      "intent": null
+    },
+    {
+      "id": "ta-LK_122",
+      "prediction": "A",
+      "countrycode": "LK",
+      "intent": null
+    },
+    {
+      "id": "en-AU_092",
+      "prediction": "C",
+      "countrycode": "AU",
+      "intent": null
+    },
+    {
+      "id": "es-EC_029",
+      "prediction": "B",
+      "countrycode": "EC",
+      "intent": null
+    },
+    {
+      "id": "en-AU_094",
+      "prediction": "C",
+      "countrycode": "AU",
+      "intent": null
+    },
+    {
+      "id": "ja-JP_144",
+      "prediction": "D",
+      "countrycode": "JP",
+      "intent": null
+    },
+    {
+      "id": "eu-ES_104",
+      "prediction": "B",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "ta-LK_123",
+      "prediction": "A",
+      "countrycode": "LK",
+      "intent": null
+    },
+    {
+      "id": "ar-MA_080",
+      "prediction": "C",
+      "countrycode": "MA",
+      "intent": null
+    },
+    {
+      "id": "es-ES_041",
+      "prediction": "A",
+      "countrycode": "ES",
+      "intent": null
+    },
+    {
+      "id": "id-ID_051",
+      "prediction": "C",
+      "countrycode": "ID",
+      "intent": null
+    },
+    {
+      "id": "es-MX_048",
+      "prediction": "B",
+      "countrycode": "MX",
+      "intent": null
+    },
+    {
+      "id": "fr-FR_107",
+      "prediction": "D",
+      "countrycode": "FR",
+      "intent": null
+    },
+    {
+      "id": "id-ID_054",
+      "prediction": "B",
+      "countrycode": "ID",
+      "intent": null
+    },
+    {
+      "id": "zh-SG_018",
+      "prediction": "B",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "tl-PH_134",
+      "prediction": "B",
+      "countrycode": "PH",
+      "intent": null
+    },
+    {
+      "id": "es-MX_049",
+      "prediction": "C",
+      "countrycode": "MX",
+      "intent": null
+    },
+    {
+      "id": "ga-IE_114",
+      "prediction": "B",
+      "countrycode": "IE",
+      "intent": null
+    },
+    {
+      "id": "ga-IE_116",
+      "prediction": "B",
+      "countrycode": "IE",
+      "intent": null
+    },
+    {
+      "id": "en-GB_032",
+      "prediction": "D",
+      "countrycode": "GB",
+      "intent": null
+    },
+    {
+      "id": "en-AU_095",
+      "prediction": "D",
+      "countrycode": "AU",
+      "intent": null
+    },
+    {
+      "id": "ar-MA_078",
+      "prediction": "B",
+      "countrycode": "MA",
+      "intent": null
+    },
+    {
+      "id": "zh-CN_037",
+      "prediction": "B",
+      "countrycode": "CN",
+      "intent": null
+    },
+    {
+      "id": "ko-KR_058",
+      "prediction": "A",
+      "countrycode": "KR",
+      "intent": null
+    },
+    {
+      "id": "ms-SG_007",
+      "prediction": "C",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "ar-MA_083",
+      "prediction": "C",
+      "countrycode": "MA",
+      "intent": null
+    },
+    {
+      "id": "ja-JP_148",
+      "prediction": "D",
+      "countrycode": "JP",
+      "intent": null
+    },
+    {
+      "id": "ms-SG_005",
+      "prediction": "D",
+      "countrycode": "SG",
+      "intent": null
+    },
+    {
+      "id": "ar-EG_074",
+      "prediction": "A",
+      "countrycode": "EG",
+      "intent": null
+    },
+    {
+      "id": "ga-IE_115",
+      "prediction": "A",
+      "countrycode": "IE",
+      "intent": null
+    }
+  ]
+}

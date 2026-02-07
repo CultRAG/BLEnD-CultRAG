@@ -1,0 +1,9 @@
+config,description,total,time_seconds,time_per_question,questions_per_second
+baseline_no_rag,"Baseline: LLM only, no RAG",6717,766.0098640918732,0.1140404740348181,8.768816584318007
+rag_basic,"Basic RAG: BM25+FAISS+RRF, no filtering",6717,1686.572641134262,0.2510901654212092,3.9826330845036417
+phase1_countryfilter,Phase 1: + Country filter precision fix,6717,1641.5950875282288,0.24439408776659652,4.091752010609312
+phase2_intent,Phase 2: + Intent detection (metadata only),6717,1680.100240945816,0.2501265804594039,3.997975737577807
+phase3_tiered,Phase 3: + Tiered intent-based routing,6717,1724.4222707748413,0.2567250663651692,3.8952176122045934
+phase4_quality,Phase 4: + Anti-leak + Trust-aware prompts,6717,2785.6743454933167,0.41472001570542155,2.4112653407842912
+phase5_trust_weight,Phase 5: + Trust-weighted reranking,6717,2784.3961279392242,0.41452971980634573,2.4123722672216754
+phase6_full_system,Phase 6: Full system with all optimizations,6717,2786.020984649658,0.4147716219517133,2.4109653290514115

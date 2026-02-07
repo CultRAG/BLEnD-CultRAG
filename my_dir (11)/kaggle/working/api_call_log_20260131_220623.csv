@@ -1,0 +1,976 @@
+item_index,question,country,intent,source,query,results_count,status,titles_found
+0,What is the common acronym for public housing flats where the majority of Singaporeans live?,SG,infrastructure_transportation,wikipediaapi,common acronym public housing flats Singapore,0,API_CALL,
+0,What is the common acronym for public housing flats where the majority of Singaporeans live?,SG,infrastructure_transportation,wikivoyageapi,common acronym public housing flats Singapore,0,API_CALL,
+0,What is the common acronym for public housing flats where the majority of Singaporeans live?,SG,infrastructure_transportation,wikidata,common acronym public housing flats Singapore,0,API_CALL,
+0,What is the common acronym for public housing flats where the majority of Singaporeans live?,SG,infrastructure_transportation,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+0,What is the common acronym for public housing flats where the majority of Singaporeans live?,SG,infrastructure_transportation,wikivoyageapi,SG,0,API_CALL,
+0,What is the common acronym for public housing flats where the majority of Singaporeans live?,SG,infrastructure_transportation,wikidata,Singapore,0,API_CALL,
+1,Which political party has been the governing party of Singapore since 1959?,SG,government_politics,wikipediaapi,political party governing party singapore Singapore,0,API_CALL,
+1,Which political party has been the governing party of Singapore since 1959?,SG,government_politics,wikivoyageapi,political party governing party singapore Singapore,0,API_CALL,
+1,Which political party has been the governing party of Singapore since 1959?,SG,government_politics,wikidata,political party governing party singapore Singapore,0,API_CALL,
+1,Which political party has been the governing party of Singapore since 1959?,SG,government_politics,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+1,Which political party has been the governing party of Singapore since 1959?,SG,government_politics,wikivoyageapi,SG,0,API_CALL,
+1,Which political party has been the governing party of Singapore since 1959?,SG,government_politics,wikidata,Singapore,0,API_CALL,
+2,"What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikipediaapi,singapore official mascot mythical creature Singapore,0,API_CALL,
+2,"What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikivoyageapi,singapore official mascot mythical creature Singapore,0,API_CALL,
+2,"What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikidata,singapore official mascot mythical creature Singapore,0,API_CALL,
+2,"What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikipediaapi,official mascot Singapore,0,API_CALL,
+2,"What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikivoyageapi,official mascot Singapore,0,API_CALL,
+2,"What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikidata,official mascot Singapore,0,API_CALL,
+2,"What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+2,"What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikivoyageapi,SG,0,API_CALL,
+2,"What is Singapore's official mascot, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikidata,Singapore,0,API_CALL,
+3,"What is the name of Singapore's main international airport, which is often voted one of the best airports in the world?",SG,infrastructure_transportation,wikipediaapi,name singapore main international airport Singapore,0,API_CALL,
+3,"What is the name of Singapore's main international airport, which is often voted one of the best airports in the world?",SG,infrastructure_transportation,wikivoyageapi,name singapore main international airport Singapore,0,API_CALL,
+3,"What is the name of Singapore's main international airport, which is often voted one of the best airports in the world?",SG,infrastructure_transportation,wikidata,name singapore main international airport Singapore,0,API_CALL,
+3,"What is the name of Singapore's main international airport, which is often voted one of the best airports in the world?",SG,infrastructure_transportation,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+3,"What is the name of Singapore's main international airport, which is often voted one of the best airports in the world?",SG,infrastructure_transportation,wikivoyageapi,SG,0,API_CALL,
+3,"What is the name of Singapore's main international airport, which is often voted one of the best airports in the world?",SG,infrastructure_transportation,wikidata,Singapore,0,API_CALL,
+4,Singapore celebrates National Day every year in which month?,SG,holidays_festivals,wikipediaapi,singapore celebrates national day every Singapore,0,API_CALL,
+4,Singapore celebrates National Day every year in which month?,SG,holidays_festivals,wikivoyageapi,singapore celebrates national day every Singapore,0,API_CALL,
+4,Singapore celebrates National Day every year in which month?,SG,holidays_festivals,wikidata,singapore celebrates national day every Singapore,0,API_CALL,
+4,Singapore celebrates National Day every year in which month?,SG,holidays_festivals,wikipediaapi,national day Singapore,1,API_CALL,National Day (Singapore)
+4,Singapore celebrates National Day every year in which month?,SG,holidays_festivals,wikivoyageapi,national day Singapore,0,API_CALL,
+4,Singapore celebrates National Day every year in which month?,SG,holidays_festivals,wikidata,national day Singapore,0,API_CALL,
+4,Singapore celebrates National Day every year in which month?,SG,holidays_festivals,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+4,Singapore celebrates National Day every year in which month?,SG,holidays_festivals,wikivoyageapi,SG,0,API_CALL,
+4,Singapore celebrates National Day every year in which month?,SG,holidays_festivals,wikidata,Singapore,0,API_CALL,
+5,"Which iconic Singapore arts center is better known as the ""big durian""?",SG,food_drink,wikipediaapi,iconic singapore arts center better Singapore,0,API_CALL,
+5,"Which iconic Singapore arts center is better known as the ""big durian""?",SG,food_drink,wikivoyageapi,iconic singapore arts center better Singapore,0,API_CALL,
+5,"Which iconic Singapore arts center is better known as the ""big durian""?",SG,food_drink,wikidata,iconic singapore arts center better Singapore,0,API_CALL,
+5,"Which iconic Singapore arts center is better known as the ""big durian""?",SG,food_drink,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+5,"Which iconic Singapore arts center is better known as the ""big durian""?",SG,food_drink,wikivoyageapi,SG,0,API_CALL,
+5,"Which iconic Singapore arts center is better known as the ""big durian""?",SG,food_drink,wikidata,Singapore,0,API_CALL,
+6,What is Singapore's official currency?,SG,economy_currency_symbols,wikipediaapi,singapore official currency Singapore,0,API_CALL,
+6,What is Singapore's official currency?,SG,economy_currency_symbols,wikivoyageapi,singapore official currency Singapore,0,API_CALL,
+6,What is Singapore's official currency?,SG,economy_currency_symbols,wikidata,singapore official currency Singapore,0,API_CALL,
+6,What is Singapore's official currency?,SG,economy_currency_symbols,wikipediaapi,official currency Singapore,0,API_CALL,
+6,What is Singapore's official currency?,SG,economy_currency_symbols,wikivoyageapi,official currency Singapore,0,API_CALL,
+6,What is Singapore's official currency?,SG,economy_currency_symbols,wikidata,official currency Singapore,0,API_CALL,
+6,What is Singapore's official currency?,SG,economy_currency_symbols,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+6,What is Singapore's official currency?,SG,economy_currency_symbols,wikivoyageapi,SG,0,API_CALL,
+6,What is Singapore's official currency?,SG,economy_currency_symbols,wikidata,Singapore,0,API_CALL,
+7,What is the common abbreviation for public housing where most Singaporeans live?,SG,infrastructure_transportation,wikipediaapi,common abbreviation public housing most Singapore,0,API_CALL,
+7,What is the common abbreviation for public housing where most Singaporeans live?,SG,infrastructure_transportation,wikivoyageapi,common abbreviation public housing most Singapore,0,API_CALL,
+7,What is the common abbreviation for public housing where most Singaporeans live?,SG,infrastructure_transportation,wikidata,common abbreviation public housing most Singapore,0,API_CALL,
+7,What is the common abbreviation for public housing where most Singaporeans live?,SG,infrastructure_transportation,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+7,What is the common abbreviation for public housing where most Singaporeans live?,SG,infrastructure_transportation,wikivoyageapi,SG,0,API_CALL,
+7,What is the common abbreviation for public housing where most Singaporeans live?,SG,infrastructure_transportation,wikidata,Singapore,0,API_CALL,
+8,Which political party has been the ruling party of Singapore since 1959?,SG,government_politics,wikipediaapi,political party ruling party singapore Singapore,0,API_CALL,
+8,Which political party has been the ruling party of Singapore since 1959?,SG,government_politics,wikivoyageapi,political party ruling party singapore Singapore,0,API_CALL,
+8,Which political party has been the ruling party of Singapore since 1959?,SG,government_politics,wikidata,political party ruling party singapore Singapore,0,API_CALL,
+8,Which political party has been the ruling party of Singapore since 1959?,SG,government_politics,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+8,Which political party has been the ruling party of Singapore since 1959?,SG,government_politics,wikivoyageapi,SG,0,API_CALL,
+8,Which political party has been the ruling party of Singapore since 1959?,SG,government_politics,wikidata,Singapore,0,API_CALL,
+9,"What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikipediaapi,singapore official symbol mythical creature Singapore,0,API_CALL,
+9,"What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikivoyageapi,singapore official symbol mythical creature Singapore,0,API_CALL,
+9,"What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikidata,singapore official symbol mythical creature Singapore,0,API_CALL,
+9,"What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikipediaapi,official symbol Singapore,0,API_CALL,
+9,"What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikivoyageapi,official symbol Singapore,0,API_CALL,
+9,"What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikidata,official symbol Singapore,0,API_CALL,
+9,"What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+9,"What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikivoyageapi,SG,0,API_CALL,
+9,"What is Singapore's official symbol, a mythical creature with a lion's head and a fish's body?",SG,food_drink,wikidata,Singapore,0,API_CALL,
+10,"What is the name of Singapore's main international airport, which is frequently voted as one of the best airports in the world?",SG,infrastructure_transportation,wikipediaapi,name singapore main international airport Singapore,0,API_CALL,
+10,"What is the name of Singapore's main international airport, which is frequently voted as one of the best airports in the world?",SG,infrastructure_transportation,wikivoyageapi,name singapore main international airport Singapore,0,API_CALL,
+10,"What is the name of Singapore's main international airport, which is frequently voted as one of the best airports in the world?",SG,infrastructure_transportation,wikidata,name singapore main international airport Singapore,0,API_CALL,
+10,"What is the name of Singapore's main international airport, which is frequently voted as one of the best airports in the world?",SG,infrastructure_transportation,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+10,"What is the name of Singapore's main international airport, which is frequently voted as one of the best airports in the world?",SG,infrastructure_transportation,wikivoyageapi,SG,0,API_CALL,
+10,"What is the name of Singapore's main international airport, which is frequently voted as one of the best airports in the world?",SG,infrastructure_transportation,wikidata,Singapore,0,API_CALL,
+11,In which month does Singapore celebrate its national day every year?,SG,holidays_festivals,wikipediaapi,month singapore celebrate its national Singapore,0,API_CALL,
+11,In which month does Singapore celebrate its national day every year?,SG,holidays_festivals,wikivoyageapi,month singapore celebrate its national Singapore,0,API_CALL,
+11,In which month does Singapore celebrate its national day every year?,SG,holidays_festivals,wikidata,month singapore celebrate its national Singapore,0,API_CALL,
+11,In which month does Singapore celebrate its national day every year?,SG,holidays_festivals,wikipediaapi,national day Singapore,1,API_CALL,National Day (Singapore)
+11,In which month does Singapore celebrate its national day every year?,SG,holidays_festivals,wikivoyageapi,national day Singapore,0,API_CALL,
+11,In which month does Singapore celebrate its national day every year?,SG,holidays_festivals,wikidata,national day Singapore,0,API_CALL,
+11,In which month does Singapore celebrate its national day every year?,SG,holidays_festivals,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+11,In which month does Singapore celebrate its national day every year?,SG,holidays_festivals,wikivoyageapi,SG,0,API_CALL,
+11,In which month does Singapore celebrate its national day every year?,SG,holidays_festivals,wikidata,Singapore,0,API_CALL,
+12,"What is the name of Singapore's iconic arts center, colloquially called ""big durians""?",SG,food_drink,wikipediaapi,name singapore iconic arts center Singapore,0,API_CALL,
+12,"What is the name of Singapore's iconic arts center, colloquially called ""big durians""?",SG,food_drink,wikivoyageapi,name singapore iconic arts center Singapore,0,API_CALL,
+12,"What is the name of Singapore's iconic arts center, colloquially called ""big durians""?",SG,food_drink,wikidata,name singapore iconic arts center Singapore,0,API_CALL,
+12,"What is the name of Singapore's iconic arts center, colloquially called ""big durians""?",SG,food_drink,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+12,"What is the name of Singapore's iconic arts center, colloquially called ""big durians""?",SG,food_drink,wikivoyageapi,SG,0,API_CALL,
+12,"What is the name of Singapore's iconic arts center, colloquially called ""big durians""?",SG,food_drink,wikidata,Singapore,0,API_CALL,
+13,What is Singapore's official currency?,SG,economy_currency_symbols,wikipediaapi,singapore official currency Singapore,0,API_CALL,
+13,What is Singapore's official currency?,SG,economy_currency_symbols,wikivoyageapi,singapore official currency Singapore,0,API_CALL,
+13,What is Singapore's official currency?,SG,economy_currency_symbols,wikidata,singapore official currency Singapore,0,API_CALL,
+13,What is Singapore's official currency?,SG,economy_currency_symbols,wikipediaapi,official currency Singapore,0,API_CALL,
+13,What is Singapore's official currency?,SG,economy_currency_symbols,wikivoyageapi,official currency Singapore,0,API_CALL,
+13,What is Singapore's official currency?,SG,economy_currency_symbols,wikidata,official currency Singapore,0,API_CALL,
+13,What is Singapore's official currency?,SG,economy_currency_symbols,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+13,What is Singapore's official currency?,SG,economy_currency_symbols,wikivoyageapi,SG,0,API_CALL,
+13,What is Singapore's official currency?,SG,economy_currency_symbols,wikidata,Singapore,0,API_CALL,
+14,What is the common abbreviation for public housing where most Singapore residents live?,SG,infrastructure_transportation,wikipediaapi,common abbreviation public housing most Singapore,0,API_CALL,
+14,What is the common abbreviation for public housing where most Singapore residents live?,SG,infrastructure_transportation,wikivoyageapi,common abbreviation public housing most Singapore,0,API_CALL,
+14,What is the common abbreviation for public housing where most Singapore residents live?,SG,infrastructure_transportation,wikidata,common abbreviation public housing most Singapore,0,API_CALL,
+14,What is the common abbreviation for public housing where most Singapore residents live?,SG,infrastructure_transportation,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+14,What is the common abbreviation for public housing where most Singapore residents live?,SG,infrastructure_transportation,wikivoyageapi,SG,0,API_CALL,
+14,What is the common abbreviation for public housing where most Singapore residents live?,SG,infrastructure_transportation,wikidata,Singapore,0,API_CALL,
+15,Which political party has been Singapore's ruling party since 1959?,SG,government_politics,wikipediaapi,political party singapore ruling party Singapore,0,API_CALL,
+15,Which political party has been Singapore's ruling party since 1959?,SG,government_politics,wikivoyageapi,political party singapore ruling party Singapore,0,API_CALL,
+15,Which political party has been Singapore's ruling party since 1959?,SG,government_politics,wikidata,political party singapore ruling party Singapore,0,API_CALL,
+15,Which political party has been Singapore's ruling party since 1959?,SG,government_politics,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+15,Which political party has been Singapore's ruling party since 1959?,SG,government_politics,wikivoyageapi,SG,0,API_CALL,
+15,Which political party has been Singapore's ruling party since 1959?,SG,government_politics,wikidata,Singapore,0,API_CALL,
+16,What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.,SG,food_drink,wikipediaapi,singapore official mascot mythical creature Singapore,0,API_CALL,
+16,What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.,SG,food_drink,wikivoyageapi,singapore official mascot mythical creature Singapore,0,API_CALL,
+16,What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.,SG,food_drink,wikidata,singapore official mascot mythical creature Singapore,0,API_CALL,
+16,What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.,SG,food_drink,wikipediaapi,official mascot Singapore,0,API_CALL,
+16,What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.,SG,food_drink,wikivoyageapi,official mascot Singapore,0,API_CALL,
+16,What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.,SG,food_drink,wikidata,official mascot Singapore,0,API_CALL,
+16,What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.,SG,food_drink,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+16,What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.,SG,food_drink,wikivoyageapi,SG,0,API_CALL,
+16,What is Singapore's official mascot? It is a mythical creature with a lion's head and a fish's body.,SG,food_drink,wikidata,Singapore,0,API_CALL,
+17,What is Singapore's main international airport? It is frequently rated as one of the best airports in the world.,SG,infrastructure_transportation,wikipediaapi,singapore main international airport frequently Singapore,0,API_CALL,
+17,What is Singapore's main international airport? It is frequently rated as one of the best airports in the world.,SG,infrastructure_transportation,wikivoyageapi,singapore main international airport frequently Singapore,0,API_CALL,
+17,What is Singapore's main international airport? It is frequently rated as one of the best airports in the world.,SG,infrastructure_transportation,wikidata,singapore main international airport frequently Singapore,0,API_CALL,
+17,What is Singapore's main international airport? It is frequently rated as one of the best airports in the world.,SG,infrastructure_transportation,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+17,What is Singapore's main international airport? It is frequently rated as one of the best airports in the world.,SG,infrastructure_transportation,wikivoyageapi,SG,0,API_CALL,
+17,What is Singapore's main international airport? It is frequently rated as one of the best airports in the world.,SG,infrastructure_transportation,wikidata,Singapore,0,API_CALL,
+18,In which month does Singapore celebrate its National Day every year?,SG,holidays_festivals,wikipediaapi,month singapore celebrate its national Singapore,0,API_CALL,
+18,In which month does Singapore celebrate its National Day every year?,SG,holidays_festivals,wikivoyageapi,month singapore celebrate its national Singapore,0,API_CALL,
+18,In which month does Singapore celebrate its National Day every year?,SG,holidays_festivals,wikidata,month singapore celebrate its national Singapore,0,API_CALL,
+18,In which month does Singapore celebrate its National Day every year?,SG,holidays_festivals,wikipediaapi,national day Singapore,1,API_CALL,National Day (Singapore)
+18,In which month does Singapore celebrate its National Day every year?,SG,holidays_festivals,wikivoyageapi,national day Singapore,0,API_CALL,
+18,In which month does Singapore celebrate its National Day every year?,SG,holidays_festivals,wikidata,national day Singapore,0,API_CALL,
+18,In which month does Singapore celebrate its National Day every year?,SG,holidays_festivals,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+18,In which month does Singapore celebrate its National Day every year?,SG,holidays_festivals,wikivoyageapi,SG,0,API_CALL,
+18,In which month does Singapore celebrate its National Day every year?,SG,holidays_festivals,wikidata,Singapore,0,API_CALL,
+19,"Which iconic arts center in Singapore is colloquially known as the ""big durian""?",SG,food_drink,wikipediaapi,iconic arts center singapore colloquially Singapore,0,API_CALL,
+19,"Which iconic arts center in Singapore is colloquially known as the ""big durian""?",SG,food_drink,wikivoyageapi,iconic arts center singapore colloquially Singapore,0,API_CALL,
+19,"Which iconic arts center in Singapore is colloquially known as the ""big durian""?",SG,food_drink,wikidata,iconic arts center singapore colloquially Singapore,0,API_CALL,
+19,"Which iconic arts center in Singapore is colloquially known as the ""big durian""?",SG,food_drink,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+19,"Which iconic arts center in Singapore is colloquially known as the ""big durian""?",SG,food_drink,wikivoyageapi,SG,0,API_CALL,
+19,"Which iconic arts center in Singapore is colloquially known as the ""big durian""?",SG,food_drink,wikidata,Singapore,0,API_CALL,
+20,What is Singapore's official currency?,SG,economy_currency_symbols,wikipediaapi,singapore official currency Singapore,0,API_CALL,
+20,What is Singapore's official currency?,SG,economy_currency_symbols,wikivoyageapi,singapore official currency Singapore,0,API_CALL,
+20,What is Singapore's official currency?,SG,economy_currency_symbols,wikidata,singapore official currency Singapore,0,API_CALL,
+20,What is Singapore's official currency?,SG,economy_currency_symbols,wikipediaapi,official currency Singapore,0,API_CALL,
+20,What is Singapore's official currency?,SG,economy_currency_symbols,wikivoyageapi,official currency Singapore,0,API_CALL,
+20,What is Singapore's official currency?,SG,economy_currency_symbols,wikidata,official currency Singapore,0,API_CALL,
+20,What is Singapore's official currency?,SG,economy_currency_symbols,wikipediaapi,Singapore,10,API_CALL,"Singapore, Singapore Airlines, Singapore Airlines Flight 006, Singapore Armed Forces, Singapore English, Singapore Grand Prix, Singapore Police Force, Singapore Premier League, Singapore dollar, Singapore national football team"
+20,What is Singapore's official currency?,SG,economy_currency_symbols,wikivoyageapi,SG,0,API_CALL,
+20,What is Singapore's official currency?,SG,economy_currency_symbols,wikidata,Singapore,0,API_CALL,
+21,Which is the most populated city in Ecuador?,EC,others,wikipediaapi,most populated city ecuador Ecuador,0,API_CALL,
+21,Which is the most populated city in Ecuador?,EC,others,wikivoyageapi,most populated city ecuador Ecuador,0,API_CALL,
+21,Which is the most populated city in Ecuador?,EC,others,wikidata,most populated city ecuador Ecuador,0,API_CALL,
+21,Which is the most populated city in Ecuador?,EC,others,wikipediaapi,Ecuador,10,API_CALL,"Ecuador, Ecuador at beauty pageants, Ecuador at the 2023 Pan American Games, Ecuador national football team, Ecuador women's national football team, Ecuadorian conflict (2024–present), Ecuadorian security crisis, Ecuadorians, Ecuadorian–Peruvian War, Ecuadorian–Peruvian territorial dispute"
+21,Which is the most populated city in Ecuador?,EC,others,wikivoyageapi,EC,1,API_CALL,Ecuador
+21,Which is the most populated city in Ecuador?,EC,others,wikidata,Ecuador,0,API_CALL,
+22,How many provinces does Ecuador have?,EC,others,wikipediaapi,many provinces ecuador Ecuador,0,API_CALL,
+22,How many provinces does Ecuador have?,EC,others,wikivoyageapi,many provinces ecuador Ecuador,0,API_CALL,
+22,How many provinces does Ecuador have?,EC,others,wikidata,many provinces ecuador Ecuador,0,API_CALL,
+22,How many provinces does Ecuador have?,EC,others,wikipediaapi,Ecuador,10,API_CALL,"Ecuador, Ecuador at beauty pageants, Ecuador at the 2023 Pan American Games, Ecuador national football team, Ecuador women's national football team, Ecuadorian conflict (2024–present), Ecuadorian security crisis, Ecuadorians, Ecuadorian–Peruvian War, Ecuadorian–Peruvian territorial dispute"
+22,How many provinces does Ecuador have?,EC,others,wikivoyageapi,EC,1,DEDUP_SKIP,
+23,What is the highest point in Ecuador and the closest to outer space?,EC,others,wikipediaapi,highest point ecuador and closest Ecuador,0,API_CALL,
+23,What is the highest point in Ecuador and the closest to outer space?,EC,others,wikivoyageapi,highest point ecuador and closest Ecuador,0,API_CALL,
+23,What is the highest point in Ecuador and the closest to outer space?,EC,others,wikidata,highest point ecuador and closest Ecuador,0,API_CALL,
+23,What is the highest point in Ecuador and the closest to outer space?,EC,others,wikipediaapi,Ecuador,10,API_CALL,"Ecuador, Ecuador at beauty pageants, Ecuador at the 2023 Pan American Games, Ecuador national football team, Ecuador women's national football team, Ecuadorian conflict (2024–present), Ecuadorian security crisis, Ecuadorians, Ecuadorian–Peruvian War, Ecuadorian–Peruvian territorial dispute"
+23,What is the highest point in Ecuador and the closest to outer space?,EC,others,wikivoyageapi,EC,1,DEDUP_SKIP,
+24,What name does Ecuador receive for its geographic and cultural diversity?,EC,arts_literature_music,wikipediaapi,name ecuador receive its geographic Ecuador,0,API_CALL,
+24,What name does Ecuador receive for its geographic and cultural diversity?,EC,arts_literature_music,wikivoyageapi,name ecuador receive its geographic Ecuador,0,API_CALL,
+24,What name does Ecuador receive for its geographic and cultural diversity?,EC,arts_literature_music,wikidata,name ecuador receive its geographic Ecuador,0,API_CALL,
+24,What name does Ecuador receive for its geographic and cultural diversity?,EC,arts_literature_music,wikipediaapi,Ecuador,10,API_CALL,"Ecuador, Ecuador at beauty pageants, Ecuador at the 2023 Pan American Games, Ecuador national football team, Ecuador women's national football team, Ecuadorian conflict (2024–present), Ecuadorian security crisis, Ecuadorians, Ecuadorian–Peruvian War, Ecuadorian–Peruvian territorial dispute"
+24,What name does Ecuador receive for its geographic and cultural diversity?,EC,arts_literature_music,wikivoyageapi,EC,1,DEDUP_SKIP,
+25,What is Ecuador's official currency since the year 2000?,EC,economy_currency_symbols,wikipediaapi,ecuador official currency since year Ecuador,0,API_CALL,
+25,What is Ecuador's official currency since the year 2000?,EC,economy_currency_symbols,wikivoyageapi,ecuador official currency since year Ecuador,0,API_CALL,
+25,What is Ecuador's official currency since the year 2000?,EC,economy_currency_symbols,wikidata,ecuador official currency since year Ecuador,0,API_CALL,
+25,What is Ecuador's official currency since the year 2000?,EC,economy_currency_symbols,wikipediaapi,official currency Ecuador,0,API_CALL,
+25,What is Ecuador's official currency since the year 2000?,EC,economy_currency_symbols,wikivoyageapi,official currency Ecuador,0,API_CALL,
+25,What is Ecuador's official currency since the year 2000?,EC,economy_currency_symbols,wikidata,official currency Ecuador,0,API_CALL,
+25,What is Ecuador's official currency since the year 2000?,EC,economy_currency_symbols,wikipediaapi,Ecuador,10,API_CALL,"Ecuador, Ecuador at beauty pageants, Ecuador at the 2023 Pan American Games, Ecuador national football team, Ecuador women's national football team, Ecuadorian conflict (2024–present), Ecuadorian security crisis, Ecuadorians, Ecuadorian–Peruvian War, Ecuadorian–Peruvian territorial dispute"
+25,What is Ecuador's official currency since the year 2000?,EC,economy_currency_symbols,wikivoyageapi,EC,1,DEDUP_SKIP,
+26,What Ecuadorian place is famous for its biodiversity and for inspiring Charles Darwin's theory of evolution?,EC,geography_places,wikipediaapi,ecuadorian place famous its biodiversity Ecuador,0,API_CALL,
+26,What Ecuadorian place is famous for its biodiversity and for inspiring Charles Darwin's theory of evolution?,EC,geography_places,wikivoyageapi,ecuadorian place famous its biodiversity Ecuador,0,API_CALL,
+26,What Ecuadorian place is famous for its biodiversity and for inspiring Charles Darwin's theory of evolution?,EC,geography_places,wikidata,ecuadorian place famous its biodiversity Ecuador,0,API_CALL,
+26,What Ecuadorian place is famous for its biodiversity and for inspiring Charles Darwin's theory of evolution?,EC,geography_places,wikipediaapi,famous for Ecuador,0,API_CALL,
+26,What Ecuadorian place is famous for its biodiversity and for inspiring Charles Darwin's theory of evolution?,EC,geography_places,wikivoyageapi,famous for Ecuador,0,API_CALL,
+26,What Ecuadorian place is famous for its biodiversity and for inspiring Charles Darwin's theory of evolution?,EC,geography_places,wikidata,famous for Ecuador,0,API_CALL,
+26,What Ecuadorian place is famous for its biodiversity and for inspiring Charles Darwin's theory of evolution?,EC,geography_places,wikipediaapi,Ecuador,10,API_CALL,"Ecuador, Ecuador at beauty pageants, Ecuador at the 2023 Pan American Games, Ecuador national football team, Ecuador women's national football team, Ecuadorian conflict (2024–present), Ecuadorian security crisis, Ecuadorians, Ecuadorian–Peruvian War, Ecuadorian–Peruvian territorial dispute"
+26,What Ecuadorian place is famous for its biodiversity and for inspiring Charles Darwin's theory of evolution?,EC,geography_places,wikivoyageapi,EC,1,DEDUP_SKIP,
+27,Which Ecuadorian city was declared a Cultural Heritage of Humanity by UNESCO in 1978?,EC,culture_landmarks,wikipediaapi,ecuadorian city declared cultural heritage Ecuador,0,API_CALL,
+27,Which Ecuadorian city was declared a Cultural Heritage of Humanity by UNESCO in 1978?,EC,culture_landmarks,wikivoyageapi,ecuadorian city declared cultural heritage Ecuador,0,API_CALL,
+27,Which Ecuadorian city was declared a Cultural Heritage of Humanity by UNESCO in 1978?,EC,culture_landmarks,wikidata,ecuadorian city declared cultural heritage Ecuador,0,API_CALL,
+27,Which Ecuadorian city was declared a Cultural Heritage of Humanity by UNESCO in 1978?,EC,culture_landmarks,wikipediaapi,Ecuador,10,API_CALL,"Ecuador, Ecuador at beauty pageants, Ecuador at the 2023 Pan American Games, Ecuador national football team, Ecuador women's national football team, Ecuadorian conflict (2024–present), Ecuadorian security crisis, Ecuadorians, Ecuadorian–Peruvian War, Ecuadorian–Peruvian territorial dispute"
+27,Which Ecuadorian city was declared a Cultural Heritage of Humanity by UNESCO in 1978?,EC,culture_landmarks,wikivoyageapi,EC,1,DEDUP_SKIP,
+28,Which Ecuadorian athlete won the first gold medal for the country at the Olympics?,EC,sports,wikipediaapi,ecuadorian athlete won first gold Ecuador,0,API_CALL,
+28,Which Ecuadorian athlete won the first gold medal for the country at the Olympics?,EC,sports,wikivoyageapi,ecuadorian athlete won first gold Ecuador,0,API_CALL,
+28,Which Ecuadorian athlete won the first gold medal for the country at the Olympics?,EC,sports,wikidata,ecuadorian athlete won first gold Ecuador,0,API_CALL,
+28,Which Ecuadorian athlete won the first gold medal for the country at the Olympics?,EC,sports,wikipediaapi,Ecuador,10,API_CALL,"Ecuador, Ecuador at beauty pageants, Ecuador at the 2023 Pan American Games, Ecuador national football team, Ecuador women's national football team, Ecuadorian conflict (2024–present), Ecuadorian security crisis, Ecuadorians, Ecuadorian–Peruvian War, Ecuadorian–Peruvian territorial dispute"
+28,Which Ecuadorian athlete won the first gold medal for the country at the Olympics?,EC,sports,wikivoyageapi,EC,1,DEDUP_SKIP,
+29,Which of these family holiday destinations is located in Cumbria?,GB,holidays_festivals,wikipediaapi,family holiday destinations located cumbria United Kingdom,0,API_CALL,
+29,Which of these family holiday destinations is located in Cumbria?,GB,holidays_festivals,wikivoyageapi,family holiday destinations located cumbria United Kingdom,0,API_CALL,
+29,Which of these family holiday destinations is located in Cumbria?,GB,holidays_festivals,wikidata,family holiday destinations located cumbria United Kingdom,0,API_CALL,
+29,Which of these family holiday destinations is located in Cumbria?,GB,holidays_festivals,wikipediaapi,United Kingdom,10,API_CALL,"2024 United Kingdom riots, List of prime ministers of the United Kingdom, September 2022 United Kingdom mini-budget, United Kingdom, United Kingdom football sexual abuse scandal, United Kingdom in the Eurovision Song Contest, United Kingdom national debt, United Kingdom of Great Britain and Ireland, United Kingdom parliamentary expenses scandal, United Kingdom–United States relations"
+29,Which of these family holiday destinations is located in Cumbria?,GB,holidays_festivals,wikivoyageapi,GB,1,API_CALL,Gboko
+29,Which of these family holiday destinations is located in Cumbria?,GB,holidays_festivals,wikidata,United Kingdom,0,API_CALL,
+30,What is the name of Prince Harry's wife?,GB,others,wikipediaapi,name prince harry wife United Kingdom,0,API_CALL,
+30,What is the name of Prince Harry's wife?,GB,others,wikivoyageapi,name prince harry wife United Kingdom,0,API_CALL,
+30,What is the name of Prince Harry's wife?,GB,others,wikidata,name prince harry wife United Kingdom,0,API_CALL,
+30,What is the name of Prince Harry's wife?,GB,others,wikipediaapi,United Kingdom,10,API_CALL,"2024 United Kingdom riots, List of prime ministers of the United Kingdom, September 2022 United Kingdom mini-budget, United Kingdom, United Kingdom football sexual abuse scandal, United Kingdom in the Eurovision Song Contest, United Kingdom national debt, United Kingdom of Great Britain and Ireland, United Kingdom parliamentary expenses scandal, United Kingdom–United States relations"
+30,What is the name of Prince Harry's wife?,GB,others,wikivoyageapi,GB,1,DEDUP_SKIP,
+31,Which kids show has a blue boat as its symbol?,GB,national_symbols_emblems,wikipediaapi,kids show blue boat its United Kingdom,0,API_CALL,
+31,Which kids show has a blue boat as its symbol?,GB,national_symbols_emblems,wikivoyageapi,kids show blue boat its United Kingdom,0,API_CALL,
+31,Which kids show has a blue boat as its symbol?,GB,national_symbols_emblems,wikidata,kids show blue boat its United Kingdom,0,API_CALL,
+31,Which kids show has a blue boat as its symbol?,GB,national_symbols_emblems,wikipediaapi,United Kingdom,10,API_CALL,"2024 United Kingdom riots, List of prime ministers of the United Kingdom, September 2022 United Kingdom mini-budget, United Kingdom, United Kingdom football sexual abuse scandal, United Kingdom in the Eurovision Song Contest, United Kingdom national debt, United Kingdom of Great Britain and Ireland, United Kingdom parliamentary expenses scandal, United Kingdom–United States relations"
+31,Which kids show has a blue boat as its symbol?,GB,national_symbols_emblems,wikivoyageapi,GB,1,DEDUP_SKIP,
+32,In which TV show would you expect to find Daleks and Cybermen?,GB,media_popculture,wikipediaapi,show would you expect find United Kingdom,0,API_CALL,
+32,In which TV show would you expect to find Daleks and Cybermen?,GB,media_popculture,wikivoyageapi,show would you expect find United Kingdom,0,API_CALL,
+32,In which TV show would you expect to find Daleks and Cybermen?,GB,media_popculture,wikidata,show would you expect find United Kingdom,0,API_CALL,
+32,In which TV show would you expect to find Daleks and Cybermen?,GB,media_popculture,wikipediaapi,United Kingdom,10,API_CALL,"2024 United Kingdom riots, List of prime ministers of the United Kingdom, September 2022 United Kingdom mini-budget, United Kingdom, United Kingdom football sexual abuse scandal, United Kingdom in the Eurovision Song Contest, United Kingdom national debt, United Kingdom of Great Britain and Ireland, United Kingdom parliamentary expenses scandal, United Kingdom–United States relations"
+32,In which TV show would you expect to find Daleks and Cybermen?,GB,media_popculture,wikivoyageapi,GB,1,DEDUP_SKIP,
+33,Which significant historical event took place in 1066?,GB,food_drink,wikipediaapi,significant historical event took place United Kingdom,0,API_CALL,
+33,Which significant historical event took place in 1066?,GB,food_drink,wikivoyageapi,significant historical event took place United Kingdom,0,API_CALL,
+33,Which significant historical event took place in 1066?,GB,food_drink,wikidata,significant historical event took place United Kingdom,0,API_CALL,
+33,Which significant historical event took place in 1066?,GB,food_drink,wikipediaapi,United Kingdom,10,API_CALL,"2024 United Kingdom riots, List of prime ministers of the United Kingdom, September 2022 United Kingdom mini-budget, United Kingdom, United Kingdom football sexual abuse scandal, United Kingdom in the Eurovision Song Contest, United Kingdom national debt, United Kingdom of Great Britain and Ireland, United Kingdom parliamentary expenses scandal, United Kingdom–United States relations"
+33,Which significant historical event took place in 1066?,GB,food_drink,wikivoyageapi,GB,1,DEDUP_SKIP,
+34,What day is China's National Day?,CN,holidays_festivals,wikipediaapi,day china national day China,0,API_CALL,
+34,What day is China's National Day?,CN,holidays_festivals,wikivoyageapi,day china national day China,0,API_CALL,
+34,What day is China's National Day?,CN,holidays_festivals,wikidata,day china national day China,0,API_CALL,
+34,What day is China's National Day?,CN,holidays_festivals,wikipediaapi,national day China,2,API_CALL,"Canada Day, National Day of the People's Republic of China"
+34,What day is China's National Day?,CN,holidays_festivals,wikivoyageapi,national day China,0,API_CALL,
+34,What day is China's National Day?,CN,holidays_festivals,wikidata,national day China,0,API_CALL,
+34,What day is China's National Day?,CN,holidays_festivals,wikipediaapi,China,10,API_CALL,"China, China Airlines, China Central Television, China Eastern Airlines, China Southern Airlines, China national football team, Chinatown, China–Russia relations, China–United States relations, China–United States trade war"
+34,What day is China's National Day?,CN,holidays_festivals,wikivoyageapi,CN,0,API_CALL,
+34,What day is China's National Day?,CN,holidays_festivals,wikidata,China,1,API_CALL,China CNR Corporation
+35,"Which animal is known as China's ""national treasure""?",CN,others,wikipediaapi,animal known china national treasure China,0,API_CALL,
+35,"Which animal is known as China's ""national treasure""?",CN,others,wikivoyageapi,animal known china national treasure China,0,API_CALL,
+35,"Which animal is known as China's ""national treasure""?",CN,others,wikidata,animal known china national treasure China,0,API_CALL,
+35,"Which animal is known as China's ""national treasure""?",CN,others,wikipediaapi,national treasure China,1,API_CALL,National Treasure (Chinese TV series)
+35,"Which animal is known as China's ""national treasure""?",CN,others,wikivoyageapi,national treasure China,0,API_CALL,
+35,"Which animal is known as China's ""national treasure""?",CN,others,wikidata,national treasure China,0,API_CALL,
+35,"Which animal is known as China's ""national treasure""?",CN,others,wikipediaapi,China,10,API_CALL,"China, China Airlines, China Central Television, China Eastern Airlines, China Southern Airlines, China national football team, Chinatown, China–Russia relations, China–United States relations, China–United States trade war"
+35,"Which animal is known as China's ""national treasure""?",CN,others,wikivoyageapi,CN,0,API_CALL,
+35,"Which animal is known as China's ""national treasure""?",CN,others,wikidata,China,1,DEDUP_SKIP,
+36,What is China's capital city?,CN,others,wikipediaapi,china capital city China,0,API_CALL,
+36,What is China's capital city?,CN,others,wikivoyageapi,china capital city China,0,API_CALL,
+36,What is China's capital city?,CN,others,wikidata,china capital city China,0,API_CALL,
+36,What is China's capital city?,CN,others,wikipediaapi,capital China,10,API_CALL,"Capital Children's Choir, WWF Capital Carnage, Capital (radio network), Capital punishment, Financial capital, Historical capitals of China, KINY, National Children's Museum, Norwich City F.C., Santiago"
+36,What is China's capital city?,CN,others,wikivoyageapi,CN,0,API_CALL,
+36,What is China's capital city?,CN,others,wikidata,capital China,0,API_CALL,
+36,What is China's capital city?,CN,others,wikipediaapi,China,10,API_CALL,"China, China Airlines, China Central Television, China Eastern Airlines, China Southern Airlines, China national football team, Chinatown, China–Russia relations, China–United States relations, China–United States trade war"
+36,What is China's capital city?,CN,others,wikivoyageapi,CN,0,API_CALL,
+36,What is China's capital city?,CN,others,wikidata,China,1,DEDUP_SKIP,
+37,"What ancient writer does China's ""Dragon Boat Festival"" usually commemorate?",CN,holidays_festivals,wikipediaapi,ancient writer china dragon boat China,0,API_CALL,
+37,"What ancient writer does China's ""Dragon Boat Festival"" usually commemorate?",CN,holidays_festivals,wikivoyageapi,ancient writer china dragon boat China,0,API_CALL,
+37,"What ancient writer does China's ""Dragon Boat Festival"" usually commemorate?",CN,holidays_festivals,wikidata,ancient writer china dragon boat China,0,API_CALL,
+37,"What ancient writer does China's ""Dragon Boat Festival"" usually commemorate?",CN,holidays_festivals,wikipediaapi,China,10,API_CALL,"China, China Airlines, China Central Television, China Eastern Airlines, China Southern Airlines, China national football team, Chinatown, China–Russia relations, China–United States relations, China–United States trade war"
+37,"What ancient writer does China's ""Dragon Boat Festival"" usually commemorate?",CN,holidays_festivals,wikivoyageapi,CN,0,API_CALL,
+37,"What ancient writer does China's ""Dragon Boat Festival"" usually commemorate?",CN,holidays_festivals,wikidata,China,1,DEDUP_SKIP,
+38,"Which river is China's ""Mother River""?",CN,geography_places,wikipediaapi,river china mother river China,0,API_CALL,
+38,"Which river is China's ""Mother River""?",CN,geography_places,wikivoyageapi,river china mother river China,0,API_CALL,
+38,"Which river is China's ""Mother River""?",CN,geography_places,wikidata,river china mother river China,0,API_CALL,
+38,"Which river is China's ""Mother River""?",CN,geography_places,wikipediaapi,China,10,API_CALL,"China, China Airlines, China Central Television, China Eastern Airlines, China Southern Airlines, China national football team, Chinatown, China–Russia relations, China–United States relations, China–United States trade war"
+38,"Which river is China's ""Mother River""?",CN,geography_places,wikivoyageapi,CN,0,API_CALL,
+38,"Which river is China's ""Mother River""?",CN,geography_places,wikidata,China,1,DEDUP_SKIP,
+39,Who is the president of Spain?,ES,government_politics,wikipediaapi,president spain Spain,0,API_CALL,
+39,Who is the president of Spain?,ES,government_politics,wikivoyageapi,president spain Spain,0,API_CALL,
+39,Who is the president of Spain?,ES,government_politics,wikidata,president spain Spain,0,API_CALL,
+39,Who is the president of Spain?,ES,government_politics,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+39,Who is the president of Spain?,ES,government_politics,wikivoyageapi,ES,1,API_CALL,Estonia
+39,Who is the president of Spain?,ES,government_politics,wikidata,Spain,1,API_CALL,Estonia–Spain relations
+40,What is the most popular sport in Spain?,ES,sports,wikipediaapi,most popular sport spain Spain,0,API_CALL,
+40,What is the most popular sport in Spain?,ES,sports,wikivoyageapi,most popular sport spain Spain,0,API_CALL,
+40,What is the most popular sport in Spain?,ES,sports,wikidata,most popular sport spain Spain,0,API_CALL,
+40,What is the most popular sport in Spain?,ES,sports,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+40,What is the most popular sport in Spain?,ES,sports,wikivoyageapi,ES,1,DEDUP_SKIP,
+41,What is Spain's most internationally recognized literary work?,ES,arts_literature_music,wikipediaapi,spain most internationally recognized literary Spain,0,API_CALL,
+41,What is Spain's most internationally recognized literary work?,ES,arts_literature_music,wikivoyageapi,spain most internationally recognized literary Spain,0,API_CALL,
+41,What is Spain's most internationally recognized literary work?,ES,arts_literature_music,wikidata,spain most internationally recognized literary Spain,0,API_CALL,
+41,What is Spain's most internationally recognized literary work?,ES,arts_literature_music,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+41,What is Spain's most internationally recognized literary work?,ES,arts_literature_music,wikivoyageapi,ES,1,DEDUP_SKIP,
+42,Which Roman monument is the city of Segovia known for?,ES,culture_landmarks,wikipediaapi,roman monument city segovia known Spain,0,API_CALL,
+42,Which Roman monument is the city of Segovia known for?,ES,culture_landmarks,wikivoyageapi,roman monument city segovia known Spain,0,API_CALL,
+42,Which Roman monument is the city of Segovia known for?,ES,culture_landmarks,wikidata,roman monument city segovia known Spain,0,API_CALL,
+42,Which Roman monument is the city of Segovia known for?,ES,culture_landmarks,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+42,Which Roman monument is the city of Segovia known for?,ES,culture_landmarks,wikivoyageapi,ES,1,DEDUP_SKIP,
+43,Where were the 1992 Olympic Games held in Spain?,ES,sports,wikipediaapi,1992 olympic games held spain Spain,0,API_CALL,
+43,Where were the 1992 Olympic Games held in Spain?,ES,sports,wikivoyageapi,1992 olympic games held spain Spain,0,API_CALL,
+43,Where were the 1992 Olympic Games held in Spain?,ES,sports,wikidata,1992 olympic games held spain Spain,0,API_CALL,
+43,Where were the 1992 Olympic Games held in Spain?,ES,sports,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+43,Where were the 1992 Olympic Games held in Spain?,ES,sports,wikivoyageapi,ES,1,DEDUP_SKIP,
+44,What are the colors of the country's flag?,MX,national_symbols_emblems,wikipediaapi,colors country flag Mexico,0,API_CALL,
+44,What are the colors of the country's flag?,MX,national_symbols_emblems,wikivoyageapi,colors country flag Mexico,0,API_CALL,
+44,What are the colors of the country's flag?,MX,national_symbols_emblems,wikidata,colors country flag Mexico,0,API_CALL,
+44,What are the colors of the country's flag?,MX,national_symbols_emblems,wikipediaapi,Mexico,10,API_CALL,"Mexican Air Force, Mexican cuisine, Mexican drug war, Mexico, Mexico City, Mexico City International Airport, Mexico national football team, Mexico–United States border, Mexico–United States border wall, Mexico–United States relations"
+44,What are the colors of the country's flag?,MX,national_symbols_emblems,wikivoyageapi,MX,0,API_CALL,
+44,What are the colors of the country's flag?,MX,national_symbols_emblems,wikidata,Mexico,0,API_CALL,
+45,Who was the author of the national anthem?,MX,others,wikipediaapi,author national anthem Mexico,0,API_CALL,
+45,Who was the author of the national anthem?,MX,others,wikivoyageapi,author national anthem Mexico,0,API_CALL,
+45,Who was the author of the national anthem?,MX,others,wikidata,author national anthem Mexico,0,API_CALL,
+45,Who was the author of the national anthem?,MX,others,wikipediaapi,national anthem Mexico,1,API_CALL,Himno Nacional Mexicano
+45,Who was the author of the national anthem?,MX,others,wikivoyageapi,national anthem Mexico,0,API_CALL,
+45,Who was the author of the national anthem?,MX,others,wikidata,national anthem Mexico,0,API_CALL,
+45,Who was the author of the national anthem?,MX,others,wikipediaapi,Mexico,10,API_CALL,"Mexican Air Force, Mexican cuisine, Mexican drug war, Mexico, Mexico City, Mexico City International Airport, Mexico national football team, Mexico–United States border, Mexico–United States border wall, Mexico–United States relations"
+45,Who was the author of the national anthem?,MX,others,wikivoyageapi,MX,0,API_CALL,
+45,Who was the author of the national anthem?,MX,others,wikidata,Mexico,0,API_CALL,
+46,What is the capital of the country?,MX,others,wikipediaapi,capital country Mexico,0,API_CALL,
+46,What is the capital of the country?,MX,others,wikivoyageapi,capital country Mexico,0,API_CALL,
+46,What is the capital of the country?,MX,others,wikidata,capital country Mexico,0,API_CALL,
+46,What is the capital of the country?,MX,others,wikipediaapi,capital Mexico,3,API_CALL,"Capital Medical University, Caritas Mexico, Mexico City"
+46,What is the capital of the country?,MX,others,wikivoyageapi,MX,0,API_CALL,
+46,What is the capital of the country?,MX,others,wikidata,capital Mexico,0,API_CALL,
+46,What is the capital of the country?,MX,others,wikipediaapi,Mexico,10,API_CALL,"Mexican Air Force, Mexican cuisine, Mexican drug war, Mexico, Mexico City, Mexico City International Airport, Mexico national football team, Mexico–United States border, Mexico–United States border wall, Mexico–United States relations"
+46,What is the capital of the country?,MX,others,wikivoyageapi,MX,0,API_CALL,
+46,What is the capital of the country?,MX,others,wikidata,Mexico,0,API_CALL,
+47,Who is the president of the country?,MX,government_politics,wikipediaapi,president country Mexico,0,API_CALL,
+47,Who is the president of the country?,MX,government_politics,wikivoyageapi,president country Mexico,0,API_CALL,
+47,Who is the president of the country?,MX,government_politics,wikidata,president country Mexico,0,API_CALL,
+47,Who is the president of the country?,MX,government_politics,wikipediaapi,Mexico,10,API_CALL,"Mexican Air Force, Mexican cuisine, Mexican drug war, Mexico, Mexico City, Mexico City International Airport, Mexico national football team, Mexico–United States border, Mexico–United States border wall, Mexico–United States relations"
+47,Who is the president of the country?,MX,government_politics,wikivoyageapi,MX,0,API_CALL,
+47,Who is the president of the country?,MX,government_politics,wikidata,Mexico,0,API_CALL,
+48,What is the most typical street food in the country?,MX,food_drink,wikipediaapi,most typical street food country Mexico,0,API_CALL,
+48,What is the most typical street food in the country?,MX,food_drink,wikivoyageapi,most typical street food country Mexico,0,API_CALL,
+48,What is the most typical street food in the country?,MX,food_drink,wikidata,most typical street food country Mexico,0,API_CALL,
+48,What is the most typical street food in the country?,MX,food_drink,wikipediaapi,Mexico,10,API_CALL,"Mexican Air Force, Mexican cuisine, Mexican drug war, Mexico, Mexico City, Mexico City International Airport, Mexico national football team, Mexico–United States border, Mexico–United States border wall, Mexico–United States relations"
+48,What is the most typical street food in the country?,MX,food_drink,wikivoyageapi,MX,0,API_CALL,
+48,What is the most typical street food in the country?,MX,food_drink,wikidata,Mexico,0,API_CALL,
+49,Who was Indonesia's first president?,ID,government_politics,wikipediaapi,indonesia first president Indonesia,0,API_CALL,
+49,Who was Indonesia's first president?,ID,government_politics,wikivoyageapi,indonesia first president Indonesia,0,API_CALL,
+49,Who was Indonesia's first president?,ID,government_politics,wikidata,indonesia first president Indonesia,0,API_CALL,
+49,Who was Indonesia's first president?,ID,government_politics,wikipediaapi,Indonesia,10,API_CALL,"Indonesia, Indonesia AirAsia Flight 8501, Indonesia national football team, Indonesian Air Force, Indonesian National Armed Forces, Indonesian National Revolution, Indonesian language, Indonesian mass killings of 1965–66, Indonesian rupiah, Indonesia–Malaysia confrontation"
+49,Who was Indonesia's first president?,ID,government_politics,wikivoyageapi,ID,1,API_CALL,Idaho
+49,Who was Indonesia's first president?,ID,government_politics,wikidata,Indonesia,0,API_CALL,
+50,On what date did Indonesia proclaim its independence?,ID,history_identity,wikipediaapi,date indonesia proclaim its independence Indonesia,0,API_CALL,
+50,On what date did Indonesia proclaim its independence?,ID,history_identity,wikivoyageapi,date indonesia proclaim its independence Indonesia,0,API_CALL,
+50,On what date did Indonesia proclaim its independence?,ID,history_identity,wikidata,date indonesia proclaim its independence Indonesia,0,API_CALL,
+50,On what date did Indonesia proclaim its independence?,ID,history_identity,wikipediaapi,Indonesia,10,API_CALL,"Indonesia, Indonesia AirAsia Flight 8501, Indonesia national football team, Indonesian Air Force, Indonesian National Armed Forces, Indonesian National Revolution, Indonesian language, Indonesian mass killings of 1965–66, Indonesian rupiah, Indonesia–Malaysia confrontation"
+50,On what date did Indonesia proclaim its independence?,ID,history_identity,wikivoyageapi,ID,1,DEDUP_SKIP,
+51,"What is the term for the custom of people returning to their hometowns to celebrate major holidays (such as Eid al-Fitr, Christmas, or Lunar New Year)?",ID,holidays_festivals,wikipediaapi,term custom people returning their Indonesia,0,API_CALL,
+51,"What is the term for the custom of people returning to their hometowns to celebrate major holidays (such as Eid al-Fitr, Christmas, or Lunar New Year)?",ID,holidays_festivals,wikivoyageapi,term custom people returning their Indonesia,0,API_CALL,
+51,"What is the term for the custom of people returning to their hometowns to celebrate major holidays (such as Eid al-Fitr, Christmas, or Lunar New Year)?",ID,holidays_festivals,wikidata,term custom people returning their Indonesia,0,API_CALL,
+51,"What is the term for the custom of people returning to their hometowns to celebrate major holidays (such as Eid al-Fitr, Christmas, or Lunar New Year)?",ID,holidays_festivals,wikipediaapi,Indonesia,10,API_CALL,"Indonesia, Indonesia AirAsia Flight 8501, Indonesia national football team, Indonesian Air Force, Indonesian National Armed Forces, Indonesian National Revolution, Indonesian language, Indonesian mass killings of 1965–66, Indonesian rupiah, Indonesia–Malaysia confrontation"
+51,"What is the term for the custom of people returning to their hometowns to celebrate major holidays (such as Eid al-Fitr, Christmas, or Lunar New Year)?",ID,holidays_festivals,wikivoyageapi,ID,1,DEDUP_SKIP,
+52,What is the name of the minimarket commonly found in many places in Indonesia?,ID,geography_places,wikipediaapi,name minimarket commonly found many Indonesia,0,API_CALL,
+52,What is the name of the minimarket commonly found in many places in Indonesia?,ID,geography_places,wikivoyageapi,name minimarket commonly found many Indonesia,0,API_CALL,
+52,What is the name of the minimarket commonly found in many places in Indonesia?,ID,geography_places,wikidata,name minimarket commonly found many Indonesia,0,API_CALL,
+52,What is the name of the minimarket commonly found in many places in Indonesia?,ID,geography_places,wikipediaapi,Indonesia,10,API_CALL,"Indonesia, Indonesia AirAsia Flight 8501, Indonesia national football team, Indonesian Air Force, Indonesian National Armed Forces, Indonesian National Revolution, Indonesian language, Indonesian mass killings of 1965–66, Indonesian rupiah, Indonesia–Malaysia confrontation"
+52,What is the name of the minimarket commonly found in many places in Indonesia?,ID,geography_places,wikivoyageapi,ID,1,DEDUP_SKIP,
+53,What is the name of the flag-raising ceremony that is routinely attended by students or civil servants?,ID,national_symbols_emblems,wikipediaapi,name flag raising ceremony routinely Indonesia,0,API_CALL,
+53,What is the name of the flag-raising ceremony that is routinely attended by students or civil servants?,ID,national_symbols_emblems,wikivoyageapi,name flag raising ceremony routinely Indonesia,0,API_CALL,
+53,What is the name of the flag-raising ceremony that is routinely attended by students or civil servants?,ID,national_symbols_emblems,wikidata,name flag raising ceremony routinely Indonesia,0,API_CALL,
+53,What is the name of the flag-raising ceremony that is routinely attended by students or civil servants?,ID,national_symbols_emblems,wikipediaapi,Indonesia,10,API_CALL,"Indonesia, Indonesia AirAsia Flight 8501, Indonesia national football team, Indonesian Air Force, Indonesian National Armed Forces, Indonesian National Revolution, Indonesian language, Indonesian mass killings of 1965–66, Indonesian rupiah, Indonesia–Malaysia confrontation"
+53,What is the name of the flag-raising ceremony that is routinely attended by students or civil servants?,ID,national_symbols_emblems,wikivoyageapi,ID,1,DEDUP_SKIP,
+54,"When Koreans think of ""sopoong,"" what is the representative snack/food?",KR,food_drink,wikipediaapi,koreans think sopoong representative snack South Korea,0,API_CALL,
+54,"When Koreans think of ""sopoong,"" what is the representative snack/food?",KR,food_drink,wikivoyageapi,koreans think sopoong representative snack South Korea,0,API_CALL,
+54,"When Koreans think of ""sopoong,"" what is the representative snack/food?",KR,food_drink,wikidata,koreans think sopoong representative snack South Korea,0,API_CALL,
+54,"When Koreans think of ""sopoong,"" what is the representative snack/food?",KR,food_drink,wikipediaapi,South Korea,10,API_CALL,"2024 South Korean martial law crisis, Flag of South Korea, South Korea, South Korea men's national basketball team, South Korea national baseball team, South Korea national football team, South Korea national under-23 football team, South Korea women's national football team, South Korean won, South Korea–United States relations"
+54,"When Koreans think of ""sopoong,"" what is the representative snack/food?",KR,food_drink,wikivoyageapi,KR,1,API_CALL,Kraków
+54,"When Koreans think of ""sopoong,"" what is the representative snack/food?",KR,food_drink,wikidata,South Korea,0,API_CALL,
+55,Which is NOT a traditional Korean play?,KR,sports,wikipediaapi,not traditional korean play South Korea,0,API_CALL,
+55,Which is NOT a traditional Korean play?,KR,sports,wikivoyageapi,not traditional korean play South Korea,0,API_CALL,
+55,Which is NOT a traditional Korean play?,KR,sports,wikidata,not traditional korean play South Korea,0,API_CALL,
+55,Which is NOT a traditional Korean play?,KR,sports,wikipediaapi,traditional korean South Korea,0,API_CALL,
+55,Which is NOT a traditional Korean play?,KR,sports,wikivoyageapi,traditional korean South Korea,0,API_CALL,
+55,Which is NOT a traditional Korean play?,KR,sports,wikidata,traditional korean South Korea,0,API_CALL,
+55,Which is NOT a traditional Korean play?,KR,sports,wikipediaapi,South Korea,10,API_CALL,"2024 South Korean martial law crisis, Flag of South Korea, South Korea, South Korea men's national basketball team, South Korea national baseball team, South Korea national football team, South Korea national under-23 football team, South Korea women's national football team, South Korean won, South Korea–United States relations"
+55,Which is NOT a traditional Korean play?,KR,sports,wikivoyageapi,KR,1,DEDUP_SKIP,
+56,Who is the bad person in a Korean folktale?,KR,others,wikipediaapi,bad person korean folktale South Korea,0,API_CALL,
+56,Who is the bad person in a Korean folktale?,KR,others,wikivoyageapi,bad person korean folktale South Korea,0,API_CALL,
+56,Who is the bad person in a Korean folktale?,KR,others,wikidata,bad person korean folktale South Korea,0,API_CALL,
+56,Who is the bad person in a Korean folktale?,KR,others,wikipediaapi,South Korea,10,API_CALL,"2024 South Korean martial law crisis, Flag of South Korea, South Korea, South Korea men's national basketball team, South Korea national baseball team, South Korea national football team, South Korea national under-23 football team, South Korea women's national football team, South Korean won, South Korea–United States relations"
+56,Who is the bad person in a Korean folktale?,KR,others,wikivoyageapi,KR,1,DEDUP_SKIP,
+57,What food is famous as something eaten on moving day in Korea?,KR,food_drink,wikipediaapi,food famous something eaten moving South Korea,0,API_CALL,
+57,What food is famous as something eaten on moving day in Korea?,KR,food_drink,wikivoyageapi,food famous something eaten moving South Korea,0,API_CALL,
+57,What food is famous as something eaten on moving day in Korea?,KR,food_drink,wikidata,food famous something eaten moving South Korea,0,API_CALL,
+57,What food is famous as something eaten on moving day in Korea?,KR,food_drink,wikipediaapi,famous as South Korea,0,API_CALL,
+57,What food is famous as something eaten on moving day in Korea?,KR,food_drink,wikivoyageapi,famous as South Korea,0,API_CALL,
+57,What food is famous as something eaten on moving day in Korea?,KR,food_drink,wikidata,famous as South Korea,0,API_CALL,
+57,What food is famous as something eaten on moving day in Korea?,KR,food_drink,wikipediaapi,South Korea,10,API_CALL,"2024 South Korean martial law crisis, Flag of South Korea, South Korea, South Korea men's national basketball team, South Korea national baseball team, South Korea national football team, South Korea national under-23 football team, South Korea women's national football team, South Korean won, South Korea–United States relations"
+57,What food is famous as something eaten on moving day in Korea?,KR,food_drink,wikivoyageapi,KR,1,DEDUP_SKIP,
+58,What area of Korea do people studying for the civil service exam mainly live?,KR,education_knowledge_systems,wikipediaapi,area korea people studying civil South Korea,0,API_CALL,
+58,What area of Korea do people studying for the civil service exam mainly live?,KR,education_knowledge_systems,wikivoyageapi,area korea people studying civil South Korea,0,API_CALL,
+58,What area of Korea do people studying for the civil service exam mainly live?,KR,education_knowledge_systems,wikidata,area korea people studying civil South Korea,0,API_CALL,
+58,What area of Korea do people studying for the civil service exam mainly live?,KR,education_knowledge_systems,wikipediaapi,South Korea,10,API_CALL,"2024 South Korean martial law crisis, Flag of South Korea, South Korea, South Korea men's national basketball team, South Korea national baseball team, South Korea national football team, South Korea national under-23 football team, South Korea women's national football team, South Korean won, South Korea–United States relations"
+58,What area of Korea do people studying for the civil service exam mainly live?,KR,education_knowledge_systems,wikivoyageapi,KR,1,DEDUP_SKIP,
+59,Who is the Prime Minister of Greece?,GR,government_politics,wikipediaapi,prime minister greece Greece,0,API_CALL,
+59,Who is the Prime Minister of Greece?,GR,government_politics,wikivoyageapi,prime minister greece Greece,0,API_CALL,
+59,Who is the Prime Minister of Greece?,GR,government_politics,wikidata,prime minister greece Greece,0,API_CALL,
+59,Who is the Prime Minister of Greece?,GR,government_politics,wikipediaapi,Greece,10,API_CALL,"Flag of Greece, Greece, Greece in the Eurovision Song Contest, Greece men's national basketball team, Greece national football team, Greece runestones, Greece–Serbia relations, Greece–Turkey relations, Greece–United States relations, Greek language"
+59,Who is the Prime Minister of Greece?,GR,government_politics,wikivoyageapi,GR,0,API_CALL,
+59,Who is the Prime Minister of Greece?,GR,government_politics,wikidata,Greece,1,API_CALL,Greece–Grenada relations
+60,What is the most emblematic landmark in the heart of Athens and serves as a symbol of Greece?,GR,culture_landmarks,wikipediaapi,most emblematic landmark heart athens Greece,0,API_CALL,
+60,What is the most emblematic landmark in the heart of Athens and serves as a symbol of Greece?,GR,culture_landmarks,wikivoyageapi,most emblematic landmark heart athens Greece,0,API_CALL,
+60,What is the most emblematic landmark in the heart of Athens and serves as a symbol of Greece?,GR,culture_landmarks,wikidata,most emblematic landmark heart athens Greece,0,API_CALL,
+60,What is the most emblematic landmark in the heart of Athens and serves as a symbol of Greece?,GR,culture_landmarks,wikipediaapi,Greece,10,API_CALL,"Flag of Greece, Greece, Greece in the Eurovision Song Contest, Greece men's national basketball team, Greece national football team, Greece runestones, Greece–Serbia relations, Greece–Turkey relations, Greece–United States relations, Greek language"
+60,What is the most emblematic landmark in the heart of Athens and serves as a symbol of Greece?,GR,culture_landmarks,wikivoyageapi,GR,0,API_CALL,
+60,What is the most emblematic landmark in the heart of Athens and serves as a symbol of Greece?,GR,culture_landmarks,wikidata,Greece,1,DEDUP_SKIP,
+61,What do we celebrate on October 28?,GR,history_identity,wikipediaapi,celebrate october Greece,0,API_CALL,
+61,What do we celebrate on October 28?,GR,history_identity,wikivoyageapi,celebrate october Greece,0,API_CALL,
+61,What do we celebrate on October 28?,GR,history_identity,wikidata,celebrate october Greece,0,API_CALL,
+61,What do we celebrate on October 28?,GR,history_identity,wikipediaapi,Greece,10,API_CALL,"Flag of Greece, Greece, Greece in the Eurovision Song Contest, Greece men's national basketball team, Greece national football team, Greece runestones, Greece–Serbia relations, Greece–Turkey relations, Greece–United States relations, Greek language"
+61,What do we celebrate on October 28?,GR,history_identity,wikivoyageapi,GR,0,API_CALL,
+61,What do we celebrate on October 28?,GR,history_identity,wikidata,Greece,1,DEDUP_SKIP,
+62,Who wrote the national anthem (Hymn to Liberty)?,GR,geography_places,wikipediaapi,wrote national anthem hymn liberty Greece,0,API_CALL,
+62,Who wrote the national anthem (Hymn to Liberty)?,GR,geography_places,wikivoyageapi,wrote national anthem hymn liberty Greece,0,API_CALL,
+62,Who wrote the national anthem (Hymn to Liberty)?,GR,geography_places,wikidata,wrote national anthem hymn liberty Greece,0,API_CALL,
+62,Who wrote the national anthem (Hymn to Liberty)?,GR,geography_places,wikipediaapi,national anthem Greece,2,API_CALL,"Hymn to Liberty, Nunarput utoqqarsuanngoravit"
+62,Who wrote the national anthem (Hymn to Liberty)?,GR,geography_places,wikivoyageapi,national anthem Greece,0,API_CALL,
+62,Who wrote the national anthem (Hymn to Liberty)?,GR,geography_places,wikidata,national anthem Greece,0,API_CALL,
+62,Who wrote the national anthem (Hymn to Liberty)?,GR,geography_places,wikipediaapi,Greece,10,API_CALL,"Flag of Greece, Greece, Greece in the Eurovision Song Contest, Greece men's national basketball team, Greece national football team, Greece runestones, Greece–Serbia relations, Greece–Turkey relations, Greece–United States relations, Greek language"
+62,Who wrote the national anthem (Hymn to Liberty)?,GR,geography_places,wikivoyageapi,GR,0,API_CALL,
+62,Who wrote the national anthem (Hymn to Liberty)?,GR,geography_places,wikidata,Greece,1,DEDUP_SKIP,
+63,"Which Greek city is also called ""co-capital""?",GR,others,wikipediaapi,greek city also called capital Greece,0,API_CALL,
+63,"Which Greek city is also called ""co-capital""?",GR,others,wikivoyageapi,greek city also called capital Greece,0,API_CALL,
+63,"Which Greek city is also called ""co-capital""?",GR,others,wikidata,greek city also called capital Greece,0,API_CALL,
+63,"Which Greek city is also called ""co-capital""?",GR,others,wikipediaapi,capital Greece,7,API_CALL,"CapitaGreen, Capital Crescent Trail, Athens, Capital and income breeding, Caritas Hellas, Farmfoods, Nuuk"
+63,"Which Greek city is also called ""co-capital""?",GR,others,wikivoyageapi,GR,0,API_CALL,
+63,"Which Greek city is also called ""co-capital""?",GR,others,wikidata,capital Greece,0,API_CALL,
+63,"Which Greek city is also called ""co-capital""?",GR,others,wikipediaapi,Greece,10,API_CALL,"Flag of Greece, Greece, Greece in the Eurovision Song Contest, Greece men's national basketball team, Greece national football team, Greece runestones, Greece–Serbia relations, Greece–Turkey relations, Greece–United States relations, Greek language"
+63,"Which Greek city is also called ""co-capital""?",GR,others,wikivoyageapi,GR,0,API_CALL,
+63,"Which Greek city is also called ""co-capital""?",GR,others,wikidata,Greece,1,DEDUP_SKIP,
+64,What is the official religion of Iran?,IR,religion_spirituality,wikipediaapi,official religion iran Iran,0,API_CALL,
+64,What is the official religion of Iran?,IR,religion_spirituality,wikivoyageapi,official religion iran Iran,0,API_CALL,
+64,What is the official religion of Iran?,IR,religion_spirituality,wikidata,official religion iran Iran,0,API_CALL,
+64,What is the official religion of Iran?,IR,religion_spirituality,wikipediaapi,official religion Iran,0,API_CALL,
+64,What is the official religion of Iran?,IR,religion_spirituality,wikivoyageapi,official religion Iran,0,API_CALL,
+64,What is the official religion of Iran?,IR,religion_spirituality,wikidata,official religion Iran,0,API_CALL,
+64,What is the official religion of Iran?,IR,religion_spirituality,wikipediaapi,Iran,10,API_CALL,"Iran, Iran hostage crisis, Iranian Americans, Iranian Jews, Iranian Revolution, Iranian peoples, Iran–Contra affair, Iran–Iraq War, Iran–Israel war, Iran–United States relations"
+64,What is the official religion of Iran?,IR,religion_spirituality,wikivoyageapi,IR,1,API_CALL,Ireland
+64,What is the official religion of Iran?,IR,religion_spirituality,wikidata,Iran,1,API_CALL,Iran
+65,What is the capital of Iran?,IR,others,wikipediaapi,capital iran Iran,1,API_CALL,Capital (Iranian TV series)
+65,What is the capital of Iran?,IR,others,wikivoyageapi,capital iran Iran,0,API_CALL,
+65,What is the capital of Iran?,IR,others,wikidata,capital iran Iran,0,API_CALL,
+65,What is the capital of Iran?,IR,others,wikipediaapi,capital Iran,10,API_CALL,"Capital (Iranian TV series), Capital (radio network), Capital Bra, Capital Bra discography, Capital Inicial, Capital Ring, Capital and Coast District Health Board, Capital in the Anthropocene, Capital in the Twenty-First Century, Tehran"
+65,What is the capital of Iran?,IR,others,wikivoyageapi,IR,1,DEDUP_SKIP,
+65,What is the capital of Iran?,IR,others,wikipediaapi,Iran,10,API_CALL,"Iran, Iran hostage crisis, Iranian Americans, Iranian Jews, Iranian Revolution, Iranian peoples, Iran–Contra affair, Iran–Iraq War, Iran–Israel war, Iran–United States relations"
+65,What is the capital of Iran?,IR,others,wikivoyageapi,IR,1,DEDUP_SKIP,
+66,What colors are in the Iranian flag?,IR,national_symbols_emblems,wikipediaapi,colors iranian flag Iran,0,API_CALL,
+66,What colors are in the Iranian flag?,IR,national_symbols_emblems,wikivoyageapi,colors iranian flag Iran,0,API_CALL,
+66,What colors are in the Iranian flag?,IR,national_symbols_emblems,wikidata,colors iranian flag Iran,0,API_CALL,
+66,What colors are in the Iranian flag?,IR,national_symbols_emblems,wikipediaapi,Iran,10,API_CALL,"Iran, Iran hostage crisis, Iranian Americans, Iranian Jews, Iranian Revolution, Iranian peoples, Iran–Contra affair, Iran–Iraq War, Iran–Israel war, Iran–United States relations"
+66,What colors are in the Iranian flag?,IR,national_symbols_emblems,wikivoyageapi,IR,1,DEDUP_SKIP,
+67,Which of these countries is a neighbor of Iran?,IR,others,wikipediaapi,countries neighbor iran Iran,0,API_CALL,
+67,Which of these countries is a neighbor of Iran?,IR,others,wikivoyageapi,countries neighbor iran Iran,0,API_CALL,
+67,Which of these countries is a neighbor of Iran?,IR,others,wikidata,countries neighbor iran Iran,0,API_CALL,
+67,Which of these countries is a neighbor of Iran?,IR,others,wikipediaapi,Iran,10,API_CALL,"Iran, Iran hostage crisis, Iranian Americans, Iranian Jews, Iranian Revolution, Iranian peoples, Iran–Contra affair, Iran–Iraq War, Iran–Israel war, Iran–United States relations"
+67,Which of these countries is a neighbor of Iran?,IR,others,wikivoyageapi,IR,1,DEDUP_SKIP,
+68,What is the common language in Iran?,IR,food_drink,wikipediaapi,common language iran Iran,0,API_CALL,
+68,What is the common language in Iran?,IR,food_drink,wikivoyageapi,common language iran Iran,0,API_CALL,
+68,What is the common language in Iran?,IR,food_drink,wikidata,common language iran Iran,0,API_CALL,
+68,What is the common language in Iran?,IR,food_drink,wikipediaapi,language Iran,10,API_CALL,"Language and the euro, Language interpretation, Languages of Canada, Languages of India, Languages of Israel, Languages of Pakistan, Languages of Scotland, Languages of Switzerland, Languages of the United Kingdom, Languages of the United States"
+68,What is the common language in Iran?,IR,food_drink,wikivoyageapi,IR,1,DEDUP_SKIP,
+68,What is the common language in Iran?,IR,food_drink,wikipediaapi,Iran,10,API_CALL,"Iran, Iran hostage crisis, Iranian Americans, Iranian Jews, Iranian Revolution, Iranian peoples, Iran–Contra affair, Iran–Iraq War, Iran–Israel war, Iran–United States relations"
+68,What is the common language in Iran?,IR,food_drink,wikivoyageapi,IR,1,DEDUP_SKIP,
+69,Which of the following Egyptian governorates is known for growing mangoes?,EG,others,wikipediaapi,following egyptian governorates known growing Egypt,0,API_CALL,
+69,Which of the following Egyptian governorates is known for growing mangoes?,EG,others,wikivoyageapi,following egyptian governorates known growing Egypt,0,API_CALL,
+69,Which of the following Egyptian governorates is known for growing mangoes?,EG,others,wikidata,following egyptian governorates known growing Egypt,0,API_CALL,
+69,Which of the following Egyptian governorates is known for growing mangoes?,EG,others,wikipediaapi,Egypt,10,API_CALL,"2013 Egyptian coup d'état, Egypt, EgyptAir, Egypt national football team, Egyptian Air Force, Egyptian Arabic, Egyptian Museum, Egyptian hieroglyphs, Egyptian pyramids, Egyptians"
+69,Which of the following Egyptian governorates is known for growing mangoes?,EG,others,wikivoyageapi,EG,1,API_CALL,Egypt
+69,Which of the following Egyptian governorates is known for growing mangoes?,EG,others,wikidata,Egypt,1,API_CALL,"Egypt, Egypt"
+70,Who is the most famous Egyptian professional in the English Premier League?,EG,others,wikipediaapi,most famous egyptian professional english Egypt,0,API_CALL,
+70,Who is the most famous Egyptian professional in the English Premier League?,EG,others,wikivoyageapi,most famous egyptian professional english Egypt,0,API_CALL,
+70,Who is the most famous Egyptian professional in the English Premier League?,EG,others,wikidata,most famous egyptian professional english Egypt,0,API_CALL,
+70,Who is the most famous Egyptian professional in the English Premier League?,EG,others,wikipediaapi,famous egyptian Egypt,0,API_CALL,
+70,Who is the most famous Egyptian professional in the English Premier League?,EG,others,wikivoyageapi,famous egyptian Egypt,0,API_CALL,
+70,Who is the most famous Egyptian professional in the English Premier League?,EG,others,wikidata,famous egyptian Egypt,0,API_CALL,
+70,Who is the most famous Egyptian professional in the English Premier League?,EG,others,wikipediaapi,Egypt,10,API_CALL,"2013 Egyptian coup d'état, Egypt, EgyptAir, Egypt national football team, Egyptian Air Force, Egyptian Arabic, Egyptian Museum, Egyptian hieroglyphs, Egyptian pyramids, Egyptians"
+70,Who is the most famous Egyptian professional in the English Premier League?,EG,others,wikivoyageapi,EG,1,DEDUP_SKIP,
+71,What is the name of the Great Pyramid?,EG,food_drink,wikipediaapi,name great pyramid Egypt,0,API_CALL,
+71,What is the name of the Great Pyramid?,EG,food_drink,wikivoyageapi,name great pyramid Egypt,0,API_CALL,
+71,What is the name of the Great Pyramid?,EG,food_drink,wikidata,name great pyramid Egypt,0,API_CALL,
+71,What is the name of the Great Pyramid?,EG,food_drink,wikipediaapi,Egypt,10,API_CALL,"2013 Egyptian coup d'état, Egypt, EgyptAir, Egypt national football team, Egyptian Air Force, Egyptian Arabic, Egyptian Museum, Egyptian hieroglyphs, Egyptian pyramids, Egyptians"
+71,What is the name of the Great Pyramid?,EG,food_drink,wikivoyageapi,EG,1,DEDUP_SKIP,
+72,What is the name of the most famous Cairo area known for selling souvenirs?,EG,others,wikipediaapi,name most famous cairo area Egypt,0,API_CALL,
+72,What is the name of the most famous Cairo area known for selling souvenirs?,EG,others,wikivoyageapi,name most famous cairo area Egypt,0,API_CALL,
+72,What is the name of the most famous Cairo area known for selling souvenirs?,EG,others,wikidata,name most famous cairo area Egypt,0,API_CALL,
+72,What is the name of the most famous Cairo area known for selling souvenirs?,EG,others,wikipediaapi,famous cairo Egypt,0,API_CALL,
+72,What is the name of the most famous Cairo area known for selling souvenirs?,EG,others,wikivoyageapi,famous cairo Egypt,0,API_CALL,
+72,What is the name of the most famous Cairo area known for selling souvenirs?,EG,others,wikidata,famous cairo Egypt,0,API_CALL,
+72,What is the name of the most famous Cairo area known for selling souvenirs?,EG,others,wikipediaapi,Egypt,10,API_CALL,"2013 Egyptian coup d'état, Egypt, EgyptAir, Egypt national football team, Egyptian Air Force, Egyptian Arabic, Egyptian Museum, Egyptian hieroglyphs, Egyptian pyramids, Egyptians"
+72,What is the name of the most famous Cairo area known for selling souvenirs?,EG,others,wikivoyageapi,EG,1,DEDUP_SKIP,
+73,On what day of October did Egypt enter the most famous war in its modern history?,EG,history_identity,wikipediaapi,day october egypt enter most Egypt,0,API_CALL,
+73,On what day of October did Egypt enter the most famous war in its modern history?,EG,history_identity,wikivoyageapi,day october egypt enter most Egypt,0,API_CALL,
+73,On what day of October did Egypt enter the most famous war in its modern history?,EG,history_identity,wikidata,day october egypt enter most Egypt,0,API_CALL,
+73,On what day of October did Egypt enter the most famous war in its modern history?,EG,history_identity,wikipediaapi,famous war Egypt,0,API_CALL,
+73,On what day of October did Egypt enter the most famous war in its modern history?,EG,history_identity,wikivoyageapi,famous war Egypt,0,API_CALL,
+73,On what day of October did Egypt enter the most famous war in its modern history?,EG,history_identity,wikidata,famous war Egypt,0,API_CALL,
+73,On what day of October did Egypt enter the most famous war in its modern history?,EG,history_identity,wikipediaapi,Egypt,10,API_CALL,"2013 Egyptian coup d'état, Egypt, EgyptAir, Egypt national football team, Egyptian Air Force, Egyptian Arabic, Egyptian Museum, Egyptian hieroglyphs, Egyptian pyramids, Egyptians"
+73,On what day of October did Egypt enter the most famous war in its modern history?,EG,history_identity,wikivoyageapi,EG,1,DEDUP_SKIP,
+74,What is the name of the ancient Egyptian language?,EG,language_writing,wikipediaapi,name ancient egyptian language Egypt,0,API_CALL,
+74,What is the name of the ancient Egyptian language?,EG,language_writing,wikivoyageapi,name ancient egyptian language Egypt,0,API_CALL,
+74,What is the name of the ancient Egyptian language?,EG,language_writing,wikidata,name ancient egyptian language Egypt,0,API_CALL,
+74,What is the name of the ancient Egyptian language?,EG,language_writing,wikipediaapi,language Egypt,1,API_CALL,Languages of Egypt
+74,What is the name of the ancient Egyptian language?,EG,language_writing,wikivoyageapi,EG,1,DEDUP_SKIP,
+74,What is the name of the ancient Egyptian language?,EG,language_writing,wikipediaapi,Egypt,10,API_CALL,"2013 Egyptian coup d'état, Egypt, EgyptAir, Egypt national football team, Egyptian Air Force, Egyptian Arabic, Egyptian Museum, Egyptian hieroglyphs, Egyptian pyramids, Egyptians"
+74,What is the name of the ancient Egyptian language?,EG,language_writing,wikivoyageapi,EG,1,DEDUP_SKIP,
+75,What are the names of the two seas that Egypt overlooks?,EG,geography_places,wikipediaapi,names two seas egypt overlooks Egypt,0,API_CALL,
+75,What are the names of the two seas that Egypt overlooks?,EG,geography_places,wikivoyageapi,names two seas egypt overlooks Egypt,0,API_CALL,
+75,What are the names of the two seas that Egypt overlooks?,EG,geography_places,wikidata,names two seas egypt overlooks Egypt,0,API_CALL,
+75,What are the names of the two seas that Egypt overlooks?,EG,geography_places,wikipediaapi,Egypt,10,API_CALL,"2013 Egyptian coup d'état, Egypt, EgyptAir, Egypt national football team, Egyptian Air Force, Egyptian Arabic, Egyptian Museum, Egyptian hieroglyphs, Egyptian pyramids, Egyptians"
+75,What are the names of the two seas that Egypt overlooks?,EG,geography_places,wikivoyageapi,EG,1,DEDUP_SKIP,
+76,What is the capital of Morocco?,MA,others,wikipediaapi,capital morocco Morocco,0,API_CALL,
+76,What is the capital of Morocco?,MA,others,wikivoyageapi,capital morocco Morocco,0,API_CALL,
+76,What is the capital of Morocco?,MA,others,wikidata,capital morocco Morocco,0,API_CALL,
+76,What is the capital of Morocco?,MA,others,wikipediaapi,capital Morocco,1,API_CALL,Rabat
+76,What is the capital of Morocco?,MA,others,wikivoyageapi,MA,0,API_CALL,
+76,What is the capital of Morocco?,MA,others,wikidata,capital Morocco,0,API_CALL,
+76,What is the capital of Morocco?,MA,others,wikipediaapi,Morocco,10,API_CALL,"Moroccan Association for Human Rights, Morocco, Morocco (film), Morocco 2026 FIFA World Cup bid, Morocco A' national football team, Morocco national football team, Morocco national under-20 football team, Morocco national under-23 football team, Morocco women's national football team, Morocco–United States relations"
+76,What is the capital of Morocco?,MA,others,wikivoyageapi,MA,0,API_CALL,
+76,What is the capital of Morocco?,MA,others,wikidata,Morocco,1,API_CALL,Morocco Maduka
+77,What is Morocco's official currency?,MA,economy_currency_symbols,wikipediaapi,morocco official currency Morocco,0,API_CALL,
+77,What is Morocco's official currency?,MA,economy_currency_symbols,wikivoyageapi,morocco official currency Morocco,0,API_CALL,
+77,What is Morocco's official currency?,MA,economy_currency_symbols,wikidata,morocco official currency Morocco,0,API_CALL,
+77,What is Morocco's official currency?,MA,economy_currency_symbols,wikipediaapi,official currency Morocco,0,API_CALL,
+77,What is Morocco's official currency?,MA,economy_currency_symbols,wikivoyageapi,official currency Morocco,0,API_CALL,
+77,What is Morocco's official currency?,MA,economy_currency_symbols,wikidata,official currency Morocco,0,API_CALL,
+77,What is Morocco's official currency?,MA,economy_currency_symbols,wikipediaapi,Morocco,10,API_CALL,"Moroccan Association for Human Rights, Morocco, Morocco (film), Morocco 2026 FIFA World Cup bid, Morocco A' national football team, Morocco national football team, Morocco national under-20 football team, Morocco national under-23 football team, Morocco women's national football team, Morocco–United States relations"
+77,What is Morocco's official currency?,MA,economy_currency_symbols,wikivoyageapi,MA,0,API_CALL,
+77,What is Morocco's official currency?,MA,economy_currency_symbols,wikidata,Morocco,1,DEDUP_SKIP,
+78,"Which Moroccan city is known as the ""Blue City""?",MA,others,wikipediaapi,moroccan city known blue city Morocco,0,API_CALL,
+78,"Which Moroccan city is known as the ""Blue City""?",MA,others,wikivoyageapi,moroccan city known blue city Morocco,0,API_CALL,
+78,"Which Moroccan city is known as the ""Blue City""?",MA,others,wikidata,moroccan city known blue city Morocco,0,API_CALL,
+78,"Which Moroccan city is known as the ""Blue City""?",MA,others,wikipediaapi,Morocco,10,API_CALL,"Moroccan Association for Human Rights, Morocco, Morocco (film), Morocco 2026 FIFA World Cup bid, Morocco A' national football team, Morocco national football team, Morocco national under-20 football team, Morocco national under-23 football team, Morocco women's national football team, Morocco–United States relations"
+78,"Which Moroccan city is known as the ""Blue City""?",MA,others,wikivoyageapi,MA,0,API_CALL,
+78,"Which Moroccan city is known as the ""Blue City""?",MA,others,wikidata,Morocco,1,DEDUP_SKIP,
+79,"What is Morocco's most popular national drink, served as a symbol of hospitality?",MA,food_drink,wikipediaapi,morocco most popular national drink Morocco,0,API_CALL,
+79,"What is Morocco's most popular national drink, served as a symbol of hospitality?",MA,food_drink,wikivoyageapi,morocco most popular national drink Morocco,0,API_CALL,
+79,"What is Morocco's most popular national drink, served as a symbol of hospitality?",MA,food_drink,wikidata,morocco most popular national drink Morocco,0,API_CALL,
+79,"What is Morocco's most popular national drink, served as a symbol of hospitality?",MA,food_drink,wikipediaapi,national drink Morocco,0,API_CALL,
+79,"What is Morocco's most popular national drink, served as a symbol of hospitality?",MA,food_drink,wikivoyageapi,national drink Morocco,0,API_CALL,
+79,"What is Morocco's most popular national drink, served as a symbol of hospitality?",MA,food_drink,wikidata,national drink Morocco,0,API_CALL,
+79,"What is Morocco's most popular national drink, served as a symbol of hospitality?",MA,food_drink,wikipediaapi,Morocco,10,API_CALL,"Moroccan Association for Human Rights, Morocco, Morocco (film), Morocco 2026 FIFA World Cup bid, Morocco A' national football team, Morocco national football team, Morocco national under-20 football team, Morocco national under-23 football team, Morocco women's national football team, Morocco–United States relations"
+79,"What is Morocco's most popular national drink, served as a symbol of hospitality?",MA,food_drink,wikivoyageapi,MA,0,API_CALL,
+79,"What is Morocco's most popular national drink, served as a symbol of hospitality?",MA,food_drink,wikidata,Morocco,1,DEDUP_SKIP,
+80,What is the name of the main mountain range that extends across Morocco?,MA,geography_places,wikipediaapi,name main mountain range extends Morocco,0,API_CALL,
+80,What is the name of the main mountain range that extends across Morocco?,MA,geography_places,wikivoyageapi,name main mountain range extends Morocco,0,API_CALL,
+80,What is the name of the main mountain range that extends across Morocco?,MA,geography_places,wikidata,name main mountain range extends Morocco,0,API_CALL,
+80,What is the name of the main mountain range that extends across Morocco?,MA,geography_places,wikipediaapi,Morocco,10,API_CALL,"Moroccan Association for Human Rights, Morocco, Morocco (film), Morocco 2026 FIFA World Cup bid, Morocco A' national football team, Morocco national football team, Morocco national under-20 football team, Morocco national under-23 football team, Morocco women's national football team, Morocco–United States relations"
+80,What is the name of the main mountain range that extends across Morocco?,MA,geography_places,wikivoyageapi,MA,0,API_CALL,
+80,What is the name of the main mountain range that extends across Morocco?,MA,geography_places,wikidata,Morocco,1,DEDUP_SKIP,
+81,Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?,MA,food_drink,wikipediaapi,traditional moroccan dish made semolina Morocco,0,API_CALL,
+81,Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?,MA,food_drink,wikivoyageapi,traditional moroccan dish made semolina Morocco,0,API_CALL,
+81,Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?,MA,food_drink,wikidata,traditional moroccan dish made semolina Morocco,0,API_CALL,
+81,Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?,MA,food_drink,wikipediaapi,traditional moroccan Morocco,0,API_CALL,
+81,Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?,MA,food_drink,wikivoyageapi,traditional moroccan Morocco,0,API_CALL,
+81,Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?,MA,food_drink,wikidata,traditional moroccan Morocco,0,API_CALL,
+81,Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?,MA,food_drink,wikipediaapi,Morocco,10,API_CALL,"Moroccan Association for Human Rights, Morocco, Morocco (film), Morocco 2026 FIFA World Cup bid, Morocco A' national football team, Morocco national football team, Morocco national under-20 football team, Morocco national under-23 football team, Morocco women's national football team, Morocco–United States relations"
+81,Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?,MA,food_drink,wikivoyageapi,MA,0,API_CALL,
+81,Which of these is a traditional Moroccan dish made of semolina and usually served with meat and vegetables?,MA,food_drink,wikidata,Morocco,1,DEDUP_SKIP,
+82,What is the term for the traditional market in Morocco?,MA,social_norms_etiquette,wikipediaapi,term traditional market morocco Morocco,0,API_CALL,
+82,What is the term for the traditional market in Morocco?,MA,social_norms_etiquette,wikivoyageapi,term traditional market morocco Morocco,0,API_CALL,
+82,What is the term for the traditional market in Morocco?,MA,social_norms_etiquette,wikidata,term traditional market morocco Morocco,0,API_CALL,
+82,What is the term for the traditional market in Morocco?,MA,social_norms_etiquette,wikipediaapi,traditional market Morocco,0,API_CALL,
+82,What is the term for the traditional market in Morocco?,MA,social_norms_etiquette,wikivoyageapi,traditional market Morocco,0,API_CALL,
+82,What is the term for the traditional market in Morocco?,MA,social_norms_etiquette,wikidata,traditional market Morocco,0,API_CALL,
+82,What is the term for the traditional market in Morocco?,MA,social_norms_etiquette,wikipediaapi,Morocco,10,API_CALL,"Moroccan Association for Human Rights, Morocco, Morocco (film), Morocco 2026 FIFA World Cup bid, Morocco A' national football team, Morocco national football team, Morocco national under-20 football team, Morocco national under-23 football team, Morocco women's national football team, Morocco–United States relations"
+82,What is the term for the traditional market in Morocco?,MA,social_norms_etiquette,wikivoyageapi,MA,0,API_CALL,
+82,What is the term for the traditional market in Morocco?,MA,social_norms_etiquette,wikidata,Morocco,1,DEDUP_SKIP,
+83,Which region of Saudi Arabia is famous for growing mangoes during the summer?,SA,others,wikipediaapi,region saudi arabia famous growing Saudi Arabia,0,API_CALL,
+83,Which region of Saudi Arabia is famous for growing mangoes during the summer?,SA,others,wikivoyageapi,region saudi arabia famous growing Saudi Arabia,0,API_CALL,
+83,Which region of Saudi Arabia is famous for growing mangoes during the summer?,SA,others,wikidata,region saudi arabia famous growing Saudi Arabia,0,API_CALL,
+83,Which region of Saudi Arabia is famous for growing mangoes during the summer?,SA,others,wikipediaapi,famous for Saudi Arabia,0,API_CALL,
+83,Which region of Saudi Arabia is famous for growing mangoes during the summer?,SA,others,wikivoyageapi,famous for Saudi Arabia,0,API_CALL,
+83,Which region of Saudi Arabia is famous for growing mangoes during the summer?,SA,others,wikidata,famous for Saudi Arabia,0,API_CALL,
+83,Which region of Saudi Arabia is famous for growing mangoes during the summer?,SA,others,wikipediaapi,Saudi Arabia,10,API_CALL,"Saudi Arabia, Saudi Arabia national football team, Saudi Arabia women's national football team, Saudi Arabian Armed Forces, Saudi Arabian Army, Saudi Arabian National Guard, Saudi Arabia–Turkey relations, Saudi Arabia–United Arab Emirates relations, Saudi Arabia–United Kingdom relations, Saudi Arabia–United States relations"
+83,Which region of Saudi Arabia is famous for growing mangoes during the summer?,SA,others,wikivoyageapi,SA,1,API_CALL,SA
+83,Which region of Saudi Arabia is famous for growing mangoes during the summer?,SA,others,wikidata,Saudi Arabia,1,API_CALL,Samoa–Saudi Arabia relations
+84,"Who is the artist known as the ""Artist of the Arabs"" in Saudi Arabia?",SA,arts_literature_music,wikipediaapi,artist known artist arabs saudi Saudi Arabia,0,API_CALL,
+84,"Who is the artist known as the ""Artist of the Arabs"" in Saudi Arabia?",SA,arts_literature_music,wikivoyageapi,artist known artist arabs saudi Saudi Arabia,0,API_CALL,
+84,"Who is the artist known as the ""Artist of the Arabs"" in Saudi Arabia?",SA,arts_literature_music,wikidata,artist known artist arabs saudi Saudi Arabia,0,API_CALL,
+84,"Who is the artist known as the ""Artist of the Arabs"" in Saudi Arabia?",SA,arts_literature_music,wikipediaapi,Saudi Arabia,10,API_CALL,"Saudi Arabia, Saudi Arabia national football team, Saudi Arabia women's national football team, Saudi Arabian Armed Forces, Saudi Arabian Army, Saudi Arabian National Guard, Saudi Arabia–Turkey relations, Saudi Arabia–United Arab Emirates relations, Saudi Arabia–United Kingdom relations, Saudi Arabia–United States relations"
+84,"Who is the artist known as the ""Artist of the Arabs"" in Saudi Arabia?",SA,arts_literature_music,wikivoyageapi,SA,1,DEDUP_SKIP,
+85,On what day does Saudi Arabia celebrate the Saudi Foundation Day (Saudi Founding Day)?,SA,others,wikipediaapi,day saudi arabia celebrate saudi Saudi Arabia,0,API_CALL,
+85,On what day does Saudi Arabia celebrate the Saudi Foundation Day (Saudi Founding Day)?,SA,others,wikivoyageapi,day saudi arabia celebrate saudi Saudi Arabia,0,API_CALL,
+85,On what day does Saudi Arabia celebrate the Saudi Foundation Day (Saudi Founding Day)?,SA,others,wikidata,day saudi arabia celebrate saudi Saudi Arabia,0,API_CALL,
+85,On what day does Saudi Arabia celebrate the Saudi Foundation Day (Saudi Founding Day)?,SA,others,wikipediaapi,Saudi Arabia,10,API_CALL,"Saudi Arabia, Saudi Arabia national football team, Saudi Arabia women's national football team, Saudi Arabian Armed Forces, Saudi Arabian Army, Saudi Arabian National Guard, Saudi Arabia–Turkey relations, Saudi Arabia–United Arab Emirates relations, Saudi Arabia–United Kingdom relations, Saudi Arabia–United States relations"
+85,On what day does Saudi Arabia celebrate the Saudi Foundation Day (Saudi Founding Day)?,SA,others,wikivoyageapi,SA,1,DEDUP_SKIP,
+86,What is the annual national day on which Saudi Arabia celebrates?,SA,holidays_festivals,wikipediaapi,annual national day saudi arabia Saudi Arabia,0,API_CALL,
+86,What is the annual national day on which Saudi Arabia celebrates?,SA,holidays_festivals,wikivoyageapi,annual national day saudi arabia Saudi Arabia,0,API_CALL,
+86,What is the annual national day on which Saudi Arabia celebrates?,SA,holidays_festivals,wikidata,annual national day saudi arabia Saudi Arabia,0,API_CALL,
+86,What is the annual national day on which Saudi Arabia celebrates?,SA,holidays_festivals,wikipediaapi,national day Saudi Arabia,1,API_CALL,Public holidays in Saudi Arabia
+86,What is the annual national day on which Saudi Arabia celebrates?,SA,holidays_festivals,wikivoyageapi,national day Saudi Arabia,0,API_CALL,
+86,What is the annual national day on which Saudi Arabia celebrates?,SA,holidays_festivals,wikidata,national day Saudi Arabia,0,API_CALL,
+86,What is the annual national day on which Saudi Arabia celebrates?,SA,holidays_festivals,wikipediaapi,Saudi Arabia,10,API_CALL,"Saudi Arabia, Saudi Arabia national football team, Saudi Arabia women's national football team, Saudi Arabian Armed Forces, Saudi Arabian Army, Saudi Arabian National Guard, Saudi Arabia–Turkey relations, Saudi Arabia–United Arab Emirates relations, Saudi Arabia–United Kingdom relations, Saudi Arabia–United States relations"
+86,What is the annual national day on which Saudi Arabia celebrates?,SA,holidays_festivals,wikivoyageapi,SA,1,DEDUP_SKIP,
+87,Who is the best Saudi player currently at Al-Hilal Saudi Club?,SA,sports,wikipediaapi,best saudi player currently hilal Saudi Arabia,0,API_CALL,
+87,Who is the best Saudi player currently at Al-Hilal Saudi Club?,SA,sports,wikivoyageapi,best saudi player currently hilal Saudi Arabia,0,API_CALL,
+87,Who is the best Saudi player currently at Al-Hilal Saudi Club?,SA,sports,wikidata,best saudi player currently hilal Saudi Arabia,0,API_CALL,
+87,Who is the best Saudi player currently at Al-Hilal Saudi Club?,SA,sports,wikipediaapi,Saudi Arabia,10,API_CALL,"Saudi Arabia, Saudi Arabia national football team, Saudi Arabia women's national football team, Saudi Arabian Armed Forces, Saudi Arabian Army, Saudi Arabian National Guard, Saudi Arabia–Turkey relations, Saudi Arabia–United Arab Emirates relations, Saudi Arabia–United Kingdom relations, Saudi Arabia–United States relations"
+87,Who is the best Saudi player currently at Al-Hilal Saudi Club?,SA,sports,wikivoyageapi,SA,1,DEDUP_SKIP,
+88,In which city is the historic Masmak Palace located?,SA,others,wikipediaapi,city historic masmak palace located Saudi Arabia,0,API_CALL,
+88,In which city is the historic Masmak Palace located?,SA,others,wikivoyageapi,city historic masmak palace located Saudi Arabia,0,API_CALL,
+88,In which city is the historic Masmak Palace located?,SA,others,wikidata,city historic masmak palace located Saudi Arabia,0,API_CALL,
+88,In which city is the historic Masmak Palace located?,SA,others,wikipediaapi,Saudi Arabia,10,API_CALL,"Saudi Arabia, Saudi Arabia national football team, Saudi Arabia women's national football team, Saudi Arabian Armed Forces, Saudi Arabian Army, Saudi Arabian National Guard, Saudi Arabia–Turkey relations, Saudi Arabia–United Arab Emirates relations, Saudi Arabia–United Kingdom relations, Saudi Arabia–United States relations"
+88,In which city is the historic Masmak Palace located?,SA,others,wikivoyageapi,SA,1,DEDUP_SKIP,
+89,What city in Saudi Arabia is famous for growing and trading roses?,SA,others,wikipediaapi,city saudi arabia famous growing Saudi Arabia,0,API_CALL,
+89,What city in Saudi Arabia is famous for growing and trading roses?,SA,others,wikivoyageapi,city saudi arabia famous growing Saudi Arabia,0,API_CALL,
+89,What city in Saudi Arabia is famous for growing and trading roses?,SA,others,wikidata,city saudi arabia famous growing Saudi Arabia,0,API_CALL,
+89,What city in Saudi Arabia is famous for growing and trading roses?,SA,others,wikipediaapi,famous for Saudi Arabia,0,API_CALL,
+89,What city in Saudi Arabia is famous for growing and trading roses?,SA,others,wikivoyageapi,famous for Saudi Arabia,0,API_CALL,
+89,What city in Saudi Arabia is famous for growing and trading roses?,SA,others,wikidata,famous for Saudi Arabia,0,API_CALL,
+89,What city in Saudi Arabia is famous for growing and trading roses?,SA,others,wikipediaapi,Saudi Arabia,10,API_CALL,"Saudi Arabia, Saudi Arabia national football team, Saudi Arabia women's national football team, Saudi Arabian Armed Forces, Saudi Arabian Army, Saudi Arabian National Guard, Saudi Arabia–Turkey relations, Saudi Arabia–United Arab Emirates relations, Saudi Arabia–United Kingdom relations, Saudi Arabia–United States relations"
+89,What city in Saudi Arabia is famous for growing and trading roses?,SA,others,wikivoyageapi,SA,1,DEDUP_SKIP,
+90,What are 3 things every Australian town had when it was first formed?,AU,arts_literature_music,wikipediaapi,things every australian town first Australia,0,API_CALL,
+90,What are 3 things every Australian town had when it was first formed?,AU,arts_literature_music,wikivoyageapi,things every australian town first Australia,0,API_CALL,
+90,What are 3 things every Australian town had when it was first formed?,AU,arts_literature_music,wikidata,things every australian town first Australia,0,API_CALL,
+90,What are 3 things every Australian town had when it was first formed?,AU,arts_literature_music,wikipediaapi,Australia,10,API_CALL,"2026 Australian Open, Australia, Australia men's national soccer team, Australian Broadcasting Corporation, Australian Cattle Dog, Australian Football League, Australian Labor Party, Australian Open, Australian rules football, Flag of Australia"
+90,What are 3 things every Australian town had when it was first formed?,AU,arts_literature_music,wikivoyageapi,AU,1,API_CALL,Australia
+90,What are 3 things every Australian town had when it was first formed?,AU,arts_literature_music,wikidata,Australia,1,API_CALL,Australian rules football in Australia
+91,What footy team would Bob barrack for if his grandfather lived in Fitzroy?,AU,sports,wikipediaapi,footy team would bob barrack Australia,0,API_CALL,
+91,What footy team would Bob barrack for if his grandfather lived in Fitzroy?,AU,sports,wikivoyageapi,footy team would bob barrack Australia,0,API_CALL,
+91,What footy team would Bob barrack for if his grandfather lived in Fitzroy?,AU,sports,wikidata,footy team would bob barrack Australia,0,API_CALL,
+91,What footy team would Bob barrack for if his grandfather lived in Fitzroy?,AU,sports,wikipediaapi,Australia,10,API_CALL,"2026 Australian Open, Australia, Australia men's national soccer team, Australian Broadcasting Corporation, Australian Cattle Dog, Australian Football League, Australian Labor Party, Australian Open, Australian rules football, Flag of Australia"
+91,What footy team would Bob barrack for if his grandfather lived in Fitzroy?,AU,sports,wikivoyageapi,AU,1,DEDUP_SKIP,
+92,Where did the first fleet arrive in Australia?,AU,others,wikipediaapi,first fleet arrive australia Australia,0,API_CALL,
+92,Where did the first fleet arrive in Australia?,AU,others,wikivoyageapi,first fleet arrive australia Australia,0,API_CALL,
+92,Where did the first fleet arrive in Australia?,AU,others,wikidata,first fleet arrive australia Australia,0,API_CALL,
+92,Where did the first fleet arrive in Australia?,AU,others,wikipediaapi,Australia,10,API_CALL,"2026 Australian Open, Australia, Australia men's national soccer team, Australian Broadcasting Corporation, Australian Cattle Dog, Australian Football League, Australian Labor Party, Australian Open, Australian rules football, Flag of Australia"
+92,Where did the first fleet arrive in Australia?,AU,others,wikivoyageapi,AU,1,DEDUP_SKIP,
+93,What is a common four-word Australian phrase?,AU,others,wikipediaapi,common four word australian phrase Australia,0,API_CALL,
+93,What is a common four-word Australian phrase?,AU,others,wikivoyageapi,common four word australian phrase Australia,0,API_CALL,
+93,What is a common four-word Australian phrase?,AU,others,wikidata,common four word australian phrase Australia,0,API_CALL,
+93,What is a common four-word Australian phrase?,AU,others,wikipediaapi,Australia,10,API_CALL,"2026 Australian Open, Australia, Australia men's national soccer team, Australian Broadcasting Corporation, Australian Cattle Dog, Australian Football League, Australian Labor Party, Australian Open, Australian rules football, Flag of Australia"
+93,What is a common four-word Australian phrase?,AU,others,wikivoyageapi,AU,1,DEDUP_SKIP,
+94,What is the most famous Australian film? / Film that introduced Australian culture to a general audience?,AU,culture_landmarks,wikipediaapi,most famous australian film film Australia,0,API_CALL,
+94,What is the most famous Australian film? / Film that introduced Australian culture to a general audience?,AU,culture_landmarks,wikivoyageapi,most famous australian film film Australia,0,API_CALL,
+94,What is the most famous Australian film? / Film that introduced Australian culture to a general audience?,AU,culture_landmarks,wikidata,most famous australian film film Australia,0,API_CALL,
+94,What is the most famous Australian film? / Film that introduced Australian culture to a general audience?,AU,culture_landmarks,wikipediaapi,famous australian Australia,0,API_CALL,
+94,What is the most famous Australian film? / Film that introduced Australian culture to a general audience?,AU,culture_landmarks,wikivoyageapi,famous australian Australia,0,API_CALL,
+94,What is the most famous Australian film? / Film that introduced Australian culture to a general audience?,AU,culture_landmarks,wikidata,famous australian Australia,0,API_CALL,
+94,What is the most famous Australian film? / Film that introduced Australian culture to a general audience?,AU,culture_landmarks,wikipediaapi,Australia,10,API_CALL,"2026 Australian Open, Australia, Australia men's national soccer team, Australian Broadcasting Corporation, Australian Cattle Dog, Australian Football League, Australian Labor Party, Australian Open, Australian rules football, Flag of Australia"
+94,What is the most famous Australian film? / Film that introduced Australian culture to a general audience?,AU,culture_landmarks,wikivoyageapi,AU,1,DEDUP_SKIP,
+95,Who was the most loved Australian prime minister?,AU,government_politics,wikipediaapi,most loved australian prime minister Australia,0,API_CALL,
+95,Who was the most loved Australian prime minister?,AU,government_politics,wikivoyageapi,most loved australian prime minister Australia,0,API_CALL,
+95,Who was the most loved Australian prime minister?,AU,government_politics,wikidata,most loved australian prime minister Australia,0,API_CALL,
+95,Who was the most loved Australian prime minister?,AU,government_politics,wikipediaapi,Australia,10,API_CALL,"2026 Australian Open, Australia, Australia men's national soccer team, Australian Broadcasting Corporation, Australian Cattle Dog, Australian Football League, Australian Labor Party, Australian Open, Australian rules football, Flag of Australia"
+95,Who was the most loved Australian prime minister?,AU,government_politics,wikivoyageapi,AU,1,DEDUP_SKIP,
+96,What do Australians need to do to prevent fires in summer?,AU,others,wikipediaapi,australians need prevent fires summer Australia,0,API_CALL,
+96,What do Australians need to do to prevent fires in summer?,AU,others,wikivoyageapi,australians need prevent fires summer Australia,0,API_CALL,
+96,What do Australians need to do to prevent fires in summer?,AU,others,wikidata,australians need prevent fires summer Australia,0,API_CALL,
+96,What do Australians need to do to prevent fires in summer?,AU,others,wikipediaapi,Australia,10,API_CALL,"2026 Australian Open, Australia, Australia men's national soccer team, Australian Broadcasting Corporation, Australian Cattle Dog, Australian Football League, Australian Labor Party, Australian Open, Australian rules football, Flag of Australia"
+96,What do Australians need to do to prevent fires in summer?,AU,others,wikivoyageapi,AU,1,DEDUP_SKIP,
+97,What is the most typical traditional fast food in the Basque Country?,ES,food_drink,wikipediaapi,most typical traditional fast food Spain,0,API_CALL,
+97,What is the most typical traditional fast food in the Basque Country?,ES,food_drink,wikivoyageapi,most typical traditional fast food Spain,0,API_CALL,
+97,What is the most typical traditional fast food in the Basque Country?,ES,food_drink,wikidata,most typical traditional fast food Spain,0,API_CALL,
+97,What is the most typical traditional fast food in the Basque Country?,ES,food_drink,wikipediaapi,traditional fast Spain,0,API_CALL,
+97,What is the most typical traditional fast food in the Basque Country?,ES,food_drink,wikivoyageapi,traditional fast Spain,0,API_CALL,
+97,What is the most typical traditional fast food in the Basque Country?,ES,food_drink,wikidata,traditional fast Spain,0,API_CALL,
+97,What is the most typical traditional fast food in the Basque Country?,ES,food_drink,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+97,What is the most typical traditional fast food in the Basque Country?,ES,food_drink,wikivoyageapi,ES,1,DEDUP_SKIP,
+98,What is the most famous traditional sport of the Basque Country?,ES,sports,wikipediaapi,most famous traditional sport basque Spain,0,API_CALL,
+98,What is the most famous traditional sport of the Basque Country?,ES,sports,wikivoyageapi,most famous traditional sport basque Spain,0,API_CALL,
+98,What is the most famous traditional sport of the Basque Country?,ES,sports,wikidata,most famous traditional sport basque Spain,0,API_CALL,
+98,What is the most famous traditional sport of the Basque Country?,ES,sports,wikipediaapi,traditional sport Spain,2,API_CALL,"Traditional games of China, Traditional games of India"
+98,What is the most famous traditional sport of the Basque Country?,ES,sports,wikivoyageapi,traditional sport Spain,0,API_CALL,
+98,What is the most famous traditional sport of the Basque Country?,ES,sports,wikidata,traditional sport Spain,0,API_CALL,
+98,What is the most famous traditional sport of the Basque Country?,ES,sports,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+98,What is the most famous traditional sport of the Basque Country?,ES,sports,wikivoyageapi,ES,1,DEDUP_SKIP,
+99,What is the most followed sport in the Basque Country?,ES,sports,wikipediaapi,most followed sport basque country Spain,0,API_CALL,
+99,What is the most followed sport in the Basque Country?,ES,sports,wikivoyageapi,most followed sport basque country Spain,0,API_CALL,
+99,What is the most followed sport in the Basque Country?,ES,sports,wikidata,most followed sport basque country Spain,0,API_CALL,
+99,What is the most followed sport in the Basque Country?,ES,sports,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+99,What is the most followed sport in the Basque Country?,ES,sports,wikivoyageapi,ES,1,DEDUP_SKIP,
+100,What is the most famous traditional dance of the Basque Country?,ES,arts_literature_music,wikipediaapi,most famous traditional dance basque Spain,0,API_CALL,
+100,What is the most famous traditional dance of the Basque Country?,ES,arts_literature_music,wikivoyageapi,most famous traditional dance basque Spain,0,API_CALL,
+100,What is the most famous traditional dance of the Basque Country?,ES,arts_literature_music,wikidata,most famous traditional dance basque Spain,0,API_CALL,
+100,What is the most famous traditional dance of the Basque Country?,ES,arts_literature_music,wikipediaapi,traditional dance Spain,1,API_CALL,Indian classical dance
+100,What is the most famous traditional dance of the Basque Country?,ES,arts_literature_music,wikivoyageapi,traditional dance Spain,0,API_CALL,
+100,What is the most famous traditional dance of the Basque Country?,ES,arts_literature_music,wikidata,traditional dance Spain,0,API_CALL,
+100,What is the most famous traditional dance of the Basque Country?,ES,arts_literature_music,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+100,What is the most famous traditional dance of the Basque Country?,ES,arts_literature_music,wikivoyageapi,ES,1,DEDUP_SKIP,
+101,What have men traditionally used to cover their heads in the Basque Country?,ES,social_norms_etiquette,wikipediaapi,men traditionally used cover their Spain,0,API_CALL,
+101,What have men traditionally used to cover their heads in the Basque Country?,ES,social_norms_etiquette,wikivoyageapi,men traditionally used cover their Spain,0,API_CALL,
+101,What have men traditionally used to cover their heads in the Basque Country?,ES,social_norms_etiquette,wikidata,men traditionally used cover their Spain,0,API_CALL,
+101,What have men traditionally used to cover their heads in the Basque Country?,ES,social_norms_etiquette,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+101,What have men traditionally used to cover their heads in the Basque Country?,ES,social_norms_etiquette,wikivoyageapi,ES,1,DEDUP_SKIP,
+102,What is the name of the improvised poetry of the Basque Country?,ES,food_drink,wikipediaapi,name improvised poetry basque country Spain,0,API_CALL,
+102,What is the name of the improvised poetry of the Basque Country?,ES,food_drink,wikivoyageapi,name improvised poetry basque country Spain,0,API_CALL,
+102,What is the name of the improvised poetry of the Basque Country?,ES,food_drink,wikidata,name improvised poetry basque country Spain,0,API_CALL,
+102,What is the name of the improvised poetry of the Basque Country?,ES,food_drink,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+102,What is the name of the improvised poetry of the Basque Country?,ES,food_drink,wikivoyageapi,ES,1,DEDUP_SKIP,
+103,What is the most well-known newspaper written in the local language in the Basque Country?,ES,language_writing,wikipediaapi,most well known newspaper written Spain,0,API_CALL,
+103,What is the most well-known newspaper written in the local language in the Basque Country?,ES,language_writing,wikivoyageapi,most well known newspaper written Spain,0,API_CALL,
+103,What is the most well-known newspaper written in the local language in the Basque Country?,ES,language_writing,wikidata,most well known newspaper written Spain,0,API_CALL,
+103,What is the most well-known newspaper written in the local language in the Basque Country?,ES,language_writing,wikipediaapi,language Spain,10,API_CALL,"Languages of Canada, Languages of China, Languages of India, Languages of Indonesia, Languages of Pakistan, Languages of Singapore, Languages of Taiwan, Languages of the Philippines, Dialect continuum, Standard language"
+103,What is the most well-known newspaper written in the local language in the Basque Country?,ES,language_writing,wikivoyageapi,ES,1,DEDUP_SKIP,
+103,What is the most well-known newspaper written in the local language in the Basque Country?,ES,language_writing,wikipediaapi,Spain,10,API_CALL,"Flag of Spain, Spain, Spain during World War II, Spain men's national basketball team, Spain national football team, Spain women's national football team, Spain–United Kingdom relations, Spain–United States relations, Spaniards, Spanish Civil War"
+103,What is the most well-known newspaper written in the local language in the Basque Country?,ES,language_writing,wikivoyageapi,ES,1,DEDUP_SKIP,
+104,What will I do with this lark?,FR,others,wikipediaapi,will lark France,2,API_CALL,"Frances Willard, Frances Willard (magician)"
+104,What will I do with this lark?,FR,others,wikivoyageapi,will lark France,0,API_CALL,
+104,What will I do with this lark?,FR,others,wikidata,will lark France,0,API_CALL,
+104,What will I do with this lark?,FR,others,wikipediaapi,France,10,API_CALL,"Battle of France, France, France 24, France national football team, Frances Tiafoe, Francesco Totti, France–United Kingdom relations, Francis Bacon, Francis de Sales, Francis of Assisi"
+104,What will I do with this lark?,FR,others,wikivoyageapi,FR,1,API_CALL,France
+104,What will I do with this lark?,FR,others,wikidata,France,1,API_CALL,France Free and Unfree: The Literary and Sociological Image
+105,What color are all cats at night?,FR,others,wikipediaapi,color all cats night France,0,API_CALL,
+105,What color are all cats at night?,FR,others,wikivoyageapi,color all cats night France,0,API_CALL,
+105,What color are all cats at night?,FR,others,wikidata,color all cats night France,0,API_CALL,
+105,What color are all cats at night?,FR,others,wikipediaapi,France,10,API_CALL,"Battle of France, France, France 24, France national football team, Frances Tiafoe, Francesco Totti, France–United Kingdom relations, Francis Bacon, Francis de Sales, Francis of Assisi"
+105,What color are all cats at night?,FR,others,wikivoyageapi,FR,1,DEDUP_SKIP,
+106,What is usually served with a beef rib?,FR,others,wikipediaapi,usually served beef rib France,0,API_CALL,
+106,What is usually served with a beef rib?,FR,others,wikivoyageapi,usually served beef rib France,0,API_CALL,
+106,What is usually served with a beef rib?,FR,others,wikidata,usually served beef rib France,0,API_CALL,
+106,What is usually served with a beef rib?,FR,others,wikipediaapi,France,10,API_CALL,"Battle of France, France, France 24, France national football team, Frances Tiafoe, Francesco Totti, France–United Kingdom relations, Francis Bacon, Francis de Sales, Francis of Assisi"
+106,What is usually served with a beef rib?,FR,others,wikivoyageapi,FR,1,DEDUP_SKIP,
+107,What do ducks do first when coming out of the water?,FR,others,wikipediaapi,ducks first coming out water France,0,API_CALL,
+107,What do ducks do first when coming out of the water?,FR,others,wikivoyageapi,ducks first coming out water France,0,API_CALL,
+107,What do ducks do first when coming out of the water?,FR,others,wikidata,ducks first coming out water France,0,API_CALL,
+107,What do ducks do first when coming out of the water?,FR,others,wikipediaapi,France,10,API_CALL,"Battle of France, France, France 24, France national football team, Frances Tiafoe, Francesco Totti, France–United Kingdom relations, Francis Bacon, Francis de Sales, Francis of Assisi"
+107,What do ducks do first when coming out of the water?,FR,others,wikivoyageapi,FR,1,DEDUP_SKIP,
+108,What is a chocolatine?,FR,others,wikipediaapi,chocolatine France,0,API_CALL,
+108,What is a chocolatine?,FR,others,wikivoyageapi,FR,1,DEDUP_SKIP,
+108,What is a chocolatine?,FR,others,wikipediaapi,France,10,API_CALL,"Battle of France, France, France 24, France national football team, Frances Tiafoe, Francesco Totti, France–United Kingdom relations, Francis Bacon, Francis de Sales, Francis of Assisi"
+108,What is a chocolatine?,FR,others,wikivoyageapi,FR,1,DEDUP_SKIP,
+109,"That year, I sang...",FR,others,wikipediaapi,year sang France,0,API_CALL,
+109,"That year, I sang...",FR,others,wikivoyageapi,year sang France,0,API_CALL,
+109,"That year, I sang...",FR,others,wikidata,year sang France,0,API_CALL,
+109,"That year, I sang...",FR,others,wikipediaapi,France,10,API_CALL,"Battle of France, France, France 24, France national football team, Frances Tiafoe, Francesco Totti, France–United Kingdom relations, Francis Bacon, Francis de Sales, Francis of Assisi"
+109,"That year, I sang...",FR,others,wikivoyageapi,FR,1,DEDUP_SKIP,
+110,What cheese is most often eaten hot with a salad?,FR,food_drink,wikipediaapi,cheese most often eaten hot France,0,API_CALL,
+110,What cheese is most often eaten hot with a salad?,FR,food_drink,wikivoyageapi,cheese most often eaten hot France,0,API_CALL,
+110,What cheese is most often eaten hot with a salad?,FR,food_drink,wikidata,cheese most often eaten hot France,0,API_CALL,
+110,What cheese is most often eaten hot with a salad?,FR,food_drink,wikipediaapi,France,10,API_CALL,"Battle of France, France, France 24, France national football team, Frances Tiafoe, Francesco Totti, France–United Kingdom relations, Francis Bacon, Francis de Sales, Francis of Assisi"
+110,What cheese is most often eaten hot with a salad?,FR,food_drink,wikivoyageapi,FR,1,DEDUP_SKIP,
+111,What fruit changes its name when dried?,FR,others,wikipediaapi,fruit changes its name dried France,0,API_CALL,
+111,What fruit changes its name when dried?,FR,others,wikivoyageapi,fruit changes its name dried France,0,API_CALL,
+111,What fruit changes its name when dried?,FR,others,wikidata,fruit changes its name dried France,0,API_CALL,
+111,What fruit changes its name when dried?,FR,others,wikipediaapi,France,10,API_CALL,"Battle of France, France, France 24, France national football team, Frances Tiafoe, Francesco Totti, France–United Kingdom relations, Francis Bacon, Francis de Sales, Francis of Assisi"
+111,What fruit changes its name when dried?,FR,others,wikivoyageapi,FR,1,DEDUP_SKIP,
+112,Ireland is often referred to as:,IE,others,wikipediaapi,ireland often referred Ireland,0,API_CALL,
+112,Ireland is often referred to as:,IE,others,wikivoyageapi,ireland often referred Ireland,0,API_CALL,
+112,Ireland is often referred to as:,IE,others,wikidata,ireland often referred Ireland,0,API_CALL,
+112,Ireland is often referred to as:,IE,others,wikipediaapi,Ireland,10,API_CALL,"Flag of Ireland, Ireland, Ireland as a tax haven, Ireland cricket team, Ireland national rugby union team, Ireland–United Kingdom relations, Ireland–United States relations, Kathy Ireland, Marin Ireland, Republic of Ireland"
+112,Ireland is often referred to as:,IE,others,wikivoyageapi,IE,0,API_CALL,
+112,Ireland is often referred to as:,IE,others,wikidata,Ireland,0,API_CALL,
+113,Who is famous for his role in the Battle of Clontarf?,IE,others,wikipediaapi,famous his role battle clontarf Ireland,0,API_CALL,
+113,Who is famous for his role in the Battle of Clontarf?,IE,others,wikivoyageapi,famous his role battle clontarf Ireland,0,API_CALL,
+113,Who is famous for his role in the Battle of Clontarf?,IE,others,wikidata,famous his role battle clontarf Ireland,0,API_CALL,
+113,Who is famous for his role in the Battle of Clontarf?,IE,others,wikipediaapi,famous for Ireland,0,API_CALL,
+113,Who is famous for his role in the Battle of Clontarf?,IE,others,wikivoyageapi,famous for Ireland,0,API_CALL,
+113,Who is famous for his role in the Battle of Clontarf?,IE,others,wikidata,famous for Ireland,0,API_CALL,
+113,Who is famous for his role in the Battle of Clontarf?,IE,others,wikipediaapi,Ireland,10,API_CALL,"Flag of Ireland, Ireland, Ireland as a tax haven, Ireland cricket team, Ireland national rugby union team, Ireland–United Kingdom relations, Ireland–United States relations, Kathy Ireland, Marin Ireland, Republic of Ireland"
+113,Who is famous for his role in the Battle of Clontarf?,IE,others,wikivoyageapi,IE,0,API_CALL,
+113,Who is famous for his role in the Battle of Clontarf?,IE,others,wikidata,Ireland,0,API_CALL,
+114,Who is the most famous Irish boxer?,IE,others,wikipediaapi,most famous irish boxer Ireland,0,API_CALL,
+114,Who is the most famous Irish boxer?,IE,others,wikivoyageapi,most famous irish boxer Ireland,0,API_CALL,
+114,Who is the most famous Irish boxer?,IE,others,wikidata,most famous irish boxer Ireland,0,API_CALL,
+114,Who is the most famous Irish boxer?,IE,others,wikipediaapi,famous irish Ireland,0,API_CALL,
+114,Who is the most famous Irish boxer?,IE,others,wikivoyageapi,famous irish Ireland,0,API_CALL,
+114,Who is the most famous Irish boxer?,IE,others,wikidata,famous irish Ireland,0,API_CALL,
+114,Who is the most famous Irish boxer?,IE,others,wikipediaapi,Ireland,10,API_CALL,"Flag of Ireland, Ireland, Ireland as a tax haven, Ireland cricket team, Ireland national rugby union team, Ireland–United Kingdom relations, Ireland–United States relations, Kathy Ireland, Marin Ireland, Republic of Ireland"
+114,Who is the most famous Irish boxer?,IE,others,wikivoyageapi,IE,0,API_CALL,
+114,Who is the most famous Irish boxer?,IE,others,wikidata,Ireland,0,API_CALL,
+115,"Which sport is associated with ""The Six Nations""?",IE,sports,wikipediaapi,sport associated six nations Ireland,0,API_CALL,
+115,"Which sport is associated with ""The Six Nations""?",IE,sports,wikivoyageapi,sport associated six nations Ireland,0,API_CALL,
+115,"Which sport is associated with ""The Six Nations""?",IE,sports,wikidata,sport associated six nations Ireland,0,API_CALL,
+115,"Which sport is associated with ""The Six Nations""?",IE,sports,wikipediaapi,Ireland,10,API_CALL,"Flag of Ireland, Ireland, Ireland as a tax haven, Ireland cricket team, Ireland national rugby union team, Ireland–United Kingdom relations, Ireland–United States relations, Kathy Ireland, Marin Ireland, Republic of Ireland"
+115,"Which sport is associated with ""The Six Nations""?",IE,sports,wikivoyageapi,IE,0,API_CALL,
+115,"Which sport is associated with ""The Six Nations""?",IE,sports,wikidata,Ireland,0,API_CALL,
+116,Which of these Irish television channels is correct?,IE,media_popculture,wikipediaapi,irish television channels correct Ireland,0,API_CALL,
+116,Which of these Irish television channels is correct?,IE,media_popculture,wikivoyageapi,irish television channels correct Ireland,0,API_CALL,
+116,Which of these Irish television channels is correct?,IE,media_popculture,wikidata,irish television channels correct Ireland,0,API_CALL,
+116,Which of these Irish television channels is correct?,IE,media_popculture,wikipediaapi,Ireland,10,API_CALL,"Flag of Ireland, Ireland, Ireland as a tax haven, Ireland cricket team, Ireland national rugby union team, Ireland–United Kingdom relations, Ireland–United States relations, Kathy Ireland, Marin Ireland, Republic of Ireland"
+116,Which of these Irish television channels is correct?,IE,media_popculture,wikivoyageapi,IE,0,API_CALL,
+116,Which of these Irish television channels is correct?,IE,media_popculture,wikidata,Ireland,0,API_CALL,
+117,In which province is the capital of Ireland located?,IE,others,wikipediaapi,province capital ireland located Ireland,0,API_CALL,
+117,In which province is the capital of Ireland located?,IE,others,wikivoyageapi,province capital ireland located Ireland,0,API_CALL,
+117,In which province is the capital of Ireland located?,IE,others,wikidata,province capital ireland located Ireland,0,API_CALL,
+117,In which province is the capital of Ireland located?,IE,others,wikipediaapi,capital Ireland,2,API_CALL,"Dublin, Reykjavík"
+117,In which province is the capital of Ireland located?,IE,others,wikivoyageapi,IE,0,API_CALL,
+117,In which province is the capital of Ireland located?,IE,others,wikidata,capital Ireland,0,API_CALL,
+117,In which province is the capital of Ireland located?,IE,others,wikipediaapi,Ireland,10,API_CALL,"Flag of Ireland, Ireland, Ireland as a tax haven, Ireland cricket team, Ireland national rugby union team, Ireland–United Kingdom relations, Ireland–United States relations, Kathy Ireland, Marin Ireland, Republic of Ireland"
+117,In which province is the capital of Ireland located?,IE,others,wikivoyageapi,IE,0,API_CALL,
+117,In which province is the capital of Ireland located?,IE,others,wikidata,Ireland,0,API_CALL,
+118,Where are the final matches of Ireland typically held for hurling and Gaelic football?,IE,sports,wikipediaapi,final matches ireland typically held Ireland,0,API_CALL,
+118,Where are the final matches of Ireland typically held for hurling and Gaelic football?,IE,sports,wikivoyageapi,final matches ireland typically held Ireland,0,API_CALL,
+118,Where are the final matches of Ireland typically held for hurling and Gaelic football?,IE,sports,wikidata,final matches ireland typically held Ireland,0,API_CALL,
+118,Where are the final matches of Ireland typically held for hurling and Gaelic football?,IE,sports,wikipediaapi,Ireland,10,API_CALL,"Flag of Ireland, Ireland, Ireland as a tax haven, Ireland cricket team, Ireland national rugby union team, Ireland–United Kingdom relations, Ireland–United States relations, Kathy Ireland, Marin Ireland, Republic of Ireland"
+118,Where are the final matches of Ireland typically held for hurling and Gaelic football?,IE,sports,wikivoyageapi,IE,0,API_CALL,
+118,Where are the final matches of Ireland typically held for hurling and Gaelic football?,IE,sports,wikidata,Ireland,0,API_CALL,
+119,Who is the current president of Sri Lanka?,LK,government_politics,wikipediaapi,current president sri lanka Sri Lanka,0,API_CALL,
+119,Who is the current president of Sri Lanka?,LK,government_politics,wikivoyageapi,current president sri lanka Sri Lanka,0,API_CALL,
+119,Who is the current president of Sri Lanka?,LK,government_politics,wikidata,current president sri lanka Sri Lanka,0,API_CALL,
+119,Who is the current president of Sri Lanka?,LK,government_politics,wikipediaapi,Sri Lanka,10,API_CALL,"SriLankan Airlines, Sri Lanka, Sri Lanka Air Force, Sri Lanka Armed Forces, Sri Lanka Army, Sri Lanka national cricket team, Sri Lanka national football team, Sri Lankan Tamils, Sri Lankan civil war, Sri Lankan economic crisis (2019–2024)"
+119,Who is the current president of Sri Lanka?,LK,government_politics,wikivoyageapi,LK,0,API_CALL,
+119,Who is the current president of Sri Lanka?,LK,government_politics,wikidata,Sri Lanka,0,API_CALL,
+120,What is the tallest building in Sri Lanka?,LK,others,wikipediaapi,tallest building sri lanka Sri Lanka,0,API_CALL,
+120,What is the tallest building in Sri Lanka?,LK,others,wikivoyageapi,tallest building sri lanka Sri Lanka,0,API_CALL,
+120,What is the tallest building in Sri Lanka?,LK,others,wikidata,tallest building sri lanka Sri Lanka,0,API_CALL,
+120,What is the tallest building in Sri Lanka?,LK,others,wikipediaapi,Sri Lanka,10,API_CALL,"SriLankan Airlines, Sri Lanka, Sri Lanka Air Force, Sri Lanka Armed Forces, Sri Lanka Army, Sri Lanka national cricket team, Sri Lanka national football team, Sri Lankan Tamils, Sri Lankan civil war, Sri Lankan economic crisis (2019–2024)"
+120,What is the tallest building in Sri Lanka?,LK,others,wikivoyageapi,LK,0,API_CALL,
+120,What is the tallest building in Sri Lanka?,LK,others,wikidata,Sri Lanka,0,API_CALL,
+121,Which animal is prominently featured in the Perahera festival in Sri Lanka?,LK,food_drink,wikipediaapi,animal prominently featured perahera festival Sri Lanka,0,API_CALL,
+121,Which animal is prominently featured in the Perahera festival in Sri Lanka?,LK,food_drink,wikivoyageapi,animal prominently featured perahera festival Sri Lanka,0,API_CALL,
+121,Which animal is prominently featured in the Perahera festival in Sri Lanka?,LK,food_drink,wikidata,animal prominently featured perahera festival Sri Lanka,0,API_CALL,
+121,Which animal is prominently featured in the Perahera festival in Sri Lanka?,LK,food_drink,wikipediaapi,Sri Lanka,10,API_CALL,"SriLankan Airlines, Sri Lanka, Sri Lanka Air Force, Sri Lanka Armed Forces, Sri Lanka Army, Sri Lanka national cricket team, Sri Lanka national football team, Sri Lankan Tamils, Sri Lankan civil war, Sri Lankan economic crisis (2019–2024)"
+121,Which animal is prominently featured in the Perahera festival in Sri Lanka?,LK,food_drink,wikivoyageapi,LK,0,API_CALL,
+121,Which animal is prominently featured in the Perahera festival in Sri Lanka?,LK,food_drink,wikidata,Sri Lanka,0,API_CALL,
+122,In which province of Sri Lanka is the famous Temple of the Tooth located?,LK,religion_spirituality,wikipediaapi,province sri lanka famous temple Sri Lanka,0,API_CALL,
+122,In which province of Sri Lanka is the famous Temple of the Tooth located?,LK,religion_spirituality,wikivoyageapi,province sri lanka famous temple Sri Lanka,0,API_CALL,
+122,In which province of Sri Lanka is the famous Temple of the Tooth located?,LK,religion_spirituality,wikidata,province sri lanka famous temple Sri Lanka,0,API_CALL,
+122,In which province of Sri Lanka is the famous Temple of the Tooth located?,LK,religion_spirituality,wikipediaapi,famous temple Sri Lanka,0,API_CALL,
+122,In which province of Sri Lanka is the famous Temple of the Tooth located?,LK,religion_spirituality,wikivoyageapi,famous temple Sri Lanka,0,API_CALL,
+122,In which province of Sri Lanka is the famous Temple of the Tooth located?,LK,religion_spirituality,wikidata,famous temple Sri Lanka,0,API_CALL,
+122,In which province of Sri Lanka is the famous Temple of the Tooth located?,LK,religion_spirituality,wikipediaapi,Sri Lanka,10,API_CALL,"SriLankan Airlines, Sri Lanka, Sri Lanka Air Force, Sri Lanka Armed Forces, Sri Lanka Army, Sri Lanka national cricket team, Sri Lanka national football team, Sri Lankan Tamils, Sri Lankan civil war, Sri Lankan economic crisis (2019–2024)"
+122,In which province of Sri Lanka is the famous Temple of the Tooth located?,LK,religion_spirituality,wikivoyageapi,LK,0,API_CALL,
+122,In which province of Sri Lanka is the famous Temple of the Tooth located?,LK,religion_spirituality,wikidata,Sri Lanka,0,API_CALL,
+123,Which animal appears on Sri Lanka's national flag?,LK,national_symbols_emblems,wikipediaapi,animal appears sri lanka national Sri Lanka,0,API_CALL,
+123,Which animal appears on Sri Lanka's national flag?,LK,national_symbols_emblems,wikivoyageapi,animal appears sri lanka national Sri Lanka,0,API_CALL,
+123,Which animal appears on Sri Lanka's national flag?,LK,national_symbols_emblems,wikidata,animal appears sri lanka national Sri Lanka,0,API_CALL,
+123,Which animal appears on Sri Lanka's national flag?,LK,national_symbols_emblems,wikipediaapi,national flag Sri Lanka,1,API_CALL,Flag of Sri Lanka
+123,Which animal appears on Sri Lanka's national flag?,LK,national_symbols_emblems,wikivoyageapi,national flag Sri Lanka,0,API_CALL,
+123,Which animal appears on Sri Lanka's national flag?,LK,national_symbols_emblems,wikidata,national flag Sri Lanka,0,API_CALL,
+123,Which animal appears on Sri Lanka's national flag?,LK,national_symbols_emblems,wikipediaapi,Sri Lanka,10,API_CALL,"SriLankan Airlines, Sri Lanka, Sri Lanka Air Force, Sri Lanka Armed Forces, Sri Lanka Army, Sri Lanka national cricket team, Sri Lanka national football team, Sri Lankan Tamils, Sri Lankan civil war, Sri Lankan economic crisis (2019–2024)"
+123,Which animal appears on Sri Lanka's national flag?,LK,national_symbols_emblems,wikivoyageapi,LK,0,API_CALL,
+123,Which animal appears on Sri Lanka's national flag?,LK,national_symbols_emblems,wikidata,Sri Lanka,0,API_CALL,
+124,"What natural disaster hit Sri Lanka in December 2004, causing great damage and loss of life?",LK,food_drink,wikipediaapi,natural disaster hit sri lanka Sri Lanka,0,API_CALL,
+124,"What natural disaster hit Sri Lanka in December 2004, causing great damage and loss of life?",LK,food_drink,wikivoyageapi,natural disaster hit sri lanka Sri Lanka,0,API_CALL,
+124,"What natural disaster hit Sri Lanka in December 2004, causing great damage and loss of life?",LK,food_drink,wikidata,natural disaster hit sri lanka Sri Lanka,0,API_CALL,
+124,"What natural disaster hit Sri Lanka in December 2004, causing great damage and loss of life?",LK,food_drink,wikipediaapi,Sri Lanka,10,API_CALL,"SriLankan Airlines, Sri Lanka, Sri Lanka Air Force, Sri Lanka Armed Forces, Sri Lanka Army, Sri Lanka national cricket team, Sri Lanka national football team, Sri Lankan Tamils, Sri Lankan civil war, Sri Lankan economic crisis (2019–2024)"
+124,"What natural disaster hit Sri Lanka in December 2004, causing great damage and loss of life?",LK,food_drink,wikivoyageapi,LK,0,API_CALL,
+124,"What natural disaster hit Sri Lanka in December 2004, causing great damage and loss of life?",LK,food_drink,wikidata,Sri Lanka,0,API_CALL,
+125,What is Sri Lanka's commercial capital?,LK,others,wikipediaapi,sri lanka commercial capital Sri Lanka,0,API_CALL,
+125,What is Sri Lanka's commercial capital?,LK,others,wikivoyageapi,sri lanka commercial capital Sri Lanka,0,API_CALL,
+125,What is Sri Lanka's commercial capital?,LK,others,wikidata,sri lanka commercial capital Sri Lanka,0,API_CALL,
+125,What is Sri Lanka's commercial capital?,LK,others,wikipediaapi,capital Sri Lanka,1,API_CALL,Capital of Sri Lanka
+125,What is Sri Lanka's commercial capital?,LK,others,wikivoyageapi,capital Sri Lanka,0,API_CALL,
+125,What is Sri Lanka's commercial capital?,LK,others,wikidata,capital Sri Lanka,0,API_CALL,
+125,What is Sri Lanka's commercial capital?,LK,others,wikipediaapi,Sri Lanka,10,API_CALL,"SriLankan Airlines, Sri Lanka, Sri Lanka Air Force, Sri Lanka Armed Forces, Sri Lanka Army, Sri Lanka national cricket team, Sri Lanka national football team, Sri Lankan Tamils, Sri Lankan civil war, Sri Lankan economic crisis (2019–2024)"
+125,What is Sri Lanka's commercial capital?,LK,others,wikivoyageapi,LK,0,API_CALL,
+125,What is Sri Lanka's commercial capital?,LK,others,wikidata,Sri Lanka,0,API_CALL,
+126,What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?,PH,social_norms_etiquette,wikipediaapi,name traditional clothing men philippines Philippines,0,API_CALL,
+126,What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?,PH,social_norms_etiquette,wikivoyageapi,name traditional clothing men philippines Philippines,0,API_CALL,
+126,What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?,PH,social_norms_etiquette,wikidata,name traditional clothing men philippines Philippines,0,API_CALL,
+126,What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?,PH,social_norms_etiquette,wikipediaapi,traditional clothing Philippines,0,API_CALL,
+126,What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?,PH,social_norms_etiquette,wikivoyageapi,traditional clothing Philippines,0,API_CALL,
+126,What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?,PH,social_norms_etiquette,wikidata,traditional clothing Philippines,0,API_CALL,
+126,What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?,PH,social_norms_etiquette,wikipediaapi,Philippines,10,API_CALL,"Flag of the Philippines, List of presidents of the Philippines, Philippine Air Force, Philippine Airlines, Philippine Navy, Philippine drug war, Philippine peso, Philippines, Philippines campaign (1941–1942), Philippines national football team"
+126,What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?,PH,social_norms_etiquette,wikivoyageapi,PH,1,API_CALL,Philippines
+126,What is the name of the traditional clothing for men in the Philippines usually worn at formal occasions?,PH,social_norms_etiquette,wikidata,Philippines,0,API_CALL,
+127,What are the main ingredients of adobo?,PH,others,wikipediaapi,main ingredients adobo Philippines,0,API_CALL,
+127,What are the main ingredients of adobo?,PH,others,wikivoyageapi,main ingredients adobo Philippines,0,API_CALL,
+127,What are the main ingredients of adobo?,PH,others,wikidata,main ingredients adobo Philippines,0,API_CALL,
+127,What are the main ingredients of adobo?,PH,others,wikipediaapi,Philippines,10,API_CALL,"Flag of the Philippines, List of presidents of the Philippines, Philippine Air Force, Philippine Airlines, Philippine Navy, Philippine drug war, Philippine peso, Philippines, Philippines campaign (1941–1942), Philippines national football team"
+127,What are the main ingredients of adobo?,PH,others,wikivoyageapi,PH,1,DEDUP_SKIP,
+128,What is the name of the traditional dance where bamboo is used?,PH,arts_literature_music,wikipediaapi,name traditional dance bamboo used Philippines,0,API_CALL,
+128,What is the name of the traditional dance where bamboo is used?,PH,arts_literature_music,wikivoyageapi,name traditional dance bamboo used Philippines,0,API_CALL,
+128,What is the name of the traditional dance where bamboo is used?,PH,arts_literature_music,wikidata,name traditional dance bamboo used Philippines,0,API_CALL,
+128,What is the name of the traditional dance where bamboo is used?,PH,arts_literature_music,wikipediaapi,traditional dance Philippines,0,API_CALL,
+128,What is the name of the traditional dance where bamboo is used?,PH,arts_literature_music,wikivoyageapi,traditional dance Philippines,0,API_CALL,
+128,What is the name of the traditional dance where bamboo is used?,PH,arts_literature_music,wikidata,traditional dance Philippines,0,API_CALL,
+128,What is the name of the traditional dance where bamboo is used?,PH,arts_literature_music,wikipediaapi,Philippines,10,API_CALL,"Flag of the Philippines, List of presidents of the Philippines, Philippine Air Force, Philippine Airlines, Philippine Navy, Philippine drug war, Philippine peso, Philippines, Philippines campaign (1941–1942), Philippines national football team"
+128,What is the name of the traditional dance where bamboo is used?,PH,arts_literature_music,wikivoyageapi,PH,1,DEDUP_SKIP,
+129,Who is considered the national hero of the Philippines?,PH,others,wikipediaapi,considered national hero philippines Philippines,0,API_CALL,
+129,Who is considered the national hero of the Philippines?,PH,others,wikivoyageapi,considered national hero philippines Philippines,0,API_CALL,
+129,Who is considered the national hero of the Philippines?,PH,others,wikidata,considered national hero philippines Philippines,0,API_CALL,
+129,Who is considered the national hero of the Philippines?,PH,others,wikipediaapi,national hero Philippines,0,API_CALL,
+129,Who is considered the national hero of the Philippines?,PH,others,wikivoyageapi,national hero Philippines,0,API_CALL,
+129,Who is considered the national hero of the Philippines?,PH,others,wikidata,national hero Philippines,0,API_CALL,
+129,Who is considered the national hero of the Philippines?,PH,others,wikipediaapi,Philippines,10,API_CALL,"Flag of the Philippines, List of presidents of the Philippines, Philippine Air Force, Philippine Airlines, Philippine Navy, Philippine drug war, Philippine peso, Philippines, Philippines campaign (1941–1942), Philippines national football team"
+129,Who is considered the national hero of the Philippines?,PH,others,wikivoyageapi,PH,1,DEDUP_SKIP,
+130,Which of the following is an example of harana?,PH,media_popculture,wikipediaapi,following example harana Philippines,0,API_CALL,
+130,Which of the following is an example of harana?,PH,media_popculture,wikivoyageapi,following example harana Philippines,0,API_CALL,
+130,Which of the following is an example of harana?,PH,media_popculture,wikidata,following example harana Philippines,0,API_CALL,
+130,Which of the following is an example of harana?,PH,media_popculture,wikipediaapi,Philippines,10,API_CALL,"Flag of the Philippines, List of presidents of the Philippines, Philippine Air Force, Philippine Airlines, Philippine Navy, Philippine drug war, Philippine peso, Philippines, Philippines campaign (1941–1942), Philippines national football team"
+130,Which of the following is an example of harana?,PH,media_popculture,wikivoyageapi,PH,1,DEDUP_SKIP,
+131,Which month is the Language Month usually held in the Philippines?,PH,language_writing,wikipediaapi,month language month usually held Philippines,0,API_CALL,
+131,Which month is the Language Month usually held in the Philippines?,PH,language_writing,wikivoyageapi,month language month usually held Philippines,0,API_CALL,
+131,Which month is the Language Month usually held in the Philippines?,PH,language_writing,wikidata,month language month usually held Philippines,0,API_CALL,
+131,Which month is the Language Month usually held in the Philippines?,PH,language_writing,wikipediaapi,language Philippines,1,API_CALL,Languages of the Philippines
+131,Which month is the Language Month usually held in the Philippines?,PH,language_writing,wikivoyageapi,PH,1,DEDUP_SKIP,
+131,Which month is the Language Month usually held in the Philippines?,PH,language_writing,wikipediaapi,Philippines,10,API_CALL,"Flag of the Philippines, List of presidents of the Philippines, Philippine Air Force, Philippine Airlines, Philippine Navy, Philippine drug war, Philippine peso, Philippines, Philippines campaign (1941–1942), Philippines national football team"
+131,Which month is the Language Month usually held in the Philippines?,PH,language_writing,wikivoyageapi,PH,1,DEDUP_SKIP,
+132,What is the name of the small local government units or communities in the Philippines headed by a captain?,PH,government_politics,wikipediaapi,name small local government units Philippines,0,API_CALL,
+132,What is the name of the small local government units or communities in the Philippines headed by a captain?,PH,government_politics,wikivoyageapi,name small local government units Philippines,0,API_CALL,
+132,What is the name of the small local government units or communities in the Philippines headed by a captain?,PH,government_politics,wikidata,name small local government units Philippines,0,API_CALL,
+132,What is the name of the small local government units or communities in the Philippines headed by a captain?,PH,government_politics,wikipediaapi,Philippines,10,API_CALL,"Flag of the Philippines, List of presidents of the Philippines, Philippine Air Force, Philippine Airlines, Philippine Navy, Philippine drug war, Philippine peso, Philippines, Philippines campaign (1941–1942), Philippines national football team"
+132,What is the name of the small local government units or communities in the Philippines headed by a captain?,PH,government_politics,wikivoyageapi,PH,1,DEDUP_SKIP,
+133,What is the tradition of Filipinos on Christmas Eve where they attend Mass from December 16 to 24?,PH,social_norms_etiquette,wikipediaapi,tradition filipinos christmas eve they Philippines,0,API_CALL,
+133,What is the tradition of Filipinos on Christmas Eve where they attend Mass from December 16 to 24?,PH,social_norms_etiquette,wikivoyageapi,tradition filipinos christmas eve they Philippines,0,API_CALL,
+133,What is the tradition of Filipinos on Christmas Eve where they attend Mass from December 16 to 24?,PH,social_norms_etiquette,wikidata,tradition filipinos christmas eve they Philippines,0,API_CALL,
+133,What is the tradition of Filipinos on Christmas Eve where they attend Mass from December 16 to 24?,PH,social_norms_etiquette,wikipediaapi,Philippines,10,API_CALL,"Flag of the Philippines, List of presidents of the Philippines, Philippine Air Force, Philippine Airlines, Philippine Navy, Philippine drug war, Philippine peso, Philippines, Philippines campaign (1941–1942), Philippines national football team"
+133,What is the tradition of Filipinos on Christmas Eve where they attend Mass from December 16 to 24?,PH,social_norms_etiquette,wikivoyageapi,PH,1,DEDUP_SKIP,
+134,What is the capital of Bulgaria?,BG,others,wikipediaapi,capital bulgaria Bulgaria,0,API_CALL,
+134,What is the capital of Bulgaria?,BG,others,wikivoyageapi,capital bulgaria Bulgaria,0,API_CALL,
+134,What is the capital of Bulgaria?,BG,others,wikidata,capital bulgaria Bulgaria,0,API_CALL,
+134,What is the capital of Bulgaria?,BG,others,wikipediaapi,capital Bulgaria,3,API_CALL,"Capital (Bulgarian newspaper), Caritas Bulgaria, Sofia"
+134,What is the capital of Bulgaria?,BG,others,wikivoyageapi,BG,0,API_CALL,
+134,What is the capital of Bulgaria?,BG,others,wikidata,capital Bulgaria,0,API_CALL,
+134,What is the capital of Bulgaria?,BG,others,wikipediaapi,Bulgaria,10,API_CALL,"Bulgaria, Bulgaria national football team, Bulgarian Air Force, Bulgarian Armed Forces, Bulgarian Socialist Party, Bulgarian Turks, Bulgarian language, Bulgarian lev, Bulgarians, Bulgaria–United States relations"
+134,What is the capital of Bulgaria?,BG,others,wikivoyageapi,BG,0,API_CALL,
+134,What is the capital of Bulgaria?,BG,others,wikidata,Bulgaria,0,API_CALL,
+135,What is Bulgaria's national holiday?,BG,holidays_festivals,wikipediaapi,bulgaria national holiday Bulgaria,0,API_CALL,
+135,What is Bulgaria's national holiday?,BG,holidays_festivals,wikivoyageapi,bulgaria national holiday Bulgaria,0,API_CALL,
+135,What is Bulgaria's national holiday?,BG,holidays_festivals,wikidata,bulgaria national holiday Bulgaria,0,API_CALL,
+135,What is Bulgaria's national holiday?,BG,holidays_festivals,wikipediaapi,national holiday Bulgaria,0,API_CALL,
+135,What is Bulgaria's national holiday?,BG,holidays_festivals,wikivoyageapi,national holiday Bulgaria,0,API_CALL,
+135,What is Bulgaria's national holiday?,BG,holidays_festivals,wikidata,national holiday Bulgaria,0,API_CALL,
+135,What is Bulgaria's national holiday?,BG,holidays_festivals,wikipediaapi,Bulgaria,10,API_CALL,"Bulgaria, Bulgaria national football team, Bulgarian Air Force, Bulgarian Armed Forces, Bulgarian Socialist Party, Bulgarian Turks, Bulgarian language, Bulgarian lev, Bulgarians, Bulgaria–United States relations"
+135,What is Bulgaria's national holiday?,BG,holidays_festivals,wikivoyageapi,BG,0,API_CALL,
+135,What is Bulgaria's national holiday?,BG,holidays_festivals,wikidata,Bulgaria,0,API_CALL,
+136,What is the Bulgarian alphabet called?,BG,language_writing,wikipediaapi,bulgarian alphabet called Bulgaria,0,API_CALL,
+136,What is the Bulgarian alphabet called?,BG,language_writing,wikivoyageapi,bulgarian alphabet called Bulgaria,0,API_CALL,
+136,What is the Bulgarian alphabet called?,BG,language_writing,wikidata,bulgarian alphabet called Bulgaria,0,API_CALL,
+136,What is the Bulgarian alphabet called?,BG,language_writing,wikipediaapi,Bulgaria,10,API_CALL,"Bulgaria, Bulgaria national football team, Bulgarian Air Force, Bulgarian Armed Forces, Bulgarian Socialist Party, Bulgarian Turks, Bulgarian language, Bulgarian lev, Bulgarians, Bulgaria–United States relations"
+136,What is the Bulgarian alphabet called?,BG,language_writing,wikivoyageapi,BG,0,API_CALL,
+136,What is the Bulgarian alphabet called?,BG,language_writing,wikidata,Bulgaria,0,API_CALL,
+137,"Which Bulgarian revolutionary is known as the ""Apostle of Freedom""?",BG,history_identity,wikipediaapi,bulgarian revolutionary known apostle freedom Bulgaria,0,API_CALL,
+137,"Which Bulgarian revolutionary is known as the ""Apostle of Freedom""?",BG,history_identity,wikivoyageapi,bulgarian revolutionary known apostle freedom Bulgaria,0,API_CALL,
+137,"Which Bulgarian revolutionary is known as the ""Apostle of Freedom""?",BG,history_identity,wikidata,bulgarian revolutionary known apostle freedom Bulgaria,0,API_CALL,
+137,"Which Bulgarian revolutionary is known as the ""Apostle of Freedom""?",BG,history_identity,wikipediaapi,Bulgaria,10,API_CALL,"Bulgaria, Bulgaria national football team, Bulgarian Air Force, Bulgarian Armed Forces, Bulgarian Socialist Party, Bulgarian Turks, Bulgarian language, Bulgarian lev, Bulgarians, Bulgaria–United States relations"
+137,"Which Bulgarian revolutionary is known as the ""Apostle of Freedom""?",BG,history_identity,wikivoyageapi,BG,0,API_CALL,
+137,"Which Bulgarian revolutionary is known as the ""Apostle of Freedom""?",BG,history_identity,wikidata,Bulgaria,0,API_CALL,
+138,What do we celebrate on May 24?,BG,culture_landmarks,wikipediaapi,celebrate may Bulgaria,0,API_CALL,
+138,What do we celebrate on May 24?,BG,culture_landmarks,wikivoyageapi,celebrate may Bulgaria,0,API_CALL,
+138,What do we celebrate on May 24?,BG,culture_landmarks,wikidata,celebrate may Bulgaria,0,API_CALL,
+138,What do we celebrate on May 24?,BG,culture_landmarks,wikipediaapi,Bulgaria,10,API_CALL,"Bulgaria, Bulgaria national football team, Bulgarian Air Force, Bulgarian Armed Forces, Bulgarian Socialist Party, Bulgarian Turks, Bulgarian language, Bulgarian lev, Bulgarians, Bulgaria–United States relations"
+138,What do we celebrate on May 24?,BG,culture_landmarks,wikivoyageapi,BG,0,API_CALL,
+138,What do we celebrate on May 24?,BG,culture_landmarks,wikidata,Bulgaria,0,API_CALL,
+139,"Who is the author of the novel ""Under the Yoke""?",BG,others,wikipediaapi,author novel under yoke Bulgaria,0,API_CALL,
+139,"Who is the author of the novel ""Under the Yoke""?",BG,others,wikivoyageapi,author novel under yoke Bulgaria,0,API_CALL,
+139,"Who is the author of the novel ""Under the Yoke""?",BG,others,wikidata,author novel under yoke Bulgaria,0,API_CALL,
+139,"Who is the author of the novel ""Under the Yoke""?",BG,others,wikipediaapi,Bulgaria,10,API_CALL,"Bulgaria, Bulgaria national football team, Bulgarian Air Force, Bulgarian Armed Forces, Bulgarian Socialist Party, Bulgarian Turks, Bulgarian language, Bulgarian lev, Bulgarians, Bulgaria–United States relations"
+139,"Who is the author of the novel ""Under the Yoke""?",BG,others,wikivoyageapi,BG,0,API_CALL,
+139,"Who is the author of the novel ""Under the Yoke""?",BG,others,wikidata,Bulgaria,0,API_CALL,
+140,Which is a traditional Bulgarian dish?,BG,food_drink,wikipediaapi,traditional bulgarian dish Bulgaria,0,API_CALL,
+140,Which is a traditional Bulgarian dish?,BG,food_drink,wikivoyageapi,traditional bulgarian dish Bulgaria,0,API_CALL,
+140,Which is a traditional Bulgarian dish?,BG,food_drink,wikidata,traditional bulgarian dish Bulgaria,0,API_CALL,
+140,Which is a traditional Bulgarian dish?,BG,food_drink,wikipediaapi,traditional bulgarian Bulgaria,0,API_CALL,
+140,Which is a traditional Bulgarian dish?,BG,food_drink,wikivoyageapi,traditional bulgarian Bulgaria,0,API_CALL,
+140,Which is a traditional Bulgarian dish?,BG,food_drink,wikidata,traditional bulgarian Bulgaria,0,API_CALL,
+140,Which is a traditional Bulgarian dish?,BG,food_drink,wikipediaapi,Bulgaria,10,API_CALL,"Bulgaria, Bulgaria national football team, Bulgarian Air Force, Bulgarian Armed Forces, Bulgarian Socialist Party, Bulgarian Turks, Bulgarian language, Bulgarian lev, Bulgarians, Bulgaria–United States relations"
+140,Which is a traditional Bulgarian dish?,BG,food_drink,wikivoyageapi,BG,0,API_CALL,
+140,Which is a traditional Bulgarian dish?,BG,food_drink,wikidata,Bulgaria,0,API_CALL,
+141,What is Japan's era name as of 2025?,JP,others,wikipediaapi,japan era name 2025 Japan,0,API_CALL,
+141,What is Japan's era name as of 2025?,JP,others,wikivoyageapi,japan era name 2025 Japan,0,API_CALL,
+141,What is Japan's era name as of 2025?,JP,others,wikidata,japan era name 2025 Japan,0,API_CALL,
+141,What is Japan's era name as of 2025?,JP,others,wikipediaapi,Japan,10,API_CALL,"Flag of Japan, Japan, Japan Air Lines Flight 123, Japan Airlines, Japan Self-Defense Forces, Japan national football team, Japanese honorifics, Japanese language, Japanese war crimes, Japanese yen"
+141,What is Japan's era name as of 2025?,JP,others,wikivoyageapi,JP,0,API_CALL,
+141,What is Japan's era name as of 2025?,JP,others,wikidata,Japan,0,API_CALL,
+142,What is a typical Japanese breakfast?,JP,others,wikipediaapi,typical japanese breakfast Japan,0,API_CALL,
+142,What is a typical Japanese breakfast?,JP,others,wikivoyageapi,typical japanese breakfast Japan,0,API_CALL,
+142,What is a typical Japanese breakfast?,JP,others,wikidata,typical japanese breakfast Japan,0,API_CALL,
+142,What is a typical Japanese breakfast?,JP,others,wikipediaapi,Japan,10,API_CALL,"Flag of Japan, Japan, Japan Air Lines Flight 123, Japan Airlines, Japan Self-Defense Forces, Japan national football team, Japanese honorifics, Japanese language, Japanese war crimes, Japanese yen"
+142,What is a typical Japanese breakfast?,JP,others,wikivoyageapi,JP,0,API_CALL,
+142,What is a typical Japanese breakfast?,JP,others,wikidata,Japan,0,API_CALL,
+143,What is the symbol of Tokyo?,JP,national_symbols_emblems,wikipediaapi,symbol tokyo Japan,0,API_CALL,
+143,What is the symbol of Tokyo?,JP,national_symbols_emblems,wikivoyageapi,symbol tokyo Japan,0,API_CALL,
+143,What is the symbol of Tokyo?,JP,national_symbols_emblems,wikidata,symbol tokyo Japan,0,API_CALL,
+143,What is the symbol of Tokyo?,JP,national_symbols_emblems,wikipediaapi,Japan,10,API_CALL,"Flag of Japan, Japan, Japan Air Lines Flight 123, Japan Airlines, Japan Self-Defense Forces, Japan national football team, Japanese honorifics, Japanese language, Japanese war crimes, Japanese yen"
+143,What is the symbol of Tokyo?,JP,national_symbols_emblems,wikivoyageapi,JP,0,API_CALL,
+143,What is the symbol of Tokyo?,JP,national_symbols_emblems,wikidata,Japan,0,API_CALL,
+144,What is the most prestigious private university in Tokyo?,JP,education_knowledge_systems,wikipediaapi,most prestigious private university tokyo Japan,0,API_CALL,
+144,What is the most prestigious private university in Tokyo?,JP,education_knowledge_systems,wikivoyageapi,most prestigious private university tokyo Japan,0,API_CALL,
+144,What is the most prestigious private university in Tokyo?,JP,education_knowledge_systems,wikidata,most prestigious private university tokyo Japan,0,API_CALL,
+144,What is the most prestigious private university in Tokyo?,JP,education_knowledge_systems,wikipediaapi,Japan,10,API_CALL,"Flag of Japan, Japan, Japan Air Lines Flight 123, Japan Airlines, Japan Self-Defense Forces, Japan national football team, Japanese honorifics, Japanese language, Japanese war crimes, Japanese yen"
+144,What is the most prestigious private university in Tokyo?,JP,education_knowledge_systems,wikivoyageapi,JP,0,API_CALL,
+144,What is the most prestigious private university in Tokyo?,JP,education_knowledge_systems,wikidata,Japan,0,API_CALL,
+145,What sports drink is familiar to Japanese people?,JP,food_drink,wikipediaapi,sports drink familiar japanese people Japan,0,API_CALL,
+145,What sports drink is familiar to Japanese people?,JP,food_drink,wikivoyageapi,sports drink familiar japanese people Japan,0,API_CALL,
+145,What sports drink is familiar to Japanese people?,JP,food_drink,wikidata,sports drink familiar japanese people Japan,0,API_CALL,
+145,What sports drink is familiar to Japanese people?,JP,food_drink,wikipediaapi,Japan,10,API_CALL,"Flag of Japan, Japan, Japan Air Lines Flight 123, Japan Airlines, Japan Self-Defense Forces, Japan national football team, Japanese honorifics, Japanese language, Japanese war crimes, Japanese yen"
+145,What sports drink is familiar to Japanese people?,JP,food_drink,wikivoyageapi,JP,0,API_CALL,
+145,What sports drink is familiar to Japanese people?,JP,food_drink,wikidata,Japan,0,API_CALL,
+146,What is Japanese tea?,JP,others,wikipediaapi,japanese tea Japan,1,API_CALL,The Japanese the Japanese Don't Know
+146,What is Japanese tea?,JP,others,wikivoyageapi,japanese tea Japan,0,API_CALL,
+146,What is Japanese tea?,JP,others,wikidata,japanese tea Japan,0,API_CALL,
+146,What is Japanese tea?,JP,others,wikipediaapi,Japan,10,API_CALL,"Flag of Japan, Japan, Japan Air Lines Flight 123, Japan Airlines, Japan Self-Defense Forces, Japan national football team, Japanese honorifics, Japanese language, Japanese war crimes, Japanese yen"
+146,What is Japanese tea?,JP,others,wikivoyageapi,JP,0,API_CALL,
+146,What is Japanese tea?,JP,others,wikidata,Japan,0,API_CALL,
+147,What is NOT sold at convenience stores?,JP,others,wikipediaapi,not sold convenience stores Japan,0,API_CALL,
+147,What is NOT sold at convenience stores?,JP,others,wikivoyageapi,not sold convenience stores Japan,0,API_CALL,
+147,What is NOT sold at convenience stores?,JP,others,wikidata,not sold convenience stores Japan,0,API_CALL,
+147,What is NOT sold at convenience stores?,JP,others,wikipediaapi,Japan,10,API_CALL,"Flag of Japan, Japan, Japan Air Lines Flight 123, Japan Airlines, Japan Self-Defense Forces, Japan national football team, Japanese honorifics, Japanese language, Japanese war crimes, Japanese yen"
+147,What is NOT sold at convenience stores?,JP,others,wikivoyageapi,JP,0,API_CALL,
+147,What is NOT sold at convenience stores?,JP,others,wikidata,Japan,0,API_CALL,
