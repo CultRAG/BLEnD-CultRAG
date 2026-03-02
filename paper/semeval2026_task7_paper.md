@@ -66,6 +66,15 @@ The system employs six cumulative phases of prompt engineering, each adding a di
 
 The evaluation dataset is BLEnD Track 2, comprising 47,014 English multiple-choice questions with four answer options (A, B, C, D) spanning 30 country-language pairs. The gold answer distribution is approximately uniform: A = 24%, B = 26%, C = 26%, D = 24%. All experiments use Llama-3.1-8B-Instruct as the base language model, executed on Kaggle GPU infrastructure. Constrained decoding restricts model output to a single token from the set {A, B, C, D}, ensuring that every question receives a valid prediction. The primary evaluation metric is accuracy (percentage of questions answered correctly). Statistical significance is assessed using McNemar's test for paired binary outcomes, and effect magnitude is quantified using Cohen's *h* for proportions.
 
+### 3.15 Resource Constraints and Engineering Responses
+
+All experiments were conducted on Kaggle free-tier infrastructure (2× NVIDIA T4, 16 GB VRAM each, 12-hour session limit), deliberately avoiding proprietary APIs or paid compute. This constraint serves a reproducibility function: all results are fully replicable by any researcher with a free Kaggle account.
+
+Three engineering decisions were required. Memory: Llama-3.1-8B-Instruct in fp16 occupies ~16 GB, saturating a single T4. We distribute across both GPUs via LMDeploy's TurboMind engine with tensor parallelism (tp=2) and cap KV-cache allocation at 40% of VRAM (cache_max_entry_count=0.4), reserving headroom for retrieval buffers. This sustains batch size 64 without OOM errors. Latency: Wikipedia API calls use aiohttp concurrent pools with title batching, per-domain rate limiting, and exponential-backoff retry, reducing KB construction time to fit within the session limit. Interruption robustness: Predictions are checkpointed per batch of 64; a three-tier cache hierarchy (persistent Kaggle Dataset mount → session pickle → working directory) prevents re-execution of completed stages. Pre-submission interlocks assert exact row count (47,014), no duplicate IDs, and complete locale coverage across all 30 country-language pairs.
+
+Inference used LMDeploy's batched pipeline to process the full 47,014-question evaluation set in a single session — a deliberate choice, as full-scale evaluation enables McNemar's test to detect differences as small as 293 questions (0.6 pp) at p < 0.0001, and ensures country-level subgroup analyses retain statistical power across all 30 locales.
+
+
 ### 3.2 Main Results
 
 Table 1 presents the ablation results across all eight configurations.
