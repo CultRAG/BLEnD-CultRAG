@@ -1,0 +1,46 @@
+{
+    "per_config": {
+        "baseline_no_rag": 80.1716,
+        "phase1_countryfilter": 80.0051,
+        "phase2_intent": 80.0051,
+        "phase3_tiered": 79.5513,
+        "phase4_quality": 80.2549,
+        "phase5_trust_weight": 80.2549,
+        "phase6_full_system": 80.2549,
+        "rag_basic": 80.0051
+    },
+    "ranked": [
+        {
+            "config": "phase4_quality",
+            "overall": 80.2549
+        },
+        {
+            "config": "phase5_trust_weight",
+            "overall": 80.2549
+        },
+        {
+            "config": "phase6_full_system",
+            "overall": 80.2549
+        },
+        {
+            "config": "baseline_no_rag",
+            "overall": 80.1716
+        },
+        {
+            "config": "phase1_countryfilter",
+            "overall": 80.0051
+        },
+        {
+            "config": "phase2_intent",
+            "overall": 80.0051
+        },
+        {
+            "config": "rag_basic",
+            "overall": 80.0051
+        },
+        {
+            "config": "phase3_tiered",
+            "overall": 79.5513
+        }
+    ]
+}

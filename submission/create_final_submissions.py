@@ -21,8 +21,8 @@ def convert_to_onehot(input_file, output_file):
         if not line:
             continue
         
-        # Skip header row if present
-        if line.startswith('id') or line.startswith('ID'):
+        # Skip header row if present (exact match to avoid skipping Indonesian IDs like id-ID_0001)
+        if line in ('id,prediction', 'ID,prediction', 'id\tprediction', 'ID\tprediction'):
             continue
             
         parts = line.split('\t')
