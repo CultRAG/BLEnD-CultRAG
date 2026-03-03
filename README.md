@@ -127,21 +127,6 @@ BLEnD-CultureRAG/
 
 ---
 
-## Citation
-
-```bibtex
-@inproceedings{singh2026cultrag,
-  title     = {{CultRAG} at {SemEval}-2026 Task 7: Trust-Weighted Cultural {RAG} with Anti-Leak Filtering for {BLEnD} Track 2},
-  author    = {Singh, Aditya and Das, Rickarya},
-  booktitle = {Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026)},
-  year      = {2026},
-  publisher = {Association for Computational Linguistics},
-  address   = {Vienna, Austria},
-}
-```
-
----
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
