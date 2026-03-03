@@ -1,0 +1,291 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------- ACL / SemEval style packages ----------
+\usepackage[hyperref]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{enumitem}
+
+\setlist{nosep}
+
+% ---------- Metadata ----------
+\title{\textbf{CultRAG at SemEval-2026 Task 7: Trust-Weighted Cultural RAG with Anti-Leak Filtering for BLEnD Track 2}}
+
+\author{
+  Aditya Singh\textsuperscript{*} \quad Rickarya Das\textsuperscript{*} \\
+  Indian Institute of Technology Kharagpur \\
+  \texttt{\{aditya26189, rickaryadas\}@kgpian.iitkgp.ac.in}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present a trust-weighted Retrieval-Augmented Generation (RAG; \citealp{lewis2020rag}) system for SemEval-2026 Task~7 (BLEnD) Track~2 \cite{task7_overview}, targeting English cultural multiple-choice QA across 30 countries. Built atop Llama-3.1-8B-Instruct \cite{meta2024llama}, the six-phase pipeline integrates hybrid BM25+FAISS retrieval, country-aware filtering, intent detection, tiered routing, anti-leak prompt engineering, and trust-weighted reranking. The core finding is that RAG \emph{hurts} rather than helps: the LLM-only baseline achieves 78.6\% accuracy, outperforming the full system at 78.5\% (McNemar's test, $p = 0.962$). Oracle analysis reveals that only 40.7\% of questions are answerable from the knowledge base, explaining why retrieval introduces more noise than signal. The sole recovery comes from anti-leak prompt filtering (Phase~4), which mitigates answer-anchoring artifacts. Code: \url{https://github.com/Aditya26189/BLEnD-CultureRAG}.
+\end{abstract}
+
+\section{Introduction}
+
+The BLEnD benchmark \cite{blend2026task,task7_overview} evaluates LLMs on culturally grounded knowledge across diverse world regions. Cultural knowledge---traditions, social norms, geography, cuisine, local customs---poses a distinctive challenge, as LLM training corpora are disproportionately Western-centric. Track~2 of SemEval-2026 Task~7 operationalizes this as a four-option MCQ task spanning 47,014 English questions across 30 country-language pairs, requiring fine-grained cultural understanding unlikely to be captured by parametric knowledge alone.
+
+Retrieval-Augmented Generation (RAG; \citealp{lewis2020rag}) is a natural mitigation: grounding responses in a curated cultural KB should reduce hallucinations and fill parametric gaps, particularly for underrepresented cultures. We design and evaluate a six-phase trust-weighted RAG pipeline built on this hypothesis.
+
+Our experiments, however, largely reject this hypothesis. The LLM-only baseline (78.6\%) matches or exceeds every RAG configuration, and the full system achieves 78.5\%---statistically indistinguishable ($p = 0.962$). Oracle analysis reveals that only 40.7\% of questions are answerable from the KB, so the LLM's parametric knowledge already exceeds the retrieval ceiling---consistent with findings that parametric memory often suffices for well-represented knowledge \cite{mallen2023trust}. Anti-leak prompt filtering (Phase~4) is the only component that produces meaningful recovery, indicating that the primary failure mode is answer-anchoring noise rather than retrieval quality.
+
+This paper makes four contributions: (1) a six-phase RAG pipeline with trust-weighted reranking and anti-leak filtering; (2) an oracle KB coverage analysis quantifying the theoretical retrieval ceiling; (3) a country-level decomposition revealing that RAG helps low-resource cultures but hurts high-resource ones; and (4) rigorous McNemar significance testing with effect size reporting for all ablation comparisons.
+
+\section{System Description}
+
+\subsection{Knowledge Base Construction}
+The KB comprises 1,262 text chunks in 7 shards covering all 30 countries, sourced from Wikipedia cultural articles supplemented by travel guides, news outlets, and country portals. Each chunk is assigned a \textbf{trust tier}: \textit{High} (Wikipedia, government portals, reference works), \textit{Mid} (reputable travel and news outlets), or \textit{Low} (forums, blogs, unverified sources). Trust tiers drive a multiplicative reranking weight:
+\begin{equation}
+w_{\tau}(d) = \begin{cases} 1.0 & \text{if } \tau(d) = \textit{high} \\ 0.6 & \text{if } \tau(d) = \textit{mid} \\ 0.3 & \text{if } \tau(d) = \textit{low} \end{cases}
+\end{equation}
+where $\tau(d)$ denotes the trust tier of chunk $d$ (applied in Phase~5, Section~\ref{sec:phased}).
+
+\subsection{Entity Extraction}
+We extract entities using spaCy's \cite{spacy} \textit{en\_core\_web\_sm} NER pipeline ($\sim$1.5 entities per question on average: person names, locations, organizations, cultural artifacts). Let $E(q) = \{e_1, \ldots, e_m\}$ be the entities from question $q$. The expanded query is:
+\begin{equation}
+    q' = q \oplus e_1 \oplus \cdots \oplus e_m
+\end{equation}
+where $\oplus$ denotes string concatenation, increasing recall for KB chunks mentioning the same entities in different surface forms.
+
+\subsection{Hybrid Retrieval}
+Let $D$ be the full set of KB chunks, $q'$ the expanded query, and $D_c \subset D$ the subset of chunks tagged with country $c$. Retrieval operates over $D_c$.
+
+\textbf{Lexical Retrieval (BM25).} BM25 \cite{robertson2009bm25} scores each chunk $d \in D_c$:
+\begin{equation}
+\begin{split}
+    \text{BM25}(q', d) = \sum_{t \in q' \cap d} \text{IDF}(t) \times \\
+    \frac{f(t, d)(k_1 + 1)}{f(t, d) + k_1(1 - b + b \frac{|d|}{\text{avgdl}})}
+\end{split}
+\end{equation}
+where $f(t,d)$ is term frequency, $|d|$ is document length, $\text{avgdl}$ is the mean document length over $D_c$, and:
+\begin{equation}
+    \text{IDF}(t) = \log \frac{|D_c| - n(t) + 0.5}{n(t) + 0.5}
+\end{equation}
+with $n(t)$ denoting the number of chunks containing $t$. We set $k_1=1.5, b=0.75$.
+\textbf{Semantic Retrieval (FAISS).} FAISS \cite{johnson2019faiss} provides dense semantic retrieval using the \textit{all-MiniLM-L6-v2} sentence encoder \cite{reimers2019sbert} $\phi$:
+\begin{equation}
+    \text{Dense}(q', d) = \phi(q')^\top \phi(d)
+\end{equation}
+
+\textbf{Reciprocal Rank Fusion.} The two ranked lists are fused \cite{cormack2009rrf}:
+\begin{equation}
+    S_{RRF}(d) = \sum_{r \in \{R_{BM25}, R_{Dense}\}} \frac{1}{k + \text{rank}(d, r)}
+\end{equation}
+with smoothing constant $k=60$. The retrieval output is $\mathcal{R}(q') = \text{top-}3 \; \arg\!\max_d S_{RRF}(d)$. Country filtering restricts candidates to $D_c$ via the question ID prefix (e.g., \texttt{ja-JP\_0042} $\rightarrow$ Japan), eliminating cross-country contamination.
+
+\subsection{Intent Detection}
+\label{sec:intent}
+A keyword-based heuristic classifies questions into 16 intent types (food\_drink, sports, government\_politics, geography\_places, etc.) by matching keywords against the question and option text. The classifier assigns non-``others'' labels to 95.6\% of questions (food\_drink 46.6\%, sports 44.0\%, education 4.1\%, geography 0.6\%, others 4.4\%). Despite broad coverage, the intent labels have zero downstream effect: Phases~2 and~3 produce identical or worse accuracy (Section~\ref{sec:phased}), indicating that the BLEnD question distribution does not benefit from intent-conditioned prompting at the granularity of our keyword heuristic.
+
+\subsection{Phased Prompt Engineering}
+\label{sec:phased}
+The system employs six cumulative phases of prompt engineering:
+\\
+\textbf{Phase 1 (Country Filter):} Restricts retrieved KB chunks to the target country. In practice, this produces identical results to unfiltered RAG because BM25+FAISS already favors country-relevant chunks when entity-expanded queries contain country-specific terms.
+\\
+\textbf{Phase 2 (Intent Detection):} Injects intent metadata into the prompt. Despite assigning meaningful labels to 95.6\% of questions (Section~\ref{sec:intent}), the added metadata produces no accuracy change (77.9\%), suggesting the model cannot exploit coarse keyword-derived intent signals.
+\\
+\textbf{Phase 3 (Tiered Routing):} Routes questions to intent-specific prompt templates (context-heavy for high-confidence intents, knowledge-light otherwise). Although intent labels are assigned, the routing templates are poorly calibrated: accuracy drops to 77.6\%---the worst configuration---indicating that the template variants add noise rather than useful structure.
+\\
+\textbf{Phase 4 (Anti-Leak Quality Filtering):} The most impactful component. It instructs the model to ignore passage structure, formatting cues, and answer-letter mentions in KB text:
+\begin{equation}
+    P_{final} = \text{Concat}(\text{Prompt}, G(\text{Context}))
+\end{equation}
+The same documents are retrieved, but the model is instructed to reason independently of surface cues. This recovers 1.0pp over Phase~3, restoring accuracy to 78.5\%.
+\\
+\textbf{Phase 5 (Trust-Weighted Reranking):} Reorders documents by trust tier before prompt insertion:
+\begin{equation}
+    S_{\text{final}}(d) = S_{RRF}(d) \times w_{\text{tier}}(d), \quad w_{\text{tier}} \in \{1.0, 0.6, 0.3\}
+\end{equation}
+In practice, Phase~5 produces identical predictions to Phase~4, suggesting document order has negligible impact at $k=3$.
+\\
+\textbf{Phase 6 (Full System):} Combines all phases. The final prediction $\hat{y}$ uses constrained decoding:
+\begin{equation}
+    \hat{y} = \arg\max_{a \in \{A,B,C,D\}} P(a \mid P_{final}, \theta)
+\end{equation}
+where $\theta$ denotes the Llama-3.1-8B-Instruct \cite{meta2024llama} parameters. Predictions are identical to Phases~4--5 (36,928 correct), confirming anti-leak filtering is the only component contributing value beyond the baseline RAG.
+
+\section{Experimental Setup}
+BLEnD Track~2 comprises $N = 47{,}014$ English MCQs with four options (A, B, C, D) across 30 country-language pairs. Gold answers are approximately uniform (A$=$24\%, B$=$26\%, C$=$26\%, D$=$24\%). All experiments use Llama-3.1-8B-Instruct \cite{meta2024llama} on Kaggle GPUs with constrained decoding over $\{A, B, C, D\}$.
+
+\textbf{Accuracy} is the primary metric:
+\begin{equation}
+    \text{Acc} = \frac{1}{N} \sum_{i=1}^{N} \mathbf{1}[\hat{y}_i = y_i^*]
+\end{equation}
+where $y_i^*$ is the gold answer and $\hat{y}_i$ the prediction. Confidence intervals use the \textbf{Wilson score}:
+\begin{equation}
+    \frac{\hat{p} + \frac{z_{\alpha/2}^2}{2N} \pm
+    z_{\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{N} + \frac{z_{\alpha/2}^2}{4N^2}}}
+    {1 + \frac{z_{\alpha/2}^2}{N}}
+\end{equation}
+with $\hat{p} = \text{Acc}$ and $z_{\alpha/2} = 1.96$ for 95\% intervals. Effect magnitude is quantified by \textbf{Cohen's $h$} for proportions:
+\begin{equation}
+    h = 2\arcsin\!\sqrt{p_1} - 2\arcsin\!\sqrt{p_2}
+\end{equation}
+where $p_1, p_2$ are the two accuracies being compared.
+
+\section{Results}
+
+\subsection{Ablation Study}
+Table~\ref{tab:ablation} summarizes results. The baseline (78.6\%) is the best configuration. Unfiltered RAG degrades by 0.6pp ($p < 0.0001$). Ph1--Ph2 produce no change (77.9\%); intent metadata has zero effect despite assigning labels to 95.6\% of questions (Section~\ref{sec:intent}). Ph3 worsens to 77.6\% due to poorly calibrated routing templates. Ph4 is the sole recovery (+1.0pp over Ph3). Ph5--Ph6 add nothing beyond Ph4.
+
+\begin{table}[h]
+\centering
+\small
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Configuration} & \textbf{Correct} & \textbf{Acc (\%)} & \textbf{95\% CI} & \textbf{$\Delta$ Base} \\
+\midrule
+Baseline (LLM only) & 36,932 & 78.6 & [78.2, 78.9] & --- \\
+RAG Basic (unfiltered) & 36,639 & 77.9 & [77.6, 78.3] & $-0.6$ \\
++ Country Filter (Ph1) & 36,639 & 77.9 & [77.6, 78.3] & $-0.6$ \\
++ Intent Detection (Ph2) & 36,639 & 77.9 & [77.6, 78.3] & $-0.6$ \\
++ Tiered Routing (Ph3) & 36,465 & 77.6 & [77.2, 77.9] & $-1.0$ \\
++ Quality Signals (Ph4) & 36,928 & 78.5 & [78.2, 78.9] & $-0.0$ \\
++ Trust Reranking (Ph5) & 36,928 & 78.5 & [78.2, 78.9] & $-0.0$ \\
+Full System (Ph6)$^{\dagger}$ & 36,928 & 78.5 & [78.2, 78.9] & $-0.0$ \\
+\bottomrule
+\end{tabular}
+}
+\caption{Ablation study results across eight configurations for 47,014 questions. $^{\dagger}$Official submission.}
+\label{tab:ablation}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig_ablation_line.png}
+\caption{Ablation accuracy progression across eight cumulative pipeline configurations. The baseline (no RAG) achieves the highest accuracy; anti-leak filtering (Phase~4) is the only component that recovers performance.}
+\label{fig:ablation_line}
+\end{figure}
+
+Figure~\ref{fig:ablation_line} visualizes the progression: accuracy drops upon adding RAG, stays flat through Phases~1--2, dips at Phase~3, then recovers at Phase~4 to near-baseline.
+
+\subsection{Statistical Significance}
+We use McNemar's test for paired binary outcomes:
+\begin{equation}
+    z = \frac{(|b-c|-1)}{\sqrt{b+c}}
+\end{equation}
+where $b$ and $c$ are discordant pair counts (Table~\ref{tab:mcnemar}). Baseline vs.\ RAG Basic is significant ($p < 0.0001$), confirming the 0.6pp drop. RAG Basic vs.\ Full System is likewise significant ($p < 0.0001$). All Cohen's $h$ values $\leq 0.015$: statistically detectable at $N = 47{,}014$ but practically small. Baseline vs.\ Full System is not significant ($p = 0.962$, $h = 0.000$)---the full pipeline is indistinguishable from doing nothing.
+
+\begin{table}[h]
+\centering
+\small
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Comparison} & \textbf{$\Delta$ Acc} & \textbf{$p$-value} & \textbf{Sig} & \textbf{Cohen's $h$} & \textbf{Effect} \\
+\midrule
+Base vs. RAG Basic & $-0.6$ & $< 0.0001$ & Yes & 0.015 & Small \\
+Base vs. Full System & $-0.0$ & 0.962 & No & 0.000 & Small \\
+RAG vs. Full System & +0.6 & $< 0.0001$ & Yes & 0.015 & Small \\
+\bottomrule
+\end{tabular}
+}
+\caption{McNemar's paired significance tests across 47,014 questions.}
+\label{tab:mcnemar}
+\end{table}
+
+\section{Analysis}
+
+\subsection{Why RAG Hurts: KB Coverage Ceiling}
+We define the \textbf{oracle coverage} for a question $q_i$ as:
+\begin{equation}
+    \text{Cov}(q_i) = \mathbf{1}\big[y_i^* \in \bigcup_{d \in D_c} \text{text}(d)\big]
+\end{equation}
+where $y_i^*$ is the gold answer letter and $D_c$ is the country-specific KB shard. The aggregate coverage ceiling is $\bar{C} = \frac{1}{N}\sum_{i} \text{Cov}(q_i)$. Only 19,148 questions (40.7\%) satisfy $\text{Cov}(q_i) = 1$. The \emph{retrieval ceiling gap} quantifies the futility of retrieval in aggregate:
+\begin{equation}
+\Delta_{\text{ceil}} = \text{Acc}_{\text{param}} - \bar{C} = 0.786 - 0.407 = +0.379
+\end{equation}
+Coverage varies substantially: Bulgaria (69\%), Ecuador (68\%), Ethiopia (65\%) vs.\ Great Britain (21\%), North Korea (26\%), Algeria (26\%). Since baseline accuracy (78.6\%) exceeds this ceiling, retrieval can only add noise for 59.3\% of questions. Great Britain exemplifies the problem: 92.4\% baseline vs.\ 21\% coverage, costing 3.0pp under the full system (89.7\%). Conversely, Ethiopia (65\% coverage, 59.0\% baseline) has room for retrieval; the full system gains 4.1pp (63.0\%). The implication: retrieval cannot be justified when its coverage ceiling lies below parametric performance.
+
+\subsection{RAG Backfire Decomposition}
+Per-question outcomes form a $2 \times 2$ contingency table: $a$ = both correct, $b$ = baseline-only correct, $c$ = system-only correct, $d$ = both wrong; net change $\Delta = c - b$. Baseline vs.\ RAG Basic: $c = 1{,}810$, $b = 2{,}103$, $\Delta = -293$. Baseline vs.\ Full System: $c = 1{,}977$, $b = 1{,}981$, $\Delta = -4$ ($p = 0.962$). RAG Basic vs.\ Full System: Phase~6 recovers 1,479 broken questions while introducing 1,190 new errors ($+289$ net). Anti-leak filtering mitigates anchoring artifacts without improving retrieval itself.
+
+\subsection{Country-Level Analysis}
+Fourteen countries show improvement: Japan (+6.1pp), Saudi Arabia (+4.5pp), Ethiopia (+4.1pp), North Korea (+4.0pp), Morocco (+2.9pp), Mexico (+1.9pp), Ecuador (+1.5pp), Singapore (+1.4pp), Azerbaijan (+1.4pp), Indonesia (+1.4pp), West Java (+1.3pp), China (+1.2pp), Spain (+1.1pp), and Nigeria (+0.6pp). These are predominantly countries underrepresented in English-language pretraining.
+
+Fourteen countries show degradation: American Samoa ($-6.2$pp), Basque Country ($-4.9$pp), Egypt ($-4.1$pp), Great Britain ($-3.0$pp), United States ($-2.7$pp), Algeria ($-2.5$pp), Bulgaria ($-2.3$pp), Sweden ($-2.0$pp), Philippines ($-1.2$pp), Sri Lanka ($-1.1$pp), South Korea ($-0.6$pp), Ireland ($-0.6$pp), Iran ($-0.2$pp), and Greece ($-0.2$pp). These are high-resource countries where parametric knowledge dominates (GB, US), or countries with sparse KB entries where context is actively misleading (Basque Country, American Samoa). RAG should be applied selectively---conditioned on confidence or coverage---rather than uniformly.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig_country_rag_delta.png}
+\caption{Per-country RAG gain/loss: accuracy delta between the full system (Phase~6) and the LLM-only baseline. Green bars indicate countries where RAG helps; red bars where it hurts.}
+\label{fig:country_rag_delta}
+\end{figure}
+
+Figure~\ref{fig:country_rag_delta} shows the full distribution: 14 countries gain and 14 lose accuracy, with the magnitudes roughly symmetric.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig_country_bubble.png}
+\caption{Baseline vs.\ full system accuracy per country. Bubble size encodes question count; color encodes the RAG delta. Points above the diagonal benefit from RAG.}
+\label{fig:country_bubble}
+\end{figure}
+
+Figure~\ref{fig:country_bubble} confirms the pattern: high-baseline countries cluster below the diagonal (RAG hurts), while low-baseline countries tend to lie above it (RAG helps).
+
+\subsection{Answer Distribution Bias}
+The baseline over-predicts A (32\%) and under-predicts C (22\%) and D (21\%)---a positional bias common in instruction-tuned LLMs \cite{wang2022SimLM}. Phase~4 partially corrects this (A reduced to $\sim$30\%), though dedicated debiasing (answer shuffling or calibration) would be more effective.
+
+\subsection{Limitation: Intent-Conditioned Prompting}
+The keyword intent classifier assigns labels to 95.6\% of questions, yet these labels produce zero accuracy gain (Section~\ref{sec:intent}). The bottleneck is not classification coverage but prompt-template design: neither injecting intent metadata (Ph2) nor routing to intent-specific templates (Ph3) improves---and Ph3 actively hurts---performance. A fine-tuned classifier with intent-aware retrieval (not just prompting) is needed to make this component useful.
+
+\section{Conclusion}
+
+We presented a six-phase trust-weighted RAG pipeline for BLEnD Track~2 that integrates hybrid retrieval, country filtering, intent detection, tiered routing, anti-leak prompting, and trust reranking atop Llama-3.1-8B-Instruct. The central result is negative: RAG does not help ($p = 0.962$), because the LLM's parametric accuracy (78.6\%) already exceeds the KB coverage ceiling ($\bar{C} = 0.407$). Anti-leak filtering is the only component that recovers performance, gaining 1.0pp by suppressing answer-anchoring artifacts.
+
+Country-level decomposition shows that RAG selectively benefits low-resource cultures (Japan +6.1pp, Ethiopia +4.1pp) while degrading high-resource ones (American Samoa $-6.2$pp, Great Britain $-3.0$pp). Four directions emerge: (1) confidence-conditioned selective retrieval; (2) targeted KB expansion for low-coverage countries; (3) intent-aware retrieval with learned classifiers rather than prompt-only injection; and (4) cross-encoder reranking to reduce noise injection.
+
+\section*{Ethics Statement}
+Key ethical considerations: (1)~\textbf{Systemic Bias}: Wikipedia and WikiVoyage reflect Western-centric perspectives that may misrepresent low-resource cultures. (2)~\textbf{Cultural Stereotyping}: retrieval may anchor on over-simplified descriptions of traditions. (3)~\textbf{Potential Misuse}: users might over-rely on the system for cultural advice. Mitigations include \textbf{trust-tier weighting} (prioritizing authoritative sources), \textbf{anti-leak filtering} (preventing blind context following), and transparent reporting of the RAG Paradox. No personally identifiable information was used.
+
+\section*{Acknowledgments}
+We thank the SemEval-2026 Task~7 organizers. Computing was provided by IIT Kharagpur and Kaggle.
+
+\begin{thebibliography}{99}
+\bibitem[Myung et~al.(2024)]{blend2026task}
+Junho Myung et~al. 2024. \textit{BLEnD: A Benchmark for Language and Culture in Diverse locales}. arXiv.
+\bibitem[Ousidhoum et~al.(2026)]{task7_overview}
+Nedjma Ousidhoum et~al. 2026. \textit{SemEval-2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures}. In Proceedings of SemEval-2026.
+\bibitem[Lewis et~al.(2020)]{lewis2020rag}
+Patrick Lewis et~al. 2020. \textit{Retrieval-augmented generation for knowledge-intensive NLP tasks}. In Proc. of NeurIPS.
+\bibitem[Robertson and Zaragoza(2009)]{robertson2009bm25}
+Stephen Robertson and Hugo Zaragoza. 2009. \textit{The probabilistic relevance framework: BM25 and beyond}. Foundations and Trends in Information Retrieval.
+\bibitem[Johnson et~al.(2019)]{johnson2019faiss}
+Jeff Johnson et~al. 2019. \textit{Billion-scale similarity search with GPUs}. IEEE Transactions on Big Data.
+\bibitem[Cormack et~al.(2009)]{cormack2009rrf}
+Gordon Cormack et~al. 2009. \textit{Reciprocal rank fusion outperforms Condorcet and individual rank learning methods}. In Proc. of SIGIR.
+\bibitem[Meta(2024)]{meta2024llama}
+Meta AI. 2024. \textit{Llama 3 Model Card}. URL https://llama.meta.com/llama3.
+
+\bibitem[Mallen et~al.(2023)]{mallen2023trust}
+Alex Mallen, Akari Asai, Victor Zhong, Rajarshi Das, Hannaneh Hajishirzi, and Daniel Khashabi. 2023.
+\textit{When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories}.
+In Proc.\ of ACL, pp.\ 9802--9822.
+
+\bibitem[Reimers and Gurevych(2019)]{reimers2019sbert}
+Nils Reimers and Iryna Gurevych. 2019.
+\textit{Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks}.
+In Proc.\ of EMNLP-IJCNLP, pp.\ 3982--3992.
+
+\bibitem[Explosion(2023)]{spacy}
+Explosion. 2023. \textit{spaCy: Industrial-Strength Natural Language Processing in Python}. URL https://spacy.io.
+
+\bibitem[Wang et~al.(2022)]{wang2022SimLM}
+Liang Wang, Nan Yang, Xiaolong Huang, Binxing Jiao, Linjun Yang, Daxin Jiang, Rangan Majumder, and Furu Wei. 2022.
+\textit{SimLM: Pre-training with Representation Bottleneck for Document Retrieval}.
+In Proc.\ of ACL, pp.\ 3585--3598.
+
+\end{thebibliography}
+
+\end{document}

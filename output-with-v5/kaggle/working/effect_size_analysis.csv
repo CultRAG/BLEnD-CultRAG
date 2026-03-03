@@ -1,8 +1,0 @@
-from,to,cohens_h,interpretation
-baseline_no_rag,rag_basic,-0.03607332387679385,Small
-rag_basic,phase1_country_filter,0.03607332387679385,Small
-phase1_country_filter,phase2_intent,0.0,Small
-phase2_intent,phase3_tiered,0.0,Small
-phase3_tiered,phase4_quality,-0.03607332387679385,Small
-phase4_quality,phase5_trust_weight,0.0,Small
-phase5_trust_weight,phase6_full_system,0.0,Small

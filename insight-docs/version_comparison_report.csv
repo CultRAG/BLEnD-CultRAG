@@ -1,2 +1,0 @@
-model,id,question,correct_answer,v3_prediction,v4_prediction,v3_correct,v4_correct,change_type
-full_system,el-GR_063,Who wrote the national anthem (Hymn to Liberty)?,B,A,B,False,True,improvement

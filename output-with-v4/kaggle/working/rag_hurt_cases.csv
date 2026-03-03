@@ -1,3 +1,0 @@
-id,question,correct,baseline,rag_basic,full_system,option_A,option_B,option_C,option_D,baseline_correct,rag_correct,full_correct
-es-MX_049,What is the most typical street food in the country?,C,C,D,D,Tuna,Hot Dogs,Tacos,Paella,True,False,False
-fr-FR_112,What fruit changes its name when dried?,C,C,D,D,Apricot,Plum,Grape,Tomato,True,False,False

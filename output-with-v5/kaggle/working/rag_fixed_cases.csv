@@ -1,6 +1,0 @@
-id,question,correct,baseline,rag_basic,full_system,option_A,option_B,option_C,option_D,baseline_correct,rag_correct,full_correct
-ko-KR_058,What food is famous as something eaten on moving day in Korea?,B,A,B,D,Jjajangmyeon,Samgyetang,Sundubu jjigae,Pasta,False,True,False
-ar-EG_076,What are the names of the two seas that Egypt overlooks?,A,C,A,A,The White and the Red,The White and the Yellow,The Yellow and the Red,The Yellow and the Green,False,True,True
-fr-FR_110,"That year, I sang...",C,A,C,A,For and just for you,For the beautiful Mathilda,For the first time,To forget the cold,False,True,False
-fr-FR_111,What cheese is most often eaten hot with a salad?,C,D,C,A,Camembert,Reblochon,Chèvre,Roquefort,False,True,False
-tl-PH_132,Which month is the Language Month usually held in the Philippines?,C,A,C,C,June,August,September,October,False,True,True

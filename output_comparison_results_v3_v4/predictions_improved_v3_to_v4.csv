@@ -1,4 +1,0 @@
-id,question,v3_pred,v4_pred,correct,v3_correct,v4_correct
-es-EC_022,Which is the most populated city in Ecuador?,A,C,C,False,True
-ta-LK_121,What is the tallest building in Sri Lanka?,B,A,A,False,True
-el-GR_063,Who wrote the national anthem (Hymn to Liberty)?,A,B,B,False,True
