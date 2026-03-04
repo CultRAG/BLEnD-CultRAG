@@ -18,7 +18,7 @@
 \setlist{nosep}
 
 % ---------- Metadata ----------
-\title{\textbf{CultRAG at SemEval-2026 Task 7: Trust-Weighted Cultural RAG with Anti-Leak Filtering for BLEnD Track 2}}
+\title{\textbf{CultRAG at SemEval-2026 Task 7: Hybrid Sparse-Dense Retrieval with Entity-Centric Knowledge Bases for Cultural MCQ Answering}}
 
 \author{
   Aditya Singh\textsuperscript{*} \quad Rickarya Das\textsuperscript{*} \\
@@ -53,6 +53,13 @@ The KB comprises 1,262 text chunks in 7 shards covering all 30 countries, source
 w_{\tau}(d) = \begin{cases} 1.0 & \text{if } \tau(d) = \textit{high} \\ 0.6 & \text{if } \tau(d) = \textit{mid} \\ 0.3 & \text{if } \tau(d) = \textit{low} \end{cases}
 \end{equation}
 where $\tau(d)$ denotes the trust tier of chunk $d$ (applied in Phase~5, Section~\ref{sec:phased}).
+
+\begin{figure*}[t!]
+  \centering
+  \includegraphics[width=1.8\columnwidth]{paper/fig_architecture.png}
+  \caption{Architecture of the multi-phase cultural RAG pipeline. The system integrates entity extraction, hybrid retrieval (BM25 + FAISS), Reciprocal Rank Fusion, trust-weighted reranking, and phased prompt engineering to generate culturally-grounded answers.}
+  \label{fig:architecture}
+\end{figure*}
 
 \subsection{Entity Extraction}
 We extract entities using spaCy's \cite{spacy} \textit{en\_core\_web\_sm} NER pipeline ($\sim$1.5 entities per question on average: person names, locations, organizations, cultural artifacts). Let $E(q) = \{e_1, \ldots, e_m\}$ be the entities from question $q$. The expanded query is:
@@ -90,23 +97,17 @@ with smoothing constant $k=60$. The retrieval output is $\mathcal{R}(q') = \text
 
 \subsection{Intent Detection}
 \label{sec:intent}
-A keyword-based heuristic classifies questions into 16 intent types (food\_drink, sports, government\_politics, geography\_places, etc.) by matching keywords against the question and option text. The classifier assigns non-``others'' labels to 95.6\% of questions (food\_drink 46.6\%, sports 44.0\%, education 4.1\%, geography 0.6\%, others 4.4\%). Despite broad coverage, the intent labels have zero downstream effect: Phases~2 and~3 produce identical or worse accuracy (Section~\ref{sec:phased}), indicating that the BLEnD question distribution does not benefit from intent-conditioned prompting at the granularity of our keyword heuristic.
+A keyword heuristic classifies questions into 16 intent types (food\_drink, sports, government\_politics, geography\_places, etc.) by matching against question and option text, assigning non-``others'' labels to 95.6\% of questions (food\_drink 46.6\%, sports 44.0\%, education 4.1\%, geography 0.6\%, others 4.4\%). Despite this coverage, intent labels have zero downstream effect: Phases~2 and~3 produce identical or worse accuracy (Section~\ref{sec:phased}), indicating BLEnD does not benefit from intent-conditioned prompting at this granularity.
 
-\begin{figure*}[t!]
-  \centering
-  \includegraphics[width=1.8\columnwidth]{paper/fig_architecture.png}
-  \caption{Architecture of the multi-phase cultural RAG pipeline. The system integrates entity extraction, hybrid retrieval (BM25 + FAISS), Reciprocal Rank Fusion, trust-weighted reranking, and phased prompt engineering to generate culturally-grounded answers.}
-  \label{fig:architecture}
-\end{figure*}
 \subsection{Phased Prompt Engineering}
 \label{sec:phased}
-The system employs six cumulative phases of prompt engineering:
+The pipeline uses six cumulative prompt engineering phases:
 \\
-\textbf{Phase 1 (Country Filter):} Restricts retrieved KB chunks to the target country. This produces identical results to unfiltered RAG because entity-expanded queries already steer BM25+FAISS toward country-relevant chunks.
+\textbf{Phase 1 (Country Filter):} Restricts retrieved chunks to the target country. Results are identical to unfiltered RAG because entity-expanded queries already steer BM25+FAISS toward country-relevant chunks.
 \\
-\textbf{Phase 2 (Intent Detection):} Injects intent metadata into the prompt. Despite covering 95.6\% of questions (Section~\ref{sec:intent}), the metadata yields no accuracy change (77.9\%), suggesting the model cannot exploit coarse keyword-derived intent.
+\textbf{Phase 2 (Intent Detection):} Injects intent metadata into the prompt. Despite covering 95.6\% of questions (Section~\ref{sec:intent}), accuracy is unchanged (77.9\%), suggesting the model cannot exploit coarse keyword-derived intent.
 \\
-\textbf{Phase 3 (Tiered Routing):} Routes questions to intent-specific prompt templates (context-heavy for high-confidence intents, knowledge-light otherwise). The routing templates are poorly calibrated: accuracy drops to 77.6\%---the worst configuration---indicating template variants add noise rather than structure.
+\textbf{Phase 3 (Tiered Routing):} Routes questions to intent-specific prompt templates (context-heavy for high-confidence intents, knowledge-light otherwise). Accuracy drops to 77.6\%---the worst configuration---indicating poorly calibrated templates add noise rather than structure.
 \\
 \textbf{Phase 4 (Anti-Leak Quality Filtering):} The sole impactful component. The model is instructed to ignore passage structure, formatting cues, and answer-letter mentions in KB text:
 \begin{equation}
@@ -121,31 +122,28 @@ The same documents are retrieved; the model reasons independently of surface cue
     w_{\text{tier}} \in \{1.0, 0.6, 0.3\}
 \end{split}
 \end{equation}
-Phase~5 produces identical predictions to Phase~4, suggesting document order has negligible impact at $k=3$.
+Predictions are identical to Phase~4, suggesting document order has negligible impact at $k=3$.
 \\
 \textbf{Phase 6 (Full System):} Combines all phases. The final prediction $\hat{y}$ uses constrained decoding:
 \begin{equation}
     \hat{y} = \arg\max_{a \in \{A,B,C,D\}} P(a \mid P_{final}, \theta)
 \end{equation}
-where $\theta$ denotes the Llama-3.1-8B-Instruct \cite{meta2024llama} parameters. Predictions match Phases~4--5 (36,928 correct), confirming anti-leak filtering is the only component adding value beyond baseline RAG.
-
-
-
+where $\theta$ denotes the Llama-3.1-8B-Instruct \cite{meta2024llama} parameters. Predictions match Phases~4--5 (36,928 correct), confirming anti-leak filtering is the only component adding value beyond baseline.
 
 \section{Experimental Setup}
-BLEnD Track~2 comprises $N = 47{,}014$ English MCQs with four options (A, B, C, D) across 30 country-language pairs. Gold answers are approximately uniform (A$=$24\%, B$=$26\%, C$=$26\%, D$=$24\%). All experiments use Llama-3.1-8B-Instruct \cite{meta2024llama} on Kaggle GPUs with constrained decoding over $\{A, B, C, D\}$.
+BLEnD Track~2 comprises $N = 47{,}014$ English MCQs (four options each) across 30 country-language pairs with approximately uniform gold labels (A$=$24\%, B$=$26\%, C$=$26\%, D$=$24\%). All experiments use Llama-3.1-8B-Instruct \cite{meta2024llama} on Kaggle GPUs with constrained decoding over $\{A, B, C, D\}$.
 
 \textbf{Accuracy} is the primary metric:
 \begin{equation}
     \text{Acc} = \frac{1}{N} \sum_{i=1}^{N} \mathbf{1}[\hat{y}_i = y_i^*]
 \end{equation}
-where $y_i^*$ is the gold answer and $\hat{y}_i$ the prediction. Confidence intervals use the \textbf{Wilson score}:
+where $y_i^*$ is the gold answer and $\hat{y}_i$ the prediction. \textbf{Wilson score} confidence intervals:
 \begin{equation}
     \frac{\hat{p} + \frac{z_{\alpha/2}^2}{2N} \pm
     z_{\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{N} + \frac{z_{\alpha/2}^2}{4N^2}}}
     {1 + \frac{z_{\alpha/2}^2}{N}}
 \end{equation}
-with $\hat{p} = \text{Acc}$ and $z_{\alpha/2} = 1.96$ for 95\% intervals. Effect magnitude is quantified by \textbf{Cohen's $h$} for proportions:
+with $\hat{p} = \text{Acc}$ and $z_{\alpha/2} = 1.96$ for 95\% intervals. \textbf{Cohen's $h$} measures effect size:
 \begin{equation}
     h = 2\arcsin\!\sqrt{p_1} - 2\arcsin\!\sqrt{p_2}
 \end{equation}
@@ -154,7 +152,7 @@ where $p_1, p_2$ are the two accuracies being compared.
 \section{Experimental Results}
 
 \subsection{Ablation Study}
-Table~\ref{tab:ablation} summarizes results. The baseline (78.6\%) is the best configuration; unfiltered RAG degrades by 0.6pp ($p < 0.0001$). Ph1--Ph2 produce no change (77.9\%); intent metadata has zero effect despite covering 95.6\% of questions (Section~\ref{sec:intent}). Ph3 worsens to 77.6\% from poorly calibrated routing templates. Ph4 is the sole recovery (+1.0pp over Ph3); Ph5--Ph6 add nothing beyond Ph4.
+Table~\ref{tab:ablation} summarizes results. The baseline (78.6\%) is the best configuration; unfiltered RAG degrades by 0.6pp ($p < 0.0001$). Ph1--Ph2 produce no change (77.9\%). Ph3 worsens to 77.6\% from poorly calibrated templates. Ph4 is the sole recovery (+1.0pp over Ph3); Ph5--Ph6 add nothing beyond Ph4.
 
 \begin{table}[h]
 \centering
@@ -179,22 +177,21 @@ Full System (Ph6)$^{\dagger}$ & 36,928 & 78.5 & [78.2, 78.9] & $-0.0$ \\
 \label{tab:ablation}
 \end{table}
 
-% NOTE: Uncomment the figure below once paper/fig_ablation_line.png is generated.
-\begin{figure}[t]
+Figure~\ref{fig:ablation_line} visualizes the progression: accuracy drops upon adding RAG, stays flat through Phases~1--2, dips at Phase~3, then recovers at Phase~4 to near-baseline.
+
+\begin{figure}[H]
 \centering
 \includegraphics[width=\columnwidth]{paper/fig_ablation_line.png}
 \caption{Ablation accuracy progression across eight cumulative pipeline configurations. The baseline (no RAG) achieves the highest accuracy; anti-leak filtering (Phase~4) is the only component that recovers performance.}
 \label{fig:ablation_line}
 \end{figure}
 
-Figure~\ref{fig:ablation_line} visualizes the progression: accuracy drops upon adding RAG, stays flat through Phases~1--2, dips at Phase~3, then recovers at Phase~4 to near-baseline.
-
 \subsection{Statistical Significance}
 We use McNemar's test for paired binary outcomes:
 \begin{equation}
     z = \frac{(|b-c|-1)}{\sqrt{b+c}}
 \end{equation}
-where $b$ and $c$ are discordant pair counts (Table~\ref{tab:mcnemar}). Baseline vs.\ RAG Basic is significant ($p < 0.0001$), confirming the 0.6pp drop. RAG Basic vs.\ Full System is likewise significant ($p < 0.0001$). All Cohen's $h$ values $\leq 0.015$: statistically detectable at $N = 47{,}014$ but practically small. Baseline vs.\ Full System is not significant ($p = 0.962$, $h = 0.000$)---the full pipeline is indistinguishable from doing nothing.
+where $b$ and $c$ are discordant pair counts (Table~\ref{tab:mcnemar}). Baseline vs.\ RAG Basic ($p < 0.0001$) and RAG Basic vs.\ Full System ($p < 0.0001$) are both significant, but all Cohen's $h \leq 0.015$---detectable at $N = 47{,}014$ yet practically negligible. Baseline vs.\ Full System is not significant ($p = 0.962$, $h = 0.000$): the full pipeline is indistinguishable from doing nothing.
 
 \begin{table}[h]
 \centering
@@ -254,25 +251,25 @@ Fourteen countries show degradation: American Samoa ($-6.2$pp), Basque Country (
 
 \subsection{Answer Distribution Bias}
 \label{sec:bias}
-The baseline over-predicts A (32\%) and under-predicts C (22\%) and D (21\%)---a positional bias common in instruction-tuned LLMs \cite{wang2022SimLM}. Phase~4 partially corrects this (A reduced to $\sim$30\%), though dedicated debiasing (answer shuffling or calibration) would be more effective. Figure~\ref{fig:confusion_matrix} visualizes this bias: the diagonal confirms high overall accuracy (78.5\%), while off-diagonal mass concentrates in the A-predicted row.
+The baseline over-predicts A (32\%) and under-predicts C (22\%) and D (21\%)---a positional bias common in instruction-tuned LLMs \cite{wang2022SimLM}. Phase~4 partially corrects this (A reduced to $\sim$30\%), though dedicated debiasing (answer shuffling or calibration) would be more effective.
 
 \begin{center}
 \includegraphics[width=0.85\columnwidth]{paper/fig_confusion_matrix.png}
-\captionof{figure}{Confusion matrix of the full system (Phase~6) predictions versus gold labels across 47,014 questions. The model over-predicts option~A at the expense of C and D, reflecting positional bias.}
+\captionof{figure}{Confusion matrix of full system predictions versus gold labels (47,014 questions). Off-diagonal mass concentrates in the A-predicted row.}
 \label{fig:confusion_matrix}
 \end{center}
 
 \subsection{Limitation: Intent-Conditioned Prompting}
-The keyword intent classifier assigns labels to 95.6\% of questions, yet these labels produce zero accuracy gain (Section~\ref{sec:intent}). The bottleneck is not classification coverage but prompt-template design: neither injecting intent metadata (Ph2) nor routing to intent-specific templates (Ph3) improves---and Ph3 actively hurts---performance. A fine-tuned classifier with intent-aware retrieval (not just prompting) is needed to make this component useful.
+The keyword classifier covers 95.6\% of questions yet yields zero accuracy gain (Section~\ref{sec:intent}). The bottleneck is prompt-template design: neither intent metadata injection (Ph2) nor intent-specific routing (Ph3) helps---Ph3 actively hurts. Intent-aware retrieval with a fine-tuned classifier, rather than prompt-only injection, is needed.
 
 \section{Official Shared-Task Result}
-Our official submission (\textsc{CultRAG}, team \textit{aditya26189}) scored \textbf{77.55\%} overall accuracy across 29 of the 30 BLEnD Track~2 locales, placing 12\textsuperscript{th} among 18 participating systems. The best locale is \texttt{es-MX} (94.00\%) and the worst is \texttt{am-ET} (63.05\%)---a 31-point spread mirroring the coverage gap in Section~5.1. Five locales exceed 88\%: \texttt{es-MX}, \texttt{en-US}, \texttt{en-GB}, \texttt{ta-LK}, and \texttt{zh-SG}---all high-resource or English-native locales where parametric knowledge dominates. The bottom five (\texttt{am-ET}, \texttt{su-JB}, \texttt{ko-KP}, \texttt{ha-NG}, \texttt{as-AS}) are low-resource locales where both parametric and retrieved knowledge are sparse.
+Our submission (\textsc{CultRAG}, team \textit{aditya26189}) scored \textbf{77.55\%} accuracy across 29 of 30 BLEnD Track~2 locales, placing 12\textsuperscript{th} of 18 systems. Locale accuracy ranges from \texttt{es-MX} (94.00\%) to \texttt{am-ET} (63.05\%)---a 31-point spread mirroring the coverage gap (Section~5.1). The top five (\texttt{es-MX}, \texttt{en-US}, \texttt{en-GB}, \texttt{ta-LK}, \texttt{zh-SG}) all exceed 88\% and are high-resource or English-native locales. The bottom five (\texttt{am-ET}, \texttt{su-JB}, \texttt{ko-KP}, \texttt{ha-NG}, \texttt{as-AS}) are low-resource locales where both parametric and retrieved knowledge are sparse.
 
 \section{Conclusion}
 
-We presented a six-phase trust-weighted RAG pipeline for BLEnD Track~2 integrating hybrid retrieval, country filtering, intent detection, tiered routing, anti-leak prompting, and trust reranking atop Llama-3.1-8B-Instruct. The central result is negative: RAG does not help ($p = 0.962$) because parametric accuracy (78.6\%) already exceeds the KB coverage ceiling ($\bar{C} = 0.407$). Anti-leak filtering is the sole recovery mechanism, gaining 1.0pp by suppressing answer-anchoring artifacts.
+We presented a six-phase trust-weighted RAG pipeline for BLEnD Track~2 atop Llama-3.1-8B-Instruct. The central result is negative: RAG does not help ($p = 0.962$) because parametric accuracy (78.6\%) exceeds the KB coverage ceiling ($\bar{C} = 0.407$). Anti-leak filtering is the sole recovery mechanism, gaining 1.0pp by suppressing answer-anchoring artifacts.
 
-Country-level decomposition shows RAG selectively benefits low-resource cultures (Japan +6.1pp, Ethiopia +4.1pp) while degrading high-resource ones (American Samoa $-6.2$pp, Great Britain $-3.0$pp). Four directions emerge: (1) confidence-conditioned selective retrieval; (2) targeted KB expansion for low-coverage countries; (3) intent-aware retrieval with learned classifiers rather than prompt-only injection; and (4) cross-encoder reranking to reduce noise injection.
+Country-level analysis shows RAG benefits low-resource cultures (Japan +6.1pp, Ethiopia +4.1pp) while degrading high-resource ones (American Samoa $-6.2$pp, Great Britain $-3.0$pp). Four directions emerge: (1) confidence-conditioned selective retrieval; (2) targeted KB expansion for low-coverage countries; (3) intent-aware retrieval with learned classifiers; and (4) cross-encoder reranking to reduce noise injection.
 
 \section*{Ethics Statement}
 Key ethical considerations: (1)~\textbf{Systemic Bias}: Wikipedia and WikiVoyage reflect Western-centric perspectives that may misrepresent low-resource cultures. (2)~\textbf{Cultural Stereotyping}: retrieval may anchor on over-simplified descriptions of traditions. (3)~\textbf{Potential Misuse}: users might over-rely on the system for cultural advice. Mitigations include \textbf{trust-tier weighting} (prioritizing authoritative sources), \textbf{anti-leak filtering} (preventing blind context following), and transparent reporting of the RAG Paradox. No personally identifiable information was used.
