@@ -129,4 +129,4 @@ BLEnD-CultureRAG/
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Apache — see [LICENSE](LICENSE).
